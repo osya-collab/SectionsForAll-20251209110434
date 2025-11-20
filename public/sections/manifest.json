@@ -1,0 +1,21 @@
+{
+    "manifests": [
+        "about.json",
+        "article.json",
+        "cover.json",
+        "cta.json",
+        "faq.json",
+        "footer.json",
+        "gallery.json",
+        "layouts.json",
+        "menu.json",
+        "navigations.json",
+        "pricing.json",
+        "products.json",
+        "team.json",
+        "testimonials.json",
+        "texts.json",
+        "timeline.json",
+        "trust.json"
+    ]
+}

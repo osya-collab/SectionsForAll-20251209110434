@@ -3,10 +3,5 @@
         "id": "cta-gradient-banner",
         "name": "Gradient CTA Banner",
         "category": "CTA"
-    },
-    {
-        "id": "cover-agentur-potenzial",
-        "name": "Agentur Potenzial",
-        "category": "CTA"
     }
 ]

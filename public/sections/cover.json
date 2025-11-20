@@ -125,6 +125,11 @@
         "category": "Cover"
     },
     {
+        "id": "cover-portfolio-karte",
+        "name": "Portfolio Karte",
+        "category": "Cover"
+    },
+    {
         "id": "cover-produkt-merkmale",
         "name": "Produkt Merkmale",
         "category": "Cover"
@@ -187,26 +192,6 @@
     {
         "id": "organic-wellness-cover",
         "name": "Organic Wellness Cover",
-        "category": "Cover"
-    },
-    {
-        "id": "about-image-left-stats-new",
-        "name": "About with Left Image & Stats",
-        "category": "Cover"
-    },
-    {
-        "id": "about-split-content-image",
-        "name": "Split Content & Image",
-        "category": "Cover"
-    },
-    {
-        "id": "article-split-column",
-        "name": "Split Column Article",
-        "category": "Cover"
-    },
-    {
-        "id": "cover-portfolio-karte",
-        "name": "Portfolio Karte",
         "category": "Cover"
     }
 ]

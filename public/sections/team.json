@@ -1,10 +1,5 @@
 [
     {
-        "id": "team-portraits",
-        "name": "Team Portraits",
-        "category": "Team"
-    },
-    {
         "id": "team-4-col-cards",
         "name": "4-Column Team Section",
         "category": "Team"
@@ -37,6 +32,11 @@
     {
         "id": "team-large-cards-socials",
         "name": "Large Cards with Socials",
+        "category": "Team"
+    },
+    {
+        "id": "team-portraits",
+        "name": "Team Portraits",
         "category": "Team"
     },
     {

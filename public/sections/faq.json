@@ -133,10 +133,5 @@
         "id": "faq-with-image-and-accordion",
         "name": "FAQ mit Bild und Akkordeon",
         "category": "FAQ"
-    },
-    {
-        "id": "faq-and-email",
-        "name": "FAQ mit Kontaktformular",
-        "category": "FAQ"
     }
 ]

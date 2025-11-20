@@ -30,6 +30,11 @@
         "category": "About"
     },
     {
+        "id": "about-split-image-text",
+        "name": "About Us with Image",
+        "category": "About"
+    },
+    {
         "id": "about-stats-and-image-split",
         "name": "About with Stats Grid",
         "category": "About"
@@ -67,11 +72,6 @@
     {
         "id": "mission-vision",
         "name": "Mission & Vision",
-        "category": "About"
-    },
-    {
-        "id": "about-split-image-text",
-        "name": "About Us with Image",
         "category": "About"
     }
 ]
