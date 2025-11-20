@@ -1,0 +1,13 @@
+{
+    "name": "3D Sports Cards",
+    "category": "Gallery",
+    "description": "A dynamic 3D-effect grid of sports-themed cards with interactive hover effects. Perfect for showcasing sports news, player stats, or highlights.",
+    "tags": ["gallery", "3d", "sports", "interactive", "cards", "grid", "rtl"],
+    "structure": ["grid", "cards", "images", "titles"],
+    "complexity": "medium",
+    "use_cases": [
+        "Sports News Websites",
+        "Fan Pages",
+        "E-commerce for Sports Memorabilia"
+    ]
+}

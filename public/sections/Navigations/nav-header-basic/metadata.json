@@ -1,0 +1,9 @@
+{
+    "name": "Basic Navigation Header",
+    "category": "Navigations",
+    "description": "A clean and standard navigation header with a logo, navigation links, and a call-to-action button. Fully responsive.",
+    "tags": ["navigation", "header", "menu", "responsive", "corporate"],
+    "structure": ["logo", "nav-links", "cta-button"],
+    "complexity": "simple",
+    "use_cases": ["Standard website headers", "Corporate sites", "Landing pages"]
+}

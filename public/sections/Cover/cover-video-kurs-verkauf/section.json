@@ -1,0 +1,55 @@
+{
+    "id": "cover-video-kurs-verkauf",
+    "html": "\n<section class=\"cover-video-kurs-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container text-center header-part\">\n        <h1 class=\"anim-fade-in-up\">{{t:title}}</h1>\n        <p class=\"subtitle anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n    </div>\n    <div class=\"container main-content-grid\">\n        <div class=\"left-col anim-fade-in-right anim-delay-2\">\n            <div class=\"video-placeholder\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=man+in+suit+walking+abstract+architecture+building\" alt=\"{{t:video_alt}}\">\n                <div class=\"play-button-overlay\">\n                    <div class=\"play-button-icon\"><i class=\"fa-solid fa-play\"></i></div>\n                </div>\n            </div>\n            <p class=\"left-col-text\">{{t:video_caption}}</p>\n            <div class=\"rating-wrapper\">\n                <div class=\"avatars\">\n                    <img src=\"https://i.pravatar.cc/40?img=4\" alt=\"Avatar\"><img src=\"https://i.pravatar.cc/40?img=5\" alt=\"Avatar\"><img src=\"https://i.pravatar.cc/40?img=6\" alt=\"Avatar\">\n                </div>\n                <div class=\"stars\">★★★★★</div>\n                <p>{{t:rating_text}}</p>\n            </div>\n        </div>\n        <div class=\"right-col anim-fade-in-left anim-delay-3\">\n            <div class=\"course-card\">\n                <h2>{{t:card_title}}</h2>\n                <p>{{t:card_desc}}</p>\n                <div class=\"price\">49 €</div>\n                <p class=\"payment-info\">{{t:payment_info}}</p>\n                <ul class=\"features-list\">\n                    <li><i class=\"fa-solid fa-clock\"></i> {{t:feature1}}</li>\n                    <li><i class=\"fa-solid fa-cubes\"></i> {{t:feature2}}</li>\n                    <li><i class=\"fa-solid fa-video\"></i> {{t:feature3}}</li>\n                    <li><i class=\"fa-solid fa-file-alt\"></i> {{t:feature4}}</li>\n                </ul>\n                <a href=\"#\" class=\"btn btn-dark\">{{t:cta_button}}</a>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.cover-video-kurs-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.cover-video-kurs-section .container {\n    width: 90%;\n    max-width: 1000px;\n    margin: 0 auto;\n}\n.cover-video-kurs-section .text-center { text-align: center; }\n.cover-video-kurs-section .header-part {\n    margin-bottom: 4rem;\n}\n.cover-video-kurs-section h1 {\n    font-size: clamp(2.5rem, 5vw, 3.5rem);\n    font-weight: 700;\n    line-height: 1.2;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1rem;\n}\n.cover-video-kurs-section .subtitle {\n    font-size: 1.1rem;\n    max-width: 700px;\n    margin: 0 auto;\n    color: var(--color-secondary, #6B7280);\n}\n.cover-video-kurs-section .main-content-grid {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 2rem;\n    align-items: start;\n}\n@media (min-width: 992px) {\n    .cover-video-kurs-section .main-content-grid {\n        grid-template-columns: 1.5fr 1fr;\n        gap: 3rem;\n    }\n}\n.cover-video-kurs-section .video-placeholder { position: relative; width: 100%; aspect-ratio: 16 / 10; border-radius: 1rem; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }\n.cover-video-kurs-section .video-placeholder img { width: 100%; height: 100%; object-fit: cover; }\n.cover-video-kurs-section .play-button-overlay { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background-color: rgba(0,0,0,0.2); }\n.cover-video-kurs-section .play-button-icon { width: 70px; height: 70px; background-color: rgba(255, 255, 255, 0.8); backdrop-filter: blur(5px); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: var(--color-dark, #1F2937); cursor: pointer; transition: transform 0.3s; }\n.cover-video-kurs-section .play-button-overlay:hover .play-button-icon { transform: scale(1.1); }\n.cover-video-kurs-section .play-button-icon i { margin-left: 5px; }\n.cover-video-kurs-section .left-col-text { font-size: 0.9rem; color: var(--color-secondary, #6B7280); margin: 1.5rem 0; }\n.cover-video-kurs-section .rating-wrapper { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; font-size: 0.9rem; color: var(--color-secondary, #6B7280); }\n.cover-video-kurs-section .avatars { display: flex; }\n.cover-video-kurs-section .avatars img { width: 32px; height: 32px; border-radius: 50%; border: 2px solid var(--color-light, #FFFFFF); margin-left: -10px; }\n.cover-video-kurs-section .stars { color: #f59e0b; }\n.cover-video-kurs-section .course-card {\n    background-color: #f3f4f6; /* gray-100 */\n    border-radius: 1rem;\n    padding: 2.5rem;\n    height: 100%;\n}\n.cover-video-kurs-section .course-card h2 { font-size: 1.75rem; color: var(--color-dark, #1F2937); margin-bottom: 0.5rem; }\n.cover-video-kurs-section .course-card p { font-size: 0.95rem; color: var(--color-secondary, #6B7280); margin-bottom: 1.5rem; }\n.cover-video-kurs-section .price { font-size: 3rem; font-weight: 700; color: var(--color-dark, #1F2937); }\n.cover-video-kurs-section .payment-info { font-size: 0.9rem; color: var(--color-secondary, #6B7280); margin-top: -1rem; margin-bottom: 2rem; }\n.cover-video-kurs-section .features-list { list-style: none; padding: 0; margin-bottom: 2rem; }\n.cover-video-kurs-section .features-list li { display: flex; align-items: center; gap: 0.75rem; color: var(--color-dark, #1F2937); font-weight: 500; margin-bottom: 1rem; }\n.cover-video-kurs-section .features-list li i { color: var(--color-secondary, #6B7280); }\n.cover-video-kurs-section .btn-dark { display: block; width: 100%; padding: 0.75rem 1.5rem; background-color: var(--color-dark, #1F2937); color: var(--color-light, #FFFFFF); border: none; border-radius: 0.5rem; font-weight: 600; cursor: pointer; text-decoration: none; transition: background-color 0.3s; }\n",
+    "translations": {
+        "de": {
+            "name": "Video Kurs Verkauf",
+            "title": "Lerne, wie du heute noch Aktienhändler wirst.",
+            "subtitle": "Onepage bietet dir klassische und professionelle Layout-Bearbeitungsmodi. Möchtest du Spalten und Zeilen hinzufügen oder löschen oder erweiterte Layout-Tools nutzen? Wechsle einfach in den Pro-Modus.",
+            "video_alt": "Mann im Anzug in moderner Architektur",
+            "video_caption": "Probiere verschiedene Spaltenpositionierungen aus – oben, mittig oder unten. Diese hier ist für das beste Aussehen oben eingestellt.",
+            "rating_text": "4,8 von 5 Sternen (1450 Bewertungen)",
+            "card_title": "Hol dir jetzt deinen Videokurs",
+            "card_desc": "Passe den Parameter „innerer Abstand“ an, um die Abstände innerhalb dieses Elements zu steuern.",
+            "payment_info": "Einmalige Zahlung",
+            "feature1": "8 Stunden Inhalt",
+            "feature2": "3 Module",
+            "feature3": "43 Videos",
+            "feature4": "10 kostenlose Materialien",
+            "cta_button": "Call-to-Action button"
+        },
+        "en": {
+            "name": "Video Course Sale",
+            "title": "Learn how to become a stock trader today.",
+            "subtitle": "Onepage offers you classic and professional layout editing modes. Do you want to add or delete columns and rows or use advanced layout tools? Just switch to Pro mode.",
+            "video_alt": "Man in a suit in modern architecture",
+            "video_caption": "Try different column positions – top, middle, or bottom. This one is set to top for the best look.",
+            "rating_text": "4.8 out of 5 stars (1450 reviews)",
+            "card_title": "Get your video course now",
+            "card_desc": "Adjust the 'inner padding' parameter to control the spacing within this element.",
+            "payment_info": "One-time payment",
+            "feature1": "8 hours of content",
+            "feature2": "3 modules",
+            "feature3": "43 videos",
+            "feature4": "10 free materials",
+            "cta_button": "Call-to-Action button"
+        },
+        "ar": {
+            "name": "بيع دورة فيديو",
+            "title": "تعلم كيف تصبح متداول أسهم اليوم.",
+            "subtitle": "تقدم لك Onepage أوضاع تحرير تخطيط كلاسيكية واحترافية. هل ترغب في إضافة أو حذف أعمدة وصفوف أو استخدام أدوات تخطيط متقدمة؟ ما عليك سوى التبديل إلى وضع Pro.",
+            "video_alt": "رجل يرتدي بدلة في العمارة الحديثة",
+            "video_caption": "جرب مواضع أعمدة مختلفة - أعلى أو وسط أو أسفل. تم ضبط هذا على الجزء العلوي للحصول على أفضل مظهر.",
+            "rating_text": "4.8 من 5 نجوم (1450 تقييمًا)",
+            "card_title": "احصل على دورتك الفيديو الآن",
+            "card_desc": "اضبط معلمة 'التباعد الداخلي' للتحكم في التباعد داخل هذا العنصر.",
+            "payment_info": "دفعة لمرة واحدة",
+            "feature1": "8 ساعات من المحتوى",
+            "feature2": "3 وحدات",
+            "feature3": "43 مقطع فيديو",
+            "feature4": "10 مواد مجانية",
+            "cta_button": "زر الدعوة لاتخاذ إجراء"
+        }
+    }
+}

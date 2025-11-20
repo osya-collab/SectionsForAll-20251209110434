@@ -1,0 +1,14 @@
+
+{
+    "name": "Minimalist Monochrome",
+    "category": "Pricing",
+    "description": "An elegant, minimalist pricing table using a monochrome color scheme with a single accent color for the 'popular' plan and calls to action. Focuses on typography and whitespace.",
+    "tags": ["pricing", "minimalist", "monochrome", "clean", "elegant", "typography"],
+    "structure": ["header", "pricing-cards", "features", "button"],
+    "complexity": "simple",
+    "use_cases": [
+        "Design Agencies",
+        "Architect Portfolios",
+        "Luxury Brands"
+    ]
+}

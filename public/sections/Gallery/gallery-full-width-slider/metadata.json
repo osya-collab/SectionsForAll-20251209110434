@@ -1,0 +1,25 @@
+{
+    "name": "Full-Width Image Slider Gallery",
+    "category": "Gallery",
+    "description": "A dramatic, full-width image slider gallery with navigation arrows and dot indicators. The headline and call-to-action are overlaid on the images, creating an immersive hero-like experience.",
+    "tags": [
+        "slider",
+        "carousel",
+        "full-width",
+        "image gallery",
+        "interactive"
+    ],
+    "structure": [
+        "div (slider container)",
+        "div (slides wrapper)",
+        "img",
+        "button (prev/next)",
+        "div (dots)"
+    ],
+    "complexity": "complex",
+    "use_cases": [
+        "Homepage hero sections",
+        "Travel websites",
+        "Photography portfolios"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "name": "Art Nouveau CTA - Organic Lines Gold",
+    "category": "Cta",
+    "description": "A CTA section with a forest green background, cream text, and goldenrod accents, highlighting organic art nouveau leaf motifs and elegant typography.",
+    "tags": [
+        "cta",
+        "art nouveau",
+        "organic",
+        "nature",
+        "gold",
+        "elegant",
+        "green"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "h2",
+        "p",
+        "a",
+        "div",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "eco-friendly products",
+        "craftsmanship showcase",
+        "nature-inspired services"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#355e3b",
+            "#f5f5dc",
+            "#daa520"
+        ],
+        "fonts": [
+            "Didot"
+        ],
+        "visual_identity": "Earthy Art Nouveau with forest green, cream, and gold, emphasizing organic leaf motifs and elegant lines."
+    }
+}

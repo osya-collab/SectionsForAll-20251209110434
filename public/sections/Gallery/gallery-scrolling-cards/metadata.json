@@ -1,0 +1,13 @@
+{
+    "name": "Scrolling Preview Cards",
+    "category": "Gallery",
+    "description": "A gallery of cards where the background image scrolls on a loop, with a special highlight effect on hover. Great for showcasing different sections of a long webpage or app screenshots.",
+    "tags": ["gallery", "cards", "scrolling", "interactive", "preview", "modern"],
+    "structure": ["grid", "cards", "images"],
+    "complexity": "medium",
+    "use_cases": [
+        "Portfolio showcases",
+        "App feature previews",
+        "Website section previews"
+    ]
+}

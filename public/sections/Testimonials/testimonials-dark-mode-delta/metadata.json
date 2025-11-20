@@ -1,0 +1,31 @@
+{
+    "name": "Dark Mode Contrast",
+    "category": "Testimonials",
+    "description": "A dark-themed section with subtle transparency effects and primary color accents.",
+    "tags": [
+        "dark mode",
+        "elegant",
+        "cards"
+    ],
+    "structure": [
+        "Dark Background",
+        "Translucent Cards",
+        "Highlight Border"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "Tech SaaS",
+        "Night Mode UI"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#111111",
+            "#FFFFFF",
+            "var(--color-primary)"
+        ],
+        "fonts": [
+            "Sans Serif"
+        ],
+        "visual_identity": "Sleek, premium, night-mode"
+    }
+}

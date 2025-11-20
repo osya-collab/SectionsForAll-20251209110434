@@ -1,0 +1,9 @@
+{
+    "name": "Online Marketing Webinar",
+    "category": "Cover",
+    "description": "A clean and professional hero section for an online marketing webinar, with a large background image.",
+    "tags": ["cover", "hero", "webinar", "marketing", "clean", "professional"],
+    "structure": ["header", "image"],
+    "complexity": "simple",
+    "use_cases": ["Webinar Registrations", "Online Events"]
+}

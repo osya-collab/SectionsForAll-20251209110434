@@ -1,0 +1,24 @@
+{
+    "name": "Testimonial Driven Hero",
+    "category": "Cover",
+    "description": "A split-layout cover section focusing on social proof with stacked testimonial cards and a featured image.",
+    "tags": [
+        "cover",
+        "hero",
+        "testimonials",
+        "split-layout",
+        "modern"
+    ],
+    "structure": [
+        "Header Row",
+        "Content Grid",
+        "Cards Column",
+        "Image Column"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "SaaS Landing Page",
+        "Service Business",
+        "Agency Portfolio"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "art-nouveau-cta-jewel-tones-decorative",
+    "html": "<section class=\"art-nouveau-cta-jewel-tones-decorative\">\n  <div class=\"container\">\n    <div class=\"content\">\n      <h2>Your Artful Escape</h2>\n      <p>Immerse yourself in the beauty of handcrafted art. Find pieces that resonate with your unique style.</p>\n      <a href=\"#\" class=\"cta-button\">Discover Artistry</a>\n    </div>\n    <div class=\"ornament-container\">\n      <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=art+nouveau+decorative+elements&image_type=photo\" alt=\"Art Nouveau decorative elements\">\n    </div>\n  </div>\n</section>",
+    "css": ".art-nouveau-cta-jewel-tones-decorative {\n  background-color: #8b008b; /* Dark Magenta */\n  color: #fff;\n  padding: 50px 25px;\n  text-align: center;\n}\n.art-nouveau-cta-jewel-tones-decorative .container {\n  max-width: 1100px;\n  margin: 0 auto;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n.art-nouveau-cta-jewel-tones-decorative .content {\n  margin-bottom: 30px;\n}\n.art-nouveau-cta-jewel-tones-decorative h2 {\n  font-family: 'Uncial Antiqua', cursive;\n  font-size: 2.5em;\n  margin-bottom: 15px;\n  color: #ffd700; /* Gold */\n  letter-spacing: 0.5px;\n}\n.art-nouveau-cta-jewel-tones-decorative p {\n  font-family: 'Uncial Antiqua', cursive;\n  font-size: 1.15em;\n  line-height: 1.6;\n  margin-bottom: 30px;\n}\n.art-nouveau-cta-jewel-tones-decorative .cta-button {\n  display: inline-block;\n  padding: 16px 32px;\n  background-color: #ffd700; /* Gold */\n  color: #8b008b; /* Dark Magenta */\n  text-decoration: none;\n  font-family: 'Uncial Antiqua', cursive;\n  font-weight: bold;\n  border-radius: 5px;\n  transition: background-color 0.3s ease, color 0.3s ease;\n  border: 2px solid #ffd700;\n}\n.art-nouveau-cta-jewel-tones-decorative .cta-button:hover {\n  background-color: transparent;\n  color: #ffd700; /* Gold */\n}\n.art-nouveau-cta-jewel-tones-decorative .ornament-container {\n  width: 100%;\n  max-width: 300px;\n  margin-top: 20px;\n}\n.art-nouveau-cta-jewel-tones-decorative .ornament-container img {\n  display: block;\n  width: 100%;\n  height: auto;\n  border-radius: 8px;\n  opacity: 0.75;\n}\n\n@media (min-width: 768px) {\n  .art-nouveau-cta-jewel-tones-decorative .container {\n    flex-direction: row;\n    justify-content: space-between;\n  }\n  .art-nouveau-cta-jewel-tones-decorative .content {\n    flex: 1;\n    text-align: left;\n    padding-right: 40px;\n    margin-bottom: 0;\n  }\n  .art-nouveau-cta-jewel-tones-decorative .ornament-container {\n    flex-basis: 35%;\n    max-width: none;\n    margin-top: 0;\n  }\n  .art-nouveau-cta-jewel-tones-decorative h2 {\n    font-size: 3em;\n  }\n  .art-nouveau-cta-jewel-tones-decorative p {\n    font-size: 1.2em;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Art Nouveau CTA - Juwelentöne Dekorativ"
+        },
+        "ar": {
+            "name": "زر الدعوة للفعل بنمط آرت نوفو - درجات الجواهر زخرفي"
+        },
+        "en": {
+            "name": "Art Nouveau CTA - Jewel Tones Decorative"
+        }
+    }
+}

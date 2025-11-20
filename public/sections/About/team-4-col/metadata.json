@@ -1,0 +1,13 @@
+{
+    "name": "4-Column Team",
+    "category": "About",
+    "description": "A classic and clean team showcase section with four columns, each featuring a circular portrait, name, and role.",
+    "tags": ["team", "about", "grid", "portraits", "corporate"],
+    "structure": ["header", "team-grid", "team-cards"],
+    "complexity": "simple",
+    "use_cases": [
+        "Corporate 'Our Team' pages",
+        "Agency team introductions",
+        "Startup websites"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "about-travel-love-intro",
+    "html": "\n<section class=\"travel-love-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container anim-fade-in\">\n        <div class=\"title-wrapper\">\n            <div class=\"gradient-blur\"></div>\n            <h2>{{t:title}}</h2>\n        </div>\n        <p>{{t:description}}</p>\n    </div>\n</section>",
+    "css": "\n.travel-love-section { padding: 5rem 0; background-color: var(--color-light); }\n.travel-love-section .container {\n    width: 90%;\n    max-width: 800px;\n    margin: 0 auto;\n    text-align: center;\n    padding: 2rem;\n}\n.travel-love-section .title-wrapper {\n    position: relative;\n    margin-bottom: 2rem;\n}\n.travel-love-section .gradient-blur {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    width: 200px;\n    height: 100px;\n    background: radial-gradient(ellipse at center, #A855F7 0%, rgba(168, 85, 247, 0) 70%);\n    filter: blur(40px);\n    z-index: 0;\n}\n.travel-love-section h2 {\n    font-size: 2.5rem;\n    font-weight: 700;\n    color: var(--color-dark);\n    position: relative;\n    z-index: 1;\n}\n.travel-love-section p {\n    color: var(--color-secondary);\n    line-height: 1.7;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Reiseliebe Einleitung",
+            "title": "Wir sind alle durch die Liebe zum Reisen verbunden!",
+            "description": "Auf dieser Seite finden Sie die neuesten Informationen über uns. Unser Unternehmen entwickelt sich ständig weiter und wächst ständig. Wir bieten eine breite Palette von Dienstleistungen. Unsere Mission ist es, die beste Lösung bereitzustellen, die allen hilft. Wenn Sie uns kontaktieren möchten, füllen Sie bitte das Kontaktformular auf unserer Website aus. Wir wünschen Ihnen einen schönen Tag!"
+        },
+        "en": {
+            "name": "Travel Love Intro",
+            "title": "We are all connected by the love of travel!",
+            "description": "On this page you will find the latest information about us. Our company is constantly evolving and growing. We offer a wide range of services. Our mission is to provide the best solution that helps everyone. If you would like to contact us, please fill out the contact form on our website. We wish you a nice day!"
+        },
+        "ar": {
+            "name": "مقدمة حب السفر",
+            "title": "كلنا مرتبطون بحب السفر!",
+            "description": "في هذه الصفحة ستجد أحدث المعلومات عنا. شركتنا تتطور وتنمو باستمرار. نحن نقدم مجموعة واسعة من الخدمات. مهمتنا هي تقديم أفضل حل يساعد الجميع. إذا كنت ترغب في الاتصال بنا، يرجى ملء نموذج الاتصال على موقعنا. نتمنى لك يوما سعيدا!"
+        }
+    }
+}

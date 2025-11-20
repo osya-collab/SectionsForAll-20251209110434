@@ -1,0 +1,14 @@
+
+{
+    "name": "Bold Blocky",
+    "category": "Pricing",
+    "description": "A strong, typography-focused pricing table using solid color blocks and bold, capitalized text. Creates a high-impact, modern, and confident look.",
+    "tags": ["pricing", "bold", "typography", "minimalist", "modern", "high-contrast"],
+    "structure": ["header", "pricing-cards", "button"],
+    "complexity": "simple",
+    "use_cases": [
+        "Digital Agencies",
+        "Startups",
+        "Portfolio sites with a bold aesthetic"
+    ]
+}

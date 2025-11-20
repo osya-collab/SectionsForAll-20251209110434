@@ -1,0 +1,13 @@
+{
+    "name": "Split Bio with Checklist",
+    "category": "Team",
+    "description": "A detailed team member profile with a split layout, featuring a large image with a role badge on one side, and a bio with a checklist of skills or achievements on the other.",
+    "tags": ["team", "bio", "checklist", "profile", "split-layout", "corporate"],
+    "structure": ["image", "header", "paragraph", "checklist"],
+    "complexity": "medium",
+    "use_cases": [
+        "Leadership team pages",
+        "Founder bios",
+        "Detailed consultant profiles"
+    ]
+}

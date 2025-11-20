@@ -1,0 +1,50 @@
+{
+    "name": "Products Modern Card Hover Zoom",
+    "category": "Products",
+    "description": "Modern product cards with a zoom effect on image hover and a clean, organized layout. Includes price and a clear 'Shop Now' button.",
+    "tags": [
+        "products",
+        "cards",
+        "hover-zoom",
+        "modern",
+        "ecommerce",
+        "new-arrivals"
+    ],
+    "structure": [
+        "section",
+        "h2",
+        "div",
+        "div",
+        "div",
+        "img",
+        "div",
+        "h4",
+        "p",
+        "div",
+        "a"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "product listings",
+        "featured items",
+        "online storefronts",
+        "seasonal collections"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f8f9fa",
+            "#ffffff",
+            "#343a40",
+            "#343a40",
+            "#6c757d",
+            "#dc3545",
+            "#007bff",
+            "#0056b3"
+        ],
+        "fonts": [
+            "Poppins",
+            "sans-serif"
+        ],
+        "visual_identity": "Bright and inviting, emphasizing clean card design with smooth, subtle animations."
+    }
+}

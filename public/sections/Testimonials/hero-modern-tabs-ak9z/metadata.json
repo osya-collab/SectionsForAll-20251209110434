@@ -1,0 +1,50 @@
+{
+    "name": "Modern Hero with Interactive Tabs",
+    "category": "Testimonials",
+    "description": "A modern hero section featuring client testimonials presented in an interactive tabbed interface. Users can switch between different testimonial categories to explore various success stories.",
+    "tags": [
+        "hero",
+        "testimonials",
+        "tabs",
+        "interactive",
+        "modern",
+        "client stories"
+    ],
+    "structure": [
+        "section",
+        "container",
+        "div",
+        "h1",
+        "p",
+        "div",
+        "button",
+        "div",
+        "div",
+        "div",
+        "img",
+        "div",
+        "p",
+        "cite"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Homepage hero",
+        "Testimonial showcase",
+        "Client success stories display"
+    ],
+    "style_analysis": {
+        "colors": [
+            "--color-light",
+            "--color-dark",
+            "--color-primary",
+            "--color-secondary",
+            "--color-surface-1",
+            "--color-border"
+        ],
+        "fonts": [
+            "--font-body",
+            "--font-heading"
+        ],
+        "visual_identity": "Clean, modern, and professional with emphasis on user interaction."
+    }
+}

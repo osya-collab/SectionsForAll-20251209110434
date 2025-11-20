@@ -1,0 +1,13 @@
+{
+    "name": "Webinar Countdown",
+    "category": "Cover",
+    "description": "A lead generation hero section for a webinar, featuring a countdown timer and a sign-up form.",
+    "tags": ["cover", "hero", "webinar", "countdown", "form", "lead generation"],
+    "structure": ["header", "paragraph", "countdown", "form"],
+    "complexity": "high",
+    "use_cases": [
+        "Webinar Registration Pages",
+        "Event Landing Pages",
+        "Product Launch Announcements"
+    ]
+}

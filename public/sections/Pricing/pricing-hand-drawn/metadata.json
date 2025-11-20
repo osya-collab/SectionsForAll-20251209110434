@@ -1,0 +1,13 @@
+{
+    "name": "Hand-Drawn Sketch",
+    "category": "Pricing",
+    "description": "A creative and informal pricing table that looks as if it were sketched by hand. Uses a handwriting font and doodled elements for a personal, artistic feel.",
+    "tags": ["pricing", "creative", "sketch", "hand-drawn", "artistic", "informal"],
+    "structure": ["header", "pricing-cards", "features", "button"],
+    "complexity": "medium",
+    "use_cases": [
+        "Artist Portfolios",
+        "Personal Blogs",
+        "Handmade Product Shops"
+    ]
+}

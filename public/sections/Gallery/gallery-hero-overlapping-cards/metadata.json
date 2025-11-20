@@ -1,0 +1,28 @@
+{
+    "name": "Overlapping Cards Gallery",
+    "category": "Gallery",
+    "description": "A stylish hero section featuring a collage of image cards that overlap to create depth and dynamism. A text card is integrated seamlessly into the design.",
+    "tags": [
+        "cards",
+        "overlap",
+        "depth",
+        "modern",
+        "interactive",
+        "collage"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Mood boards",
+        "e-commerce category pages",
+        "project showcases",
+        "creative portfolios"
+    ]
+}

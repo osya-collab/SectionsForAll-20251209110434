@@ -1,0 +1,13 @@
+{
+    "name": "Minimalist Typography",
+    "category": "Article",
+    "description": "An article layout that focuses purely on elegant typography, with a drop cap and strong hierarchy. No images are used, creating a clean, classic reading experience.",
+    "tags": ["article", "typography", "minimalist", "clean", "editorial"],
+    "structure": ["header", "content"],
+    "complexity": "simple",
+    "use_cases": [
+        "Literary blogs",
+        "Academic papers",
+        "Minimalist websites"
+    ]
+}

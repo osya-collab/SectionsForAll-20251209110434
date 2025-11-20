@@ -1,0 +1,17 @@
+{
+    "id": "cta-bamboo-grove",
+    "html": "<section class=\"cta-bamboo-grove\">\n  <div class=\"container\">\n    <h2>Find Your Inner Peace</h2>\n    <p>Immerse yourself in serenity. Discover resources for mindfulness and growth.</p>\n    <a href=\"#\" class=\"cta-button\">Explore Serenity</a>\n  </div>\n  <div class=\"bamboo-overlay\"></div>\n</section>",
+    "css": ".cta-bamboo-grove { position: relative; background-image: url('https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=bamboo+forest+sunlight&image_type=photo'); background-size: cover; background-position: center; padding: 80px 20px; text-align: center; color: #1b5e20; /* Dark green */ font-family: 'Quicksand', sans-serif; }\n.cta-bamboo-grove::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(139, 195, 74, 0.3); /* Soft green tint */ }\n.cta-bamboo-grove .container { position: relative; z-index: 2; }\n.cta-bamboo-grove h2 { font-size: 2.8rem; margin-bottom: 15px; color: #2e7d32; /* Forest green */ }\n.cta-bamboo-grove p { font-size: 1.1rem; line-height: 1.6; margin-bottom: 30px; color: #388e3c; /* Lighter forest green */ }\n.cta-bamboo-grove .cta-button { display: inline-block; padding: 14px 30px; background-color: #66bb6a; /* Medium green */ color: #1b5e20; text-decoration: none; border-radius: 50px; /* Rounded */ font-weight: bold; font-size: 1.1rem; transition: background-color 0.3s ease, transform 0.3s ease; }\n.cta-bamboo-grove .cta-button:hover { background-color: #4caf50; transform: translateY(-2px); }\n.cta-bamboo-grove .bamboo-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=subtle+bamboo+pattern+overlay&image_type=photo'); background-size: cover; background-position: center; opacity: 0.2; z-index: 1; }\n\n@media (min-width: 768px) {\n  .cta-bamboo-grove { padding: 100px 40px; }\n  .cta-bamboo-grove h2 { font-size: 3.5rem; }\n  .cta-bamboo-grove p { font-size: 1.3rem; }\n  .cta-bamboo-grove .cta-button { font-size: 1.2rem; }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "CTA im Bambushain"
+        },
+        "ar": {
+            "name": "دعوة لاتخاذ إجراء في بستان الخيزران"
+        },
+        "en": {
+            "name": "CTA in Bamboo Grove"
+        }
+    }
+}

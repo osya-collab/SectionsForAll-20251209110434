@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "system": "VisionAi Builder",
+    "description": "Strict standards and guidelines for generating compatible, conflict-free, and editable sections."
+  },
+  "schema_requirements": {
+    "root_object": {
+      "id": "string (unique-kebab-case-id)",
+      "name": "string (Display Name)",
+      "category": "string (Category Name)",
+      "html": "string (HTML content)",
+      "css": "string (CSS content)",
+      "translations": "object (Language keys: en, de, ar)"
+    }
+  },
+  "html_rules": {
+    "root_element": {
+      "tag": "section",
+      "attributes": {
+        "class": "Must contain a unique class name specific to this section (e.g., 'section-hero-modern-v1').",
+        "data-ai-id": "Must be 'element-placeholder' for the root section tag."
+      }
+    },
+    "layout_structure": {
+      "container": "Content must be wrapped in a <div class='container'> inside the section to ensure alignment.",
+      "responsiveness": "Use standard grid/flexbox classes or CSS. Avoid fixed widths in pixels."
+    },
+    "editor_compatibility": {
+      "editable_elements": "Every editable text, image, or link MUST have a unique 'data-ai-id' attribute (e.g., 'element-title', 'element-img-1').",
+      "text_placeholders": "Do not hardcode text. Use handlebars-style placeholders matching translation keys (e.g., {{t:title}})."
+    }
+  },
+  "css_rules": {
+    "scoping_strategy": {
+      "rule": "Strict Namespace Isolation",
+      "instruction": "All CSS selectors MUST be prefixed with the unique root class of the section. Never write global selectors like 'h1 { }' or '.btn { }'.",
+      "example_correct": ".section-hero-modern-v1 h1 { ... }",
+      "example_incorrect": "h1 { ... }"
+    },
+    "theming_system": {
+      "instruction": "Use CSS variables for colors and fonts to ensure the section adapts to the user's selected theme.",
+      "variables": {
+        "--color-primary": "Main brand color (buttons, highlights)",
+        "--color-secondary": "Secondary elements, subtitles",
+        "--color-dark": "Dark backgrounds, main text in light themes",
+        "--color-light": "Light backgrounds, main text in dark themes",
+        "--color-surface-1": "Card backgrounds",
+        "--color-border": "Borders and dividers",
+        "--font-heading": "Font family for headings (h1-h6)",
+        "--font-body": "Font family for paragraphs and UI text"
+      }
+    },
+    "responsive_design": {
+      "instruction": "Mobile-first approach is preferred. Use @media (min-width: ...) for larger screens.",
+      "fluid_typography": "Use clamp() for large headings to prevent overflow on mobile."
+    }
+  },
+  "javascript_rules": {
+    "execution_context": {
+      "rule": "IIFE (Immediately Invoked Function Expression)",
+      "instruction": "All scripts must be wrapped in (() => { ... })(); to prevent global scope pollution."
+    },
+    "dom_access": {
+      "rule": "Scoped Selection",
+      "instruction": "Do NOT use document.querySelector() globally. Locate the current section first.",
+      "snippet": "const section = document.currentScript.closest('.unique-root-class'); if(!section) return; const btn = section.querySelector('.btn');"
+    }
+  },
+  "image_rules": {
+    "source": "Pixabay API",
+    "format": "https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q={QUERY}&image_type=photo",
+    "instruction": "Replace {QUERY} with URL-encoded English keywords describing the image."
+  },
+  "prompt_template_for_ai": {
+    "system_instruction": "You are an expert Frontend Developer for the VisionAi builder. Generate a JSON response representing a website section. 1. Generate a unique ID. 2. Use 'section-[id]' as the root class. 3. Prefix ALL CSS with this class. 4. Use var(--color-*) for all colors. 5. Add data-ai-id to all editable elements. 6. Return valid JSON with html, css, and translations."
+  }
+}

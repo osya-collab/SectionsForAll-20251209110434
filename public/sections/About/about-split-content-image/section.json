@@ -1,0 +1,40 @@
+{
+    "id": "about-split-content-image",
+    "html": "\n<section class=\"about-split-content-image-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container about-split-content-image-container\">\n        <div class=\"content-col anim-fade-in-right\">\n            <h2>{{t:title}}</h2>\n            <p>{{t:p1}}</p>\n            <p>{{t:p2}}</p>\n        </div>\n        <div class=\"image-col anim-zoom-in\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=modern+architectural+hallway+curved\" alt=\"{{t:image_alt}}\">\n        </div>\n        <div class=\"content-col anim-fade-in-left\">\n            <h3>{{t:subtitle}}</h3>\n            <p>{{t:p3}}</p>\n            <p>{{t:p4}}</p>\n            <p>{{t:p5}}</p>\n        </div>\n    </div>\n</section>",
+    "css": "\n.about-split-content-image-section { padding: 5rem 0; background-color: var(--color-light, #FFFFFF); }\n.about-split-content-image-section .container { width: 90%; max-width: 1200px; margin: 0 auto; padding: 0 1rem; }\n.about-split-content-image-container { display: grid; grid-template-columns: 1fr; gap: 2rem; align-items: center; }\n@media (min-width: 992px) { .about-split-content-image-container { grid-template-columns: 1fr auto 1fr; gap: 3rem; } }\n.about-split-content-image-section .content-col { max-width: 380px; }\n.about-split-content-image-section .content-col h2 { font-size: clamp(2.5rem, 5vw, 3.5rem); font-weight: 700; margin-bottom: 1.5rem; color: var(--color-dark, #111827); line-height: 1.2;}\n.about-split-content-image-section .content-col h3 { font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem; color: var(--color-dark, #111827);}\n.about-split-content-image-section .content-col p { color: var(--color-secondary, #6B7280); margin-bottom: 1rem; }\n.about-split-content-image-section .image-col img { border-radius: 1.5rem; max-width: 300px; width: 100%; box-shadow: 0 10px 30px rgba(0,0,0,0.1); display: block; }\n",
+    "translations": {
+        "de": {
+            "name": "Geteilter Inhalt & Bild",
+            "title": "Sieh dir unsere 10 Jahre tolle Arbeit an",
+            "p1": "Wir aktualisieren die Bereiche, Vorlagen und Elemente von Onepage ständig, damit sie den aktuellen Webdesign-Trends entsprechen.",
+            "p2": "Das bedeutet abgerundete Ecken, großzügige Layouts, Verläufe und einzigartige Elemente, die du nirgendwo anders findest.",
+            "image_alt": "Moderner architektonischer Flur mit geschwungenen Linien",
+            "subtitle": "Dein gemütliches Büro",
+            "p3": "Sorgt für ein stimmiges Erscheinungsbild eurer Seite, denn alles sollte zusammenpassen: Eckenstil, Abstände, Textgrößen und Farbwahl.",
+            "p4": "Wenn alles im gleichen Design fließt, wirkt es professionell und schafft Vertrauen bei euren Besuchern.",
+            "p5": "Kundenberichte und Referenzen schaffen sofort Vertrauen, indem sie zeigen, dass Ihr Unternehmen wirklich funktioniert."
+        },
+        "en": {
+            "name": "Split Content & Image",
+            "title": "Check out our 10 years of great work",
+            "p1": "We constantly update Onepage's sections, templates, and elements to keep up with current web design trends.",
+            "p2": "This means rounded corners, generous layouts, gradients, and unique elements you won't find anywhere else.",
+            "image_alt": "Modern architectural hallway with curved lines",
+            "subtitle": "Your cozy office",
+            "p3": "Ensure a consistent look for your site, as everything should match: corner style, spacing, text sizes, and color choices.",
+            "p4": "When everything flows in the same design, it looks professional and builds trust with your visitors.",
+            "p5": "Customer testimonials and references build trust immediately by showing that your company really works."
+        },
+        "ar": {
+            "name": "محتوى وصورة مقسمة",
+            "title": "شاهد 10 سنوات من عملنا الرائع",
+            "p1": "نقوم باستمرار بتحديث أقسام وقوالب وعناصر Onepage لمواكبة اتجاهات تصميم الويب الحالية.",
+            "p2": "وهذا يعني زوايا مستديرة وتخطيطات واسعة وتدرجات وعناصر فريدة لن تجدها في أي مكان آخر.",
+            "image_alt": "ردهة معمارية حديثة بخطوط منحنية",
+            "subtitle": "مكتبك المريح",
+            "p3": "تأكد من وجود مظهر متسق لموقعك ، حيث يجب أن يتطابق كل شيء: نمط الزاوية ، والتباعد ، وأحجام النصوص ، واختيارات الألوان.",
+            "p4": "عندما يتدفق كل شيء في نفس التصميم ، فإنه يبدو احترافيًا ويبني الثقة مع زوارك.",
+            "p5": "شهادات العملاء والمراجع تبني الثقة على الفور من خلال إظهار أن شركتك تعمل حقًا."
+        }
+    }
+}

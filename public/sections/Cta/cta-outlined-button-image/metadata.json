@@ -1,0 +1,40 @@
+{
+    "name": "CTA with Outlined Button and Image",
+    "category": "Cta",
+    "description": "A two-column CTA section featuring text on one side and an image on the other. The call-to-action is an outlined button, offering a sophisticated look. Adapts to a single column on smaller screens.",
+    "tags": [
+        "cta",
+        "image",
+        "split layout",
+        "outline button",
+        "product promotion"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "h2",
+        "p",
+        "a",
+        "div",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "product showcase",
+        "campaign landing page",
+        "visual storytelling"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#fff",
+            "#333",
+            "#555"
+        ],
+        "fonts": [
+            "Montserrat",
+            "sans-serif"
+        ],
+        "visual_identity": "Modern split layout with a strong emphasis on visual content and a sophisticated outlined call-to-action."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Circle Portraits",
+    "category": "Team",
+    "description": "A modern team section featuring circular portraits with a subtle hover effect, name, and title.",
+    "tags": ["team", "portraits", "circular", "about", "modern"],
+    "structure": ["header", "team-grid", "portraits"],
+    "complexity": "simple",
+    "use_cases": [
+        "Agency team pages",
+        "Corporate 'About Us' sections",
+        "Startup introductions"
+    ]
+}

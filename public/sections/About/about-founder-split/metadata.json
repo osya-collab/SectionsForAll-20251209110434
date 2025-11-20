@@ -1,0 +1,13 @@
+{
+    "name": "Founder Split",
+    "category": "About",
+    "description": "A bold, split-screen section with a large portrait on one side and the founder's name and title in a stylized text block on the other.",
+    "tags": ["about", "founder", "split-layout", "bold", "modern", "portrait"],
+    "structure": ["text-block", "image"],
+    "complexity": "medium",
+    "use_cases": [
+        "Founder introduction pages",
+        "Creative agency 'About Us' sections",
+        "Minimalist portfolios"
+    ]
+}

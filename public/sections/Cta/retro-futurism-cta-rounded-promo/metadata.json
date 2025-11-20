@@ -1,0 +1,47 @@
+{
+    "name": "Retro Futurism CTA with Rounded Promo",
+    "category": "Cta",
+    "description": "A retro-futuristic promotional CTA with a pale mustard background. Features rounded inputs and buttons, with a geometric pattern in the background.",
+    "tags": [
+        "retro",
+        "futurism",
+        "cta",
+        "promo",
+        "rounded",
+        "newsletter",
+        "pattern"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "div",
+        "input",
+        "button",
+        "div",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "newsletter signup",
+        "promotional banner",
+        "early access notification"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#e0d8c0",
+            "#333",
+            "#555",
+            "#fff",
+            "#d4af37",
+            "#dcd0ff",
+            "rgba(255, 255, 255, 0.7)"
+        ],
+        "fonts": [
+            "Orbitron",
+            "sans-serif"
+        ],
+        "visual_identity": "Whimsical and optimistic retro-futurism with rounded elements and a clean aesthetic."
+    }
+}

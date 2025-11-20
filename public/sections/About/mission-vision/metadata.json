@@ -1,0 +1,13 @@
+{
+    "name": "Mission & Vision",
+    "category": "About",
+    "description": "A two-column section to clearly state the company's mission and vision. The mission card has a primary color background for emphasis.",
+    "tags": ["about", "mission", "vision", "corporate", "values"],
+    "structure": ["card", "card"],
+    "complexity": "simple",
+    "use_cases": [
+        "Corporate 'About Us' pages",
+        "Startup pitch decks",
+        "Company profile sections"
+    ]
+}

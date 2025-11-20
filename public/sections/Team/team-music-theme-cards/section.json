@@ -1,0 +1,37 @@
+{
+    "id": "team-music-theme-cards",
+    "html": "\n<section class=\"team-music-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"team-music-grid\">\n            <div class=\"team-music-card anim-fade-in-up\">\n                <img src=\"https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?q=80&w=2070\" class=\"card-bg\" alt=\"{{t:bg1_alt}}\">\n                <div class=\"card-content\">\n                    <img src=\"https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1888\" class=\"portrait\" alt=\"{{t:member1_name}}\">\n                    <h3>{{t:member1_name}}</h3>\n                    <p>{{t:member_bio}}</p>\n                    <div class=\"social-icons\">\n                        <a href=\"#\" aria-label=\"Facebook\"><i class=\"fab fa-facebook-f\"></i></a>\n                        <a href=\"#\" aria-label=\"Instagram\"><i class=\"fab fa-instagram\"></i></a>\n                        <a href=\"#\" aria-label=\"Soundcloud\"><i class=\"fab fa-soundcloud\"></i></a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"team-music-card anim-fade-in-up anim-delay-1\">\n                <img src=\"https://images.unsplash.com/photo-1516298229233-a879c93309a4?q=80&w=2070\" class=\"card-bg\" alt=\"{{t:bg2_alt}}\">\n                <div class=\"card-content\">\n                    <img src=\"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887\" class=\"portrait\" alt=\"{{t:member2_name}}\">\n                    <h3>{{t:member2_name}}</h3>\n                    <p>{{t:member_bio}}</p>\n                    <div class=\"social-icons\">\n                        <a href=\"#\" aria-label=\"Facebook\"><i class=\"fab fa-facebook-f\"></i></a>\n                        <a href=\"#\" aria-label=\"Instagram\"><i class=\"fab fa-instagram\"></i></a>\n                        <a href=\"#\" aria-label=\"Soundcloud\"><i class=\"fab fa-soundcloud\"></i></a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"team-music-card anim-fade-in-up anim-delay-2\">\n                 <img src=\"https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=1974\" class=\"card-bg\" alt=\"{{t:bg3_alt}}\">\n                <div class=\"card-content\">\n                    <img src=\"https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887\" class=\"portrait\" alt=\"{{t:member3_name}}\">\n                    <h3>{{t:member3_name}}</h3>\n                    <p>{{t:member_bio}}</p>\n                    <div class=\"social-icons\">\n                        <a href=\"#\" aria-label=\"Facebook\"><i class=\"fab fa-facebook-f\"></i></a>\n                        <a href=\"#\" aria-label=\"Instagram\"><i class=\"fab fa-instagram\"></i></a>\n                        <a href=\"#\" aria-label=\"Soundcloud\"><i class=\"fab fa-soundcloud\"></i></a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-music-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.team-music-section .container {\n    width: 90%;\n    max-width: 1100px;\n    margin: 0 auto;\n}\n.team-music-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n    gap: 2rem;\n}\n.team-music-card {\n    position: relative;\n    border-radius: 1rem;\n    overflow: hidden;\n    aspect-ratio: 3 / 4;\n    color: var(--color-light, #FFFFFF);\n    text-align: center;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    padding: 2rem;\n}\n.team-music-card::after {\n    content: '';\n    position: absolute;\n    inset: 0;\n    background: rgba(0,0,0,0.6);\n    z-index: 1;\n}\n.team-music-card .card-bg {\n    position: absolute;\n    inset: 0;\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    z-index: 0;\n    transition: transform 0.4s ease;\n}\n.team-music-card:hover .card-bg {\n    transform: scale(1.05);\n}\n.team-music-card .card-content {\n    position: relative;\n    z-index: 2;\n}\n.team-music-card .portrait {\n    width: 100px;\n    height: 100px;\n    border-radius: 50%;\n    object-fit: cover;\n    border: 3px solid var(--color-light, #FFFFFF);\n    margin-bottom: 1rem;\n}\n.team-music-card h3 {\n    font-size: 1.25rem;\n    font-weight: 600;\n    margin-bottom: 0.5rem;\n}\n.team-music-card p {\n    font-size: 0.9rem;\n    margin-bottom: 1rem;\n    opacity: 0.9;\n}\n.team-music-card .social-icons {\n    display: flex;\n    justify-content: center;\n    gap: 1rem;\n}\n.team-music-card .social-icons a {\n    color: var(--color-light, #FFFFFF);\n    font-size: 1.1rem;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Musik-Themenkarten",
+            "bg1_alt": "Konzertpublikum",
+            "bg2_alt": "Musikstudio",
+            "bg3_alt": "Schallplatte",
+            "member1_name": "Tom Black",
+            "member2_name": "David Willmann",
+            "member3_name": "Barbara Santa",
+            "member_bio": "Bitte geben Sie hier Informationen ein, die für Ihre Kunden nützlich sind."
+        },
+        "en": {
+            "name": "Music Theme Cards",
+            "bg1_alt": "Concert crowd",
+            "bg2_alt": "Music studio",
+            "bg3_alt": "Vinyl record",
+            "member1_name": "Tom Black",
+            "member2_name": "David Willmann",
+            "member3_name": "Barbara Santa",
+            "member_bio": "Please enter information here that is useful for your customers."
+        },
+        "ar": {
+            "name": "بطاقات بموضوع الموسيقى",
+            "bg1_alt": "جمهور الحفل",
+            "bg2_alt": "استوديو موسيقى",
+            "bg3_alt": "أسطوانة فينيل",
+            "member1_name": "توم بلاك",
+            "member2_name": "ديفيد ويلمان",
+            "member3_name": "باربرا سانتا",
+            "member_bio": "يرجى إدخال معلومات هنا مفيدة لعملائك."
+        }
+    }
+}

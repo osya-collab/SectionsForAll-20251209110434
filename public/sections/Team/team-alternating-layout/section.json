@@ -1,0 +1,37 @@
+{
+    "id": "team-alternating-layout",
+    "html": "\n<section class=\"team-alternating-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <h2 class=\"section-title anim-fade-in-up\">{{t:title}}</h2>\n        <div class=\"team-member-row anim-fade-in-up\">\n            <div class=\"member-image\">\n                <img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887\" alt=\"{{t:member1_name}}\">\n            </div>\n            <div class=\"member-info\">\n                <h3>{{t:member1_name}}</h3>\n                <span class=\"member-title\">{{t:member1_role}}</span>\n                <p>{{t:member1_desc}}</p>\n            </div>\n        </div>\n        <div class=\"team-member-row reversed anim-fade-in-up\">\n            <div class=\"member-image\">\n                <img src=\"https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887\" alt=\"{{t:member2_name}}\">\n            </div>\n            <div class=\"member-info\">\n                <h3>{{t:member2_name}}</h3>\n                <span class=\"member-title\">{{t:member2_role}}</span>\n                <p>{{t:member2_desc}}</p>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-alternating-section { padding: 5rem 0; background-color: var(--color-light, #FFFFFF); }\n.team-alternating-section .container { width: 90%; max-width: 900px; margin: 0 auto; }\n.team-alternating-section .section-title { text-align: center; font-size: 2.5rem; margin-bottom: 4rem; color: var(--color-dark, #111827); }\n.team-member-row {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 2rem;\n    align-items: center;\n    margin-bottom: 4rem;\n}\n@media (min-width: 768px) {\n    .team-member-row { grid-template-columns: 1fr 2fr; gap: 3rem; }\n    .team-member-row.reversed .member-image { order: 2; }\n    .team-member-row.reversed .member-info { order: 1; text-align: right; }\n}\n.team-member-row .member-image img {\n    width: 100%;\n    aspect-ratio: 1/1;\n    object-fit: cover;\n    border-radius: 50%;\n    box-shadow: 0 10px 30px rgba(0,0,0,0.1);\n}\n.member-info h3 {\n    font-size: 1.75rem;\n    font-weight: 700;\n    color: var(--color-dark, #111827);\n    margin-bottom: 0.25rem;\n}\n.member-title {\n    display: block;\n    color: var(--color-primary, #667eea);\n    font-weight: 600;\n    margin-bottom: 1rem;\n}\n.member-info p {\n    color: var(--color-secondary, #6B7280);\n}\n",
+    "translations": {
+        "de": {
+            "name": "Abwechselndes Layout",
+            "title": "Die Köpfe hinter der Magie",
+            "member1_name": "Alex Johnson",
+            "member1_role": "Gründer & CEO",
+            "member1_desc": "Mit über 15 Jahren Branchenerfahrung führt Alex unser Team mit einer Vision für Innovation und einer Leidenschaft für die Schaffung wirkungsvoller Lösungen, die bei den Nutzern weltweit Anklang finden.",
+            "member2_name": "Samantha Carter",
+            "member2_role": "Chief Technology Officer",
+            "member2_desc": "Samantha ist der brillante Kopf hinter unserem Technologie-Stack. Ihre Expertise in skalierbaren Systemen und KI stellt sicher, dass unsere Produkte immer an der Spitze der Innovation stehen."
+        },
+        "en": {
+            "name": "Alternating Layout",
+            "title": "The Minds Behind the Magic",
+            "member1_name": "Alex Johnson",
+            "member1_role": "Founder & CEO",
+            "member1_desc": "With over 15 years of industry experience, Alex leads our team with a vision for innovation and a passion for creating impactful solutions that resonate with users worldwide.",
+            "member2_name": "Samantha Carter",
+            "member2_role": "Chief Technology Officer",
+            "member2_desc": "Samantha is the brilliant mind behind our technology stack. Her expertise in scalable systems and AI ensures our products are always at the forefront of innovation."
+        },
+        "ar": {
+            "name": "تخطيط متناوب",
+            "title": "العقول وراء السحر",
+            "member1_name": "أليكس جونسون",
+            "member1_role": "المؤسس والرئيس التنفيذي",
+            "member1_desc": "مع أكثر من 15 عامًا من الخبرة في الصناعة، يقود أليكس فريقنا برؤية للابتكار وشغف لخلق حلول مؤثرة تلقى صدى لدى المستخدمين في جميع أنحاء العالم.",
+            "member2_name": "سامانثا كارتر",
+            "member2_role": "كبير مسؤولي التكنولوجيا",
+            "member2_desc": "سامانثا هي العقل المدبر وراء مجموعتنا التقنية. تضمن خبرتها في الأنظمة القابلة للتطوير والذكاء الاصطناعي أن منتجاتنا دائمًا في طليعة الابتكار."
+        }
+    }
+}

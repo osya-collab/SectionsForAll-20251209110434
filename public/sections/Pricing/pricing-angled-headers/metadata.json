@@ -1,0 +1,14 @@
+
+{
+    "name": "Angled Headers",
+    "category": "Pricing",
+    "description": "A dynamic pricing table where each card features a header with a sharp diagonal cut, creating an energetic and modern look. Icons are integrated into the header.",
+    "tags": ["pricing", "angled", "diagonal", "modern", "creative", "dynamic"],
+    "structure": ["header", "pricing-cards", "features", "button"],
+    "complexity": "medium",
+    "use_cases": [
+        "Creative Agencies",
+        "Startups",
+        "Event Ticketing"
+    ]
+}

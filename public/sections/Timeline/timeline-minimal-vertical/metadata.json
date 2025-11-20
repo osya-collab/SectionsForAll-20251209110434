@@ -1,0 +1,13 @@
+{
+    "name": "Minimal Vertical Timeline",
+    "category": "Timeline",
+    "description": "A clean, single-sided vertical timeline. Content appears on the right of a thin line, creating a minimalist and easy-to-read flow.",
+    "tags": ["timeline", "vertical", "minimalist", "clean", "corporate"],
+    "structure": ["header", "timeline-items"],
+    "complexity": "simple",
+    "use_cases": [
+        "Professional resumes",
+        "Project updates",
+        "Clean corporate histories"
+    ]
+}

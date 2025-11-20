@@ -1,0 +1,26 @@
+{
+    "name": "Feature Image with Thumbnail Strip",
+    "category": "Gallery",
+    "description": "A classic gallery hero with a large, central feature image and a horizontal strip of clickable thumbnails below. Text is placed above the main image.",
+    "tags": [
+        "feature",
+        "thumbnails",
+        "interactive",
+        "portfolio",
+        "clean",
+        "product"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h1",
+        "p",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Photographer portfolios",
+        "real estate listings",
+        "product detail pages"
+    ]
+}

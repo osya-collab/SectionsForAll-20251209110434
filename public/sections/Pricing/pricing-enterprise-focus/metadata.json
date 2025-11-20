@@ -1,0 +1,13 @@
+{
+    "name": "Enterprise Focus",
+    "category": "Pricing",
+    "description": "A pricing layout that highlights the 'Enterprise' or 'Contact Us' plan by making its card larger and more detailed, flanked by smaller standard tier cards.",
+    "tags": ["pricing", "enterprise", "b2b", "corporate", "cta", "asymmetrical"],
+    "structure": ["header", "pricing-cards", "button"],
+    "complexity": "medium",
+    "use_cases": [
+        "B2B SaaS companies",
+        "Companies with custom enterprise solutions",
+        "High-ticket service providers"
+    ]
+}

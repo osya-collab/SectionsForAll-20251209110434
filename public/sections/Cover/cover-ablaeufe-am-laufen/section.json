@@ -1,0 +1,10 @@
+{
+    "id": "cover-ablaeufe-am-laufen",
+    "html": "\n<section class=\"cover-ablaeufe-am-laufen-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"content anim-fade-in-right\"><h1>{{t:title}}</h1><p>{{t:subtitle}}</p><a href=\"#\" class=\"btn btn-dark\">{{t:cta_button}}</a></div>\n        <div class=\"image anim-fade-in-left\"><img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=workflow+automation+gears\" alt=\"{{t:image_alt}}\"></div>\n    </div>\n</section>",
+    "css": ".cover-ablaeufe-am-laufen-section { padding: 6rem 0; } .container { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr; gap: 3rem; align-items: center; } @media(min-width: 768px) { .container { grid-template-columns: 1fr 1fr; } } h1 { font-size: clamp(2.5rem, 5vw, 3.5rem); margin-bottom: 1rem; } .content p { margin-bottom: 2rem; } .btn-dark { display: inline-block; padding: 0.8rem 2rem; background-color: var(--color-dark); color: var(--color-light); border-radius: 0.5rem; text-decoration: none; } .image img { width: 100%; border-radius: 1rem; }",
+    "translations": {
+        "de": { "name": "Abläufe am Laufen halten", "title": "Halten Sie Ihre Abläufe am Laufen.", "subtitle": "Automatisieren Sie Workflows und steigern Sie die Effizienz.", "cta_button": "Jetzt optimieren", "image_alt": "Workflow-Automatisierung" },
+        "en": { "name": "Keep Processes Running", "title": "Keep your processes running.", "subtitle": "Automate workflows and increase efficiency.", "cta_button": "Optimize Now", "image_alt": "Workflow automation" },
+        "ar": { "name": "الحفاظ على سير العمليات", "title": "حافظ على سير عملياتك.", "subtitle": "أتمتة سير العمل وزيادة الكفاءة.", "cta_button": "تحسين الآن", "image_alt": "أتمتة سير العمل" }
+    }
+}

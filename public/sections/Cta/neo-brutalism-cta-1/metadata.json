@@ -1,0 +1,37 @@
+{
+    "name": "Neo-Brutalism CTA",
+    "category": "Cta",
+    "description": "A bold Neo-Brutalism call to action with a stark black background, white text, and a vibrant hot pink button. Features strong typography and a direct message.",
+    "tags": [
+        "cta",
+        "neo-brutalism",
+        "bold",
+        "high-contrast",
+        "pink"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "lead generation",
+        "sign-ups",
+        "direct response"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#000000",
+            "#FFFFFF",
+            "#FF00FF",
+            "#CCCCCC"
+        ],
+        "fonts": [
+            "sans-serif"
+        ],
+        "visual_identity": "Raw, high-contrast Neo-Brutalism with sharp pink accent."
+    }
+}

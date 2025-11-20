@@ -1,0 +1,13 @@
+{
+    "name": "Values Split Layout",
+    "category": "About",
+    "description": "A split-screen layout with a main title and text on one side, and a series of value-proposition cards on the other. Ideal for company culture or service benefits.",
+    "tags": ["about", "values", "split-layout", "cards", "corporate"],
+    "structure": ["header", "paragraph", "cards"],
+    "complexity": "medium",
+    "use_cases": [
+        "Company values pages",
+        "Service benefit summaries",
+        "Employee value propositions"
+    ]
+}

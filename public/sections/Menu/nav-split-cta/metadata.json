@@ -1,0 +1,14 @@
+
+{
+    "name": "Split Nav with CTA",
+    "category": "Menu",
+    "description": "A classic, balanced navigation bar with the logo on the left, links in the center, and a call-to-action button on the right.",
+    "tags": ["header", "cta", "split", "corporate", "modern"],
+    "structure": ["logo", "nav-links", "cta-button"],
+    "complexity": "simple",
+    "use_cases": [
+        "SaaS Websites",
+        "Landing Pages",
+        "Business Portfolios"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "name": "CTA with Animated Button",
+    "category": "Cta",
+    "description": "Features a call-to-action button with subtle hover animations, including a slide-in overlay and a slight shadow lift, making it more engaging.",
+    "tags": [
+        "cta",
+        "animated button",
+        "hover effect",
+        "engaging",
+        "modern"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "interactive elements",
+        "drawing attention",
+        "enhancing user experience"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f4f7f6",
+            "#34495e",
+            "#555",
+            "#1abc9c",
+            "#16a085",
+            "white",
+            "rgba(255, 255, 255, 0.2)"
+        ],
+        "fonts": [
+            "Lato",
+            "sans-serif"
+        ],
+        "visual_identity": "Clean and modern with a turquoise button that animates on hover, providing subtle visual feedback."
+    }
+}

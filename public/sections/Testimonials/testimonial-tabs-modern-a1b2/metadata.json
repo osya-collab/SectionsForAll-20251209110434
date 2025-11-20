@@ -1,0 +1,49 @@
+{
+    "name": "Modern Testimonial Tabs",
+    "category": "Testimonials",
+    "description": "A modern testimonial section featuring interactive tabs. Users can click on client names to reveal their quotes and details, presented in clean cards with client avatars. This design enhances engagement and allows for showcasing multiple testimonials without clutter.",
+    "tags": [
+        "testimonials",
+        "tabs",
+        "interactive",
+        "modern",
+        "client-feedback",
+        "cards"
+    ],
+    "structure": [
+        "section",
+        "div.container",
+        "div.testimonial-tabs-wrapper",
+        "div.tab-buttons",
+        "button.tab-button",
+        "div.tab-content",
+        "div.testimonial-card",
+        "img.testimonial-avatar",
+        "p.testimonial-quote",
+        "h3.testimonial-name",
+        "p.testimonial-title"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Showcasing customer satisfaction",
+        "Building credibility",
+        "Highlighting product/service benefits",
+        "Website sections",
+        "Landing pages"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#4CAF50",
+            "#8BC34A",
+            "#212121",
+            "#ffffff",
+            "#f5f5f5",
+            "#e0e0e0"
+        ],
+        "fonts": [
+            "Montserrat",
+            "Open Sans"
+        ],
+        "visual_identity": "Clean, modern, professional, and user-friendly with a focus on clarity and engagement through interactive elements."
+    }
+}

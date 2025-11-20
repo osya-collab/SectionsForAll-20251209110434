@@ -1,0 +1,33 @@
+{
+    "name": "Centered Gourmet Hero",
+    "category": "Cover",
+    "description": "A dramatic centered hero section with a full-screen background image and gradient overlay.",
+    "tags": [
+        "hero",
+        "centered",
+        "background image",
+        "restaurant"
+    ],
+    "structure": [
+        "full-width background",
+        "centered text",
+        "overlay"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "Fine Dining",
+        "Luxury Brand",
+        "Event Landing"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#000000",
+            "#ff4500"
+        ],
+        "fonts": [
+            "Serif",
+            "Sans-serif"
+        ],
+        "visual_identity": "Luxurious Minimalist"
+    }
+}

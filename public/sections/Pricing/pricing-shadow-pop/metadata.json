@@ -1,0 +1,14 @@
+
+{
+    "name": "Box Shadow Pop",
+    "category": "Pricing",
+    "description": "A light-themed pricing table where cards lift and gain a colorful, pronounced box-shadow on hover, creating a satisfying 'pop' effect. The popular plan has a permanent subtle shadow.",
+    "tags": ["pricing", "hover-effect", "shadow", "interactive", "clean"],
+    "structure": ["header", "pricing-cards", "features", "button"],
+    "complexity": "medium",
+    "use_cases": [
+        "SaaS Landing Pages",
+        "Creative Portfolios",
+        "Modern Business Sites"
+    ]
+}

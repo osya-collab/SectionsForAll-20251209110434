@@ -1,0 +1,14 @@
+
+{
+    "name": "Featured In",
+    "category": "Trust",
+    "description": "A simple bar to showcase logos of publications or companies where you have been featured, building credibility.",
+    "tags": ["featured", "press", "social proof", "logos", "corporate"],
+    "structure": ["header", "logo-grid"],
+    "complexity": "simple",
+    "use_cases": [
+        "Landing pages",
+        "Corporate homepages",
+        "Press or media kit pages"
+    ]
+}

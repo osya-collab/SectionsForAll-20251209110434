@@ -1,0 +1,13 @@
+{
+    "name": "Cover Nur Text",
+    "category": "Cover",
+    "description": "A minimalist, centered, text-only hero section with a strong headline, subtitle, and CTA. Perfect for direct messaging.",
+    "tags": ["cover", "hero", "minimalist", "text-only", "clean", "cta"],
+    "structure": ["header", "paragraph", "cta-button"],
+    "complexity": "simple",
+    "use_cases": [
+        "Minimalist Landing Pages",
+        "Direct-response marketing",
+        "Simple announcements"
+    ]
+}

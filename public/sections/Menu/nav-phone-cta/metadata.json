@@ -1,0 +1,14 @@
+{
+    "name": "Nav with Phone & CTA",
+    "category": "Menu",
+    "description": "A business-focused navigation bar that prominently displays a contact phone number and a call-to-action button, encouraging direct customer engagement. Perfect for service-based businesses.",
+    "tags": ["contact", "phone-number", "cta", "service-business", "local-business", "header", "responsive"],
+    "structure": ["logo", "nav-links", "phone-contact", "cta-button"],
+    "complexity": "medium",
+    "use_cases": [
+        "Local Businesses (plumbers, lawyers, etc.)",
+        "Consulting Firms",
+        "Service Agencies",
+        "Real Estate"
+    ]
+}

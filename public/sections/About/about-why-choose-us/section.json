@@ -1,0 +1,37 @@
+{
+    "id": "about-why-choose-us",
+    "html": "\n<section class=\"why-choose-us-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container why-choose-us-container\">\n        <div class=\"why-choose-us-content\">\n            <h2 class=\"anim-fade-in-up\">{{t:title}}</h2>\n            <p class=\"anim-fade-in-up\" style=\"animation-delay: 0.1s\">{{t:text}}</p>\n            <ul class=\"why-choose-us-list\">\n                <li class=\"anim-fade-in-up\" style=\"animation-delay: 0.2s\"><span>✓</span> {{t:li1}}</li>\n                <li class=\"anim-fade-in-up\" style=\"animation-delay: 0.3s\"><span>✓</span> {{t:li2}}</li>\n                <li class=\"anim-fade-in-up\" style=\"animation-delay: 0.4s\"><span>✓</span> {{t:li3}}</li>\n                <li class=\"anim-fade-in-up\" style=\"animation-delay: 0.5s\"><span>✓</span> {{t:li4}}</li>\n            </ul>\n        </div>\n        <div class=\"why-choose-us-image anim-fade-in\">\n             <img src=\"https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1974\" alt=\"{{t:image_alt}}\">\n        </div>\n    </div>\n</section>",
+    "css": "\n.why-choose-us-section .container {\n  width: 90%;\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 1rem;\n}\n.why-choose-us-section { padding: 4rem 0; background-color: var(--color-light, #FFFFFF); }\n.why-choose-us-container { display: grid; grid-template-columns: 1fr; gap: 3rem; align-items: center; }\n@media (min-width: 768px) { .why-choose-us-container { grid-template-columns: 1fr 1fr; } }\n.why-choose-us-content h2 { font-size: 2.5rem; margin-bottom: 1rem; }\n.why-choose-us-content p { margin-bottom: 2rem; }\n.why-choose-us-list { list-style: none; padding: 0; }\n.why-choose-us-list li { font-size: 1.1rem; font-weight: 500; margin-bottom: 1rem; display: flex; align-items: center; }\n.why-choose-us-list li span { color: var(--color-primary, #667eea); font-weight: bold; margin-right: 0.75rem; font-size: 1.5rem; }\n.why-choose-us-image img { border-radius: 12px; width: 100%; }\n",
+    "translations": {
+        "de": {
+            "name": "Warum uns wählen",
+            "title": "Warum uns wählen?",
+            "text": "Wir kombinieren Expertise mit einem persönlichen Ansatz, um Lösungen zu liefern, die nicht nur effektiv, sondern auch perfekt auf Ihre einzigartigen Ziele abgestimmt sind.",
+            "li1": "Expertenteam",
+            "li2": "Nachgewiesene Ergebnisse",
+            "li3": "Engagierter Support",
+            "li4": "Maßgeschneiderte Strategien",
+            "image_alt": "Profi bespricht ein Projekt"
+        },
+        "en": {
+            "name": "Why Choose Us",
+            "title": "Why Choose Us?",
+            "text": "We combine expertise with a personalized approach to deliver solutions that are not just effective, but also perfectly aligned with your unique goals.",
+            "li1": "Expert Team",
+            "li2": "Proven Results",
+            "li3": "Dedicated Support",
+            "li4": "Tailored Strategies",
+            "image_alt": "Professional discussing a project"
+        },
+        "ar": {
+            "name": "لماذا تختارنا",
+            "title": "لماذا تختارنا؟",
+            "text": "نحن نجمع بين الخبرة والنهج الشخصي لتقديم حلول ليست فعالة فحسب، بل تتماشى تمامًا مع أهدافك الفريدة.",
+            "li1": "فريق من الخبراء",
+            "li2": "نتائج مثبتة",
+            "li3": "دعم مخصص",
+            "li4": "استراتيجيات مخصصة",
+            "image_alt": "محترف يناقش مشروعًا"
+        }
+    }
+}

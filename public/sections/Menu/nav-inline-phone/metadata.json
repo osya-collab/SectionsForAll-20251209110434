@@ -1,0 +1,14 @@
+
+{
+    "name": "Inline Phone Nav",
+    "category": "Menu",
+    "description": "A business-focused navigation bar that includes a clickable phone number directly in the main navigation flow, encouraging direct contact.",
+    "tags": ["header", "contact", "phone", "business", "local"],
+    "structure": ["logo", "nav-links", "phone-link"],
+    "complexity": "simple",
+    "use_cases": [
+        "Local Businesses",
+        "Service Providers",
+        "Consulting Firms"
+    ]
+}

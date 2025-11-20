@@ -1,0 +1,28 @@
+{
+    "id": "team-vertical-list",
+    "html": "\n<section class=\"team-vertical-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"team-list\">\n            <div class=\"team-list-item anim-fade-in-up\">\n                <div class=\"item-image\">\n                    <img src=\"https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1888\" alt=\"{{t:member1_name}}\">\n                </div>\n                <div class=\"item-content\">\n                    <h3>{{t:member1_name}}</h3>\n                    <p>{{t:member_bio}}</p>\n                </div>\n            </div>\n            <div class=\"team-list-item anim-fade-in-up anim-delay-1\">\n                <div class=\"item-image\">\n                    <img src=\"https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=1899\" alt=\"{{t:member2_name}}\">\n                </div>\n                <div class=\"item-content\">\n                    <h3>{{t:member2_name}}</h3>\n                    <p>{{t:member_bio}}</p>\n                </div>\n            </div>\n             <div class=\"team-list-item anim-fade-in-up anim-delay-2\">\n                <div class=\"item-image\">\n                    <img src=\"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070\" alt=\"{{t:member3_name}}\">\n                </div>\n                <div class=\"item-content\">\n                    <h3>{{t:member3_name}}</h3>\n                    <p>{{t:member_bio}}</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-vertical-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.team-vertical-section .container {\n    width: 90%;\n    max-width: 900px;\n    margin: 0 auto;\n}\n.team-list {\n    display: flex;\n    flex-direction: column;\n    gap: 4rem;\n}\n.team-list-item {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 2rem;\n    align-items: center;\n}\n@media (min-width: 768px) {\n    .team-list-item {\n        grid-template-columns: 200px 1fr;\n    }\n}\n.team-list-item .item-image img {\n    width: 100%;\n    height: auto;\n    aspect-ratio: 1 / 1;\n    object-fit: cover;\n    border-radius: 0.5rem;\n}\n.team-list-item .item-content h3 {\n    font-size: 1.75rem;\n    font-weight: 600;\n    color: var(--color-dark, #111827);\n    margin-bottom: 0.75rem;\n}\n.team-list-item .item-content p {\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Vertikale Liste",
+            "member1_name": "Alex Dillinger",
+            "member2_name": "Barbara Santa",
+            "member3_name": "Amy Jones",
+            "member_bio": "Auf dieser Seite finden Sie die neuesten Informationen über uns. Unser Unternehmen entwickelt sich ständig weiter und wächst ständig. Wir bieten eine breite Palette von Dienstleistungen. Unsere Mission ist es, die beste Lösung bereitzustellen, die allen hilft. Wenn Sie uns kontaktieren möchten, füllen Sie bitte das Kontaktformular auf unserer Website aus. Wir wünschen Ihnen einen schönen Tag!"
+        },
+        "en": {
+            "name": "Vertical List",
+            "member1_name": "Alex Dillinger",
+            "member2_name": "Barbara Santa",
+            "member3_name": "Amy Jones",
+            "member_bio": "On this page you will find the latest information about us. Our company is constantly evolving and growing. We offer a wide range of services. Our mission is to provide the best solution that helps everyone. If you would like to contact us, please fill out the contact form on our website. We wish you a nice day!"
+        },
+        "ar": {
+            "name": "قائمة عمودية",
+            "member1_name": "أليكس ديلينجر",
+            "member2_name": "باربرا سانتا",
+            "member3_name": "ايمي جونز",
+            "member_bio": "في هذه الصفحة ستجد أحدث المعلومات عنا. شركتنا تتطور وتنمو باستمرار. نحن نقدم مجموعة واسعة من الخدمات. مهمتنا هي تقديم أفضل حل يساعد الجميع. إذا كنت ترغب في الاتصال بنا، يرجى ملء نموذج الاتصال على موقعنا. نتمنى لك يوما سعيدا!"
+        }
+    }
+}

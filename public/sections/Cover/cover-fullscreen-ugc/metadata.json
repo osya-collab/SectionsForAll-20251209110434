@@ -1,0 +1,13 @@
+{
+    "name": "UGC Full Screen",
+    "category": "Cover",
+    "description": "An immersive full-screen hero section with a blurred background image, split content layout, and dual call-to-action buttons. Perfect for showcasing user-generated content or creating an event-like atmosphere.",
+    "tags": ["cover", "hero", "full-screen", "background-image", "ugc", "event"],
+    "structure": ["background-image", "header", "paragraph", "cta-buttons"],
+    "complexity": "medium",
+    "use_cases": [
+        "Event Landing Pages",
+        "Community Websites",
+        "Product launches featuring user content"
+    ]
+}

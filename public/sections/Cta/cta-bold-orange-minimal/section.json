@@ -1,0 +1,17 @@
+{
+    "id": "cta-bold-orange-minimal",
+    "html": "<section class=\"cta-bold-orange-minimal\">\n  <div class=\"container\">\n    <h2>Don't Miss Out!</h2>\n    <p>Sign up now for exclusive offers and updates.</p>\n    <a href=\"#\" class=\"btn\">Sign Up Free</a>\n  </div>\n</section>",
+    "css": ".cta-bold-orange-minimal {\n  padding: 40px 20px;\n  background-color: #fafafa;\n  text-align: center;\n}\n.cta-bold-orange-minimal .container {\n  max-width: 650px;\n  margin: 0 auto;\n}\n.cta-bold-orange-minimal h2 {\n  font-size: 30px;\n  margin-bottom: 15px;\n  color: #d35400;\n  font-family: 'Helvetica Neue', sans-serif;\n}\n.cta-bold-orange-minimal p {\n  font-size: 16px;\n  margin-bottom: 30px;\n  color: #444;\n  line-height: 1.6;\n  font-family: 'Helvetica Neue', sans-serif;\n}\n.cta-bold-orange-minimal .btn {\n  display: inline-block;\n  padding: 12px 35px;\n  background-color: #e67e22;\n  color: #fff;\n  text-decoration: none;\n  font-size: 16px;\n  font-weight: bold;\n  border-radius: 50px;\n  transition: background-color 0.3s ease;\n  font-family: 'Helvetica Neue', sans-serif;\n}\n.cta-bold-orange-minimal .btn:hover {\n  background-color: #c0392b;\n}\n\n@media (min-width: 768px) {\n  .cta-bold-orange-minimal {\n    padding: 60px 20px;\n  }\n  .cta-bold-orange-minimal h2 {\n    font-size: 40px;\n  }\n  .cta-bold-orange-minimal p {\n    font-size: 18px;\n  }\n  .cta-bold-orange-minimal .btn {\n    font-size: 18px;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Fett Orange CTA (Minimal)"
+        },
+        "ar": {
+            "name": "دعوة برتقالية جريئة (بسيطة)"
+        },
+        "en": {
+            "name": "Bold Orange CTA (Minimal)"
+        }
+    }
+}

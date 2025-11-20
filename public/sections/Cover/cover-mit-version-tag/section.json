@@ -1,0 +1,31 @@
+{
+    "id": "cover-mit-version-tag",
+    "html": "\n<section class=\"cover-version-tag-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container cover-version-tag-container\">\n        <div class=\"image-side anim-fade-in-right\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=stylish+woman+walking+indoors\" alt=\"{{t:image_alt}}\">\n        </div>\n        <div class=\"content-side anim-fade-in-left\">\n            <span class=\"version-tag\">◆ {{t:version_tag}}</span>\n            <h1>{{t:title}}</h1>\n            <p>{{t:subtitle}}</p>\n            <a href=\"#\" class=\"btn btn-dark\">{{t:cta_button}}</a>\n        </div>\n    </div>\n</section>",
+    "css": "\n.cover-version-tag-section {\n    padding: 6rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.cover-version-tag-section .container {\n    width: 90%;\n    max-width: 1100px;\n    margin: 0 auto;\n}\n.cover-version-tag-container {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 3rem;\n    align-items: center;\n}\n@media (min-width: 992px) {\n    .cover-version-tag-container {\n        grid-template-columns: 1fr 1fr;\n    }\n}\n.cover-version-tag-section .image-side img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    border-radius: 1.5rem;\n    box-shadow: 0 10px 30px rgba(0,0,0,0.1);\n}\n.cover-version-tag-section .content-side {\n    padding-left: 2rem;\n}\n@media (max-width: 991px) {\n    .cover-version-tag-section .content-side {\n        padding-left: 0;\n        text-align: center;\n    }\n}\n.cover-version-tag-section .version-tag {\n    display: inline-block;\n    color: var(--color-primary, #FF6A00);\n    font-size: 0.8rem;\n    font-weight: 700;\n    margin-bottom: 1rem;\n    letter-spacing: 0.5px;\n}\n.cover-version-tag-section h1 {\n    font-size: clamp(2.5rem, 5vw, 3.5rem);\n    font-weight: 700;\n    line-height: 1.2;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1.5rem;\n}\n.cover-version-tag-section p {\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n    margin-bottom: 2rem;\n    max-width: 450px;\n}\n@media (max-width: 991px) {\n    .cover-version-tag-section p {\n       margin-left: auto;\n       margin-right: auto;\n    }\n}\n.cover-version-tag-section .btn-dark {\n    display: inline-block;\n    padding: 0.75rem 2rem;\n    background-color: var(--color-dark, #1F2937);\n    color: var(--color-light, #FFFFFF);\n    border-radius: 0.5rem;\n    font-weight: 600;\n    text-decoration: none;\n    transition: all 0.3s;\n    box-shadow: 0 4px 15px rgba(0,0,0,0.1);\n}\n",
+    "translations": {
+        "de": {
+            "name": "Cover mit Version Tag",
+            "image_alt": "Eine stilvolle Frau in einem beigen Mantel geht durch einen modernen, hellen Flur.",
+            "version_tag": "VERSION 2.0 IST VERFÜGBAR",
+            "title": "Bereit, wenn du den nächsten Schritt wagen möchtest",
+            "subtitle": "Du wirst vielleicht bemerken, dass dieser Text etwas früher umgebrochen wird als die Überschrift darüber, obwohl die Spalte breiter ist. Das gelingt mit einem kleinen Ziehpunkt, der erscheint, wenn du über den Text fährst.",
+            "cta_button": "Call-to-Action Button"
+        },
+        "en": {
+            "name": "Cover with Version Tag",
+            "image_alt": "A stylish woman in a beige coat walks through a modern, bright hallway.",
+            "version_tag": "VERSION 2.0 IS AVAILABLE",
+            "title": "Ready when you are to take the next step",
+            "subtitle": "You might notice that this text wraps a bit earlier than the headline above, even though the column is wider. This is achieved with a small drag handle that appears when you hover over the text.",
+            "cta_button": "Call-to-Action Button"
+        },
+        "ar": {
+            "name": "غلاف مع علامة الإصدار",
+            "image_alt": "امرأة أنيقة ترتدي معطفًا بيج وتسير في رواق حديث ومشرق.",
+            "version_tag": "الإصدار 2.0 متاح",
+            "title": "جاهز عندما تكون مستعدًا لاتخاذ الخطوة التالية",
+            "subtitle": "قد تلاحظ أن هذا النص يلتف في وقت أبكر قليلاً من العنوان أعلاه ، على الرغم من أن العمود أوسع. يتم تحقيق ذلك من خلال مقبض سحب صغير يظهر عند التمرير فوق النص.",
+            "cta_button": "زر الدعوة لاتخاذ إجراء"
+        }
+    }
+}

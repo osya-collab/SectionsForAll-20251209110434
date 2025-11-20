@@ -1,0 +1,13 @@
+{
+    "name": "Centered Statement",
+    "category": "About",
+    "description": "A minimalist section featuring a large, centered blockquote or statement. Ideal for impactful mission statements or key messages.",
+    "tags": ["about", "statement", "quote", "minimalist", "typography"],
+    "structure": ["header"],
+    "complexity": "simple",
+    "use_cases": [
+        "Mission statements",
+        "Key value propositions",
+        "Inspirational quotes"
+    ]
+}

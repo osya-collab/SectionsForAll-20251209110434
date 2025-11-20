@@ -1,0 +1,13 @@
+{
+    "name": "Travel Love Intro",
+    "category": "About",
+    "description": "A centered introductory section with a bold title featuring a gradient blur effect, perfect for creative or travel-themed websites.",
+    "tags": ["about", "introduction", "creative", "travel", "gradient"],
+    "structure": ["header", "paragraph"],
+    "complexity": "simple",
+    "use_cases": [
+        "Travel blogs",
+        "Creative portfolios",
+        "Brand introductions"
+    ]
+}

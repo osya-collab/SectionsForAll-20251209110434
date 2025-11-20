@@ -1,0 +1,6 @@
+{
+    "name": "FAQ Akkordeon mit Bild rechts",
+    "category": "FAQ",
+    "description": "An FAQ section with a two-column layout, featuring a numbered accordion on the left and a large image on the right.",
+    "tags": ["faq", "accordion", "image", "numbered", "split-layout"]
+}

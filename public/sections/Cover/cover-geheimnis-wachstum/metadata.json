@@ -1,0 +1,13 @@
+{
+    "name": "Geheimnis für Wachstum",
+    "category": "Cover",
+    "description": "A hero section with a strong headline and a three-column grid of feature cards, perfect for highlighting key benefits or services.",
+    "tags": ["cover", "hero", "features", "grid", "business", "clean"],
+    "structure": ["header", "cta-button", "feature-grid"],
+    "complexity": "simple",
+    "use_cases": [
+        "SaaS Landing Pages",
+        "Service-based Businesses",
+        "Startup Homepages"
+    ]
+}

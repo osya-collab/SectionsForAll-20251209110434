@@ -1,0 +1,34 @@
+{
+    "id": "cover-bild-collage",
+    "html": "\n<section class=\"cover-bild-collage-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container cover-bild-collage-container\">\n        <div class=\"content-side anim-fade-in-right\">\n            <h1>{{t:title}}</h1>\n            <p>{{t:subtitle}}</p>\n            <a href=\"#\" class=\"btn btn-dark\">{{t:cta_button}}</a>\n        </div>\n        <div class=\"image-collage-side anim-fade-in-left\">\n            <div class=\"collage-grid\">\n                <div class=\"collage-item large-item\">\n                    <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=business+meeting+boardroom\" alt=\"{{t:image1_alt}}\">\n                </div>\n                <div class=\"collage-item small-item-1\">\n                    <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=businesswoman+laptop+white+sofa\" alt=\"{{t:image2_alt}}\">\n                </div>\n                <div class=\"collage-item small-item-2\">\n                     <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=professionals+talking+office+lobby\" alt=\"{{t:image3_alt}}\">\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.cover-bild-collage-section {\n    padding: 6rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.cover-bild-collage-section .container {\n    width: 90%;\n    max-width: 1100px;\n    margin: 0 auto;\n}\n.cover-bild-collage-container {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 3rem;\n    align-items: center;\n}\n@media (min-width: 992px) {\n    .cover-bild-collage-container {\n        grid-template-columns: 1fr 1fr;\n    }\n}\n.cover-bild-collage-section .content-side {\n    max-width: 450px;\n}\n.cover-bild-collage-section h1 {\n    font-size: clamp(2.5rem, 5vw, 3.75rem);\n    font-weight: 700;\n    line-height: 1.2;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1.5rem;\n}\n.cover-bild-collage-section p {\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n    margin-bottom: 2rem;\n}\n.cover-bild-collage-section .btn-dark {\n    display: inline-block;\n    padding: 0.75rem 2rem;\n    background-color: var(--color-dark, #1F2937);\n    color: var(--color-light, #FFFFFF);\n    border-radius: 0.5rem;\n    font-weight: 600;\n    text-decoration: none;\n    transition: all 0.3s;\n    box-shadow: 0 4px 15px rgba(0,0,0,0.1);\n}\n.cover-bild-collage-section .collage-grid {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    grid-template-rows: auto auto;\n    gap: 1rem;\n}\n.cover-bild-collage-section .collage-item {\n    overflow: hidden;\n    border-radius: 1.5rem;\n}\n.cover-bild-collage-section .collage-item img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n}\n.cover-bild-collage-section .large-item {\n    grid-column: 1 / 3;\n    grid-row: 1 / 2;\n    aspect-ratio: 16 / 9;\n}\n.cover-bild-collage-section .small-item-1 {\n    grid-column: 1 / 2;\n    grid-row: 2 / 3;\n    aspect-ratio: 1 / 1;\n}\n.cover-bild-collage-section .small-item-2 {\n    grid-column: 2 / 3;\n    grid-row: 2 / 3;\n    aspect-ratio: 1 / 1;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Cover Bild Collage",
+            "title": "Starte noch heute deine Karriere als Finanzberater",
+            "subtitle": "Dir fällt vielleicht auf, dass dieser Text früher umbricht als die Überschrift, obwohl die Spalte breiter ist. Das liegt an einem kleinen Ziehpunkt, der erscheint, wenn du mit der Maus darüberfährst.",
+            "cta_button": "Call-to-Action Button",
+            "image1_alt": "Geschäftstreffen in einem hellen Sitzungssaal.",
+            "image2_alt": "Geschäftsfrau arbeitet am Laptop auf einem weißen Sofa.",
+            "image3_alt": "Zwei Geschäftsleute im Gespräch in einer modernen Bürohalle."
+        },
+        "en": {
+            "name": "Cover Image Collage",
+            "title": "Start your career as a financial advisor today",
+            "subtitle": "You might notice that this text wraps earlier than the headline, even though the column is wider. This is due to a small drag handle that appears when you hover over the text.",
+            "cta_button": "Call-to-Action Button",
+            "image1_alt": "Business meeting in a bright boardroom.",
+            "image2_alt": "Businesswoman working on a laptop on a white sofa.",
+            "image3_alt": "Two business people talking in a modern office lobby."
+        },
+        "ar": {
+            "name": "غلاف صورة مجمعة",
+            "title": "ابدأ حياتك المهنية كمستشار مالي اليوم",
+            "subtitle": "قد تلاحظ أن هذا النص يلتف قبل العنوان، على الرغم من أن العمود أوسع. هذا بسبب مقبض سحب صغير يظهر عند التمرير فوق النص.",
+            "cta_button": "زر الدعوة لاتخاذ إجراء",
+            "image1_alt": "اجتماع عمل في قاعة اجتماعات مضيئة.",
+            "image2_alt": "سيدة أعمال تعمل على جهاز كمبيوتر محمول على أريكة بيضاء.",
+            "image3_alt": "شخصان من رجال الأعمال يتحدثان في بهو مكتب حديث."
+        }
+    }
+}

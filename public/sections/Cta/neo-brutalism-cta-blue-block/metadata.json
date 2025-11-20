@@ -1,0 +1,37 @@
+{
+    "name": "Neo-Brutalism CTA - Blue Block",
+    "category": "Cta",
+    "description": "A solid electric blue block CTA section with stark white, bold typography and a white button outlined in black. Emphasizes directness and impact through its full-color background.",
+    "tags": [
+        "cta",
+        "neo-brutalism",
+        "blue block",
+        "bold",
+        "modern",
+        "impactful"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "promotional offers",
+        "service sign-ups",
+        "urgent calls to action"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#007bff",
+            "#ffffff",
+            "#000000"
+        ],
+        "fonts": [
+            "sans-serif"
+        ],
+        "visual_identity": "Solid electric blue block with high contrast white text and black-outlined button."
+    }
+}

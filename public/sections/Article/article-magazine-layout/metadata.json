@@ -1,0 +1,13 @@
+{
+    "name": "Magazine Layout",
+    "category": "Article",
+    "description": "A classic, editorial-style layout that presents text in multiple columns, similar to a physical magazine or newspaper.",
+    "tags": ["article", "magazine", "columns", "editorial", "typography"],
+    "structure": ["header", "multi-column-text"],
+    "complexity": "medium",
+    "use_cases": [
+        "Digital magazines",
+        "Newspaper-style articles",
+        "Text-heavy content"
+    ]
+}

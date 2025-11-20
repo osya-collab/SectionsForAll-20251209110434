@@ -1,0 +1,14 @@
+
+{
+    "name": "Why Trust Us Checklist",
+    "category": "Trust",
+    "description": "A split layout with an image on one side and a list of trust-building points with checkmark icons on the other.",
+    "tags": ["checklist", "features", "trust", "split-layout", "corporate"],
+    "structure": ["image", "header", "list"],
+    "complexity": "simple",
+    "use_cases": [
+        "Why Choose Us sections",
+        "Service benefit summaries",
+        "Landing pages"
+    ]
+}

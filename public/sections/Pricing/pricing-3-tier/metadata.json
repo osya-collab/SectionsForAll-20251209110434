@@ -1,0 +1,14 @@
+
+{
+    "name": "3-Tier Pricing Table",
+    "category": "Pricing",
+    "description": "A classic 3-tier pricing table to display different subscription plans or product versions. Includes a 'Most Popular' highlight.",
+    "tags": ["pricing", "table", "plans", "saas", "subscription", "business"],
+    "structure": ["header", "grid", "pricing-card", "button"],
+    "complexity": "medium",
+    "use_cases": [
+        "SaaS pricing pages",
+        "Service plan comparisons",
+        "Membership level displays"
+    ]
+}

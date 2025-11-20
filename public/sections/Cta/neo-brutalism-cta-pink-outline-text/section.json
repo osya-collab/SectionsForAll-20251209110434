@@ -1,0 +1,17 @@
+{
+    "id": "neo-brutalism-cta-pink-outline-text",
+    "html": "<section class=\"cta-section-pink-outline-text\">\n        <div class=\"cta-content\">\n            <h2>Make Your Mark</h2>\n            <p>The time is now to distinguish yourself. Click below to learn how we can help you stand out.</p>\n            <a href=\"#\" class=\"cta-button\">Learn More</a>\n        </div>\n    </section>",
+    "css": ".cta-section-pink-outline-text {\n            padding: 80px 20px;\n            background-color: #000000;\n            color: #ffffff;\n            text-align: center;\n        }\n        .cta-section-pink-outline-text .cta-content {\n            max-width: 700px;\n            margin: 0 auto;\n        }\n        .cta-section-pink-outline-text h2 {\n            font-size: 3.5rem;\n            margin-bottom: 20px;\n            line-height: 1.1;\n            font-weight: 900;\n            color: #ffffff;\n            -webkit-text-stroke: 2px #ff00ff;\n            letter-spacing: -1px;\n        }\n        .cta-section-pink-outline-text p {\n            font-size: 1.1rem;\n            margin-bottom: 40px;\n            line-height: 1.6;\n            color: #cccccc;\n        }\n        .cta-section-pink-outline-text .cta-button {\n            display: inline-block;\n            padding: 15px 40px;\n            background-color: #ff00ff;\n            color: #ffffff;\n            text-decoration: none;\n            font-size: 1.2rem;\n            font-weight: 900;\n            border: 3px solid #ff00ff;\n            transition: all 0.3s ease;\n            text-transform: uppercase;\n        }\n        .cta-section-pink-outline-text .cta-button:hover {\n            background-color: #ffffff;\n            color: #ff00ff;\n            border-color: #ffffff;\n        }\n        @media (max-width: 768px) {\n            .cta-section-pink-outline-text h2 {\n                font-size: 3rem;\n                -webkit-text-stroke-width: 1.5px;\n            }\n            .cta-section-pink-outline-text p {\n                font-size: 1.1rem;\n            }\n            .cta-section-pink-outline-text .cta-button {\n                padding: 12px 30px;\n                font-size: 1.1rem;\n            }\n        }\n        @media (max-width: 480px) {\n            .cta-section-pink-outline-text {\n                padding: 60px 15px;\n            }\n            .cta-section-pink-outline-text h2 {\n                font-size: 2.5rem;\n                -webkit-text-stroke-width: 1px;\n                letter-spacing: -0.5px;\n            }\n            .cta-section-pink-outline-text p {\n                font-size: 1rem;\n            }\n            .cta-section-pink-outline-text .cta-button {\n                padding: 10px 25px;\n                font-size: 1rem;\n            }\n        }",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Neo-Brutalismus CTA - Pinke Umrisslinie Text"
+        },
+        "ar": {
+            "name": "قسم دعوة للعمل بأسلوب نيو-بروتاليزم - نص بحدود وردية"
+        },
+        "en": {
+            "name": "Neo-Brutalism CTA - Pink Outline Text"
+        }
+    }
+}

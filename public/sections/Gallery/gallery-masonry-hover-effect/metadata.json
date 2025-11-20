@@ -1,0 +1,26 @@
+{
+    "name": "Masonry Gallery with Hover Effects",
+    "category": "Gallery",
+    "description": "A responsive masonry-style gallery where images have a subtle zoom and overlay effect on hover, ideal for portfolios or photo collections. It includes a clear headline, a descriptive subheading, and a call-to-action button.",
+    "tags": [
+        "masonry",
+        "gallery",
+        "portfolio",
+        "image grid",
+        "hover effect"
+    ],
+    "structure": [
+        "header",
+        "h1",
+        "p",
+        "button",
+        "div (grid container)",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Artist portfolios",
+        "Photography showcases",
+        "Product galleries"
+    ]
+}

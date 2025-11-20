@@ -1,0 +1,38 @@
+{
+    "name": "Electric Blue Neo-Brutalism CTA",
+    "category": "Cta",
+    "description": "A striking Neo-Brutalism call to action on a white background, featuring bold black text and a vibrant electric blue button that reverses color on hover.",
+    "tags": [
+        "cta",
+        "neo-brutalism",
+        "bold",
+        "high-contrast",
+        "blue",
+        "white"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "button"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "sign-ups",
+        "community joining",
+        "promotions"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#FFFFFF",
+            "#000000",
+            "#00FFFF",
+            "#333333"
+        ],
+        "fonts": [
+            "sans-serif"
+        ],
+        "visual_identity": "High-contrast Neo-Brutalism with electric blue on white."
+    }
+}

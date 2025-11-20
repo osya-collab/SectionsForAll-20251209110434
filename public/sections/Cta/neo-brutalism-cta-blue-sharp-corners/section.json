@@ -1,0 +1,17 @@
+{
+    "id": "neo-brutalism-cta-blue-sharp-corners",
+    "html": "<section class=\"cta-section-blue-sharp-corners\">\n        <div class=\"cta-content\">\n            <h2>The Choice is Yours</h2>\n            <p>Empower your decisions with the right tools. Click below to explore our comprehensive suite of services.</p>\n            <a href=\"#\" class=\"cta-button\">Explore Services</a>\n        </div>\n    </section>",
+    "css": ".cta-section-blue-sharp-corners {\n            padding: 90px 20px;\n            background-color: #007bff;\n            color: #ffffff;\n            text-align: center;\n            border-radius: 0;\n        }\n        .cta-section-blue-sharp-corners .cta-content {\n            max-width: 700px;\n            margin: 0 auto;\n        }\n        .cta-section-blue-sharp-corners h2 {\n            font-size: 3.2rem;\n            margin-bottom: 20px;\n            line-height: 1.2;\n            font-weight: 900;\n        }\n        .cta-section-blue-sharp-corners p {\n            font-size: 1.1rem;\n            margin-bottom: 40px;\n            line-height: 1.6;\n        }\n        .cta-section-blue-sharp-corners .cta-button {\n            display: inline-block;\n            padding: 15px 40px;\n            background-color: #ffffff;\n            color: #007bff;\n            text-decoration: none;\n            font-size: 1.2rem;\n            font-weight: 900;\n            border: 3px solid #000000;\n            transition: all 0.3s ease;\n            text-transform: uppercase;\n            box-shadow: 5px 5px 0px #000000;\n        }\n        .cta-section-blue-sharp-corners .cta-button:hover {\n            background-color: #000000;\n            color: #ffffff;\n            border-color: #ffffff;\n            box-shadow: 5px 5px 0px #ffffff;\n        }\n        @media (max-width: 768px) {\n            .cta-section-blue-sharp-corners {\n                padding: 70px 15px;\n            }\n            .cta-section-blue-sharp-corners h2 {\n                font-size: 2.8rem;\n            }\n            .cta-section-blue-sharp-corners p {\n                font-size: 1.1rem;\n            }\n            .cta-section-blue-sharp-corners .cta-button {\n                padding: 12px 30px;\n                font-size: 1.1rem;\n                box-shadow: 4px 4px 0px #000000;\n            }\n            .cta-section-blue-sharp-corners .cta-button:hover {\n                box-shadow: 4px 4px 0px #ffffff;\n            }\n        }\n        @media (max-width: 480px) {\n            .cta-section-blue-sharp-corners {\n                padding: 50px 10px;\n            }\n            .cta-section-blue-sharp-corners h2 {\n                font-size: 2.3rem;\n            }\n            .cta-section-blue-sharp-corners p {\n                font-size: 1rem;\n            }\n            .cta-section-blue-sharp-corners .cta-button {\n                padding: 10px 25px;\n                font-size: 1rem;\n                box-shadow: 3px 3px 0px #000000;\n            }\n            .cta-section-blue-sharp-corners .cta-button:hover {\n                box-shadow: 3px 3px 0px #ffffff;\n            }\n        }",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Neo-Brutalismus CTA - Blaue Scharfe Ecken"
+        },
+        "ar": {
+            "name": "قسم دعوة للعمل بأسلوب نيو-بروتاليزم - زوايا زرقاء حادة"
+        },
+        "en": {
+            "name": "Neo-Brutalism CTA - Blue Sharp Corners"
+        }
+    }
+}

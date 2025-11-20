@@ -1,0 +1,13 @@
+{
+    "name": "Our Values Grid",
+    "category": "About",
+    "description": "A clean, three-column grid to display core company values, each with an icon, title, and brief description.",
+    "tags": ["about", "values", "grid", "corporate", "mission"],
+    "structure": ["header", "grid", "value-card"],
+    "complexity": "simple",
+    "use_cases": [
+        "Company culture pages",
+        "About Us sections",
+        "Mission and values statements"
+    ]
+}

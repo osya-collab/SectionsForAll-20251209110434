@@ -1,0 +1,14 @@
+{
+    "name": "Studio Header Style Nav",
+    "category": "Menu",
+    "description": "A modern, dark-themed navigation bar inspired by studio or creative agency websites. Features clear links on the left and distinct sign-in/sign-up call-to-action buttons on the right. Perfect for SaaS platforms, portfolios, and tech startups.",
+    "tags": ["modern", "dark", "header", "cta", "responsive", "saas", "agency", "tech"],
+    "structure": ["logo", "nav-links", "auth-buttons"],
+    "complexity": "medium",
+    "use_cases": [
+        "SaaS Websites",
+        "Creative Agencies",
+        "Tech Startups",
+        "Digital Portfolios"
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "id": "cover-erfolgsplan-formular",
+    "html": "\n<section class=\"cover-erfolgsplan-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container cover-erfolgsplan-container\">\n        <div class=\"content-side anim-fade-in-right\">\n            <h1>{{t:title}}</h1>\n            <p>{{t:subtitle}}</p>\n            <form class=\"email-form\">\n                <input type=\"email\" placeholder=\"{{t:form_placeholder}}\">\n                <button type=\"submit\" class=\"btn btn-dark\">{{t:cta_button}}</button>\n            </form>\n            <div class=\"features-list\">\n                <div class=\"feature-item\">\n                    <i class=\"fa-solid fa-check-circle\"></i>\n                    <span>{{t:feature1}}</span>\n                </div>\n                <div class=\"feature-item\">\n                    <i class=\"fa-solid fa-check-circle\"></i>\n                    <span>{{t:feature2}}</span>\n                </div>\n                <div class=\"feature-item\">\n                    <i class=\"fa-solid fa-check-circle\"></i>\n                    <span>{{t:feature3}}</span>\n                </div>\n            </div>\n        </div>\n        <div class=\"image-side anim-fade-in-left\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=abstract+technology+background\" alt=\"{{t:image_alt}}\">\n        </div>\n    </div>\n</section>",
+    "css": "\n.cover-erfolgsplan-section {\n    padding: 6rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.cover-erfolgsplan-section .container {\n    width: 90%;\n    max-width: 1100px;\n    margin: 0 auto;\n}\n.cover-erfolgsplan-container {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 3rem;\n    align-items: center;\n}\n@media (min-width: 992px) {\n    .cover-erfolgsplan-container {\n        grid-template-columns: 1fr 1fr;\n    }\n}\n.cover-erfolgsplan-section h1 {\n    font-size: clamp(2.5rem, 5vw, 3.5rem);\n    font-weight: 700;\n    line-height: 1.2;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1.5rem;\n}\n.cover-erfolgsplan-section p {\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n    margin-bottom: 2rem;\n}\n.cover-erfolgsplan-section .email-form {\n    display: flex;\n    flex-direction: column;\n    gap: 1rem;\n    margin-bottom: 2rem;\n}\n@media (min-width: 576px) {\n    .cover-erfolgsplan-section .email-form {\n        flex-direction: row;\n    }\n}\n.cover-erfolgsplan-section .email-form input {\n    flex-grow: 1;\n    padding: 0.75rem 1rem;\n    border: 1px solid #d1d5db; /* gray-300 */\n    border-radius: 0.5rem;\n    font-size: 1rem;\n}\n.cover-erfolgsplan-section .btn-dark {\n    padding: 0.75rem 1.5rem;\n    background-color: var(--color-dark, #1F2937);\n    color: var(--color-light, #FFFFFF);\n    border: none;\n    border-radius: 0.5rem;\n    font-weight: 600;\n    cursor: pointer;\n    transition: background-color 0.3s;\n}\n.cover-erfolgsplan-section .features-list {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 1.5rem;\n}\n.cover-erfolgsplan-section .feature-item {\n    display: flex;\n    align-items: center;\n    gap: 0.5rem;\n    color: var(--color-secondary, #6B7280);\n    font-size: 0.9rem;\n}\n.cover-erfolgsplan-section .feature-item i {\n    color: var(--color-dark, #1F2937);\n}\n.cover-erfolgsplan-section .image-side img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    border-radius: 1.5rem;\n    box-shadow: 0 10px 30px rgba(0,0,0,0.1);\n}\n",
+    "translations": {
+        "de": {
+            "name": "Erfolgsplan Formular",
+            "title": "Entfalte dein Wachstum: Dein Erfolgsplan",
+            "subtitle": "Dies ist ein Formularbereich mit einem E-Mail-Eingabefeld. Richte mehrere Schritte ein oder konfiguriere den „Dankeschön“-Schritt, indem Du oben auf „Formular bearbeiten“ klickst.",
+            "form_placeholder": "Deine Email",
+            "cta_button": "Call-to-Action button",
+            "feature1": "24/7 Kundendienst",
+            "feature2": "Garantierte Qualität",
+            "feature3": "5.000 Kunden",
+            "image_alt": "Abstraktes Bild eines schwebenden Buches in einer modernen Umgebung"
+        },
+        "en": {
+            "name": "Success Plan Form",
+            "title": "Unlock Your Growth: Your Success Plan",
+            "subtitle": "This is a form area with an email input field. Set up multiple steps or configure the 'thank you' step by clicking 'Edit Form' above.",
+            "form_placeholder": "Your Email",
+            "cta_button": "Call-to-Action button",
+            "feature1": "24/7 Customer Service",
+            "feature2": "Guaranteed Quality",
+            "feature3": "5,000 Customers",
+            "image_alt": "Abstract image of a floating book in a modern setting"
+        },
+        "ar": {
+            "name": "نموذج خطة النجاح",
+            "title": "أطلق العنان لنموك: خطة نجاحك",
+            "subtitle": "هذه منطقة نموذج بها حقل إدخال بريد إلكتروني. قم بإعداد خطوات متعددة أو تكوين خطوة 'الشكر' بالنقر فوق 'تحرير النموذج' أعلاه.",
+            "form_placeholder": "بريدك الإلكتروني",
+            "cta_button": "زر الدعوة لاتخاذ إجراء",
+            "feature1": "خدمة عملاء 24/7",
+            "feature2": "جودة مضمونة",
+            "feature3": "5000 عميل",
+            "image_alt": "صورة مجردة لكتاب عائم في بيئة حديثة"
+        }
+    }
+}

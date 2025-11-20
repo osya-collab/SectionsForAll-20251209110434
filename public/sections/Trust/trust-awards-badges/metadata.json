@@ -1,0 +1,14 @@
+
+{
+    "name": "Awards & Badges",
+    "category": "Trust",
+    "description": "A grid section to proudly display awards, certifications, or partnership badges, enhancing credibility.",
+    "tags": ["awards", "certifications", "badges", "social proof", "corporate"],
+    "structure": ["header", "grid", "badge-cards"],
+    "complexity": "simple",
+    "use_cases": [
+        "Corporate 'About Us' pages",
+        "Agency websites",
+        "Professional portfolios"
+    ]
+}

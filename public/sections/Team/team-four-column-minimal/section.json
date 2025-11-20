@@ -1,0 +1,46 @@
+{
+    "id": "team-four-column-minimal",
+    "html": "\n<section class=\"team-four-col-minimal-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"section-header\">\n            <h2 class=\"anim-fade-in-up\">{{t:title}}</h2>\n            <p class=\"anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n        </div>\n        <div class=\"team-grid\">\n            <div class=\"team-member anim-fade-in-up anim-delay-2\">\n                <img src=\"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887\" alt=\"{{t:member1_name}}\">\n                <h3>{{t:member1_name}}</h3>\n                <p>{{t:member1_role}}</p>\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-3\">\n                <img src=\"https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=1887\" alt=\"{{t:member2_name}}\">\n                <h3>{{t:member2_name}}</h3>\n                <p>{{t:member2_role}}</p>\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-4\">\n                <img src=\"https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887\" alt=\"{{t:member3_name}}\">\n                <h3>{{t:member3_name}}</h3>\n                <p>{{t:member3_role}}</p>\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-5\">\n                <img src=\"https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961\" alt=\"{{t:member4_name}}\">\n                <h3>{{t:member4_name}}</h3>\n                <p>{{t:member4_role}}</p>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-four-col-minimal-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.team-four-col-minimal-section .container {\n    width: 90%;\n    max-width: 1100px;\n    margin: 0 auto;\n}\n.team-four-col-minimal-section .section-header {\n    text-align: center;\n    max-width: 700px;\n    margin: 0 auto 4rem;\n}\n.team-four-col-minimal-section h2 {\n    font-size: 2.5rem;\n    font-weight: 700;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1rem;\n}\n.team-four-col-minimal-section .section-header p {\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n}\n.team-four-col-minimal-section .team-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n    gap: 2rem;\n    justify-items: center;\n}\n.team-four-col-minimal-section .team-member {\n    text-align: center;\n}\n.team-four-col-minimal-section .team-member img {\n    width: 100%;\n    max-width: 220px;\n    height: auto;\n    aspect-ratio: 1/1;\n    border-radius: 1.5rem;\n    object-fit: cover;\n    margin: 0 auto 1rem;\n}\n.team-four-col-minimal-section .team-member h3 {\n    font-size: 1.1rem;\n    font-weight: 600;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 0.25rem;\n}\n.team-four-col-minimal-section .team-member p {\n    font-size: 0.9rem;\n    color: var(--color-secondary, #6B7280);\n}\n",
+    "translations": {
+        "de": {
+            "name": "Vierspaltig Minimal",
+            "title": "Lerne unser Team kennen",
+            "subtitle": "Eine klare und überzeugende Beschreibung deiner Dienstleistungen sorgt dafür, dass Besucher nicht sofort wieder abspringen, nachdem sie deine Seite geöffnet haben.",
+            "member1_name": "Berndt Becker",
+            "member1_role": "Rechtsberater",
+            "member2_name": "Achim Braun",
+            "member2_role": "Geschäftsführer & Gründer",
+            "member3_name": "Katharina Koch",
+            "member3_role": "Finanzen & Buchhaltung",
+            "member4_name": "Oliver Santana",
+            "member4_role": "Berater"
+        },
+        "en": {
+            "name": "Four Column Minimal",
+            "title": "Meet our team",
+            "subtitle": "A clear and compelling description of your services ensures that visitors don't leave immediately after opening your page.",
+            "member1_name": "Berndt Becker",
+            "member1_role": "Legal consultant",
+            "member2_name": "Achim Braun",
+            "member2_role": "CEO & Founder",
+            "member3_name": "Katharina Koch",
+            "member3_role": "Finance & Accounting",
+            "member4_name": "Oliver Santana",
+            "member4_role": "Advisor"
+        },
+        "ar": {
+            "name": "أربعة أعمدة بسيطة",
+            "title": "تعرف على فريقنا",
+            "subtitle": "يضمن الوصف الواضح والمقنع لخدماتك عدم مغادرة الزوار فور فتح صفحتك.",
+            "member1_name": "بيرندت بيكر",
+            "member1_role": "مستشار قانوني",
+            "member2_name": "أخيم براون",
+            "member2_role": "الرئيس التنفيذي والمؤسس",
+            "member3_name": "كاتارينا كوخ",
+            "member3_role": "المالية والمحاسبة",
+            "member4_name": "أوليفر سانتانا",
+            "member4_role": "مستشار"
+        }
+    }
+}

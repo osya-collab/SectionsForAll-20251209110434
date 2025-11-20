@@ -1,0 +1,25 @@
+{
+    "id": "about-text-image-overlap",
+    "html": "\n<section class=\"overlap-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container overlap-container\">\n        <div class=\"overlap-text-box anim-fade-in-up\">\n            <h2>{{t:title}}</h2>\n            <p>{{t:text}}</p>\n        </div>\n        <div class=\"overlap-image anim-fade-in\">\n            <img src=\"https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070\" alt=\"{{t:image_alt}}\">\n        </div>\n    </div>\n</section>",
+    "css": "\n.overlap-section .container {\n  width: 90%;\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 1rem;\n}\n.overlap-section { padding: 4rem 0; background-color: var(--color-light, #FFFFFF); }\n.overlap-container { position: relative; max-width: 1000px; margin: 0 auto; display: flex; justify-content: flex-start; align-items: center; min-height: 500px; }\n.overlap-image { position: absolute; top: 0; right: 0; width: 60%; height: 100%; border-radius: 12px; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.15); }\n.overlap-image img { width: 100%; height: 100%; object-fit: cover; }\n.overlap-text-box { position: relative; z-index: 1; width: 55%; background: var(--color-white, #fff); padding: 3rem; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }\n@media (max-width: 768px) {\n    .overlap-container { flex-direction: column; min-height: auto; }\n    .overlap-image { position: relative; width: 100%; height: 300px; margin-bottom: -50px; }\n    .overlap-text-box { width: 90%; }\n}\n",
+    "translations": {
+        "de": {
+            "name": "Text-Bild-Überlappung",
+            "title": "Die Zukunft gemeinsam gestalten",
+            "text": "Unsere Philosophie ist einfach: Arbeit schaffen, die zählt. Wir verbinden innovative Strategie mit schönem Design, um digitale Erlebnisse zu schaffen, die nicht nur effektiv, sondern auch unvergesslich sind.",
+            "image_alt": "Kreatives Team im Gespräch"
+        },
+        "en": {
+            "name": "Text Image Overlap",
+            "title": "Designing the Future, Together",
+            "text": "Our philosophy is simple: create work that matters. We merge innovative strategy with beautiful design to build digital experiences that are not only effective but also memorable.",
+            "image_alt": "Creative team discussion"
+        },
+        "ar": {
+            "name": "تداخل النص والصورة",
+            "title": "تصميم المستقبل، معًا",
+            "text": "فلسفتنا بسيطة: خلق عمل مهم. نحن ندمج الاستراتيجية المبتكرة مع التصميم الجميل لبناء تجارب رقمية ليست فعالة فحسب، بل لا تُنسى أيضًا.",
+            "image_alt": "فريق إبداعي في نقاش"
+        }
+    }
+}

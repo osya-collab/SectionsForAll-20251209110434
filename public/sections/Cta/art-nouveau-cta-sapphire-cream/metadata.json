@@ -1,0 +1,40 @@
+{
+    "name": "Art Nouveau CTA - Sapphire & Cream",
+    "category": "Cta",
+    "description": "A captivating CTA section featuring a deep sapphire blue background, cream text, and muted gold accents, with an art nouveau floral image.",
+    "tags": [
+        "cta",
+        "art nouveau",
+        "sapphire",
+        "cream",
+        "floral",
+        "elegant"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "img",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "product showcase",
+        "event promotion",
+        "membership signup"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#0f4c5c",
+            "#f8f8f8",
+            "#e0d6b2"
+        ],
+        "fonts": [
+            "Garamond"
+        ],
+        "visual_identity": "Elegant Art Nouveau with sapphire, cream, and muted gold, featuring organic floral patterns."
+    }
+}

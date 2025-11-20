@@ -1,0 +1,41 @@
+{
+    "name": "Biomorphic Art Nouveau CTA - Cream Blossom",
+    "category": "Cta",
+    "description": "A soft and inviting CTA section with a cream and muted brown palette, inspired by Art Nouveau floral motifs. It encourages users to find inspiration and sign up for a monthly dose of curated content.",
+    "tags": [
+        "CTA",
+        "Art Nouveau",
+        "Cream",
+        "Floral",
+        "Inspiration",
+        "Soft",
+        "Elegant",
+        "Signup"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "h2",
+        "p",
+        "button"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Inspiration Content Signup",
+        "Creative Newsletter",
+        "Artistic Blog Promotion",
+        "Resource Hub Access"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f5f5dc",
+            "#3e2723",
+            "#8d6e63"
+        ],
+        "fonts": [
+            "Lora"
+        ],
+        "visual_identity": "Soft Art Nouveau with cream and earthy tones, featuring delicate floral patterns."
+    }
+}

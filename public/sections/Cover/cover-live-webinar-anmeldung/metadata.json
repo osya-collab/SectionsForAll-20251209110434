@@ -1,0 +1,9 @@
+{
+    "name": "Live Webinar Anmeldung",
+    "category": "Cover",
+    "description": "A lead-generation cover with a form and a large image, perfect for webinar registrations.",
+    "tags": ["cover", "hero", "webinar", "form", "lead-gen"],
+    "structure": ["header", "form", "image"],
+    "complexity": "medium",
+    "use_cases": ["Webinar Registrations", "Event Sign-ups"]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Article with Sidebar",
+    "category": "Article",
+    "description": "A traditional blog layout featuring a main content area for the article and a sidebar for supplementary information like recent posts or advertisements.",
+    "tags": ["article", "blog", "sidebar", "layout", "content"],
+    "structure": ["main-content", "sidebar"],
+    "complexity": "medium",
+    "use_cases": [
+        "Blogs",
+        "News websites",
+        "Documentation pages"
+    ]
+}

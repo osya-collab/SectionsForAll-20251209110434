@@ -1,0 +1,28 @@
+{
+    "id": "about-numbered-cards",
+    "html": "\n<section class=\"numbered-cards-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"card-grid\">\n            <div class=\"card anim-fade-in-up\">\n                <span class=\"number\">01</span>\n                <hr>\n                <h3>{{t:card1_title}}</h3>\n                <hr>\n                <p>{{t:card_text}}</p>\n            </div>\n            <div class=\"card anim-fade-in-up\" style=\"animation-delay: 0.2s;\">\n                <span class=\"number\">02</span>\n                <hr>\n                <h3>{{t:card2_title}}</h3>\n                <hr>\n                <p>{{t:card_text}}</p>\n            </div>\n            <div class=\"card anim-fade-in-up\" style=\"animation-delay: 0.4s;\">\n                <span class=\"number\">03</span>\n                <hr>\n                <h3>{{t:card3_title}}</h3>\n                <hr>\n                <p>{{t:card_text}}</p>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.numbered-cards-section { padding: 5rem 0; background-color: var(--color-bg, #f9fafb); }\n.numbered-cards-section .container { width: 90%; max-width: 1100px; margin: 0 auto; }\n.numbered-cards-section .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }\n.numbered-cards-section .card {\n    background-color: var(--color-light);\n    border: 1px solid var(--color-border, #e5e7eb);\n    border-radius: 12px;\n    padding: 2rem;\n}\n.numbered-cards-section .number {\n    font-size: 3rem;\n    font-weight: 700;\n    color: var(--color-dark);\n    display: block;\n}\n.numbered-cards-section hr {\n    border: 0;\n    height: 1px;\n    background-color: var(--color-border, #e5e7eb);\n    margin: 1rem 0;\n}\n.numbered-cards-section h3 {\n    font-size: 1.25rem;\n    color: var(--color-dark);\n}\n.numbered-cards-section p {\n    color: var(--color-secondary);\n    font-size: 0.9rem;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Nummerierte Missionskarten",
+            "card1_title": "Unsere Mission",
+            "card_text": "Dieser Text sollte durch Informationen über Sie und Ihr Unternehmen ersetzt werden.",
+            "card2_title": "Originale Projekte",
+            "card3_title": "Vernetzung"
+        },
+        "en": {
+            "name": "Numbered Mission Cards",
+            "card1_title": "Our Mission",
+            "card_text": "This text should be replaced with information about you and your company.",
+            "card2_title": "Original Projects",
+            "card3_title": "Networking"
+        },
+        "ar": {
+            "name": "بطاقات المهمة المرقمة",
+            "card1_title": "مهمتنا",
+            "card_text": "يجب استبدال هذا النص بمعلومات عنك وعن شركتك.",
+            "card2_title": "مشاريع أصلية",
+            "card3_title": "التواصل"
+        }
+    }
+}

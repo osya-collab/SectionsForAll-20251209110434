@@ -1,0 +1,22 @@
+{
+    "id": "testimonial-star-rated-tiles",
+    "html": "\n<section class=\"star-tiles-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"tile\"> <div class=\"stars\">★★★★★</div> <p>\"{{t:quote}}\"</p> <cite>{{t:author}}</cite> </div>\n        <div class=\"tile\"> <div class=\"stars\">★★★★★</div> <p>\"{{t:quote}}\"</p> <cite>{{t:author}}</cite> </div>\n        <div class=\"tile\"> <div class=\"stars\">★★★★☆</div> <p>\"{{t:quote}}\"</p> <cite>{{t:author}}</cite> </div>\n    </div>\n</section>",
+    "css": "\n.star-tiles-section { padding: 4rem 0; position: relative; width: 100%; box-sizing: border-box; }\n.star-tiles-section * { box-sizing: border-box; }\n.star-tiles-section .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; max-width: 1000px; margin: 0 auto; padding: 0 1rem; }\n.star-tiles-section .tile { background: #f9fafb; padding: 1.5rem; border-radius: 0.75rem; border: 1px solid #e5e7eb; }\n.star-tiles-section .stars { color: #f59e0b; margin-bottom: 0.5rem; }\n.star-tiles-section .tile p { font-style: italic; margin-bottom: 1rem; color: var(--color-dark, #111827); }\n.star-tiles-section .tile cite { font-style: normal; font-weight: 600; font-size: 0.9rem; color: var(--color-secondary, #6b7280); }\n",
+    "translations": {
+        "en": {
+            "name": "Star-Rated Tiles",
+            "quote": "Excellent service, highly recommend!",
+            "author": "Reviewer"
+        },
+        "de": {
+            "name": "Kacheln mit Sternebewertung",
+            "quote": "Exzellenter Service, sehr zu empfehlen!",
+            "author": "Bewerter"
+        },
+        "ar": {
+            "name": "بلاطات بتقييم النجوم",
+            "quote": "خدمة ممتازة، أوصي به بشدة!",
+            "author": "مراجع"
+        }
+    }
+}

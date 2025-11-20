@@ -1,0 +1,7 @@
+
+{
+    "id": "nav-centered-tagline",
+    "html": "\n<nav class=\"nav-centered-tagline\" data-ai-id=\"element-placeholder\">\n    <div class=\"nav-container\">\n        <a href=\"#\" class=\"logo\">{{t:logo}}</a>\n        <p class=\"tagline\">{{t:tagline}}</p>\n    </div>\n</nav>",
+    "css": "\n.nav-centered-tagline { font-family: sans-serif; background-color: var(--color-light, #FFFFFF); padding: 2rem 0; border-bottom: 1px solid #e5e7eb; }\n.nav-centered-tagline .nav-container { text-align: center; max-width: 1200px; margin: 0 auto; padding: 0 1rem; }\n.nav-centered-tagline .logo { font-size: 2rem; font-weight: 800; color: var(--color-dark, #111827); text-decoration: none; display: block; }\n.nav-centered-tagline .tagline { font-size: 0.9rem; color: var(--color-secondary, #6B7280); margin-top: 0.25rem; letter-spacing: 0.5px; }\n",
+    "translations": { "en": { "logo": "VISION", "tagline": "Creative Digital Studio" }, "de": { "logo": "VISION", "tagline": "Kreatives Digitalstudio" }, "ar": { "logo": "رؤية", "tagline": "استوديو رقمي إبداعي" } }
+}

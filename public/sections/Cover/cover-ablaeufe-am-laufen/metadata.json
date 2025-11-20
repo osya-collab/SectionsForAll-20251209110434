@@ -1,0 +1,9 @@
+{
+    "name": "Abläufe am Laufen halten",
+    "category": "Cover",
+    "description": "A split-screen hero section for business process automation, featuring a title, description, CTA, and a conceptual image.",
+    "tags": ["cover", "hero", "automation", "workflow", "business"],
+    "structure": ["header", "paragraph", "cta-button", "image"],
+    "complexity": "simple",
+    "use_cases": ["SaaS", "B2B Services"]
+}

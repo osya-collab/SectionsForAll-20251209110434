@@ -1,0 +1,33 @@
+{
+    "name": "Soft Pastel Hero with Card Overlay",
+    "category": "Cover",
+    "description": "A standard hero section utilizing the soft pastel color palette and rounded aesthetic from the reference image.",
+    "tags": [
+        "hero",
+        "cover",
+        "pastel",
+        "soft",
+        "saas"
+    ],
+    "structure": [
+        "Left Content",
+        "Right Image Visual",
+        "Floating Review Card"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "App Landing",
+        "Software Intro"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#e9f5f5",
+            "#e6f0ff",
+            "#2e3546"
+        ],
+        "fonts": [
+            "Inter"
+        ],
+        "visual_identity": "Clean, airy, soft gradients with strong dark accents."
+    }
+}

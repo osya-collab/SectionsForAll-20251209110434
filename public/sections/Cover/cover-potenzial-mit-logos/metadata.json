@@ -1,0 +1,13 @@
+{
+    "name": "Potenzial mit Logos",
+    "category": "Cover",
+    "description": "A clean and modern hero section with a strong headline, subtitle, and call-to-action, followed by a row of trusted company logos.",
+    "tags": ["cover", "hero", "social proof", "logos", "corporate", "clean"],
+    "structure": ["header", "cta-button", "logo-wall"],
+    "complexity": "simple",
+    "use_cases": [
+        "SaaS Landing Pages",
+        "Corporate Homepages",
+        "Agency Websites"
+    ]
+}

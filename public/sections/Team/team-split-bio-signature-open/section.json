@@ -1,0 +1,28 @@
+{
+    "id": "team-split-bio-signature-open",
+    "html": "\n<section class=\"team-split-bio-open-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"split-grid\">\n            <div class=\"image-wrapper anim-fade-in-right\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=businessman+crossed+arms+desk\" alt=\"{{t:member_name}}\">\n            </div>\n            <div class=\"content-wrapper anim-fade-in-left\">\n                <p class=\"subtitle\">{{t:member_role}}</p>\n                <h2>{{t:member_name}}</h2>\n                <p>{{t:p1}}</p>\n                <p>{{t:p2}}</p>\n                <img src=\"https://firebasestorage.googleapis.com/v0/b/ai-apps-f5139.appspot.com/o/vision-os%2Fassets%2Fsignature.png?alt=media&token=d16e6f99-3171-4ac3-a442-7c1524317424\" alt=\"Signature\" class=\"signature\">\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-split-bio-open-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n    font-family: 'Inter', sans-serif;\n}\n.team-split-bio-open-section .container {\n    width: 90%;\n    max-width: 1000px;\n    margin: 0 auto;\n}\n.team-split-bio-open-section .split-grid {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 3rem;\n    align-items: center;\n}\n@media (min-width: 768px) {\n    .team-split-bio-open-section .split-grid {\n        grid-template-columns: 1fr 1fr;\n    }\n}\n.team-split-bio-open-section .image-wrapper img {\n    width: 100%;\n    height: auto;\n    border-radius: 1rem;\n    aspect-ratio: 1 / 1;\n    object-fit: cover;\n}\n.team-split-bio-open-section .content-wrapper {\n    text-align: left;\n}\n.team-split-bio-open-section .subtitle {\n    color: var(--color-secondary, #6B7280);\n    font-weight: 500;\n}\n.team-split-bio-open-section h2 {\n    font-size: 3rem;\n    font-weight: 800;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1.5rem;\n}\n.team-split-bio-open-section p:not(.subtitle) {\n    color: var(--color-dark, #1F2937);\n    opacity: 0.8;\n    margin-bottom: 1.5rem;\n    max-width: 450px;\n}\n.team-split-bio-open-section .signature {\n    width: 150px;\n    margin-top: 2rem;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Split Bio Offenes Layout",
+            "member_role": "Geschäftsführer bei GutFirma GmbH",
+            "member_name": "Andreas Lehmann",
+            "p1": "Teile lange Texte in Absätze auf, damit du die wichtigsten Punkte auf einen Blick erkennen kannst. Das macht das Lesen einfacher und angenehmer für dich.",
+            "p2": "Achte darauf, dass du für jedes Element eine konsistente Textmenge beibehältst, um einen stimmigen Gesamteindruck zu erzeugen."
+        },
+        "en": {
+            "name": "Split Bio Open Layout",
+            "member_role": "Managing Director at GoodCompany GmbH",
+            "member_name": "Andreas Lehmann",
+            "p1": "Break up long texts into paragraphs so you can see the most important points at a glance. This makes reading easier and more pleasant for you.",
+            "p2": "Make sure to keep a consistent amount of text for each element to create a cohesive overall impression."
+        },
+        "ar": {
+            "name": "تخطيط مفتوح للسيرة الذاتية المقسمة",
+            "member_role": "المدير الإداري في GoodCompany GmbH",
+            "member_name": "أندرياس ليمان",
+            "p1": "قسّم النصوص الطويلة إلى فقرات حتى تتمكن من رؤية أهم النقاط في لمحة. هذا يجعل القراءة أسهل وأكثر متعة بالنسبة لك.",
+            "p2": "تأكد من الحفاظ على كمية متسقة من النص لكل عنصر لخلق انطباع عام متماسك."
+        }
+    }
+}

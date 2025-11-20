@@ -1,0 +1,13 @@
+{
+    "name": "Video mit Checkliste",
+    "category": "Cover",
+    "description": "A content-rich hero section with a centered headline, a split layout featuring a video placeholder and a checklist of benefits, and a final call-to-action.",
+    "tags": ["cover", "hero", "video", "checklist", "features", "education", "business"],
+    "structure": ["header", "video", "feature-list", "cta-button"],
+    "complexity": "medium",
+    "use_cases": [
+        "Online Course Landing Pages",
+        "Webinar Teasers",
+        "Product Feature Overviews"
+    ]
+}

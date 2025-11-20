@@ -1,0 +1,9 @@
+{
+    "name": "Innovative Lösungen",
+    "category": "Cover",
+    "description": "A clean cover section with two cards, one for text and one for an image.",
+    "tags": ["cover", "hero", "cards", "clean", "modern"],
+    "structure": ["card", "image"],
+    "complexity": "simple",
+    "use_cases": ["Startups", "Tech Companies"]
+}

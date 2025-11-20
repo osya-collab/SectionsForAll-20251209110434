@@ -1,0 +1,44 @@
+{
+    "name": "Retro Futurism CTA with Chrome Headline",
+    "category": "Cta",
+    "description": "A CTA section with a retro-futuristic theme, using a muted mustard background and a pale teal button. The headline uses a metallic gradient effect with a subtle text stroke. A rocket graphic reinforces the theme.",
+    "tags": [
+        "retro",
+        "futurism",
+        "cta",
+        "button",
+        "headline",
+        "metallic",
+        "optimistic"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h1",
+        "p",
+        "button",
+        "div",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "promotional banner",
+        "call to action",
+        "signup notification"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#e0d8c0",
+            "#ffffff",
+            "#b0c4de",
+            "#333",
+            "#5a5a5a",
+            "#a090a0"
+        ],
+        "fonts": [
+            "Audiowide",
+            "sans-serif"
+        ],
+        "visual_identity": "Optimistic retro-futurism with metallic text effects and smooth graphics."
+    }
+}

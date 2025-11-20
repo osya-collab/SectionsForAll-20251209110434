@@ -1,0 +1,41 @@
+{
+    "name": "Elegant Gold CTA (Dark)",
+    "category": "Cta",
+    "description": "An elegant CTA section with a dark background, gold accents, and refined typography, suitable for luxury brands.",
+    "tags": [
+        "cta",
+        "elegant",
+        "gold",
+        "dark",
+        "luxury",
+        "premium"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "high-end services",
+        "premium products",
+        "exclusive offers"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#1a1a1a",
+            "#fff",
+            "#ffd700",
+            "#ccc"
+        ],
+        "fonts": [
+            "Playfair Display",
+            "serif",
+            "Lato",
+            "sans-serif"
+        ],
+        "visual_identity": "Luxurious and sophisticated with a deep dark theme contrasted by metallic gold highlights."
+    }
+}

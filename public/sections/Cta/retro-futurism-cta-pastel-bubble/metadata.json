@@ -1,0 +1,43 @@
+{
+    "name": "Retro Futurism CTA with Pastel Bubbles",
+    "category": "Cta",
+    "description": "A retro-futuristic CTA section with a pale teal background, featuring animated pastel-colored bubbles. The call-to-action button is a muted mustard color.",
+    "tags": [
+        "retro",
+        "futurism",
+        "cta",
+        "bubbles",
+        "animation",
+        "pastel",
+        "teal"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "button",
+        "div",
+        "div"
+    ],
+    "complexity": "complex",
+    "use_cases": [
+        "promotional banner",
+        "call to action",
+        "signup notification"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#a0b4c0",
+            "#fff",
+            "#333",
+            "rgba(255,255,255,0.15)",
+            "#e0c0a0"
+        ],
+        "fonts": [
+            "Orbitron",
+            "sans-serif"
+        ],
+        "visual_identity": "Dreamy retro-futurism with animated pastel bubbles and a clean, optimistic feel."
+    }
+}

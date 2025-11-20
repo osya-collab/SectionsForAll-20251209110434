@@ -1,0 +1,37 @@
+{
+    "name": "Vibrant Accent Outline CTA",
+    "category": "Cta",
+    "description": "A clean white CTA section with a strong left-aligned text block, accentuated by a thick, vibrant hot pink border on the left. The button is outlined in pink.",
+    "tags": [
+        "cta",
+        "neo-brutalism",
+        "outline",
+        "pink-accent",
+        "left-aligned"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "lead capture",
+        "information requests",
+        "call to action"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#FFFFFF",
+            "#000000",
+            "#FF00FF",
+            "#444444"
+        ],
+        "fonts": [
+            "sans-serif"
+        ],
+        "visual_identity": "Minimalist Neo-Brutalism with a sharp pink accent line and button."
+    }
+}

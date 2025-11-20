@@ -1,0 +1,13 @@
+{
+    "name": "Checklist Comparison",
+    "category": "Pricing",
+    "description": "A highly readable pricing table that lists features vertically and uses checkmarks to show which features are included in each plan.",
+    "tags": ["pricing", "comparison", "checklist", "features", "saas", "table"],
+    "structure": ["header", "table", "features", "plans", "checkmarks"],
+    "complexity": "medium",
+    "use_cases": [
+        "SaaS products with many features",
+        "Software comparisons",
+        "Detailed service breakdowns"
+    ]
+}

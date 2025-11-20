@@ -1,0 +1,25 @@
+{
+    "name": "Grid Gallery with Modal Preview",
+    "category": "Gallery",
+    "description": "A clean, symmetrical grid gallery. Clicking on any image opens a larger version in a modal overlay, providing a focused viewing experience. Includes a prominent title and CTA.",
+    "tags": [
+        "grid",
+        "thumbnail",
+        "modal",
+        "lightbox",
+        "product gallery"
+    ],
+    "structure": [
+        "div (grid container)",
+        "img (thumbnail)",
+        "div (modal)",
+        "img (modal image)",
+        "button (close)"
+    ],
+    "complexity": "complex",
+    "use_cases": [
+        "E-commerce product showcases",
+        "Design portfolios",
+        "Event photo galleries"
+    ]
+}

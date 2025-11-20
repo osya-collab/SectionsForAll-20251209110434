@@ -1,0 +1,17 @@
+{
+    "id": "art-nouveau-cta-emerald-gold-floral-border",
+    "html": "<section class=\"art-nouveau-cta-emerald-gold-floral-border\">\n  <div class=\"container\">\n    <div class=\"content\">\n      <h2>Discover Your Next Inspiration</h2>\n      <p>Art Nouveau-inspired designs to elevate your space. Experience timeless elegance and natural beauty.</p>\n      <a href=\"#\" class=\"cta-button\">Explore Designs</a>\n    </div>\n    <div class=\"image-container\">\n      <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=art+nouveau+flower+border&image_type=photo\" alt=\"Art Nouveau flower border\">\n    </div>\n  </div>\n</section>",
+    "css": ".art-nouveau-cta-emerald-gold-floral-border {\n  background-color: #fff;\n  color: #1e3a30; /* Deep Emerald */\n  padding: 50px 25px;\n  text-align: center;\n}\n.art-nouveau-cta-emerald-gold-floral-border .container {\n  max-width: 1100px;\n  margin: 0 auto;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n.art-nouveau-cta-emerald-gold-floral-border .content {\n  margin-bottom: 30px;\n}\n.art-nouveau-cta-emerald-gold-floral-border h2 {\n  font-family: 'Libre Baskerville', serif;\n  font-size: 2.6em;\n  margin-bottom: 15px;\n  color: #b8860b; /* DarkGoldenrod */\n}\n.art-nouveau-cta-emerald-gold-floral-border p {\n  font-family: 'Libre Baskerville', serif;\n  font-size: 1.15em;\n  line-height: 1.6;\n  margin-bottom: 30px;\n}\n.art-nouveau-cta-emerald-gold-floral-border .cta-button {\n  display: inline-block;\n  padding: 16px 32px;\n  background-color: #b8860b; /* DarkGoldenrod */\n  color: #fff;\n  text-decoration: none;\n  font-family: 'Libre Baskerville', serif;\n  font-weight: bold;\n  border-radius: 5px;\n  transition: background-color 0.3s ease, color 0.3s ease;\n}\n.art-nouveau-cta-emerald-gold-floral-border .cta-button:hover {\n  background-color: #1e3a30; /* Deep Emerald */\n  color: #fff;\n}\n.art-nouveau-cta-emerald-gold-floral-border .image-container {\n  width: 100%;\n  max-width: 450px;\n  margin-top: 20px;\n  border: 5px solid #b8860b;\n  border-radius: 8px;\n  overflow: hidden;\n}\n.art-nouveau-cta-emerald-gold-floral-border .image-container img {\n  display: block;\n  width: 100%;\n  height: auto;\n}\n\n@media (min-width: 768px) {\n  .art-nouveau-cta-emerald-gold-floral-border .container {\n    flex-direction: row;\n    justify-content: space-between;\n    align-items: flex-start;\n  }\n  .art-nouveau-cta-emerald-gold-floral-border .content {\n    flex: 1;\n    padding-right: 40px;\n    text-align: left;\n  }\n  .art-nouveau-cta-emerald-gold-floral-border .image-container {\n    flex-basis: 50%;\n    margin-top: 0;\n  }\n  .art-nouveau-cta-emerald-gold-floral-border h2 {\n    font-size: 3em;\n  }\n  .art-nouveau-cta-emerald-gold-floral-border p {\n    font-size: 1.2em;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Art Nouveau CTA - Smaragd Gold Floralrand"
+        },
+        "ar": {
+            "name": "زر الدعوة للفعل بنمط آرت نوفو - حدود زهرية زمردية ذهبية"
+        },
+        "en": {
+            "name": "Art Nouveau CTA - Emerald Gold Floral Border"
+        }
+    }
+}

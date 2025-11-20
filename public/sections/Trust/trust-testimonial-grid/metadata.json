@@ -1,0 +1,14 @@
+
+{
+    "name": "Testimonial Grid",
+    "category": "Trust",
+    "description": "A clean grid layout for showcasing multiple customer testimonials, building social proof through volume.",
+    "tags": ["testimonials", "grid", "social proof", "reviews", "corporate"],
+    "structure": ["header", "grid", "testimonial-cards"],
+    "complexity": "simple",
+    "use_cases": [
+        "SaaS Landing Pages",
+        "Service-based Businesses",
+        "E-commerce sites"
+    ]
+}

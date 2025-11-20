@@ -1,0 +1,13 @@
+{
+    "name": "Horizontal Scroll Timeline",
+    "category": "Timeline",
+    "description": "A modern, horizontal timeline where users can scroll sideways through event cards. Perfect for touch devices and visually engaging storytelling.",
+    "tags": ["timeline", "horizontal", "scroll", "interactive", "modern", "cards"],
+    "structure": ["header", "scroll-container", "timeline-cards"],
+    "complexity": "medium",
+    "use_cases": [
+        "Project roadmaps on landing pages",
+        "Company history on 'About' pages",
+        "Step-by-step process explanations"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "id": "cover-nur-text",
+    "html": "\n<section class=\"cover-nur-text-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container text-center\">\n        <h1 class=\"anim-fade-in-up\">{{t:title}}</h1>\n        <p class=\"subtitle anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n        <a href=\"#\" class=\"btn btn-dark anim-fade-in-up anim-delay-2\">{{t:cta_button}}</a>\n    </div>\n</section>",
+    "css": "\n.cover-nur-text-section {\n    padding: 8rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.cover-nur-text-section .container {\n    width: 90%;\n    max-width: 700px;\n    margin: 0 auto;\n    text-align: center;\n}\n.cover-nur-text-section h1 {\n    font-size: clamp(2.5rem, 6vw, 4rem);\n    font-weight: 700;\n    line-height: 1.2;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1.5rem;\n}\n.cover-nur-text-section .subtitle {\n    font-size: 1.1rem;\n    margin: 0 auto 2.5rem;\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n}\n.cover-nur-text-section .btn-dark {\n    display: inline-block;\n    padding: 0.75rem 2rem;\n    background-color: var(--color-dark, #1F2937);\n    color: var(--color-light, #FFFFFF);\n    border-radius: 0.5rem;\n    font-weight: 600;\n    text-decoration: none;\n    transition: all 0.3s;\n    box-shadow: 0 4px 15px rgba(0,0,0,0.1);\n}\n",
+    "translations": {
+        "de": {
+            "name": "Cover Nur Text",
+            "title": "Deine persönlichen Finanzen ganz einfach verwalten",
+            "subtitle": "Du wirst vielleicht auffallen, dass dieser Text früher umbricht als die Überschrift, obwohl die Spalte breiter ist. Dies wird durch einen kleinen Ziehpunkt erreicht, der erscheint, wenn du über den Text fährst.",
+            "cta_button": "Call-to-Action Button"
+        },
+        "en": {
+            "name": "Cover Text Only",
+            "title": "Manage your personal finances with ease",
+            "subtitle": "You might notice that this text wraps earlier than the headline, even though the column is wider. This is achieved by a small drag handle that appears when you hover over the text.",
+            "cta_button": "Call-to-Action Button"
+        },
+        "ar": {
+            "name": "غلاف نص فقط",
+            "title": "إدارة أموالك الشخصية بسهولة",
+            "subtitle": "قد تلاحظ أن هذا النص يلتف قبل العنوان ، على الرغم من أن العمود أوسع. يتم تحقيق ذلك من خلال مقبض سحب صغير يظهر عند التمرير فوق النص.",
+            "cta_button": "زر الدعوة لاتخاذ إجراء"
+        }
+    }
+}

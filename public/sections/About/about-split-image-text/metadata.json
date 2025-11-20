@@ -1,0 +1,13 @@
+{
+    "name": "About Us with Image",
+    "category": "About",
+    "description": "A classic 50/50 split layout with an image on one side and text content (including a checklist) on the other. Ideal for introductions.",
+    "tags": ["about", "split-layout", "image", "checklist", "introduction"],
+    "structure": ["image", "header", "paragraph", "list"],
+    "complexity": "simple",
+    "use_cases": [
+        "Company introductions",
+        "Founder bios",
+        "Service overviews"
+    ]
+}

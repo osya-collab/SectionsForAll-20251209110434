@@ -1,0 +1,13 @@
+{
+    "name": "Dringender Service",
+    "category": "Cover",
+    "description": "A comprehensive hero section featuring a strong headline, a large image, and a scrolling logo wall for social proof.",
+    "tags": ["cover", "hero", "image", "logo-wall", "social proof", "business"],
+    "structure": ["header", "cta-button", "image", "logo-wall"],
+    "complexity": "medium",
+    "use_cases": [
+        "Corporate Landing Pages",
+        "Service-based Businesses",
+        "B2B Websites"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Interactive Tab Cover",
+    "category": "Cover",
+    "description": "An interactive cover where clicking list items changes the featured image.",
+    "tags": [
+        "cover",
+        "interactive",
+        "tabs",
+        "slider"
+    ],
+    "structure": [
+        "Tab List",
+        "Image Container"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Process Explanation",
+        "Service Overview",
+        "Portfolio"
+    ]
+}

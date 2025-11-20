@@ -1,0 +1,55 @@
+{
+    "id": "cover-webinar-countdown",
+    "html": "\n<section class=\"cover-webinar-countdown-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container countdown-container\">\n        <div class=\"content-side anim-fade-in-right\">\n            <span class=\"tag\">{{t:tag}}</span>\n            <h1>{{t:title}}</h1>\n            <p>{{t:subtitle}}</p>\n        </div>\n        <div class=\"form-side anim-fade-in-left\">\n            <div class=\"countdown-timer\" id=\"countdown-timer\">\n                <div class=\"time-block\"><span id=\"days\">00</span><small>{{t:days}}</small></div>\n                <div class=\"time-block\"><span id=\"hours\">01</span><small>{{t:hours}}</small></div>\n                <div class=\"time-block\"><span id=\"minutes\">51</span><small>{{t:minutes}}</small></div>\n                <div class=\"time-block\"><span id=\"seconds\">26</span><small>{{t:seconds}}</small></div>\n            </div>\n            <form class=\"webinar-form\">\n                <div class=\"form-row\">\n                    <input type=\"text\" placeholder=\"{{t:first_name}}\" required>\n                    <input type=\"text\" placeholder=\"{{t:last_name}}\" required>\n                </div>\n                <input type=\"email\" placeholder=\"{{t:email}}\" required>\n                <input type=\"tel\" placeholder=\"{{t:phone}}\" required>\n                <button type=\"submit\" class=\"btn btn-dark\">{{t:cta_button}}</button>\n            </form>\n            <p class=\"scarcity-text\">{{t:scarcity_text}}</p>\n        </div>\n    </div>\n    <script>\n        (() => {\n            const section = document.currentScript.closest('.cover-webinar-countdown-section');\n            if (!section) return;\n            const countdownElement = section.querySelector('#countdown-timer');\n            if (countdownElement) {\n                const targetDate = new Date();\n                targetDate.setHours(targetDate.getHours() + 1);\n                targetDate.setMinutes(targetDate.getMinutes() + 51);\n                targetDate.setSeconds(targetDate.getSeconds() + 26);\n\n                const daysEl = section.querySelector('#days');\n                const hoursEl = section.querySelector('#hours');\n                const minutesEl = section.querySelector('#minutes');\n                const secondsEl = section.querySelector('#seconds');\n\n                const updateCountdown = () => {\n                    const now = new Date().getTime();\n                    const distance = targetDate - now;\n\n                    const days = Math.floor(distance / (1000 * 60 * 60 * 24));\n                    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n                    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));\n                    const seconds = Math.floor((distance % (1000 * 60)) / 1000);\n                    \n                    if(daysEl) daysEl.textContent = String(days).padStart(2, '0');\n                    if(hoursEl) hoursEl.textContent = String(hours).padStart(2, '0');\n                    if(minutesEl) minutesEl.textContent = String(minutes).padStart(2, '0');\n                    if(secondsEl) secondsEl.textContent = String(seconds).padStart(2, '0');\n\n                    if (distance < 0) {\n                        clearInterval(interval);\n                        if(countdownElement) countdownElement.innerHTML = \"<h4>Event has started!</h4>\";\n                    }\n                }\n                const interval = setInterval(updateCountdown, 1000);\n                updateCountdown();\n            }\n        })();\n    <\/script>\n</section>",
+    "css": "\n.cover-webinar-countdown-section {\n    padding: 6rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.cover-webinar-countdown-section .container {\n    width: 90%;\n    max-width: 1100px;\n    margin: 0 auto;\n}\n.countdown-container {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 3rem;\n    align-items: center;\n}\n@media (min-width: 992px) {\n    .countdown-container {\n        grid-template-columns: 1fr 1fr;\n    }\n}\n.cover-webinar-countdown-section .content-side .tag { display: inline-block; background-color: #e5e7eb; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.8rem; font-weight: 600; margin-bottom: 1.5rem; }\n.cover-webinar-countdown-section h1 { font-size: clamp(2.5rem, 5vw, 3.5rem); font-weight: 700; line-height: 1.2; color: var(--color-dark, #1F2937); margin-bottom: 1.5rem; }\n.cover-webinar-countdown-section .content-side p { color: var(--color-secondary, #6B7280); line-height: 1.7; max-width: 500px; }\n.cover-webinar-countdown-section .form-side { background-color: #f3f4f6; border-radius: 1rem; padding: 2.5rem; box-shadow: 0 10px 25px rgba(0,0,0,0.08); }\n.cover-webinar-countdown-section .countdown-timer { display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 2rem; }\n.cover-webinar-countdown-section .time-block { text-align: center; }\n.cover-webinar-countdown-section .time-block span { font-size: 3rem; font-weight: 700; color: var(--color-dark, #1F2937); display: block; }\n.cover-webinar-countdown-section .time-block small { font-size: 0.8rem; color: var(--color-secondary, #6B7280); }\n.cover-webinar-countdown-section .webinar-form { display: flex; flex-direction: column; gap: 1rem; }\n.cover-webinar-countdown-section .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }\n.cover-webinar-countdown-section .webinar-form input { width: 100%; padding: 0.75rem 1rem; background-color: var(--color-light, #FFFFFF); border: 1px solid #d1d5db; border-radius: 0.5rem; font-size: 1rem; }\n.cover-webinar-countdown-section .btn-dark { padding: 0.8rem 1.5rem; background-color: var(--color-dark, #1F2937); color: var(--color-light, #FFFFFF); border: none; border-radius: 0.5rem; font-weight: 600; cursor: pointer; }\n.cover-webinar-countdown-section .scarcity-text { text-align: center; font-size: 0.9rem; color: var(--color-secondary, #6B7280); margin-top: 1.5rem; }\n",
+    "translations": {
+        "de": {
+            "name": "Webinar Countdown",
+            "tag": "KOSTENLOSES WEBINAR",
+            "title": "5 kluge Wege, wie du Erspartes für dich arbeiten lässt",
+            "subtitle": "Um deine Seiteninhalte ganz einfach zu bereichern, nutze Tools wie remove.bg, Midjourney oder icons8. Hochwertige Inhalte können eine mittelmäßige Seite in ein Kunstwerk verwandeln.",
+            "days": "Tage",
+            "hours": "Stunden",
+            "minutes": "Minuten",
+            "seconds": "Sekunden",
+            "first_name": "Vorname",
+            "last_name": "Nachname",
+            "email": "example@gmail.com",
+            "phone": "Deine Telefonnummer",
+            "cta_button": "Call-to-Action button",
+            "scarcity_text": "Es sind nur 100 Plätze verfügbar"
+        },
+        "en": {
+            "name": "Webinar Countdown",
+            "tag": "FREE WEBINAR",
+            "title": "5 smart ways to make your savings work for you",
+            "subtitle": "To easily enrich your site content, use tools like remove.bg, Midjourney or icons8. High-quality content can turn a mediocre page into a work of art.",
+            "days": "Days",
+            "hours": "Hours",
+            "minutes": "Minutes",
+            "seconds": "Seconds",
+            "first_name": "First name",
+            "last_name": "Last name",
+            "email": "example@gmail.com",
+            "phone": "Your phone number",
+            "cta_button": "Call-to-Action button",
+            "scarcity_text": "Only 100 spots are available"
+        },
+        "ar": {
+            "name": "عد تنازلي للندوة",
+            "tag": "ندوة مجانية",
+            "title": "5 طرق ذكية لجعل مدخراتك تعمل من أجلك",
+            "subtitle": "لإثراء محتوى موقعك بسهولة ، استخدم أدوات مثل remove.bg أو Midjourney أو icons8. يمكن للمحتوى عالي الجودة تحويل صفحة متواضعة إلى عمل فني.",
+            "days": "أيام",
+            "hours": "ساعات",
+            "minutes": "دقائق",
+            "seconds": "ثواني",
+            "first_name": "الاسم الأول",
+            "last_name": "اسم العائلة",
+            "email": "example@gmail.com",
+            "phone": "رقم هاتفك",
+            "cta_button": "زر الدعوة لاتخاذ إجراء",
+            "scarcity_text": "لا يتوفر سوى 100 مقعد"
+        }
+    }
+}

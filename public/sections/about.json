@@ -1,0 +1,117 @@
+[
+  {
+    "id": "about-bento-showcase",
+    "name": "Bento Grid Showcase",
+    "category": "About"
+  },
+  {
+    "id": "about-centered-statement",
+    "name": "Centered Statement",
+    "category": "About"
+  },
+  {
+    "id": "about-feature-cards-header",
+    "name": "Feature Cards with Header",
+    "category": "About"
+  },
+  {
+    "id": "about-founder-message",
+    "name": "Founder Message",
+    "category": "About"
+  },
+  {
+    "id": "about-founder-split",
+    "name": "Founder Split",
+    "category": "About"
+  },
+  {
+    "id": "about-full-width-bg-image",
+    "name": "Full Width BG Image",
+    "category": "About"
+  },
+  {
+    "id": "about-image-left-stats-new",
+    "name": "About with Left Image & Stats",
+    "category": "About"
+  },
+  {
+    "id": "about-numbered-cards",
+    "name": "Numbered Mission Cards",
+    "category": "About"
+  },
+  {
+    "id": "about-office-image-and-button",
+    "name": "Über Uns Section",
+    "category": "About"
+  },
+  {
+    "id": "about-office-split",
+    "name": "Office Split Image",
+    "category": "About"
+  },
+  {
+    "id": "about-quality",
+    "name": "Quality Showcase",
+    "category": "About"
+  },
+  {
+    "id": "about-reading-split",
+    "name": "About Us Reading Split",
+    "category": "About"
+  },
+  {
+    "id": "about-split-content-image",
+    "name": "Split Content & Image",
+    "category": "About"
+  },
+  {
+    "id": "about-split-image-text",
+    "name": "About Us with Image",
+    "category": "About"
+  },
+  {
+    "id": "about-stats-and-image-split",
+    "name": "About with Stats Grid",
+    "category": "About"
+  },
+  {
+    "id": "about-stats-banner",
+    "name": "Stats Banner",
+    "category": "About"
+  },
+  {
+    "id": "about-stats-gradient",
+    "name": "Stats with Gradient Image",
+    "category": "About"
+  },
+  {
+    "id": "about-text-image-overlap",
+    "name": "Text Image Overlap",
+    "category": "About"
+  },
+  {
+    "id": "about-text-image-overlap-reversed",
+    "name": "Text Image Overlap (Reversed)",
+    "category": "About"
+  },
+  {
+    "id": "about-travel-love-intro",
+    "name": "Travel Love Intro",
+    "category": "About"
+  },
+  {
+    "id": "about-values-grid",
+    "name": "Our Values Grid",
+    "category": "About"
+  },
+  {
+    "id": "about-values-split",
+    "name": "Values Split Layout",
+    "category": "About"
+  },
+  {
+    "id": "about-why-choose-us",
+    "name": "Why Choose Us",
+    "category": "About"
+  }
+]

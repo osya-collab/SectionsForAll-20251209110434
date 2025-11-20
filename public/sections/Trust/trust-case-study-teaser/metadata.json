@@ -1,0 +1,14 @@
+
+{
+    "name": "Case Study Teaser",
+    "category": "Trust",
+    "description": "A split-layout section to tease a successful case study, featuring a client logo, a compelling quote or result, and a CTA to read more.",
+    "tags": ["case study", "social proof", "cta", "split-layout", "corporate"],
+    "structure": ["logo", "header", "paragraph", "button"],
+    "complexity": "simple",
+    "use_cases": [
+        "Homepage sections to drive traffic to case studies",
+        "Portfolio pages",
+        "B2B service websites"
+    ]
+}

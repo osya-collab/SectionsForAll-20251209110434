@@ -1,0 +1,13 @@
+{
+    "name": "Agentur Potenzial",
+    "category": "Cover",
+    "description": "A professional and clean hero section for agencies, featuring a headline, split text/CTA, a large image, and a four-column stats bar.",
+    "tags": ["cover", "hero", "agency", "corporate", "stats", "image"],
+    "structure": ["header", "paragraph", "cta-button", "image", "stats-bar"],
+    "complexity": "medium",
+    "use_cases": [
+        "Digital Marketing Agencies",
+        "Creative Agencies",
+        "Consulting Firms"
+    ]
+}

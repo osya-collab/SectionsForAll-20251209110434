@@ -1,0 +1,11 @@
+
+{
+    "id": "layout-single-block",
+    "html": "\n<section class=\"layout-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\" style=\"grid-template-columns: 1fr;\">\n        <div class=\"layout-placeholder anim-fade-in-up\" style=\"min-height: 300px;\"></div>\n    </div>\n</section>",
+    "css": "\n.layout-section {\n    padding: 2rem 0;\n}\n.layout-section .container {\n    display: grid;\n    gap: 1.5rem;\n    width: 90%;\n    max-width: 1200px;\n    margin: 0 auto;\n}\n.layout-section .layout-placeholder {\n    background-color: #f3f4f6; /* gray-100 */\n    border: 2px dashed #d1d5db; /* gray-300 */\n    border-radius: 0.75rem;\n    min-height: 150px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    color: #9ca3af; /* gray-400 */\n    font-family: sans-serif;\n    font-size: 0.9rem;\n    transition: all 0.2s ease-in-out;\n    position: relative;\n}\n.layout-section .layout-placeholder:hover {\n    background-color: #e5e7eb; /* gray-200 */\n    border-color: #9ca3af; /* gray-400 */\n    cursor: pointer;\n}\n.layout-section .layout-placeholder::before {\n    content: 'Click to add component';\n    position: absolute;\n}\n.layout-section .layout-placeholder:not(:empty)::before {\n    display: none;\n}\n",
+    "translations": {
+        "de": { "name": "Block mit voller Breite" },
+        "ar": { "name": "كتلة بعرض كامل" },
+        "en": { "name": "Full Width Block" }
+    }
+}

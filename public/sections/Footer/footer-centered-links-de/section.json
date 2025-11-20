@@ -1,0 +1,22 @@
+{
+    "id": "footer-centered-links-de",
+    "html": "\n<footer class=\"footer-centered-links\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <p class=\"copyright anim-fade-in-up\">{{t:copyright}}</p>\n        <div class=\"legal-links anim-fade-in-up anim-delay-1\">\n            <a href=\"#\">{{t:terms}}</a>\n            <a href=\"#\">{{t:privacy}}</a>\n        </div>\n    </div>\n</footer>",
+    "css": "\n.footer-centered-links {\n    background-color: #f0f2f5; /* Light gray */\n    padding: 2rem 1rem;\n    text-align: center;\n    font-family: sans-serif;\n    color: var(--color-dark, #111827);\n    position: relative;\n}\n.footer-centered-links .container {\n    max-width: 1200px;\n    margin: 0 auto;\n}\n.footer-centered-links .copyright {\n    font-size: 0.9rem;\n    margin-bottom: 0.5rem;\n    color: var(--color-secondary, #6B7280);\n}\n.footer-centered-links .legal-links {\n    display: flex;\n    justify-content: center;\n    gap: 1.5rem;\n}\n.footer-centered-links .legal-links a {\n    font-size: 0.9rem;\n    color: var(--color-dark, #111827);\n    text-decoration: none;\n    position: relative;\n    padding-bottom: 2px;\n}\n.footer-centered-links .legal-links a::after {\n    content: '';\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    height: 1px;\n    background-color: var(--color-dark, #111827);\n    transform: scaleX(0);\n    transition: transform 0.3s ease;\n}\n.footer-centered-links .legal-links a:hover::after {\n    transform: scaleX(1);\n}\n.footer-centered-links .anim-delay-1 { transition-delay: 0.1s; }\n",
+    "translations": {
+        "de": {
+            "copyright": "© 2025 Unternehmen. Alle Rechte vorbehalten.",
+            "terms": "Nutzungsbedingungen",
+            "privacy": "Datenschutzerklärung"
+        },
+        "en": {
+            "copyright": "© 2025 Company. All rights reserved.",
+            "terms": "Terms of Use",
+            "privacy": "Privacy Policy"
+        },
+        "ar": {
+            "copyright": "© 2025 الشركة. جميع الحقوق محفوظة.",
+            "terms": "شروط الاستخدام",
+            "privacy": "سياسة الخصوصية"
+        }
+    }
+}

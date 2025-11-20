@@ -1,0 +1,13 @@
+{
+    "name": "Classic Blog Post",
+    "category": "Article",
+    "description": "A traditional blog post layout with a large header image, title, metadata, and a clean, readable text column.",
+    "tags": ["article", "blog", "header-image", "classic", "content"],
+    "structure": ["header-image", "title", "content"],
+    "complexity": "simple",
+    "use_cases": [
+        "Blog articles",
+        "News posts",
+        "Case studies"
+    ]
+}

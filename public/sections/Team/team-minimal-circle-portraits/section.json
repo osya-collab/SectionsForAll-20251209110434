@@ -1,0 +1,28 @@
+{
+    "id": "team-minimal-circle-portraits",
+    "html": "\n<section class=\"team-minimal-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"team-minimal-grid\">\n            <div class=\"team-minimal-member anim-fade-in-up\">\n                <img src=\"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887\" alt=\"{{t:member1_name}}\">\n                <h3>{{t:member1_name}}</h3>\n            </div>\n            <div class=\"team-minimal-member anim-fade-in-up anim-delay-1\">\n                <img src=\"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070\" alt=\"{{t:member2_name}}\">\n                <h3>{{t:member2_name}}</h3>\n            </div>\n            <div class=\"team-minimal-member anim-fade-in-up anim-delay-2\">\n                <img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887\" alt=\"{{t:member3_name}}\">\n                <h3>{{t:member3_name}}</h3>\n            </div>\n            <div class=\"team-minimal-member anim-fade-in-up anim-delay-3\">\n                <img src=\"https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887\" alt=\"{{t:member4_name}}\">\n                <h3>{{t:member4_name}}</h3>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-minimal-section {\n    padding: 5rem 0;\n    background-color: #F5F3FF; /* A light lavender color */\n}\n.team-minimal-section .container {\n    width: 90%;\n    max-width: 1000px;\n    margin: 0 auto;\n}\n.team-minimal-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));\n    gap: 2rem;\n    justify-content: center;\n}\n.team-minimal-member {\n    text-align: center;\n}\n.team-minimal-member img {\n    width: 160px;\n    height: 160px;\n    border-radius: 50%;\n    object-fit: cover;\n    margin: 0 auto 1rem;\n    box-shadow: 0 5px 20px rgba(0,0,0,0.1);\n    transition: transform 0.3s ease;\n}\n.team-minimal-member:hover img {\n    transform: scale(1.05);\n}\n.team-minimal-member h3 {\n    font-size: 1.1rem;\n    font-weight: 500;\n    color: var(--color-dark, #111827);\n}\n",
+    "translations": {
+        "de": {
+            "name": "Minimale Kreisporträts",
+            "member1_name": "Tom Black",
+            "member2_name": "Amy Jones",
+            "member3_name": "David Willmann",
+            "member4_name": "Alex Dillinger"
+        },
+        "en": {
+            "name": "Minimal Circle Portraits",
+            "member1_name": "Tom Black",
+            "member2_name": "Amy Jones",
+            "member3_name": "David Willmann",
+            "member4_name": "Alex Dillinger"
+        },
+        "ar": {
+            "name": "صور دائرية بسيطة",
+            "member1_name": "توم بلاك",
+            "member2_name": "ايمي جونز",
+            "member3_name": "ديفيد ويلمان",
+            "member4_name": "أليكس ديلينجر"
+        }
+    }
+}

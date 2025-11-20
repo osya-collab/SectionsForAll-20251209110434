@@ -1,0 +1,13 @@
+{
+    "name": "Grid with CTA",
+    "category": "Team",
+    "description": "A versatile team section with a grid layout that includes a prominent call-to-action block alongside team member cards.",
+    "tags": ["team", "grid", "cta", "about", "corporate"],
+    "structure": ["cta-block", "team-grid", "team-cards"],
+    "complexity": "medium",
+    "use_cases": [
+        "Agency team pages with a hiring CTA",
+        "Corporate 'About Us' sections",
+        "Project team showcases"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Pastel & Soft",
+    "category": "Pricing",
+    "description": "A gentle and approachable pricing table using a soft pastel color palette, rounded corners, and subtle shadows. Creates a friendly and welcoming feel.",
+    "tags": ["pricing", "pastel", "soft", "friendly", "clean", "minimalist"],
+    "structure": ["header", "pricing-cards", "features", "button"],
+    "complexity": "simple",
+    "use_cases": [
+        "Wellness or health blogs",
+        "Children's products",
+        "Creative or lifestyle brands"
+    ]
+}

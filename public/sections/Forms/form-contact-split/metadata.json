@@ -1,0 +1,14 @@
+
+{
+    "name": "Contact Form Split",
+    "category": "Forms",
+    "description": "A split-layout contact section with informational text on one side and a clean, user-friendly contact form on the other. Encourages user interaction.",
+    "tags": ["form", "contact", "split-layout", "lead-generation", "business"],
+    "structure": ["text-block", "form", "input", "button"],
+    "complexity": "medium",
+    "use_cases": [
+        "Contact pages",
+        "Lead generation landing pages",
+        "Support request forms"
+    ]
+}

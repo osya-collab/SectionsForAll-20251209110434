@@ -1,0 +1,13 @@
+{
+    "name": "Grid with Circular Bios",
+    "category": "Team",
+    "description": "A clean, two-column grid of team member cards, each featuring a circular portrait and a short bio.",
+    "tags": ["team", "grid", "bio", "portraits", "clean", "corporate"],
+    "structure": ["header", "grid", "cards"],
+    "complexity": "simple",
+    "use_cases": [
+        "Corporate team pages",
+        "Agency introductions",
+        "Project team showcases"
+    ]
+}

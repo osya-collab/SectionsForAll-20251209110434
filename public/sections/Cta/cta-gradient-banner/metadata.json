@@ -1,0 +1,14 @@
+
+{
+    "name": "Gradient CTA Banner",
+    "category": "CTA",
+    "description": "A bold, full-width call-to-action banner with a vibrant gradient background. Perfect for grabbing attention and driving conversions at the end of a page.",
+    "tags": ["cta", "banner", "gradient", "conversion", "button"],
+    "structure": ["header", "paragraph", "button"],
+    "complexity": "simple",
+    "use_cases": [
+        "End-of-page call to action",
+        "Newsletter sign-up prompts",
+        "Special offer announcements"
+    ]
+}

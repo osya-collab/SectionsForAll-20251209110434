@@ -1,0 +1,31 @@
+{
+    "id": "cover-mit-bewertung",
+    "html": "\n<section class=\"cover-bewertung-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container cover-bewertung-container\">\n        <div class=\"content-side anim-fade-in-right\">\n            <h1>{{t:title}}</h1>\n            <p>{{t:subtitle}}</p>\n            <div class=\"rating-wrapper\">\n                <div class=\"avatars\">\n                    <img src=\"https://i.pravatar.cc/40?img=1\" alt=\"Avatar 1\"><img src=\"https://i.pravatar.cc/40?img=2\" alt=\"Avatar 2\"><img src=\"https://i.pravatar.cc/40?img=3\" alt=\"Avatar 3\"><img src=\"https://i.pravatar.cc/40?img=4\" alt=\"Avatar 4\">\n                </div>\n                <div>\n                    <div class=\"stars\">★★★★☆</div>\n                    <p>{{t:rating_text}}</p>\n                </div>\n            </div>\n            <a href=\"#\" class=\"btn btn-dark\">{{t:cta_button}}</a>\n        </div>\n        <div class=\"image-side anim-fade-in-left\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=modern+desk+setup+apple+laptop\" alt=\"{{t:image_alt}}\">\n        </div>\n    </div>\n</section>",
+    "css": "\n.cover-bewertung-section {\n    padding: 6rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.cover-bewertung-section .container {\n    width: 90%;\n    max-width: 1100px;\n    margin: 0 auto;\n}\n.cover-bewertung-container {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 3rem;\n    align-items: center;\n}\n@media (min-width: 992px) {\n    .cover-bewertung-container {\n        grid-template-columns: 1fr 1fr;\n    }\n}\n.cover-bewertung-section .content-side {\n    max-width: 450px;\n}\n.cover-bewertung-section h1 {\n    font-size: clamp(2.5rem, 5vw, 3.5rem);\n    font-weight: 700;\n    line-height: 1.2;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1.5rem;\n}\n.cover-bewertung-section .content-side p {\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n    margin-bottom: 2rem;\n}\n.cover-bewertung-section .rating-wrapper {\n    display: flex;\n    align-items: center;\n    gap: 1rem;\n    margin-bottom: 2.5rem;\n    font-size: 0.9rem;\n    color: var(--color-secondary, #6B7280);\n}\n.cover-bewertung-section .avatars {\n    display: flex;\n}\n.cover-bewertung-section .avatars img {\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n    border: 2px solid var(--color-light, #FFFFFF);\n    margin-left: -12px;\n}\n.cover-bewertung-section .stars {\n    color: #f59e0b; /* amber-500 */\n}\n.cover-bewertung-section .btn-dark {\n    display: inline-block;\n    padding: 0.75rem 2rem;\n    background-color: var(--color-dark, #1F2937);\n    color: var(--color-light, #FFFFFF);\n    border-radius: 0.5rem;\n    font-weight: 600;\n    text-decoration: none;\n    transition: all 0.3s;\n    box-shadow: 0 4px 15px rgba(0,0,0,0.1);\n}\n.cover-bewertung-section .image-side img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    border-radius: 1.5rem;\n    box-shadow: 0 10px 30px rgba(0,0,0,0.1);\n}\n",
+    "translations": {
+        "de": {
+            "name": "Cover mit Bewertung",
+            "title": "Mit den richtigen Tools kannst du es schaffen",
+            "subtitle": "Du wirst vielleicht bemerken, dass dieser Text etwas früher umbricht als die Überschrift darüber, obwohl die Spalte breiter ist. Das erreichen wir mit einem kleinen Ziehpunkt, der erscheint, wenn du über den Text fährst.",
+            "rating_text": "4,8 von 5 Sternen (1450 Bewertungen)",
+            "cta_button": "Call-to-Action Button",
+            "image_alt": "Modernes Schreibtisch-Setup mit Apple-Laptop und minimalistischer Dekoration."
+        },
+        "en": {
+            "name": "Cover with Rating",
+            "title": "You can do it with the right tools",
+            "subtitle": "You might notice that this text wraps a bit earlier than the headline above, even though the column is wider. We achieve this with a small drag handle that appears when you hover over the text.",
+            "rating_text": "4.8 out of 5 stars (1450 reviews)",
+            "cta_button": "Call-to-Action Button",
+            "image_alt": "Modern desk setup with Apple laptop and minimalist decoration."
+        },
+        "ar": {
+            "name": "غلاف مع تقييم",
+            "title": "يمكنك القيام بذلك باستخدام الأدوات المناسبة",
+            "subtitle": "قد تلاحظ أن هذا النص يلتف في وقت أبكر قليلاً من العنوان أعلاه ، على الرغم من أن العمود أوسع. نحقق ذلك من خلال مقبض سحب صغير يظهر عند التمرير فوق النص.",
+            "rating_text": "4.8 من 5 نجوم (1450 تقييمًا)",
+            "cta_button": "زر الدعوة لاتخاذ إجراء",
+            "image_alt": "إعداد مكتب حديث مع كمبيوتر محمول من Apple وديكور بسيط."
+        }
+    }
+}

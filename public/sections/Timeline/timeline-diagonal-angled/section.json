@@ -1,0 +1,31 @@
+{
+    "id": "timeline-diagonal-angled",
+    "html": "\n<section class=\"timeline-diagonal-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <h2 class=\"section-title anim-fade-in-up\">{{t:title}}</h2>\n        <div class=\"timeline-wrapper\">\n            <div class=\"timeline\">\n                <div class=\"timeline-item anim-fade-in-up\">\n                    <div class=\"timeline-content\">\n                        <h3>{{t:event1_title}}</h3>\n                        <p>{{t:event_desc}}</p>\n                    </div>\n                </div>\n                <div class=\"timeline-item anim-fade-in-up\">\n                    <div class=\"timeline-content\">\n                        <h3>{{t:event2_title}}</h3>\n                        <p>{{t:event_desc}}</p>\n                    </div>\n                </div>\n                <div class=\"timeline-item anim-fade-in-up\">\n                    <div class=\"timeline-content\">\n                        <h3>{{t:event3_title}}</h3>\n                        <p>{{t:event_desc}}</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.timeline-diagonal-section { padding: 5rem 0; overflow: hidden; }\n.timeline-diagonal-section .container { max-width: 1000px; margin: 0 auto; }\n.timeline-diagonal-section .section-title { text-align: center; font-size: 2.5rem; margin-bottom: 4rem; }\n.timeline-diagonal-section .timeline-wrapper { padding: 2rem 0; }\n.timeline-diagonal-section .timeline {\n    position: relative;\n    margin: 0 auto;\n    transform: rotate(-10deg);\n}\n.timeline-diagonal-section .timeline::before {\n    content: '';\n    position: absolute;\n    top: 0; bottom: 0; left: 50%;\n    width: 3px; \n    background-color: #e5e7eb;\n    transform: translateX(-50%);\n}\n.timeline-diagonal-section .timeline-item { \n    position: relative; \n    width: 50%; \n    padding: 0 30px; \n    margin-bottom: 50px;\n}\n.timeline-diagonal-section .timeline-item:nth-child(odd) { left: 0; transform-origin: top right; }\n.timeline-diagonal-section .timeline-item:nth-child(even) { left: 50%; transform-origin: top left; }\n.timeline-diagonal-section .timeline-content {\n    background-color: #f9fafb;\n    padding: 1.5rem;\n    border-radius: 8px;\n    border: 1px solid #e5e7eb;\n    transform: rotate(10deg); /* Counter-rotate */\n}\n.timeline-diagonal-section .timeline-item::after {\n    content: '';\n    position: absolute;\n    width: 18px; height: 18px;\n    border-radius: 50%;\n    background-color: var(--color-primary, #667eea);\n    border: 3px solid var(--color-light, #FFFFFF);\n    top: 5px;\n    z-index: 1;\n}\n.timeline-diagonal-section .timeline-item:nth-child(odd)::after { right: -9px; }\n.timeline-diagonal-section .timeline-item:nth-child(even)::after { left: -9px; }\n",
+    "translations": {
+        "de": {
+            "name": "Diagonale abgewinkelte Zeitleiste",
+            "title": "Unser Weg nach vorn",
+            "event1_title": "Der Funke",
+            "event_desc": "Eine bahnbrechende Idee stellt den Status quo in Frage und entzündet unsere Reise.",
+            "event2_title": "Der Aufbau",
+            "event3_title": "Der Start"
+        },
+        "en": {
+            "name": "Diagonal Angled Timeline",
+            "title": "Our Path Forward",
+            "event1_title": "The Spark",
+            "event_desc": "A breakthrough idea challenges the status quo, igniting our journey.",
+            "event2_title": "The Build",
+            "event3_title": "The Launch"
+        },
+        "ar": {
+            "name": "خط زمني مائل بزاوية",
+            "title": "طريقنا إلى الأمام",
+            "event1_title": "الشرارة",
+            "event_desc": "فكرة ثورية تتحدى الوضع الراهن وتشعل رحلتنا.",
+            "event2_title": "البناء",
+            "event3_title": "الإطلاق"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+
+{
+    "name": "Button Group Nav",
+    "category": "Menu",
+    "description": "A modern navigation bar where the links are styled as a cohesive button group, commonly seen in web applications and dashboards.",
+    "tags": ["header", "button-group", "app-style", "dashboard", "modern"],
+    "structure": ["logo", "nav-links"],
+    "complexity": "simple",
+    "use_cases": [
+        "Web Applications",
+        "User Dashboards",
+        "SaaS platforms"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "name": "High-Contrast Blue CTA",
+    "category": "Cta",
+    "description": "A high-contrast CTA with a white background and a bold electric blue button. Features a thick blue border at the bottom of the section for visual emphasis.",
+    "tags": [
+        "cta",
+        "neo-brutalism",
+        "high-contrast",
+        "blue",
+        "white",
+        "bottom-border"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "user sign-ups",
+        "app downloads",
+        "community joining"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#FFFFFF",
+            "#000000",
+            "#00FFFF",
+            "#333333"
+        ],
+        "fonts": [
+            "sans-serif"
+        ],
+        "visual_identity": "Sharp Neo-Brutalism with electric blue and white, marked by a bottom border."
+    }
+}

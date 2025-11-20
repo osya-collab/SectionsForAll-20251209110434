@@ -1,0 +1,17 @@
+{
+    "id": "neo-brutalism-cta-pink-shock",
+    "html": "<section class=\"cta-section-pink-shock\">\n        <div class=\"cta-content\">\n            <h2>Unleash Your Potential</h2>\n            <p>Don't wait for opportunity. Create it. Join us now and transform your vision into reality.</p>\n            <a href=\"#\" class=\"cta-button\">Start Now</a>\n        </div>\n    </section>",
+    "css": ".cta-section-pink-shock {\n            padding: 80px 20px;\n            background-color: #000000;\n            color: #ffffff;\n            text-align: center;\n        }\n        .cta-section-pink-shock .cta-content {\n            max-width: 700px;\n            margin: 0 auto;\n        }\n        .cta-section-pink-shock h2 {\n            font-size: 3rem;\n            margin-bottom: 20px;\n            line-height: 1.2;\n            font-weight: 900;\n        }\n        .cta-section-pink-shock p {\n            font-size: 1.2rem;\n            margin-bottom: 40px;\n            line-height: 1.6;\n            color: #cccccc;\n        }\n        .cta-section-pink-shock .cta-button {\n            display: inline-block;\n            padding: 15px 40px;\n            background-color: #ff00ff;\n            color: #ffffff;\n            text-decoration: none;\n            font-size: 1.2rem;\n            font-weight: 900;\n            border: 3px solid #ff00ff;\n            transition: all 0.3s ease;\n            text-transform: uppercase;\n        }\n        .cta-section-pink-shock .cta-button:hover {\n            background-color: #ffffff;\n            color: #ff00ff;\n            border-color: #ffffff;\n        }\n        @media (max-width: 768px) {\n            .cta-section-pink-shock h2 {\n                font-size: 2.5rem;\n            }\n            .cta-section-pink-shock p {\n                font-size: 1.1rem;\n            }\n            .cta-section-pink-shock .cta-button {\n                padding: 12px 30px;\n                font-size: 1.1rem;\n            }\n        }\n        @media (max-width: 480px) {\n            .cta-section-pink-shock {\n                padding: 60px 15px;\n            }\n            .cta-section-pink-shock h2 {\n                font-size: 2rem;\n            }\n            .cta-section-pink-shock p {\n                font-size: 1rem;\n            }\n            .cta-section-pink-shock .cta-button {\n                padding: 10px 25px;\n                font-size: 1rem;\n            }\n        }",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Neo-Brutalismus CTA - Pinker Schock"
+        },
+        "ar": {
+            "name": "قسم دعوة للعمل بأسلوب نيو-بروتاليزم - صدمة وردية"
+        },
+        "en": {
+            "name": "Neo-Brutalism CTA - Pink Shock"
+        }
+    }
+}

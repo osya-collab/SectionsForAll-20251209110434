@@ -1,0 +1,14 @@
+
+{
+    "name": "Three Columns",
+    "category": "Layouts",
+    "description": "A classic three-column layout, perfect for displaying features, team members, or product categories side-by-side.",
+    "tags": ["layout", "structure", "three-column", "grid", "responsive"],
+    "structure": ["column", "column", "column"],
+    "complexity": "simple",
+    "use_cases": [
+        "Feature highlights",
+        "Team member lists",
+        "Service overviews"
+    ]
+}

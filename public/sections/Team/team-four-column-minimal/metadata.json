@@ -1,0 +1,13 @@
+{
+    "name": "Four Column Minimal",
+    "category": "Team",
+    "description": "A clean, minimalist four-column team section with square portraits and centered text.",
+    "tags": ["team", "minimalist", "grid", "portraits", "clean"],
+    "structure": ["header", "grid", "cards"],
+    "complexity": "simple",
+    "use_cases": [
+        "Modern agency sites",
+        "Startup team pages",
+        "Minimalist portfolios"
+    ]
+}

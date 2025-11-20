@@ -1,0 +1,40 @@
+{
+    "id": "team-split-bio-checklist",
+    "html": "\n<section class=\"team-split-bio-checklist-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"split-grid\">\n            <div class=\"image-wrapper anim-fade-in-right\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=businessman+crossed+arms+desk\" alt=\"{{t:member_name}}\">\n                <span class=\"image-badge\">{{t:member_role}}</span>\n            </div>\n            <div class=\"content-wrapper anim-fade-in-left\">\n                <h2>{{t:member_name}}</h2>\n                <p>{{t:p1}}</p>\n                <hr class=\"divider\">\n                <p>{{t:p2}}</p>\n                <ul class=\"checklist\">\n                    <li><i class=\"fa-solid fa-check-circle\"></i> {{t:li1}}</li>\n                    <li><i class=\"fa-solid fa-check-circle\"></i> {{t:li2}}</li>\n                    <li><i class=\"fa-solid fa-check-circle\"></i> {{t:li3}}</li>\n                    <li><i class=\"fa-solid fa-check-circle\"></i> {{t:li4}}</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-split-bio-checklist-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n    font-family: 'Inter', sans-serif;\n}\n.team-split-bio-checklist-section .container {\n    width: 90%;\n    max-width: 1100px;\n    margin: 0 auto;\n}\n.team-split-bio-checklist-section .split-grid {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 2rem;\n    align-items: center;\n}\n@media (min-width: 992px) {\n    .team-split-bio-checklist-section .split-grid {\n        grid-template-columns: 45% 55%;\n        gap: 3rem;\n    }\n}\n.team-split-bio-checklist-section .image-wrapper {\n    position: relative;\n    border-radius: 1rem;\n    overflow: hidden;\n    width: 100%;\n    aspect-ratio: 1 / 1;\n}\n.team-split-bio-checklist-section .image-wrapper img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n}\n.team-split-bio-checklist-section .image-badge {\n    position: absolute;\n    top: 1.5rem;\n    left: 1.5rem;\n    background-color: rgba(0,0,0,0.6);\n    color: var(--color-light, #FFFFFF);\n    padding: 0.5rem 1rem;\n    border-radius: 0.5rem;\n    font-size: 0.8rem;\n    font-weight: 600;\n}\n.team-split-bio-checklist-section .content-wrapper {\n    background-color: #f3f4f6; /* gray-100 */\n    border-radius: 1rem;\n    padding: 3rem;\n    color: var(--color-dark, #1F2937);\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n}\n.team-split-bio-checklist-section h2 {\n    font-size: 2.5rem;\n    font-weight: 700;\n    margin-bottom: 1rem;\n}\n.team-split-bio-checklist-section p {\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.6;\n    margin-bottom: 1rem;\n}\n.team-split-bio-checklist-section .divider {\n    border: 0;\n    height: 1px;\n    background-color: #d1d5db; /* gray-300 */\n    margin: 2rem 0;\n}\n.team-split-bio-checklist-section .checklist {\n    list-style: none;\n    padding: 0;\n    margin-top: 2rem;\n    display: flex;\n    flex-direction: column;\n    gap: 1rem;\n}\n.team-split-bio-checklist-section .checklist li {\n    display: flex;\n    align-items: center;\n    gap: 0.75rem;\n    font-weight: 500;\n}\n.team-split-bio-checklist-section .checklist i {\n    color: var(--color-dark, #1F2937);\n}\n",
+    "translations": {
+        "de": {
+            "name": "Geteilte Bio mit Checkliste",
+            "member_name": "Jens Ludwig",
+            "member_role": "CEO & CO-FOUNDER",
+            "p1": "Eine klare und überzeugende Beschreibung deiner Dienstleistungen verhindert, dass Besucher sofort wieder abspringen. So bleiben sie bei dir und erfahren, was du ihnen bieten kannst.",
+            "p2": "Versuche, die Textmenge für jedes Element konsistent zu halten, um einen stimmigen Gesamteindruck zu schaffen.",
+            "li1": "Über 20 Jahre Führungserfahrung",
+            "li2": "Praktische strategische Expertise",
+            "li3": "Globale Perspektive",
+            "li4": "Belastbar und ergebnisorientiert"
+        },
+        "en": {
+            "name": "Split Bio with Checklist",
+            "member_name": "Jens Ludwig",
+            "member_role": "CEO & CO-FOUNDER",
+            "p1": "A clear and compelling description of your services prevents visitors from leaving immediately. This way, they stay with you and learn what you have to offer.",
+            "p2": "Try to keep the amount of text for each element consistent to create a coherent overall impression.",
+            "li1": "Over 20 years of leadership experience",
+            "li2": "Practical strategic expertise",
+            "li3": "Global perspective",
+            "li4": "Resilient and results-oriented"
+        },
+        "ar": {
+            "name": "سيرة ذاتية مقسمة مع قائمة تحقق",
+            "member_name": "ينس لودفيج",
+            "member_role": "الرئيس التنفيذي والمؤسس المشارك",
+            "p1": "يمنع الوصف الواضح والمقنع لخدماتك الزوار من المغادرة على الفور. بهذه الطريقة ، يبقون معك ويتعلمون ما لديك لتقدمه.",
+            "p2": "حاول الحفاظ على كمية النص لكل عنصر متسقة لخلق انطباع عام متماسك.",
+            "li1": "أكثر من 20 عامًا من الخبرة القيادية",
+            "li2": "خبرة استراتيجية عملية",
+            "li3": "منظور عالمي",
+            "li4": "مرن وموجه نحو النتائج"
+        }
+    }
+}

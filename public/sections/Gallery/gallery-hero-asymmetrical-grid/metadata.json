@@ -1,0 +1,27 @@
+{
+    "name": "Asymmetrical Grid Gallery",
+    "category": "Gallery",
+    "description": "An artistic and modern hero section using an asymmetrical CSS grid to display a mix of images and a dedicated text block.",
+    "tags": [
+        "asymmetrical",
+        "css-grid",
+        "artistic",
+        "modern",
+        "portfolio",
+        "moodboard"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h1",
+        "p",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Design studios",
+        "creative agencies",
+        "artist portfolios",
+        "fashion lookbooks"
+    ]
+}

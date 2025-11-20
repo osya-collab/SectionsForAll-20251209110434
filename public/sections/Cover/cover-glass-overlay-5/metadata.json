@@ -1,0 +1,23 @@
+{
+    "name": "Glassmorphism Hero",
+    "category": "Cover",
+    "description": "A trendy glassmorphism cover section with a blurred backdrop and floating data cards.",
+    "tags": [
+        "cover",
+        "glassmorphism",
+        "modern",
+        "overlay"
+    ],
+    "structure": [
+        "Background Image",
+        "Glass Container",
+        "Text Content",
+        "Stats Cards"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Modern App",
+        "Creative Agency",
+        "Tech Startup"
+    ]
+}

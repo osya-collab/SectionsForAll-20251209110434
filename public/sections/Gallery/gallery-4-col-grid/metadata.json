@@ -1,0 +1,13 @@
+{
+    "name": "4-Column Grid Gallery",
+    "category": "Gallery",
+    "description": "A clean, responsive 4-column grid for showcasing a gallery of images. Features a subtle zoom effect on hover. Ideal for portfolios and image collections.",
+    "tags": ["gallery", "grid", "portfolio", "images", "responsive", "minimalist"],
+    "structure": ["title", "grid", "images"],
+    "complexity": "simple",
+    "use_cases": [
+        "Photographer Portfolios",
+        "Design Showcases",
+        "Product Galleries"
+    ]
+}

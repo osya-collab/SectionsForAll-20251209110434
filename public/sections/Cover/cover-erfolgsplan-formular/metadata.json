@@ -1,0 +1,13 @@
+{
+    "name": "Erfolgsplan Formular",
+    "category": "Cover",
+    "description": "A split-screen hero section with a lead generation form, checklist features, and a large image.",
+    "tags": ["cover", "hero", "form", "lead generation", "checklist", "business"],
+    "structure": ["header", "form", "feature-list", "image"],
+    "complexity": "medium",
+    "use_cases": [
+        "Lead Generation Pages",
+        "SaaS Sign-up Forms",
+        "Service Inquiry Pages"
+    ]
+}

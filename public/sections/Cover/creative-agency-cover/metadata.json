@@ -1,0 +1,47 @@
+{
+    "name": "Creative Agency Cover",
+    "category": "Cover",
+    "description": "A vibrant cover section for a creative agency, featuring energetic colors, a compelling headline, and a dynamic image of a team at work.",
+    "tags": [
+        "cover",
+        "hero",
+        "creative",
+        "agency",
+        "marketing",
+        "branding"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h1",
+        "p",
+        "ul",
+        "li",
+        "span",
+        "div",
+        "button",
+        "a",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Creative agency websites",
+        "Marketing firm landing pages",
+        "Portfolio showcases"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f4f4f4",
+            "#333333",
+            "#555555",
+            "#4ecdc4",
+            "#ffffff",
+            "#ff6b6b"
+        ],
+        "fonts": [
+            "Montserrat",
+            "sans-serif"
+        ],
+        "visual_identity": "Vibrant, modern, and creative with teal and coral accents, suitable for design-focused businesses."
+    }
+}

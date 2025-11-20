@@ -1,0 +1,14 @@
+{
+    "name": "Masonry Gallery",
+    "category": "Gallery",
+    "description": "A dynamic and responsive masonry-style grid gallery that elegantly arranges images of different sizes. Perfect for visual storytelling and creative portfolios.",
+    "tags": ["gallery", "masonry", "grid", "responsive", "portfolio", "dynamic"],
+    "structure": ["title", "masonry-grid", "images"],
+    "complexity": "medium",
+    "use_cases": [
+        "Art Galleries",
+        "Creative Portfolios",
+        "Mood Boards",
+        "Photography Blogs"
+    ]
+}

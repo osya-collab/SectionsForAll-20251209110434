@@ -1,0 +1,45 @@
+{
+    "name": "Clean Service Cover",
+    "category": "Cover",
+    "description": "A clean and professional cover section for service-based businesses, featuring clear communication, trust-building elements, and a calming color palette.",
+    "tags": [
+        "cover",
+        "hero",
+        "service",
+        "professional",
+        "clean",
+        "business"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h1",
+        "p",
+        "ul",
+        "li",
+        "span",
+        "div",
+        "button",
+        "a",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Service company websites",
+        "Consulting firms",
+        "Professional service providers"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f4f7f6",
+            "#2c3e50",
+            "#555555",
+            "#1abc9c"
+        ],
+        "fonts": [
+            "Open Sans",
+            "sans-serif"
+        ],
+        "visual_identity": "Professional, trustworthy, and clean with a prominent teal accent, conveying reliability and expertise."
+    }
+}

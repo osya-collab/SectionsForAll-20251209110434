@@ -1,0 +1,43 @@
+{
+    "id": "team-large-cards-socials",
+    "html": "\n<section class=\"team-large-cards-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"section-header\">\n            <h2 class=\"anim-fade-in-up\">{{t:title}}</h2>\n            <p class=\"anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n        </div>\n        <div class=\"team-grid\">\n            <div class=\"team-card anim-fade-in-up anim-delay-2\">\n                <img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887\" alt=\"{{t:member1_name}}\">\n                <div class=\"card-content\">\n                    <h3>{{t:member1_name}}</h3>\n                    <p class=\"role\">{{t:member1_role}}</p>\n                    <p class=\"bio\">{{t:member_bio}}</p>\n                    <div class=\"social-icons\">\n                        <a href=\"#\" aria-label=\"LinkedIn\"><i class=\"fab fa-linkedin-in\"></i></a>\n                        <a href=\"#\" aria-label=\"Twitter\"><i class=\"fab fa-twitter\"></i></a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"team-card anim-fade-in-up anim-delay-3\">\n                <img src=\"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070\" alt=\"{{t:member2_name}}\">\n                 <div class=\"card-content\">\n                    <h3>{{t:member2_name}}</h3>\n                    <p class=\"role\">{{t:member2_role}}</p>\n                    <p class=\"bio\">{{t:member_bio}}</p>\n                    <div class=\"social-icons\">\n                        <a href=\"#\" aria-label=\"LinkedIn\"><i class=\"fab fa-linkedin-in\"></i></a>\n                        <a href=\"#\" aria-label=\"Twitter\"><i class=\"fab fa-twitter\"></i></a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"team-card anim-fade-in-up anim-delay-4\">\n                <img src=\"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887\" alt=\"{{t:member3_name}}\">\n                 <div class=\"card-content\">\n                    <h3>{{t:member3_name}}</h3>\n                    <p class=\"role\">{{t:member3_role}}</p>\n                    <p class=\"bio\">{{t:member_bio}}</p>\n                    <div class=\"social-icons\">\n                        <a href=\"#\" aria-label=\"LinkedIn\"><i class=\"fab fa-linkedin-in\"></i></a>\n                        <a href=\"#\" aria-label=\"Twitter\"><i class=\"fab fa-twitter\"></i></a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-large-cards-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.team-large-cards-section .container {\n    width: 90%;\n    max-width: 1200px;\n    margin: 0 auto;\n}\n.team-large-cards-section .section-header {\n    text-align: center;\n    max-width: 700px;\n    margin: 0 auto 4rem;\n}\n.team-large-cards-section h2 {\n    font-size: 2.5rem;\n    font-weight: 700;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1rem;\n}\n.team-large-cards-section .section-header p {\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n}\n.team-large-cards-section .team-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n    gap: 2rem;\n}\n.team-large-cards-section .team-card {\n    background-color: #f3f4f6; /* gray-100 */\n    border-radius: 1.5rem;\n    text-align: center;\n    padding: 2rem;\n}\n.team-large-cards-section .team-card img {\n    width: 100%;\n    height: auto;\n    aspect-ratio: 1/1;\n    object-fit: cover;\n    border-radius: 1.5rem;\n    margin-bottom: 1.5rem;\n}\n.team-large-cards-section .card-content h3 {\n    font-size: 1.25rem;\n    font-weight: 600;\n    color: var(--color-dark, #1F2937);\n}\n.team-large-cards-section .card-content .role {\n    font-size: 0.9rem;\n    color: var(--color-secondary, #6B7280);\n    margin-bottom: 1rem;\n}\n.team-large-cards-section .card-content .bio {\n    font-size: 0.95rem;\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.6;\n    margin-bottom: 1.5rem;\n}\n.team-large-cards-section .social-icons {\n    display: flex;\n    justify-content: center;\n    gap: 1rem;\n}\n.team-large-cards-section .social-icons a {\n    color: var(--color-secondary, #6B7280);\n    font-size: 1.2rem;\n    transition: color 0.3s;\n}\n.team-large-cards-section .social-icons a:hover {\n    color: var(--color-dark, #1F2937);\n}\n",
+    "translations": {
+        "de": {
+            "name": "Große Karten mit Socials",
+            "title": "Lernen Sie unser Team kennen",
+            "subtitle": "Eine klare und überzeugende Beschreibung deiner Dienstleistungen sorgt dafür, dass Besucher nicht sofort wieder abspringen, nachdem sie deine Seite geöffnet haben.",
+            "member1_name": "Achim Braun",
+            "member1_role": "Geschäftsführer & Gründer",
+            "member_bio": "Ein kurzer Text, der perfekt auf deine Onepage passt. Circa 30 Wörter reichen aus, um einen Absatz sauber zu füllen und für ein aufgeräumtes Erscheinungsbild zu sorgen.",
+            "member2_name": "Emily Jones",
+            "member2_role": "Finanzen & Buchhaltung",
+            "member3_name": "Berndt Becker",
+            "member3_role": "Rechtsberater"
+        },
+        "en": {
+            "name": "Large Cards with Socials",
+            "title": "Meet Our Team",
+            "subtitle": "A clear and compelling description of your services ensures that visitors don't leave immediately after opening your page.",
+            "member1_name": "Achim Braun",
+            "member1_role": "CEO & Founder",
+            "member_bio": "A short text that fits perfectly on your Onepage. About 30 words are enough to fill a paragraph cleanly and create a tidy appearance.",
+            "member2_name": "Emily Jones",
+            "member2_role": "Finance & Accounting",
+            "member3_name": "Berndt Becker",
+            "member3_role": "Legal Consultant"
+        },
+        "ar": {
+            "name": "بطاقات كبيرة مع وسائل التواصل الاجتماعي",
+            "title": "تعرف على فريقنا",
+            "subtitle": "يضمن الوصف الواضح والمقنع لخدماتك عدم مغادرة الزوار فور فتح صفحتك.",
+            "member1_name": "أخيم براون",
+            "member1_role": "الرئيس التنفيذي والمؤسس",
+            "member_bio": "نص قصير يناسب صفحتك على Onepage بشكل مثالي. حوالي 30 كلمة كافية لملء فقرة بشكل نظيف وإنشاء مظهر مرتب.",
+            "member2_name": "إميلي جونز",
+            "member2_role": "المالية والمحاسبة",
+            "member3_name": "بيرندت بيكر",
+            "member3_role": "مستشار قانوني"
+        }
+    }
+}

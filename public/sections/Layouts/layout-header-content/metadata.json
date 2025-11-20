@@ -1,0 +1,14 @@
+
+{
+    "name": "Header and Content",
+    "category": "Layouts",
+    "description": "A basic two-row layout structure with a smaller block on top for a header or title, and a larger block below for main content.",
+    "tags": ["layout", "structure", "header", "two-row", "vertical"],
+    "structure": ["header-placeholder", "content-placeholder"],
+    "complexity": "simple",
+    "use_cases": [
+        "Standard page sections",
+        "Blog post layouts",
+        "Feature introductions"
+    ]
+}

@@ -1,0 +1,11 @@
+
+{
+    "id": "cta-gradient-banner",
+    "html": "\n<section class=\"cta-gradient-banner\" data-ai-id=\"element-placeholder\">\n    <div class=\"container cta-content\">\n        <h2 class=\"anim-fade-in-up\">Ready to Start Your Project?</h2>\n        <p class=\"anim-fade-in-up anim-delay-1\">Let's work together to bring your vision to life. Contact us today for a free consultation.</p>\n        <a href=\"#\" class=\"btn-cta anim-fade-in-up anim-delay-2\">Get in Touch</a>\n    </div>\n</section>",
+    "css": "\n.cta-gradient-banner .container {\n  width: 90%;\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 1rem;\n}\n.cta-gradient-banner {\n    padding: 5rem 2rem;\n    background: linear-gradient(135deg, var(--color-primary, #667eea) 0%, var(--color-secondary, #764ba2) 100%);\n    color: var(--color-light, #FFFFFF);\n    text-align: center;\n    border-radius: 16px;\n    margin: 2rem;\n}\n.cta-gradient-banner h2 { font-size: 2.5rem; margin-bottom: 1rem; }\n.cta-gradient-banner p { max-width: 600px; margin: 0 auto 2rem; opacity: 0.9; }\n.btn-cta {\n    display: inline-block;\n    padding: 1rem 2.5rem;\n    background-color: var(--color-light, #FFFFFF);\n    color: var(--color-dark, #111827);\n    border-radius: 50px;\n    font-weight: 700;\n    text-decoration: none;\n    transition: transform 0.3s, box-shadow 0.3s;\n}\n.btn-cta:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }\n",
+    "translations": {
+        "de": { "name": "CTA-Banner mit Farbverlauf" },
+        "ar": { "name": "لافتة دعوة للعمل متدرجة" },
+        "en": { "name": "Gradient CTA Banner" }
+    }
+}

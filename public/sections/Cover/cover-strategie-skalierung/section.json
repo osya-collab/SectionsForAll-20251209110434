@@ -1,0 +1,34 @@
+{
+    "id": "cover-strategie-skalierung",
+    "html": "\n<section class=\"cover-strategie-skalierung-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container cover-strategie-skalierung-container\">\n        <div class=\"content-side anim-fade-in-right\">\n            <p class=\"pre-headline\">{{t:pre_headline}}</p>\n            <h1>{{t:title}}</h1>\n            <p class=\"description\">{{t:description}}</p>\n            <div class=\"cta-group\">\n                <a href=\"#\" class=\"btn btn-dark\">{{t:cta1}}</a>\n                <a href=\"#\" class=\"btn btn-light\">{{t:cta2}}</a>\n            </div>\n            <div class=\"social-icons\">\n                <a href=\"#\" aria-label=\"Instagram\"><i class=\"fa-brands fa-instagram\"></i></a>\n                <a href=\"#\" aria-label=\"TikTok\"><i class=\"fa-brands fa-tiktok\"></i></a>\n                <a href=\"#\" aria-label=\"X\"><i class=\"fa-brands fa-twitter\"></i></a>\n            </div>\n        </div>\n        <div class=\"image-side anim-fade-in-left\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=young+man+smiling+glasses+portrait\" alt=\"{{t:image_alt}}\">\n        </div>\n    </div>\n</section>",
+    "css": "\n.cover-strategie-skalierung-section {\n    padding: 4rem 0;\n    background-color: var(--color-light, #FFFFFF);\n    min-height: 80vh;\n    display: flex;\n    align-items: center;\n}\n.cover-strategie-skalierung-section .container {\n    width: 90%;\n    max-width: 1200px;\n    margin: 0 auto;\n}\n.cover-strategie-skalierung-container {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 3rem;\n    align-items: center;\n}\n@media (min-width: 992px) {\n    .cover-strategie-skalierung-container {\n        grid-template-columns: 45% 55%;\n    }\n    .cover-strategie-skalierung-section .image-side {\n        order: 1;\n    }\n    .cover-strategie-skalierung-section .content-side {\n        order: 0;\n    }\n}\n.cover-strategie-skalierung-section .pre-headline {\n    color: var(--color-secondary, #6B7280);\n    font-size: 0.9rem;\n    font-weight: 600;\n    margin-bottom: 1rem;\n}\n.cover-strategie-skalierung-section h1 {\n    font-size: clamp(2.5rem, 5vw, 3.25rem);\n    font-weight: 700;\n    line-height: 1.2;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1.5rem;\n}\n.cover-strategie-skalierung-section .description {\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n    margin-bottom: 2.5rem;\n}\n.cover-strategie-skalierung-section .cta-group {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 1rem;\n    margin-bottom: 3rem;\n}\n.cover-strategie-skalierung-section .btn {\n    padding: 0.75rem 1.5rem;\n    border-radius: 0.5rem;\n    font-weight: 600;\n    text-decoration: none;\n    transition: all 0.3s;\n}\n.cover-strategie-skalierung-section .btn-dark {\n    background-color: var(--color-dark, #1F2937);\n    color: var(--color-light, #FFFFFF);\n    border: 1px solid var(--color-dark, #1F2937);\n}\n.cover-strategie-skalierung-section .btn-light {\n    background-color: transparent;\n    color: var(--color-dark, #1F2937);\n    border: 1px solid #d1d5db; /* gray-300 */\n}\n.cover-strategie-skalierung-section .social-icons {\n    display: flex;\n    gap: 1.5rem;\n}\n.cover-strategie-skalierung-section .social-icons a {\n    color: var(--color-secondary, #6B7280);\n    font-size: 1.25rem;\n    transition: color 0.3s;\n}\n.cover-strategie-skalierung-section .social-icons a:hover {\n    color: var(--color-dark, #1F2937);\n}\n.cover-strategie-skalierung-section .image-side img {\n    width: 100%;\n    height: 100%;\n    max-height: 600px;\n    object-fit: cover;\n    border-radius: 1.5rem;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Strategie Skalierung",
+            "pre_headline": "Marketingexperte & Unternehmer",
+            "title": "Entdecken Sie bewährte Strategien, um Ihr Geschäft zu skalieren",
+            "description": "Das Ausrichten von Personen kann in Onepage etwas knifflig sein. Achten Sie auf die Option „Volle Größe“ und passen Sie die Darstellung dann mit den Pfeilen an, die erscheinen.",
+            "cta1": "Call to Action",
+            "cta2": "Secondary action",
+            "image_alt": "Porträt eines lächelnden jungen Mannes mit Brille"
+        },
+        "en": {
+            "name": "Strategy Scaling",
+            "pre_headline": "Marketing Expert & Entrepreneur",
+            "title": "Discover proven strategies to scale your business",
+            "description": "Aligning people can be a bit tricky in Onepage. Look for the 'Full Size' option and then adjust the display with the arrows that appear.",
+            "cta1": "Call to Action",
+            "cta2": "Secondary action",
+            "image_alt": "Portrait of a smiling young man with glasses"
+        },
+        "ar": {
+            "name": "توسيع الاستراتيجية",
+            "pre_headline": "خبير تسويق ورائد أعمال",
+            "title": "اكتشف استراتيجيات مجربة لتوسيع نطاق عملك",
+            "description": "قد يكون محاذاة الأشخاص أمرًا صعبًا بعض الشيء في Onepage. ابحث عن خيار 'الحجم الكامل' ثم اضبط العرض بالأسهم التي تظهر.",
+            "cta1": "دعوة للعمل",
+            "cta2": "إجراء ثانوي",
+            "image_alt": "صورة لشاب مبتسم يرتدي نظارات"
+        }
+    }
+}

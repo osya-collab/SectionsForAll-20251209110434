@@ -1,0 +1,13 @@
+{
+    "name": "Split Bio with Signature",
+    "category": "Team",
+    "description": "An elegant, split-card layout for a team member bio, featuring their name, title, description, and a signature on one side, and a portrait on the other.",
+    "tags": ["team", "bio", "signature", "split-layout", "corporate", "elegant"],
+    "structure": ["text-card", "image-card"],
+    "complexity": "medium",
+    "use_cases": [
+        "Founder bios",
+        "Executive team pages",
+        "Author introductions"
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "id": "about-image-left-stats-new",
+    "html": "\n<section class=\"about-image-left-stats-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container about-image-left-container\">\n        <div class=\"about-image-left-wrapper anim-fade-in-right\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=modern+office+meeting+lake+view\" alt=\"{{t:image_alt}}\">\n        </div>\n        <div class=\"about-image-left-content anim-fade-in-left\">\n            <div class=\"about-main-text\">\n                <h2>{{t:title}}</h2>\n                <p>{{t:p1}}</p>\n                <p class=\"text-secondary\">{{t:p2}}</p>\n            </div>\n            <div class=\"stats-row\">\n                <div class=\"stat-item\">\n                    <h3>3+</h3>\n                    <p>{{t:stat1_label}}</p>\n                </div>\n                <div class=\"stat-item\">\n                    <h3>1000+</h3>\n                    <p>{{t:stat2_label}}</p>\n                </div>\n                <div class=\"stat-item\">\n                    <h3>5000+</h3>\n                    <p>{{t:stat3_label}}</p>\n                </div>\n                 <div class=\"stat-item\">\n                    <h3>24/7</h3>\n                    <p>{{t:stat4_label}}</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.about-image-left-stats-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.about-image-left-stats-section .container {\n    width: 90%;\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 0 1rem;\n}\n.about-image-left-container {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 2rem;\n    align-items: center;\n}\n@media (min-width: 992px) {\n    .about-image-left-container {\n        grid-template-columns: 1fr 1fr;\n        gap: 4rem;\n    }\n}\n.about-image-left-wrapper img {\n    width: 100%;\n    height: 100%;\n    max-height: 500px;\n    border-radius: 1.5rem;\n    object-fit: cover;\n    box-shadow: 0 10px 30px rgba(0,0,0,0.1);\n}\n.about-image-left-content {\n    background-color: #f9fafb;\n    padding: 3rem;\n    border-radius: 1.5rem;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n}\n.about-image-left-content h2 {\n    font-size: clamp(2rem, 5vw, 2.75rem);\n    font-weight: 700;\n    color: var(--color-dark, #111827);\n    margin-bottom: 1.5rem;\n    line-height: 1.2;\n}\n.about-image-left-content p {\n    color: var(--color-dark, #111827);\n    margin-bottom: 1rem;\n    opacity: 0.8;\n}\n.about-image-left-content p.text-secondary {\n    color: var(--color-secondary, #6B7280);\n    opacity: 0.7;\n    font-size: 0.9rem;\n}\n.about-image-left-stats-section .stats-row {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 1.5rem;\n    margin-top: 2rem;\n}\n.about-image-left-stats-section .stat-item h3 {\n    font-size: 2.25rem;\n    font-weight: 700;\n    color: var(--color-dark, #111827);\n    margin-bottom: 0.25rem;\n}\n.about-image-left-stats-section .stat-item p {\n    font-size: 0.9rem;\n    color: var(--color-secondary, #6B7280);\n    margin: 0;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Über uns mit linkem Bild & Statistiken",
+            "image_alt": "Modernes minimalistisches Büro-Interieur mit Seeblick",
+            "title": "Über 10 Jahre Wachstum für dein Geschäft",
+            "p1": "Wir haben einen Page Builder entwickelt, der wirklich funktioniert. Unsere Vorlagen und Abschnitte basieren auf dem, was auf den beliebtesten Seiten gerade gut ankommt. Wir aktualisieren alles regelmäßig, damit du immer auf dem neuesten Stand bist.",
+            "p2": "Unsere Abschnitte und Vorlagen basieren auf dem, was auf den beliebtesten Websites gerade angesagt ist.",
+            "stat1_label": "Jahre seit Eröffnung",
+            "stat2_label": "Stammkunden",
+            "stat3_label": "Dienstleistungen",
+            "stat4_label": "Support"
+        },
+        "en": {
+            "name": "About with Left Image & Stats",
+            "image_alt": "Modern minimalist office interior with lake view",
+            "title": "Over 10 Years of Growth for Your Business",
+            "p1": "We've developed a page builder that really works. Our templates and sections are based on what's currently performing well on the most popular sites. We update everything regularly so you're always up to date.",
+            "p2": "Our sections and templates are based on what's currently trending on the most popular websites.",
+            "stat1_label": "Years Since Opening",
+            "stat2_label": "Regular Customers",
+            "stat3_label": "Services Provided",
+            "stat4_label": "Support"
+        },
+        "ar": {
+            "name": "نبذة عنا مع صورة وإحصائيات على اليسار",
+            "image_alt": "تصميم داخلي لمكتب حديث وبسيط مع إطلالة على البحيرة",
+            "title": "أكثر من 10 سنوات من النمو لعملك",
+            "p1": "لقد قمنا بتطوير أداة إنشاء صفحات تعمل حقًا. تعتمد قوالبنا وأقسامنا على ما يحقق أداءً جيدًا حاليًا في المواقع الأكثر شيوعًا. نقوم بتحديث كل شيء بانتظام حتى تكون دائمًا على اطلاع.",
+            "p2": "تعتمد أقسامنا وقوالبنا على ما هو شائع حاليًا في مواقع الويب الأكثر شهرة.",
+            "stat1_label": "سنوات منذ الافتتاح",
+            "stat2_label": "عملاء دائمون",
+            "stat3_label": "الخدمات المقدمة",
+            "stat4_label": "الدعم"
+        }
+    }
+}

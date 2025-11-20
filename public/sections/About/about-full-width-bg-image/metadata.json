@@ -1,0 +1,13 @@
+{
+    "name": "Full Width BG Image",
+    "category": "About",
+    "description": "An immersive, full-width section with a parallax background image and centered text content. Ideal for making a bold statement.",
+    "tags": ["about", "parallax", "background-image", "full-width", "statement"],
+    "structure": ["background-image", "header", "paragraph"],
+    "complexity": "medium",
+    "use_cases": [
+        "Impactful mission statements",
+        "Chapter dividers in a long-form page",
+        "Brand manifestos"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Team Portraits",
+    "category": "Team",
+    "description": "A clean and professional team section featuring two main portraits, a central 'About Us' title, and a descriptive text block.",
+    "tags": ["about", "team", "portraits", "minimalist", "corporate"],
+    "structure": ["header", "image-grid", "paragraph", "cta"],
+    "complexity": "simple",
+    "use_cases": [
+        "Small team introductions",
+        "Founder bios",
+        "Agency 'About Us' pages"
+    ]
+}

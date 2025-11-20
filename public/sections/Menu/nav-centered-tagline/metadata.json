@@ -1,0 +1,14 @@
+
+{
+    "name": "Centered Logo & Tagline",
+    "category": "Menu",
+    "description": "A minimalist navigation bar focused purely on branding, with a centered logo and a tagline below it. Contains no navigation links.",
+    "tags": ["header", "minimalist", "branding", "logo", "centered"],
+    "structure": ["logo", "tagline"],
+    "complexity": "simple",
+    "use_cases": [
+        "Minimalist Portfolios",
+        "Brand landing pages",
+        "Coming Soon pages"
+    ]
+}

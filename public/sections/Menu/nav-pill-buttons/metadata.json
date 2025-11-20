@@ -1,0 +1,14 @@
+
+{
+    "name": "Pill Style Nav",
+    "category": "Menu",
+    "description": "A modern navigation bar where links are styled as pill-shaped buttons. An active link has a solid background, creating a clear visual hierarchy.",
+    "tags": ["header", "modern", "pills", "buttons", "tech"],
+    "structure": ["logo", "nav-links", "cta-button"],
+    "complexity": "simple",
+    "use_cases": [
+        "Tech Startups",
+        "SaaS Websites",
+        "Modern Portfolios"
+    ]
+}

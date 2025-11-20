@@ -1,0 +1,13 @@
+{
+    "name": "Full-Width Title Card",
+    "category": "Article",
+    "description": "An immersive article introduction with a title card overlaid on a full-width background image.",
+    "tags": ["article", "header", "title", "full-width-image", "immersive"],
+    "structure": ["background-image", "title-card"],
+    "complexity": "medium",
+    "use_cases": [
+        "Feature articles",
+        "Magazine-style posts",
+        "Chapter introductions"
+    ]
+}

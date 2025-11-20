@@ -1,0 +1,25 @@
+{
+    "id": "about-reading-split",
+    "html": "\n<section class=\"reading-split-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container anim-fade-in\">\n        <div class=\"text-content\">\n            <h2>{{t:title}}</h2>\n            <p>{{t:description}}</p>\n        </div>\n        <div class=\"image-content\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=woman+reading+book+indoors\" alt=\"{{t:image_alt}}\">\n        </div>\n    </div>\n</section>",
+    "css": "\n.reading-split-section {\n    padding: 3rem 0;\n    background-color: var(--color-bg, #f9fafb);\n}\n.reading-split-section .container {\n    width: 90%;\n    max-width: 1100px;\n    margin: 0 auto;\n    background-color: #e0f2fe; /* Light blue background */\n    border-radius: 12px;\n    padding: 2rem;\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 2rem;\n    align-items: center;\n}\n@media (min-width: 768px) {\n    .reading-split-section .container { grid-template-columns: 1fr 1fr; padding: 3rem; }\n}\n.reading-split-section h2 {\n    font-size: 2rem;\n    font-weight: 700;\n    color: var(--color-dark);\n    margin-bottom: 1.5rem;\n}\n.reading-split-section p {\n    color: var(--color-secondary);\n    line-height: 1.7;\n}\n.reading-split-section .image-content img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    border-radius: 8px;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Über uns Lesespalte",
+            "title": "Über uns",
+            "description": "Fügen Sie eine lange, schöne Geschichte über Ihr Unternehmen und seine Anfänge ein. Erzählen Sie von Ihren Teammitgliedern und schreiben Sie einen Artikel über den Gründer dieses Unternehmens. Fügen Sie Ihre eigenen Fotos ein, damit Kunden mehr über Sie erfahren und Ihnen vertrauen können.",
+            "image_alt": "Frau liest ein Buch auf einem Sofa"
+        },
+        "en": {
+            "name": "About Us Reading Split",
+            "title": "About Us",
+            "description": "Include a long, beautiful story about your company and its beginnings. Talk about your team members and write an article about the founder of this company. Add your own photos so customers can learn more about you and trust you.",
+            "image_alt": "Woman reading a book on a sofa"
+        },
+        "ar": {
+            "name": "نبذة عنا - قسم القراءة",
+            "title": "عنا",
+            "description": "أضف قصة طويلة وجميلة عن شركتك وبداياتها. تحدث عن أعضاء فريقك واكتب مقالًا عن مؤسس هذه الشركة. أضف صورك الخاصة حتى يتمكن العملاء من معرفة المزيد عنك ويثقون بك.",
+            "image_alt": "امرأة تقرأ كتابًا على أريكة"
+        }
+    }
+}

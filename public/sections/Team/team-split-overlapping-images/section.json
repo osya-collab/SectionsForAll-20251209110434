@@ -1,0 +1,43 @@
+{
+    "id": "team-split-overlapping-images",
+    "html": "\n<section class=\"team-split-overlap-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"content-side anim-fade-in-up\">\n            <h2>{{t:title}}</h2>\n            <p>{{t:subtitle}}</p>\n            <a href=\"#\" class=\"btn-primary\">{{t:cta_button}}</a>\n        </div>\n        <div class=\"images-side anim-fade-in-up anim-delay-2\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=man+portrait\" alt=\"{{t:member1_name}}\" class=\"team-image image-1\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=woman+portrait\" alt=\"{{t:member2_name}}\" class=\"team-image image-2\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=male+professional\" alt=\"{{t:member3_name}}\" class=\"team-image image-3\">\n            <div class=\"image-text image-text-1\"><h3>{{t:member1_name}}</h3><p>{{t:member1_role}}</p></div>\n            <div class=\"image-text image-text-2\"><h3>{{t:member2_name}}</h3><p>{{t:member2_role}}</p></div>\n            <div class=\"image-text image-text-3\"><h3>{{t:member3_name}}</h3><p>{{t:member3_role}}</p></div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-split-overlap-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.team-split-overlap-section .container {\n    width: 90%;\n    max-width: 1100px;\n    margin: 0 auto;\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 3rem;\n    align-items: center;\n}\n@media (min-width: 992px) {\n    .team-split-overlap-section .container {\n        grid-template-columns: 40% 60%;\n    }\n}\n.team-split-overlap-section .content-side h2 {\n    font-size: 3rem;\n    font-weight: 700;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1.5rem;\n}\n.team-split-overlap-section .content-side p {\n    color: var(--color-secondary, #6B7280);\n    margin-bottom: 2rem;\n    line-height: 1.7;\n}\n.team-split-overlap-section .btn-primary {\n    display: inline-block;\n    padding: 0.8rem 2rem;\n    background-color: var(--color-dark, #111827);\n    color: var(--color-light, #FFFFFF);\n    text-decoration: none;\n    border-radius: 8px;\n    font-weight: 600;\n}\n.team-split-overlap-section .images-side {\n    position: relative;\n    height: 450px;\n}\n.team-split-overlap-section .team-image {\n    position: absolute;\n    border-radius: 1.5rem;\n    object-fit: cover;\n    box-shadow: 0 10px 30px rgba(0,0,0,0.1);\n}\n.team-split-overlap-section .image-1 {\n    width: 60%;\n    height: 70%;\n    top: 0;\n    left: 0;\n}\n.team-split-overlap-section .image-2 {\n    width: 50%;\n    height: 60%;\n    top: 40%;\n    left: 50%;\n    z-index: 2;\n}\n.team-split-overlap-section .image-3 {\n    width: 40%;\n    height: 50%;\n    top: 10%;\n    left: 60%;\n    z-index: 1;\n}\n.team-split-overlap-section .image-text {\n    position: absolute;\n    background: rgba(255,255,255,0.8);\n    backdrop-filter: blur(5px);\n    padding: 0.5rem 1rem;\n    border-radius: 0.75rem;\n    z-index: 3;\n    text-align: center;\n}\n.team-split-overlap-section .image-text-1 { bottom: 35%; left: 5%; }\n.team-split-overlap-section .image-text-2 { bottom: 5%; left: 45%; }\n.team-split-overlap-section .image-text-3 { top: 5%; right: 0; }\n.team-split-overlap-section .image-text h3 { font-size: 1rem; font-weight: 600; }\n.team-split-overlap-section .image-text p { font-size: 0.8rem; color: var(--color-secondary, #6B7280); margin: 0; }\n",
+    "translations": {
+        "de": {
+            "name": "Geteilt mit überlappenden Bildern",
+            "title": "Wir sind ein Team erfahrener Profis",
+            "subtitle": "Eine klare und überzeugende Beschreibung deiner Dienstleistungen sorgt dafür, dass Besucher nicht sofort wieder abspringen, nachdem sie deine Seite geöffnet haben.",
+            "cta_button": "Call to action button",
+            "member1_name": "Achim Braun",
+            "member1_role": "CEO & Gründer",
+            "member2_name": "Anna Becker",
+            "member2_role": "Finanzen & Buchhaltung",
+            "member3_name": "Oliver Santana",
+            "member3_role": "Berater"
+        },
+        "en": {
+            "name": "Split with Overlapping Images",
+            "title": "We are a team of experienced professionals",
+            "subtitle": "A clear and compelling description of your services ensures that visitors don't leave immediately after opening your page.",
+            "cta_button": "Call to action button",
+            "member1_name": "Achim Braun",
+            "member1_role": "CEO & Founder",
+            "member2_name": "Anna Becker",
+            "member2_role": "Finance & Accounting",
+            "member3_name": "Oliver Santana",
+            "member3_role": "Advisor"
+        },
+        "ar": {
+            "name": "مقسمة مع صور متداخلة",
+            "title": "نحن فريق من المحترفين ذوي الخبرة",
+            "subtitle": "يضمن الوصف الواضح والمقنع لخدماتك عدم مغادرة الزوار فور فتح صفحتك.",
+            "cta_button": "زر الدعوة لاتخاذ إجراء",
+            "member1_name": "أخيم براون",
+            "member1_role": "الرئيس التنفيذي والمؤسس",
+            "member2_name": "آنا بيكر",
+            "member2_role": "المالية والمحاسبة",
+            "member3_name": "أوليفر سانتانا",
+            "member3_role": "مستشار"
+        }
+    }
+}

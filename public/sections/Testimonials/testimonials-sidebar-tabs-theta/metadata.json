@@ -1,0 +1,29 @@
+{
+    "name": "Vertical Tabs Testimonials",
+    "category": "Testimonials",
+    "description": "A tabbed layout suitable for displaying detailed case studies or testimonials from specific companies.",
+    "tags": [
+        "tabs",
+        "interactive",
+        "clean"
+    ],
+    "structure": [
+        "Vertical Tabs",
+        "Content Area"
+    ],
+    "complexity": "complex",
+    "use_cases": [
+        "Enterprise SaaS",
+        "Detailed Reviews"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#FFFFFF",
+            "#F9F9F9"
+        ],
+        "fonts": [
+            "Sans Serif"
+        ],
+        "visual_identity": "Organized, functional, professional"
+    }
+}

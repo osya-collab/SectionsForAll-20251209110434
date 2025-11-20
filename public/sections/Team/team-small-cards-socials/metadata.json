@@ -1,0 +1,13 @@
+{
+    "name": "Small Cards with Socials",
+    "category": "Team",
+    "description": "A compact team section with small cards, each featuring a square portrait, name, role, and social media icons.",
+    "tags": ["team", "cards", "social-media", "minimalist", "grid"],
+    "structure": ["header", "grid", "cards"],
+    "complexity": "simple",
+    "use_cases": [
+        "Startup team pages",
+        "Project contributor lists",
+        "Agency 'About Us' pages"
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Zwei Spalten mit Akkordeon",
+    "category": "FAQ",
+    "description": "A two-column layout with text and an image on the left, and a FAQ accordion on the right.",
+    "tags": ["faq", "accordion", "split-layout", "image", "corporate"]
+}

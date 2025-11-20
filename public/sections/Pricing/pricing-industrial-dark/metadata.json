@@ -1,0 +1,13 @@
+{
+    "name": "Industrial Dark",
+    "category": "Pricing",
+    "description": "A strong, masculine pricing table with a dark industrial theme. Uses brushed metal textures, blocky fonts, and sharp angles.",
+    "tags": ["pricing", "dark-theme", "industrial", "masculine", "tech", "bold"],
+    "structure": ["header", "pricing-cards", "features", "button"],
+    "complexity": "medium",
+    "use_cases": [
+        "Tech or hardware companies",
+        "Automotive websites",
+        "Fitness or gym sites"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Betrieb in Bewegung mit Dark Card",
+    "category": "Cover",
+    "description": "A variation of the 'Betrieb in Bewegung' cover with a different arrangement of stat and feature cards.",
+    "tags": ["cover", "hero", "stats", "grid", "business", "dark-card"],
+    "structure": ["header", "stats-grid", "feature-card"],
+    "complexity": "medium",
+    "use_cases": ["SaaS Landing Pages", "Corporate Homepages"]
+}

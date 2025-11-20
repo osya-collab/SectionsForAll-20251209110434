@@ -1,0 +1,13 @@
+{
+    "name": "Numbered Mission Cards",
+    "category": "About",
+    "description": "A three-column grid of cards, each featuring a large number, title, and description, perfect for outlining a process or core principles.",
+    "tags": ["about", "process", "features", "cards", "numbered-list"],
+    "structure": ["grid", "cards"],
+    "complexity": "simple",
+    "use_cases": [
+        "Outlining a company's process",
+        "Detailing core values or principles",
+        "Presenting key service features"
+    ]
+}

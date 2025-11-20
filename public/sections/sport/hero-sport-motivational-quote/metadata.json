@@ -1,0 +1,40 @@
+{
+    "name": "Hero Section - Motivational Quote",
+    "category": "Sport",
+    "description": "A motivational hero section featuring an inspiring quote overlaid on a dramatic background image. Uses yellow and dark blue/green tones to create a powerful and encouraging atmosphere.",
+    "tags": [
+        "hero",
+        "sports",
+        "motivation",
+        "quote",
+        "inspiration",
+        "adventure",
+        "dark"
+    ],
+    "structure": [
+        "background-image",
+        "overlay",
+        "quote",
+        "attribution",
+        "call-to-action"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Motivational content",
+        "Coaching services",
+        "Personal development"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#34495e",
+            "#ffffff",
+            "#f1c40f",
+            "rgba(0,0,0,0.5)"
+        ],
+        "fonts": [
+            "serif",
+            "sans-serif"
+        ],
+        "visual_identity": "Inspiring and dramatic with a dark teal background, a vibrant yellow quote, and a contrasting button."
+    }
+}

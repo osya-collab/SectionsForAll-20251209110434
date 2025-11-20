@@ -1,0 +1,34 @@
+{
+    "id": "gallery-circular-segments",
+    "html": "\n<section class=\"gallery-circular-segments\" data-ai-id=\"element-placeholder\" tabindex=\"0\">\n  <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=guitar+player+concert\" alt=\"{{t:image_alt_1}}\" />\n  <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=duo+singing\" alt=\"{{t:image_alt_2}}\" />\n  <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=crowd+cheering+concert\" alt=\"{{t:image_alt_3}}\" />\n  <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=singer+performing+stage\" alt=\"{{t:image_alt_4}}\" />\n  <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=singer+crowd\" alt=\"{{t:image_alt_5}}\" />\n  <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=concert+audience\" alt=\"{{t:image_alt_6}}\" />\n</section>",
+    "css": "\n.gallery-circular-segments {\n  width: 80vmin;\n  aspect-ratio: 1;\n  position: relative;\n  margin: 4rem auto; \n  background: #000;\n  background-size: cover;\n  background-position: center center;\n  overflow: clip;\n  clip-path: circle(50%);\n  -webkit-mask: \n    radial-gradient(farthest-side, #000 95%, #0000);\n  border-radius: 50%;\n}\n\n.gallery-circular-segments img {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  object-position: center center;\n  -webkit-mask: conic-gradient(from var(--i), #0000, #000 5deg 60deg, #0000 70deg);\n  transition: object-position 1s, opacity 0.5s;\n  transition-delay: 0s, 0s;\n  cursor: pointer;\n}\n\n.gallery-circular-segments img:nth-child(1) { \n  --i: -35deg; \n  object-position: 50% -50vmin; \n  clip-path: polygon(50% 50%, 85% 0, 15% 0);\n}\n\n.gallery-circular-segments img:nth-child(2) { \n  --i:  25deg;\n  object-position: 15vmin 100%; \n  clip-path: polygon(50% 50%, 100% 60%, 100% 0, 70% 0);\n}\n.gallery-circular-segments img:nth-child(3) {\n  --i:  85deg;\n  object-position: 28vmin 10vmin; \n  clip-path: polygon(50% 50%, 100% 40%, 100% 100%, 70% 100%);\n}\n.gallery-circular-segments img:nth-child(4) { \n  --i: 145deg;\n  object-position: 20% 20vmin; \n  clip-path: polygon(50% 50%, 90% 100%, 10% 100%);\n}\n.gallery-circular-segments img:nth-child(5) { \n  --i: 205deg;\n  object-position: -15vmin -20%; \n  clip-path: polygon(50% 50%, 0 40%, 0 100%, 30% 100%);\n}\n.gallery-circular-segments img:nth-child(6) { \n  --i: 265deg;\n  object-position: -30vmin -10vmin; \n  clip-path: polygon(50% 50%, 0 60%, 0 0, 30% 0);\n}\n\n.gallery-circular-segments:focus-within img,\n.gallery-circular-segments:hover img {\n  opacity: 0.25;\n}\n\n.gallery-circular-segments img:focus,\n.gallery-circular-segments img:hover {\n  opacity: 1;\n  object-position: 50% 50%;\n  transition-delay: 0.5s, 0s;\n}\n",
+    "translations": {
+        "de": { 
+            "name": "Galerie mit Kreissegmenten",
+            "image_alt_1": "Gitarrist auf Konzert",
+            "image_alt_2": "Singendes Duo",
+            "image_alt_3": "Jubelnde Menge",
+            "image_alt_4": "Sänger auf der Bühne",
+            "image_alt_5": "Sänger in der Menge",
+            "image_alt_6": "Konzertpublikum"
+        },
+        "ar": { 
+            "name": "معرض الشرائح الدائرية",
+            "image_alt_1": "عازف جيتار في حفلة موسيقية",
+            "image_alt_2": "ثنائي يغني",
+            "image_alt_3": "جمهور يهتف",
+            "image_alt_4": "مغني على المسرح",
+            "image_alt_5": "مغني وسط الجمهور",
+            "image_alt_6": "جمهور الحفل"
+        },
+        "en": { 
+            "name": "Circular Segment Gallery",
+            "image_alt_1": "Guitar player at concert",
+            "image_alt_2": "Duo singing",
+            "image_alt_3": "Crowd cheering",
+            "image_alt_4": "Singer performing",
+            "image_alt_5": "Singer in crowd",
+            "image_alt_6": "Concert audience"
+        }
+    }
+}

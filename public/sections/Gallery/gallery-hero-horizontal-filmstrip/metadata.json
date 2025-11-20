@@ -1,0 +1,28 @@
+{
+    "name": "Horizontal Filmstrip Gallery",
+    "category": "Gallery",
+    "description": "A unique hero section with a fixed text panel and a horizontally scrolling gallery of images, reminiscent of a filmstrip.",
+    "tags": [
+        "horizontal-scrolling",
+        "filmstrip",
+        "portfolio",
+        "unique",
+        "gallery",
+        "cinematic"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h1",
+        "h2",
+        "p",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Cinematographer portfolios",
+        "photojournalism",
+        "sequential storytelling",
+        "travel diaries"
+    ]
+}

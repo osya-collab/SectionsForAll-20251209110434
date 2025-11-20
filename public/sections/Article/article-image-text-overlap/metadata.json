@@ -1,0 +1,13 @@
+{
+    "name": "Image & Text Overlap",
+    "category": "Article",
+    "description": "A modern layout where a text card is artistically overlapped with an image, creating a dynamic, layered effect.",
+    "tags": ["article", "overlap", "image", "modern", "creative"],
+    "structure": ["image", "text-card"],
+    "complexity": "medium",
+    "use_cases": [
+        "Magazine-style articles",
+        "Creative portfolios",
+        "Brand storytelling"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Diagonal Split Dark Hero",
+    "category": "Cover",
+    "description": "A dynamic split layout with a diagonal background accent and rotated image container.",
+    "tags": [
+        "hero",
+        "diagonal",
+        "modern",
+        "dark"
+    ],
+    "structure": [
+        "diagonal background",
+        "2 column grid",
+        "rotated image"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Burger Joint",
+        "Modern Kitchen",
+        "Food Blog"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#0a0a0a",
+            "#1a1a1a",
+            "#ff4500"
+        ],
+        "fonts": [
+            "Sans-serif"
+        ],
+        "visual_identity": "Dynamic Modern"
+    }
+}

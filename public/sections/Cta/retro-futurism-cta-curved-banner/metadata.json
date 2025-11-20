@@ -1,0 +1,47 @@
+{
+    "name": "Retro Futurism CTA with Curved Banner",
+    "category": "Cta",
+    "description": "A CTA section with a curved bottom edge, set against a pale peach background. It features optimistic, space-age typography and a newsletter signup input with a pale teal button.",
+    "tags": [
+        "retro",
+        "futurism",
+        "cta",
+        "curved",
+        "banner",
+        "newsletter",
+        "pastel"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "div",
+        "input",
+        "button",
+        "div",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "newsletter signup",
+        "promotional banner",
+        "early access notification"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f8e8d8",
+            "#f0e6e0",
+            "#fff",
+            "#444",
+            "#555",
+            "#c0b0a0",
+            "#87ceeb"
+        ],
+        "fonts": [
+            "Press Start 2P",
+            "cursive"
+        ],
+        "visual_identity": "Nostalgic and whimsical retro-futurism with a distinctive curved background element."
+    }
+}

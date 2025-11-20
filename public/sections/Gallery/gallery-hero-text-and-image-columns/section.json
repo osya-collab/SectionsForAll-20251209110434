@@ -1,0 +1,17 @@
+{
+    "id": "gallery-hero-text-and-image-columns",
+    "html": "<section class=\"alt-cols-gallery-section\"><div class=\"alt-cols-gallery-header\"><h1>Vickie Dorsett: The Portfolio</h1><p>A curated selection of projects demonstrating a passion for clean aesthetics and user-centric design.</p></div><div class=\"alt-cols-gallery-row\"><div class=\"alt-cols-gallery-img-col\"><img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=urban+garden&image_type=photo\" alt=\"Urban Garden Project\"></div><div class=\"alt-cols-gallery-text-col\"><h3>Project GreenCity</h3><p>An initiative to bring sustainable green spaces to urban environments. This project involved landscape architecture, community engagement, and modern design principles.</p></div></div><div class=\"alt-cols-gallery-row reverse\"><div class=\"alt-cols-gallery-img-col\"><img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=minimalist+office&image_type=photo\" alt=\"Minimalist Office Design\"></div><div class=\"alt-cols-gallery-text-col\"><h3>The Minimalist Workspace</h3><p>Redefining the modern office with a focus on minimalism, functionality, and employee well-being. The design promotes focus and collaboration through intelligent space utilization.</p></div></div></section>",
+    "css": ".alt-cols-gallery-section { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #FFFFFF; padding: 4rem 2rem; } .alt-cols-gallery-header { text-align: center; max-width: 800px; margin: 0 auto 4rem auto; } .alt-cols-gallery-header h1 { font-size: 2.8rem; margin-bottom: 1rem; color: #212529; } .alt-cols-gallery-header p { font-size: 1.2rem; color: #6C757D; line-height: 1.6; } .alt-cols-gallery-row { display: flex; align-items: center; max-width: 1200px; margin: 0 auto 4rem auto; gap: 2rem; } .alt-cols-gallery-row.reverse { flex-direction: row-reverse; } .alt-cols-gallery-img-col, .alt-cols-gallery-text-col { width: 50%; } .alt-cols-gallery-img-col img { width: 100%; border-radius: 8px; display: block; box-shadow: 0 4px 15px rgba(0,0,0,0.1); } .alt-cols-gallery-text-col h3 { font-size: 1.8rem; margin-bottom: 1rem; color: #343A40; } .alt-cols-gallery-text-col p { font-size: 1rem; color: #495057; line-height: 1.7; } @media (max-width: 768px) { .alt-cols-gallery-row, .alt-cols-gallery-row.reverse { flex-direction: column; } .alt-cols-gallery-img-col, .alt-cols-gallery-text-col { width: 100%; } .alt-cols-gallery-text-col { text-align: center; padding-top: 1rem; } .alt-cols-gallery-header h1 { font-size: 2.2rem; } }",
+    "js": "window.addEventListener('load', () => { document.querySelectorAll('img[src^=\"https://pixabay.com/api/\"]').forEach(img => { fetch(img.src).then(response => response.json()).then(data => { if (data.hits && data.hits.length > 0) { img.src = data.hits[0].largeImageURL; } else { img.src = 'https://via.placeholder.com/1280x720?text=Image+Not+Found'; } }).catch(error => { console.error('Error fetching Pixabay image:', error); img.src = 'https://via.placeholder.com/1280x720?text=Image+Not+Found'; }); }); });",
+    "translations": {
+        "de": {
+            "name": "Abwechselnde Text- und Bildspalten"
+        },
+        "ar": {
+            "name": "أعمدة نص وصور متبادلة"
+        },
+        "en": {
+            "name": "Alternating Text & Image Columns"
+        }
+    }
+}

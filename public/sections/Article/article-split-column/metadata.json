@@ -1,0 +1,13 @@
+{
+    "name": "Split Column Article",
+    "category": "Article",
+    "description": "A modern split-screen article layout with a sticky image column and a scrollable text column.",
+    "tags": ["article", "split-layout", "sticky-image", "modern", "content"],
+    "structure": ["image", "text"],
+    "complexity": "medium",
+    "use_cases": [
+        "Feature articles",
+        "In-depth interviews",
+        "Product showcases"
+    ]
+}

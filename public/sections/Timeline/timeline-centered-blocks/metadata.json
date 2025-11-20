@@ -1,0 +1,13 @@
+{
+    "name": "Centered Block Timeline",
+    "category": "Timeline",
+    "description": "A bold, minimalist timeline where each event is a full-width, colored block with large, centered text. Makes a strong visual impact.",
+    "tags": ["timeline", "bold", "minimalist", "full-width", "typography"],
+    "structure": ["blocks"],
+    "complexity": "simple",
+    "use_cases": [
+        "Chapter breaks in long-form content",
+        "Impactful company milestones",
+        "Minimalist portfolios"
+    ]
+}

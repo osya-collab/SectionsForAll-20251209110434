@@ -1,0 +1,13 @@
+{
+    "name": "Collage with Avatars",
+    "category": "Testimonials",
+    "description": "Create a soft collage of customer avatars behind a primary headline quote. Clicking an avatar surfaces their full testimonial in a lightweight modal.",
+    "tags": ["testimonial", "collage", "avatars", "visual", "interactive"],
+    "structure": ["main-quote", "avatar-group"],
+    "complexity": "medium",
+    "use_cases": [
+        "Homepage social proof",
+        "Community-focused websites",
+        "SaaS landing pages"
+    ]
+}

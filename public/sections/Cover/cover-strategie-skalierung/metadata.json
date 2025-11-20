@@ -1,0 +1,13 @@
+{
+    "name": "Strategie Skalierung",
+    "category": "Cover",
+    "description": "A personal branding hero section with a split layout, featuring a title, description, dual CTAs, social links, and a large portrait image.",
+    "tags": ["cover", "hero", "personal brand", "consultant", "coach", "split-layout"],
+    "structure": ["header", "paragraph", "cta-buttons", "social-links", "image"],
+    "complexity": "medium",
+    "use_cases": [
+        "Consultant Websites",
+        "Coach Landing Pages",
+        "Personal Portfolios"
+    ]
+}

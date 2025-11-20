@@ -1,0 +1,28 @@
+{
+    "id": "mission-vision",
+    "html": "\n<section class=\"mission-vision-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container mission-vision-container\">\n        <div class=\"card mission-card anim-fade-in-up\">\n            <h3>{{t:mission_title}}</h3>\n            <p>{{t:mission_text}}</p>\n        </div>\n        <div class=\"card vision-card anim-fade-in-up\" style=\"animation-delay: 0.2s\">\n            <h3>{{t:vision_title}}</h3>\n            <p>{{t:vision_text}}</p>\n        </div>\n    </div>\n</section>",
+    "css": "\n.mission-vision-section .container {\n  width: 90%;\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 1rem;\n}\n.mission-vision-section { padding: 4rem 0; background-color: var(--color-light, #FFFFFF); }\n.mission-vision-container { display: grid; grid-template-columns: 1fr; gap: 2rem; }\n@media(min-width: 768px) { .mission-vision-container { grid-template-columns: 1fr 1fr; } }\n.mission-vision-section .card { padding: 2.5rem; border-radius: 12px; }\n.mission-vision-section .card h3 { font-size: 1.8rem; margin-bottom: 1rem; }\n.mission-card { background-color: var(--color-primary, #667eea); color: var(--color-light, #FFFFFF); }\n.mission-card h3, .mission-card p { color: var(--color-light, #FFFFFF); }\n.vision-card { background-color: #f0f0f0; color: var(--color-dark, #111827); }\n",
+    "translations": {
+        "de": {
+            "name": "Mission & Vision",
+            "mission_title": "Unsere Mission",
+            "mission_text": "Unternehmen mit transformativen digitalen Lösungen zu befähigen, die Wachstum fördern und nachhaltigen Wert schaffen.",
+            "vision_title": "Unsere Vision",
+            "vision_text": "Der führende globale Partner für digitale Innovation zu sein, anerkannt für unsere Kreativität, Integrität und unseren Einfluss."
+        },
+        "en": {
+            "name": "Mission & Vision",
+            "mission_title": "Our Mission",
+            "mission_text": "To empower businesses with transformative digital solutions that drive growth and create lasting value.",
+            "vision_title": "Our Vision",
+            "vision_text": "To be the leading global partner in digital innovation, recognized for our creativity, integrity, and impact."
+        },
+        "ar": {
+            "name": "المهمة والرؤية",
+            "mission_title": "مهمتنا",
+            "mission_text": "تمكين الشركات بالحلول الرقمية التحويلية التي تدفع النمو وتخلق قيمة دائمة.",
+            "vision_title": "رؤيتنا",
+            "vision_text": "أن نكون الشريك العالمي الرائد في الابتكار الرقمي، المعترف به لإبداعنا ونزاهتنا وتأثيرنا."
+        }
+    }
+}

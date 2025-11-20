@@ -1,0 +1,13 @@
+{
+    "name": "Lösung mit 3 Spalten",
+    "category": "Cover",
+    "description": "A comprehensive hero section that combines a main headline and call-to-action with a three-column feature grid below.",
+    "tags": ["cover", "hero", "features", "grid", "corporate", "multi-part"],
+    "structure": ["header", "cta-button", "feature-grid"],
+    "complexity": "medium",
+    "use_cases": [
+        "SaaS Landing Pages",
+        "Service-based Businesses",
+        "Product Homepages"
+    ]
+}

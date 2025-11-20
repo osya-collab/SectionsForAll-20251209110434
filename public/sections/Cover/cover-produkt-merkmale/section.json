@@ -1,0 +1,40 @@
+{
+    "id": "cover-produkt-merkmale",
+    "html": "\n<section class=\"cover-produkt-merkmale-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container text-center header-part\">\n        <h1 class=\"anim-fade-in-up\">{{t:title}}</h1>\n        <p class=\"subtitle anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n    </div>\n    <div class=\"container main-content-grid\">\n        <div class=\"image-side anim-fade-in-right\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=dentist+smiling+laboratory\" alt=\"{{t:image_alt}}\">\n        </div>\n        <div class=\"features-side anim-fade-in-left\">\n            <div class=\"feature-block\">\n                <h3>{{t:feature1_title}}</h3>\n                <p>{{t:feature_desc}}</p>\n            </div>\n            <div class=\"feature-block\">\n                <h3>{{t:feature2_title}}</h3>\n                <p>{{t:feature_desc}}</p>\n            </div>\n            <div class=\"feature-block\">\n                <h3>{{t:feature3_title}}</h3>\n                <p>{{t:feature_desc}}</p>\n            </div>\n        </div>\n    </div>\n    <div class=\"container text-center cta-part anim-fade-in-up anim-delay-2\">\n        <a href=\"#\" class=\"btn btn-dark\">{{t:cta_button}}</a>\n    </div>\n</section>",
+    "css": "\n.cover-produkt-merkmale-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.cover-produkt-merkmale-section .container {\n    width: 90%;\n    max-width: 1200px;\n    margin: 0 auto;\n}\n.cover-produkt-merkmale-section .text-center { text-align: center; }\n.cover-produkt-merkmale-section .header-part { margin-bottom: 4rem; }\n.cover-produkt-merkmale-section h1 { font-size: clamp(2.5rem, 5vw, 3.5rem); font-weight: 700; color: var(--color-dark, #1F2937); margin-bottom: 1rem; }\n.cover-produkt-merkmale-section .subtitle { color: var(--color-secondary, #6B7280); max-width: 700px; margin: 0 auto; }\n.cover-produkt-merkmale-section .main-content-grid { display: grid; grid-template-columns: 1fr; gap: 3rem; align-items: center; margin-bottom: 4rem; }\n@media (min-width: 992px) { .cover-produkt-merkmale-section .main-content-grid { grid-template-columns: 1fr 1fr; } }\n.cover-produkt-merkmale-section .image-side img { width: 100%; height: 100%; object-fit: cover; border-radius: 1.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }\n.cover-produkt-merkmale-section .features-side { display: flex; flex-direction: column; gap: 2.5rem; }\n.cover-produkt-merkmale-section .feature-block h3 { font-size: 1.5rem; font-weight: 600; color: var(--color-dark, #1F2937); margin-bottom: 0.75rem; }\n.cover-produkt-merkmale-section .feature-block p { color: var(--color-secondary, #6B7280); line-height: 1.7; }\n.cover-produkt-merkmale-section .cta-part { margin-top: 2rem; }\n.cover-produkt-merkmale-section .btn-dark { display: inline-block; padding: 0.8rem 2.5rem; background-color: var(--color-dark, #1F2937); color: var(--color-light, #FFFFFF); border: none; border-radius: 0.5rem; font-weight: 600; text-decoration: none; }\n",
+    "translations": {
+        "de": {
+            "name": "Produkt Merkmale",
+            "title": "Deine Zähne in nur 15 Minuten aufhellen",
+            "subtitle": "Die Containerbreite dieses Abschnitts beträgt 1400 Pixel für ein optimales Layout. Du kannst dies ändern, indem du 'Container' und dann 'Breite' in den Abschnitteinstellungen auf der rechten Seite auswählst.",
+            "image_alt": "Lächelnder Zahnarzt in einem Labor",
+            "feature1_title": "Deine erste Aussage für dich",
+            "feature_desc": "Dieser Abschnitt ist für ein besseres Layout auf 1400px Breite eingestellt. Du kannst dies ändern, indem du auf „Container > Breite“ klickst.",
+            "feature2_title": "Das ist unsere zweite wichtige Aussage für dich.",
+            "feature3_title": "Dies ist die dritte wichtige Aussage",
+            "cta_button": "Call-to-Action button"
+        },
+        "en": {
+            "name": "Product Features",
+            "title": "Whiten your teeth in just 15 minutes",
+            "subtitle": "The container width of this section is 1400 pixels for an optimal layout. You can change this by selecting 'Container' and then 'Width' in the section settings on the right.",
+            "image_alt": "Smiling dentist in a laboratory",
+            "feature1_title": "Your first statement for you",
+            "feature_desc": "This section is set to 1400px width for a better layout. You can change this by clicking on 'Container > Width'.",
+            "feature2_title": "This is our second important statement for you.",
+            "feature3_title": "This is the third important statement",
+            "cta_button": "Call-to-Action button"
+        },
+        "ar": {
+            "name": "ميزات المنتج",
+            "title": "تبييض أسنانك في 15 دقيقة فقط",
+            "subtitle": "عرض حاوية هذا القسم هو 1400 بكسل للحصول على تخطيط مثالي. يمكنك تغيير هذا عن طريق تحديد 'الحاوية' ثم 'العرض' في إعدادات القسم على اليمين.",
+            "image_alt": "طبيب أسنان مبتسم في مختبر",
+            "feature1_title": "بيانك الأول لك",
+            "feature_desc": "تم ضبط هذا القسم على عرض 1400 بكسل للحصول على تخطيط أفضل. يمكنك تغيير هذا بالنقر فوق 'الحاوية> العرض'.",
+            "feature2_title": "هذا هو بياننا الثاني المهم لك.",
+            "feature3_title": "هذا هو البيان الثالث المهم",
+            "cta_button": "زر الدعوة لاتخاذ إجراء"
+        }
+    }
+}

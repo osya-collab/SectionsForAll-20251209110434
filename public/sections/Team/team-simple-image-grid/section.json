@@ -1,0 +1,22 @@
+{
+    "id": "team-simple-image-grid",
+    "html": "\n<section class=\"team-simple-image-grid-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"section-header\">\n            <h2 class=\"anim-fade-in-up\">{{t:title}}</h2>\n            <p class=\"anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n        </div>\n        <div class=\"team-grid\">\n            <div class=\"team-member anim-fade-in-up anim-delay-2\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=man+portrait\" alt=\"Team member\">\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-3\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=woman+portrait\" alt=\"Team member\">\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-4\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=professional+man\" alt=\"Team member\">\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-5\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=professional+woman\" alt=\"Team member\">\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-2\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=person+smiling\" alt=\"Team member\">\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-3\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=woman+headshot\" alt=\"Team member\">\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-4\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=man+headshot\" alt=\"Team member\">\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-5\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=person+portrait\" alt=\"Team member\">\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-simple-image-grid-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.team-simple-image-grid-section .container {\n    width: 90%;\n    max-width: 1100px;\n    margin: 0 auto;\n}\n.team-simple-image-grid-section .section-header {\n    text-align: center;\n    max-width: 700px;\n    margin: 0 auto 4rem;\n}\n.team-simple-image-grid-section h2 {\n    font-size: 2.5rem;\n    font-weight: 700;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1rem;\n}\n.team-simple-image-grid-section .section-header p {\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n}\n.team-simple-image-grid-section .team-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n    gap: 1.5rem;\n}\n.team-simple-image-grid-section .team-member img {\n    width: 100%;\n    height: auto;\n    aspect-ratio: 1/1;\n    object-fit: cover;\n    border-radius: 1.5rem;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Einfaches Bilderraster",
+            "title": "Lerne unser Team kennen",
+            "subtitle": "Eine klare und überzeugende Beschreibung deiner Dienstleistungen sorgt dafür, dass Besucher nicht sofort wieder abspringen, nachdem sie deine Seite geöffnet haben."
+        },
+        "en": {
+            "name": "Simple Image Grid",
+            "title": "Meet our team",
+            "subtitle": "A clear and compelling description of your services ensures that visitors don't leave immediately after opening your page."
+        },
+        "ar": {
+            "name": "شبكة صور بسيطة",
+            "title": "تعرف على فريقنا",
+            "subtitle": "يضمن الوصف الواضح والمقنع لخدماتك عدم مغادرة الزوار فور فتح صفحتك."
+        }
+    }
+}

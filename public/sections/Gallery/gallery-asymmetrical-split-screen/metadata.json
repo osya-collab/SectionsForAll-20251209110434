@@ -1,0 +1,28 @@
+{
+    "name": "Asymmetrical Split Screen Gallery",
+    "category": "Gallery",
+    "description": "A modern, asymmetrical design that splits the screen into a large featured image with a hero message and a scrollable column of thumbnails. This creates a dynamic and engaging layout.",
+    "tags": [
+        "split screen",
+        "asymmetrical",
+        "modern",
+        "architecture",
+        "portfolio"
+    ],
+    "structure": [
+        "div (main container)",
+        "div (featured panel)",
+        "img (featured)",
+        "h1",
+        "p",
+        "button",
+        "div (thumbnail panel)",
+        "img (thumbnail)"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Architectural firms",
+        "Interior design portfolios",
+        "Real estate listings"
+    ]
+}

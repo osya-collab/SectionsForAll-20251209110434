@@ -1,0 +1,13 @@
+{
+    "name": "Vertical Bio Cards",
+    "category": "Team",
+    "description": "A team section with vertically-oriented cards, each featuring a large square image on top followed by a name, role, bio, and social links.",
+    "tags": ["team", "cards", "bio", "vertical", "social-media", "corporate"],
+    "structure": ["header", "grid", "cards"],
+    "complexity": "medium",
+    "use_cases": [
+        "Agency team pages",
+        "Corporate 'About Us' sections",
+        "Detailed team introductions"
+    ]
+}

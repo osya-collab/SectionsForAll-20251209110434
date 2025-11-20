@@ -1,0 +1,14 @@
+
+{
+    "name": "Dark Neon",
+    "category": "Pricing",
+    "description": "A futuristic, dark-themed pricing table with vibrant neon-colored borders and text, creating a 'cyberpunk' aesthetic. Ideal for gaming, tech, or creative sites.",
+    "tags": ["pricing", "dark-theme", "neon", "cyberpunk", "futuristic", "gaming"],
+    "structure": ["header", "pricing-cards", "features", "button"],
+    "complexity": "medium",
+    "use_cases": [
+        "Gaming Websites",
+        "Tech Startups",
+        "Creative/Digital Art Portfolios"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Simple Image Grid",
+    "category": "Team",
+    "description": "A minimalist grid of square team portraits without any text, ideal for a purely visual introduction to a large team.",
+    "tags": ["team", "grid", "images", "minimalist", "visual"],
+    "structure": ["header", "grid"],
+    "complexity": "simple",
+    "use_cases": [
+        "Large company directories",
+        "Creative agency 'family photo' sections",
+        "Community member showcases"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Photo Wall Timeline",
+    "category": "Timeline",
+    "description": "A visually rich timeline where each event is represented by a large image card with an overlay for text. The layout alternates for a dynamic feel.",
+    "tags": ["timeline", "images", "visual", "storytelling", "alternating"],
+    "structure": ["header", "timeline-items", "image-cards"],
+    "complexity": "medium",
+    "use_cases": [
+        "Brand storytelling",
+        "Visual project timelines",
+        "Photographer's career milestones"
+    ]
+}

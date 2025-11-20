@@ -1,0 +1,13 @@
+{
+    "name": "Photo Time Gallery",
+    "category": "Gallery",
+    "description": "A skewed, masonry-style gallery for a dynamic and artistic photo display. Uses the 'Brandon' font.",
+    "tags": ["gallery", "image", "masonry", "skewed", "artistic", "portfolio"],
+    "structure": ["title", "image-grid"],
+    "complexity": "medium",
+    "use_cases": [
+        "Photographer Portfolios",
+        "Artistic Showcases",
+        "Creative Agency Moodboards"
+    ]
+}

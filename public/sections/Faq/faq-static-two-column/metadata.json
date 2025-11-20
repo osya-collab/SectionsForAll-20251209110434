@@ -1,0 +1,6 @@
+{
+    "name": "FAQ Static Two-Column",
+    "category": "FAQ",
+    "description": "A static (non-accordion) FAQ layout where questions and answers are presented in a two-column format for easy reading.",
+    "tags": ["faq", "static", "two-column", "clean", "list"]
+}

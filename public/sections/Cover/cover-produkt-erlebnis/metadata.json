@@ -1,0 +1,13 @@
+{
+    "name": "Produkt Erlebnis",
+    "category": "Cover",
+    "description": "A split-screen hero section featuring an engaging headline and text on one side, and an interactive image slider on the other. Also includes a feature grid below.",
+    "tags": ["cover", "hero", "split-layout", "slider", "interactive", "product"],
+    "structure": ["header", "cta-button", "image-slider", "feature-grid"],
+    "complexity": "high",
+    "use_cases": [
+        "Product Landing Pages",
+        "SaaS Websites",
+        "App Showcases"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Large Cards with Socials",
+    "category": "Team",
+    "description": "A spacious team section with large, detailed cards, each including a large portrait, name, role, bio, and social media links.",
+    "tags": ["team", "bio", "cards", "social-media", "detailed", "corporate"],
+    "structure": ["header", "grid", "cards"],
+    "complexity": "medium",
+    "use_cases": [
+        "Leadership team pages",
+        "Consultant or advisor showcases",
+        "Agency 'About Us' pages"
+    ]
+}

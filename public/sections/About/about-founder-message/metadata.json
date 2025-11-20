@@ -1,0 +1,13 @@
+{
+    "name": "Founder Message",
+    "category": "About",
+    "description": "A section to feature a message from the founder, complete with a portrait, a blockquote for the message, and a signature. Ideal for building a personal connection with the audience.",
+    "tags": ["about", "founder", "message", "testimonial", "personal-brand"],
+    "structure": ["image", "header", "blockquote", "signature"],
+    "complexity": "simple",
+    "use_cases": [
+        "Founder's story pages",
+        "About Us sections",
+        "Company mission statements"
+    ]
+}

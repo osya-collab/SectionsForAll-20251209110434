@@ -1,0 +1,28 @@
+{
+    "name": "Animated Card Reveal Gallery",
+    "category": "Gallery",
+    "description": "An engaging gallery where image cards animate into view with a subtle stagger effect upon loading. A text overlay appears on hover, providing a clean and interactive user experience.",
+    "tags": [
+        "animated",
+        "card layout",
+        "reveal effect",
+        "stagger",
+        "interactive"
+    ],
+    "structure": [
+        "header",
+        "h1",
+        "p",
+        "button",
+        "div (grid container)",
+        "div (card)",
+        "img",
+        "div (caption)"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Team member sections",
+        "Service or feature showcases",
+        "Blog post listings"
+    ]
+}

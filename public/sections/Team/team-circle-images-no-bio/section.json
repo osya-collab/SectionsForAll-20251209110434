@@ -1,0 +1,58 @@
+{
+    "id": "team-circle-images-no-bio",
+    "html": "\n<section class=\"team-circle-images-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"section-header\">\n            <h2 class=\"anim-fade-in-up\">{{t:title}}</h2>\n            <p class=\"anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n        </div>\n        <div class=\"team-grid\">\n            <div class=\"team-member anim-fade-in-up anim-delay-2\">\n                <img src=\"https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=1887\" alt=\"{{t:member1_name}}\">\n                <h3>{{t:member1_name}}</h3>\n                <p>{{t:member1_role}}</p>\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-3\">\n                <img src=\"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070\" alt=\"{{t:member2_name}}\">\n                <h3>{{t:member2_name}}</h3>\n                <p>{{t:member2_role}}</p>\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-4\">\n                <img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887\" alt=\"{{t:member3_name}}\">\n                <h3>{{t:member3_name}}</h3>\n                <p>{{t:member3_role}}</p>\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-5\">\n                <img src=\"https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887\" alt=\"{{t:member4_name}}\">\n                <h3>{{t:member4_name}}</h3>\n                <p>{{t:member4_role}}</p>\n            </div>\n             <div class=\"team-member anim-fade-in-up anim-delay-2\">\n                <img src=\"https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1888\" alt=\"{{t:member5_name}}\">\n                <h3>{{t:member5_name}}</h3>\n                <p>{{t:member5_role}}</p>\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-3\">\n                <img src=\"https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=1899\" alt=\"{{t:member6_name}}\">\n                <h3>{{t:member6_name}}</h3>\n                <p>{{t:member6_role}}</p>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-circle-images-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.team-circle-images-section .container {\n    width: 90%;\n    max-width: 1100px;\n    margin: 0 auto;\n}\n.team-circle-images-section .section-header {\n    text-align: center;\n    max-width: 700px;\n    margin: 0 auto 4rem;\n}\n.team-circle-images-section .section-header h2 {\n    font-size: 2.5rem;\n    font-weight: 700;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1rem;\n}\n.team-circle-images-section .section-header p {\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n}\n.team-circle-images-section .team-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));\n    gap: 2rem;\n    justify-items: center;\n}\n.team-circle-images-section .team-member {\n    text-align: center;\n}\n.team-circle-images-section .team-member img {\n    width: 150px;\n    height: 150px;\n    border-radius: 50%;\n    object-fit: cover;\n    margin: 0 auto 1.5rem;\n}\n.team-circle-images-section .team-member h3 {\n    font-size: 1.1rem;\n    font-weight: 600;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 0.25rem;\n}\n.team-circle-images-section .team-member p {\n    font-size: 0.9rem;\n    color: var(--color-secondary, #6B7280);\n}\n",
+    "translations": {
+        "de": {
+            "name": "Kreisbilder ohne Bio",
+            "title": "Über unser Team",
+            "subtitle": "Eine klare und überzeugende Beschreibung deiner angebotenen Dienstleistungen verhindert, dass Besucher direkt nach dem Öffnen der Seite wieder abspringen.",
+            "member1_name": "Achim Müller",
+            "member1_role": "MusterFirma GmbH",
+            "member2_name": "Marie Weber",
+            "member2_role": "MusterFirma GmbH",
+            "member3_name": "Ralf Schmidt",
+            "member3_role": "MusterFirma GmbH",
+            "member4_name": "Katharina Koch",
+            "member4_role": "MusterFirma GmbH",
+            "member5_name": "Sabine Müller",
+            "member5_role": "MusterFirma GmbH",
+            "member6_name": "Berndt Becker",
+            "member6_role": "MusterFirma GmbH"
+        },
+        "en": {
+            "name": "Circle Images without Bio",
+            "title": "About our team",
+            "subtitle": "A clear and compelling description of your offered services prevents visitors from bouncing right after opening the page.",
+            "member1_name": "Achim Müller",
+            "member1_role": "SampleCompany Inc.",
+            "member2_name": "Marie Weber",
+            "member2_role": "SampleCompany Inc.",
+            "member3_name": "Ralf Schmidt",
+            "member3_role": "SampleCompany Inc.",
+            "member4_name": "Katharina Koch",
+            "member4_role": "SampleCompany Inc.",
+            "member5_name": "Sabine Müller",
+            "member5_role": "SampleCompany Inc.",
+            "member6_name": "Berndt Becker",
+            "member6_role": "SampleCompany Inc."
+        },
+        "ar": {
+            "name": "صور دائرية بدون سيرة ذاتية",
+            "title": "عن فريقنا",
+            "subtitle": "يمنع الوصف الواضح والمقنع لخدماتك المعروضة الزوار من الارتداد فور فتح الصفحة.",
+            "member1_name": "أخيم مولر",
+            "member1_role": "شركة عينة",
+            "member2_name": "ماري ويبر",
+            "member2_role": "شركة عينة",
+            "member3_name": "رالف شميدت",
+            "member3_role": "شركة عينة",
+            "member4_name": "كاتارينا كوخ",
+            "member4_role": "شركة عينة",
+            "member5_name": "سابين مولر",
+            "member5_role": "شركة عينة",
+            "member6_name": "بيرندت بيكر",
+            "member6_role": "شركة عينة"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Split Content & Image",
+    "category": "About",
+    "description": "An elegant split layout with two text blocks on either side of a central, vertical image. Ideal for storytelling or presenting dual concepts.",
+    "tags": ["about", "split-layout", "image", "text", "storytelling", "modern"],
+    "structure": ["text-block", "image", "text-block"],
+    "complexity": "medium",
+    "use_cases": [
+        "Company history timelines",
+        "Founder stories",
+        "Product feature explanations"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Feature-Centric Rows",
+    "category": "Pricing",
+    "description": "An alternative pricing table layout where each row is dedicated to a specific feature, with plan details listed horizontally. Good for in-depth comparisons.",
+    "tags": ["pricing", "features", "comparison", "table", "detailed"],
+    "structure": ["header", "feature-rows", "plans"],
+    "complexity": "medium",
+    "use_cases": [
+        "Technical products with complex features",
+        "Competitive analysis pages",
+        "Detailed service comparisons"
+    ]
+}

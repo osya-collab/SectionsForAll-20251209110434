@@ -1,0 +1,37 @@
+{
+    "name": "Neo-Brutalism CTA - Pink Shock",
+    "category": "Cta",
+    "description": "A striking Neo-Brutalism CTA section with a black background, stark white typography, and an aggressive hot pink accent for the button and highlights. Emphasizes bold statements and direct calls to action.",
+    "tags": [
+        "cta",
+        "neo-brutalism",
+        "bold",
+        "pink",
+        "modern",
+        "minimalist"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "lead generation",
+        "sign-up prompts",
+        "service promotion"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#000000",
+            "#ffffff",
+            "#ff00ff"
+        ],
+        "fonts": [
+            "sans-serif"
+        ],
+        "visual_identity": "Aggressive Neo-Brutalism with stark black, white, and a vibrant hot pink accent."
+    }
+}

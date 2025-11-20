@@ -1,0 +1,13 @@
+{
+    "name": "Video Kurs Verkauf",
+    "category": "Cover",
+    "description": "A sales-focused hero section for a video course, featuring a video placeholder, social proof (ratings), and a prominent sales card with features and pricing.",
+    "tags": ["cover", "hero", "course", "sales", "video", "pricing", "education"],
+    "structure": ["header", "video", "ratings", "sales-card"],
+    "complexity": "high",
+    "use_cases": [
+        "Online Course Sales Pages",
+        "Webinar Registration Pages",
+        "Digital Product Landing Pages"
+    ]
+}

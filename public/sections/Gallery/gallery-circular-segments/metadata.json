@@ -1,0 +1,13 @@
+{
+    "name": "Circular Segment Gallery",
+    "category": "Gallery",
+    "description": "A unique circular gallery where segments reveal different images on hover. Ideal for music, art, or conceptual portfolios.",
+    "tags": ["gallery", "circular", "interactive", "hover", "artistic", "music"],
+    "structure": ["images"],
+    "complexity": "high",
+    "use_cases": [
+        "Music Portfolios",
+        "Artistic Showcases",
+        "Interactive Exhibits"
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "name": "Biomorphic Art Nouveau CTA - Jewel Abstract",
+    "category": "Cta",
+    "description": "A CTA section with a dark, abstract Art Nouveau feel, utilizing a blend of jewel tones and gold. It invites users to discover unique artistry and offers exclusive previews.",
+    "tags": [
+        "CTA",
+        "Art Nouveau",
+        "Abstract",
+        "Jewel Tones",
+        "Dark",
+        "Luxury",
+        "Exclusive",
+        "Preview"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "h2",
+        "p",
+        "button"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Product Launch Previews",
+        "Exclusive Offers",
+        "Art Gallery Promotions",
+        "High-End Service Signups"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#0f0f0f",
+            "#ffffff",
+            "#ba68c8",
+            "#4fc3f7"
+        ],
+        "fonts": [
+            "Cormorant Garamond"
+        ],
+        "visual_identity": "Dark, abstract Art Nouveau with jewel tones and gold overlay for a mysterious, artistic feel."
+    }
+}

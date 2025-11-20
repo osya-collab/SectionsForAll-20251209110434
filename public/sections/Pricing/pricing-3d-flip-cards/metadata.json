@@ -1,0 +1,13 @@
+{
+    "name": "3D Flip Cards",
+    "category": "Pricing",
+    "description": "An interactive pricing section where cards perform a 3D flip on hover to reveal a detailed feature list on the back. Requires CSS transforms.",
+    "tags": ["pricing", "3d", "flip", "interactive", "modern", "creative"],
+    "structure": ["header", "pricing-cards", "features", "button"],
+    "complexity": "high",
+    "use_cases": [
+        "Creative Agencies",
+        "Tech Startups",
+        "Any site wanting a unique, engaging pricing display"
+    ]
+}

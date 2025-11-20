@@ -1,0 +1,14 @@
+
+{
+    "name": "Two Columns (50/50)",
+    "category": "Layouts",
+    "description": "A balanced, two-column layout where each column takes up 50% of the width. A versatile starting point for side-by-side content.",
+    "tags": ["layout", "structure", "two-column", "grid", "responsive", "50-50"],
+    "structure": ["column", "column"],
+    "complexity": "simple",
+    "use_cases": [
+        "Side-by-side feature comparisons",
+        "Text and image pairings",
+        "Contact forms next to maps"
+    ]
+}

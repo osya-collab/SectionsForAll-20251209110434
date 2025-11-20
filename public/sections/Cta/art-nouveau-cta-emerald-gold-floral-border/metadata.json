@@ -1,0 +1,40 @@
+{
+    "name": "Art Nouveau CTA - Emerald Gold Floral Border",
+    "category": "Cta",
+    "description": "A bright CTA section with a white background, deep emerald text, and dark goldenrod accents. Features an image of an art nouveau floral border.",
+    "tags": [
+        "cta",
+        "art nouveau",
+        "white",
+        "emerald",
+        "gold border",
+        "floral"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "h2",
+        "p",
+        "a",
+        "div",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "interiors",
+        "decor",
+        "lifestyle products"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#fff",
+            "#1e3a30",
+            "#b8860b"
+        ],
+        "fonts": [
+            "Libre Baskerville"
+        ],
+        "visual_identity": "Clean Art Nouveau with white, emerald green, and gold floral borders."
+    }
+}

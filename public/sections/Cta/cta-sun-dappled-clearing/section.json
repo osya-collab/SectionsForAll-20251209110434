@@ -1,0 +1,17 @@
+{
+    "id": "cta-sun-dappled-clearing",
+    "html": "<section class=\"cta-sun-dappled-clearing\">\n  <div class=\"container\">\n    <h2>Find Your Clearing</h2>\n    <p>Step into a space of clarity and peace. Let nature guide your renewal.</p>\n    <a href=\"#\" class=\"cta-button\">Begin Renewal</a>\n  </div>\n</section>",
+    "css": ".cta-sun-dappled-clearing { background-image: url('https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=sun-dappled+forest+clearing&image_type=photo'); background-size: cover; background-position: center; padding: 80px 20px; text-align: center; color: #2c3e50; /* Dark charcoal */ font-family: 'Playfair Display', serif; position: relative; }\n.cta-sun-dappled-clearing::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(255, 245, 238, 0.8); /* Soft peach overlay */ }\n.cta-sun-dappled-clearing .container { max-width: 750px; margin: 0 auto; position: relative; z-index: 1; }\n.cta-sun-dappled-clearing h2 { font-size: 2.9rem; margin-bottom: 15px; color: #4e342e; /* Deep brown */ }\n.cta-sun-dappled-clearing p { font-size: 1.15rem; line-height: 1.7; margin-bottom: 35px; color: #795548; /* Muted brown */ }\n.cta-sun-dappled-clearing .cta-button { display: inline-block; padding: 14px 30px; background-color: #8fbc8f; /* Light green */ color: #2e7d32; /* Dark green */ text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 1.1rem; transition: background-color 0.3s ease, transform 0.3s ease; }\n.cta-sun-dappled-clearing .cta-button:hover { background-color: #556b2f; transform: translateY(-2px); }\n\n@media (min-width: 768px) {\n  .cta-sun-dappled-clearing { padding: 100px 40px; }\n  .cta-sun-dappled-clearing h2 { font-size: 3.6rem; }\n  .cta-sun-dappled-clearing p { font-size: 1.3rem; }\n  .cta-sun-dappled-clearing .cta-button { font-size: 1.2rem; }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "CTA in sonnenbeschatteter Lichtung"
+        },
+        "ar": {
+            "name": "دعوة لاتخاذ إجراء في فسحة مشمسة"
+        },
+        "en": {
+            "name": "CTA in Sun-Dappled Clearing"
+        }
+    }
+}

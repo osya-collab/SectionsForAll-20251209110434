@@ -1,0 +1,49 @@
+{
+    "name": "Retro Futurism CTA with Curvy Contact Form",
+    "category": "Cta",
+    "description": "A retro-futuristic contact form section with a pale peach background and a stylized, abstract shape in the background. The form fields and button have rounded corners.",
+    "tags": [
+        "retro",
+        "futurism",
+        "cta",
+        "contact",
+        "form",
+        "curvy",
+        "pastel"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "form",
+        "div",
+        "input",
+        "input",
+        "textarea",
+        "button",
+        "div"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "contact form",
+        "support request",
+        "feedback form"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f8e8d8",
+            "#444",
+            "#555",
+            "#fff",
+            "#c0b0a0",
+            "#87ceeb",
+            "rgba(255, 255, 255, 0.7)"
+        ],
+        "fonts": [
+            "Press Start 2P",
+            "cursive"
+        ],
+        "visual_identity": "Playful and retro-futuristic with organic shapes and a clean contact form layout."
+    }
+}

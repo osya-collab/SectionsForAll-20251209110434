@@ -1,0 +1,13 @@
+{
+    "name": "Stats Banner",
+    "category": "About",
+    "description": "A full-width banner with a gradient background, designed to showcase key statistics or achievements in a bold, four-column layout.",
+    "tags": ["stats", "banner", "achievements", "data", "metrics", "trust"],
+    "structure": ["grid", "stat-item"],
+    "complexity": "simple",
+    "use_cases": [
+        "Company milestones",
+        "Impact reports",
+        "Social proof sections"
+    ]
+}

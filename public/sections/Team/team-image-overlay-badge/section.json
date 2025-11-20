@@ -1,0 +1,49 @@
+{
+    "id": "team-image-overlay-badge",
+    "html": "\n<section class=\"team-overlay-badge-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"section-header\">\n            <h2 class=\"anim-fade-in-up\">{{t:title}}</h2>\n            <p class=\"anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n        </div>\n        <div class=\"team-grid\">\n            <div class=\"team-card anim-fade-in-up anim-delay-2\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=man+portrait\" alt=\"{{t:member1_name}}\">\n                <div class=\"card-badge\">{{t:member1_role}}</div>\n                <div class=\"card-overlay\">\n                    <h3>{{t:member1_name}}</h3>\n                    <p>{{t:member_bio}}</p>\n                </div>\n            </div>\n            <div class=\"team-card anim-fade-in-up anim-delay-3\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=woman+portrait\" alt=\"{{t:member2_name}}\">\n                <div class=\"card-badge\">{{t:member2_role}}</div>\n                <div class=\"card-overlay\">\n                    <h3>{{t:member2_name}}</h3>\n                    <p>{{t:member_bio}}</p>\n                </div>\n            </div>\n            <div class=\"team-card anim-fade-in-up anim-delay-4\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=businessman+portrait\" alt=\"{{t:member3_name}}\">\n                <div class=\"card-badge\">{{t:member3_role}}</div>\n                <div class=\"card-overlay\">\n                    <h3>{{t:member3_name}}</h3>\n                    <p>{{t:member_bio}}</p>\n                </div>\n            </div>\n            <div class=\"team-card anim-fade-in-up anim-delay-5\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=male+professional\" alt=\"{{t:member4_name}}\">\n                <div class=\"card-badge\">{{t:member4_role}}</div>\n                <div class=\"card-overlay\">\n                    <h3>{{t:member4_name}}</h3>\n                    <p>{{t:member_bio}}</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-overlay-badge-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.team-overlay-badge-section .container {\n    width: 90%;\n    max-width: 1200px;\n    margin: 0 auto;\n}\n.team-overlay-badge-section .section-header {\n    text-align: center;\n    max-width: 700px;\n    margin: 0 auto 4rem;\n}\n.team-overlay-badge-section h2 {\n    font-size: 2.5rem;\n    font-weight: 700;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1rem;\n}\n.team-overlay-badge-section .section-header p {\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n}\n.team-overlay-badge-section .team-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n    gap: 1.5rem;\n}\n.team-overlay-badge-section .team-card {\n    position: relative;\n    border-radius: 1.5rem;\n    overflow: hidden;\n    aspect-ratio: 3/4;\n    color: var(--color-light, #FFFFFF);\n}\n.team-overlay-badge-section .team-card img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n}\n.team-overlay-badge-section .card-badge {\n    position: absolute;\n    top: 1rem;\n    left: 50%;\n    transform: translateX(-50%);\n    background-color: rgba(255,255,255,0.8);\n    backdrop-filter: blur(5px);\n    color: var(--color-dark, #1F2937);\n    padding: 0.25rem 0.75rem;\n    border-radius: 9999px;\n    font-size: 0.75rem;\n    font-weight: 600;\n}\n.team-overlay-badge-section .card-overlay {\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    padding: 1.5rem;\n    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);\n    text-align: center;\n}\n.team-overlay-badge-section .card-overlay h3 {\n    font-size: 1.5rem;\n    font-weight: 600;\n    margin-bottom: 0.5rem;\n}\n.team-overlay-badge-section .card-overlay p {\n    font-size: 0.9rem;\n    opacity: 0.9;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Bildüberlagerung mit Abzeichen",
+            "title": "Lerne unser Team kennen",
+            "subtitle": "Eine klare Beschreibung deiner Dienstleistungen sorgt dafür, dass Besucher nicht sofort wieder abspringen und finden genau das, wonach sie suchen.",
+            "member1_name": "Hans Friedrich Braun",
+            "member1_role": "CEO & Gründer",
+            "member_bio": "Onepage ist eine deutsche Software, die seit 2019 auf dem Markt ist.",
+            "member2_name": "Laura Weber",
+            "member2_role": "Finanzen & Buchhaltung",
+            "member3_name": "Nico Zimmermann",
+            "member3_role": "Berater",
+            "member4_name": "Lukas Schmidt",
+            "member4_role": "Kundenbetreuung"
+        },
+        "en": {
+            "name": "Image Overlay with Badge",
+            "title": "Meet our team",
+            "subtitle": "A clear description of your services ensures that visitors don't leave immediately and find exactly what they're looking for.",
+            "member1_name": "Hans Friedrich Braun",
+            "member1_role": "CEO & Founder",
+            "member_bio": "Onepage is a German software that has been on the market since 2019.",
+            "member2_name": "Laura Weber",
+            "member2_role": "Finance & Accounting",
+            "member3_name": "Nico Zimmermann",
+            "member3_role": "Advisor",
+            "member4_name": "Lukas Schmidt",
+            "member4_role": "Customer Care"
+        },
+        "ar": {
+            "name": "تراكب الصورة مع شارة",
+            "title": "تعرف على فريقنا",
+            "subtitle": "يضمن الوصف الواضح لخدماتك عدم مغادرة الزوار على الفور والعثور على ما يبحثون عنه بالضبط.",
+            "member1_name": "هانز فريدريش براون",
+            "member1_role": "الرئيس التنفيذي والمؤسس",
+            "member_bio": "Onepage هو برنامج ألماني موجود في السوق منذ عام 2019.",
+            "member2_name": "لورا ويبر",
+            "member2_role": "المالية والمحاسبة",
+            "member3_name": "نيكو زيمرمان",
+            "member3_role": "مستشار",
+            "member4_name": "لوكاس شميدت",
+            "member4_role": "خدمة العملاء"
+        }
+    }
+}

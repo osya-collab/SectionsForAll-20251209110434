@@ -1,0 +1,13 @@
+{
+    "name": "Bento Grid Showcase",
+    "category": "About",
+    "description": "A modern bento-style grid layout for showcasing key skills, stats, and a testimonial in a compact and visually interesting way.",
+    "tags": ["about", "bento-grid", "skills", "stats", "testimonial", "modern"],
+    "structure": ["header", "bento-grid", "card"],
+    "complexity": "medium",
+    "use_cases": [
+        "Freelancer portfolios",
+        "Personal 'About Me' pages",
+        "Agency introductions"
+    ]
+}

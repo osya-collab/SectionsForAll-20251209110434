@@ -1,0 +1,42 @@
+{
+    "name": "Biomorphic Art Nouveau CTA - Muted Gold Frame",
+    "category": "Cta",
+    "description": "A CTA section framed by a muted gold Art Nouveau motif. The content is set against a deep brown background, offering a sophisticated call to action for personalized consultations.",
+    "tags": [
+        "CTA",
+        "Art Nouveau",
+        "Muted Gold",
+        "Frame",
+        "Sophisticated",
+        "Consultation",
+        "Elegant",
+        "Luxury"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "h2",
+        "p",
+        "button"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Consultation Booking",
+        "Personalized Service Offer",
+        "High-End Product Inquiry",
+        "Bespoke Design Service"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#e8d5b5",
+            "#3e2723",
+            "#d4af37"
+        ],
+        "fonts": [
+            "Merriweather",
+            "Playfair Display"
+        ],
+        "visual_identity": "Art Nouveau with a framed design, deep brown, muted gold, and subtle floral textures."
+    }
+}

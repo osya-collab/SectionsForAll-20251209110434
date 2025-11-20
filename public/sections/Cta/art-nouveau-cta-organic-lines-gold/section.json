@@ -1,0 +1,17 @@
+{
+    "id": "art-nouveau-cta-organic-lines-gold",
+    "html": "<section class=\"art-nouveau-cta-organic-lines-gold\">\n  <div class=\"container\">\n    <div class=\"content\">\n      <h2>Embrace Natural Beauty</h2>\n      <p>Discover handcrafted treasures inspired by the organic forms of nature. Each piece tells a unique story.</p>\n      <a href=\"#\" class=\"cta-button\">Explore Our Craft</a>\n    </div>\n    <div class=\"ornament-container\">\n      <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=art+nouveau+leaf+motif&image_type=photo\" alt=\"Art Nouveau leaf motif\">\n    </div>\n  </div>\n</section>",
+    "css": ".art-nouveau-cta-organic-lines-gold {\n  background-color: #355e3b; /* Forest Green */\n  color: #f5f5dc; /* Cream */\n  padding: 50px 25px;\n  text-align: center;\n}\n.art-nouveau-cta-organic-lines-gold .container {\n  max-width: 1100px;\n  margin: 0 auto;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n.art-nouveau-cta-organic-lines-gold .content {\n  margin-bottom: 30px;\n}\n.art-nouveau-cta-organic-lines-gold h2 {\n  font-family: 'Didot', serif;\n  font-size: 2.6em;\n  margin-bottom: 20px;\n  color: #daa520; /* Goldenrod */\n  letter-spacing: 1px;\n}\n.art-nouveau-cta-organic-lines-gold p {\n  font-family: 'Didot', serif;\n  font-size: 1.15em;\n  line-height: 1.7;\n  margin-bottom: 35px;\n}\n.art-nouveau-cta-organic-lines-gold .cta-button {\n  display: inline-block;\n  padding: 16px 32px;\n  background-color: #daa520; /* Goldenrod */\n  color: #355e3b; /* Forest Green */\n  text-decoration: none;\n  font-family: 'Didot', serif;\n  font-weight: bold;\n  border-radius: 5px;\n  transition: background-color 0.3s ease, color 0.3s ease;\n  border: 2px solid #daa520;\n}\n.art-nouveau-cta-organic-lines-gold .cta-button:hover {\n  background-color: #f5f5dc; /* Cream */\n  color: #355e3b; /* Forest Green */\n}\n.art-nouveau-cta-organic-lines-gold .ornament-container {\n  width: 100%;\n  max-width: 350px;\n  margin-top: 20px;\n}\n.art-nouveau-cta-organic-lines-gold .ornament-container img {\n  display: block;\n  width: 100%;\n  height: auto;\n  border-radius: 8px;\n  opacity: 0.8;\n}\n\n@media (min-width: 768px) {\n  .art-nouveau-cta-organic-lines-gold .container {\n    flex-direction: row;\n    justify-content: space-between;\n  }\n  .art-nouveau-cta-organic-lines-gold .content {\n    flex: 1;\n    text-align: left;\n    padding-right: 40px;\n    margin-bottom: 0;\n  }\n  .art-nouveau-cta-organic-lines-gold .ornament-container {\n    flex-basis: 40%;\n    max-width: none;\n    margin-top: 0;\n  }\n  .art-nouveau-cta-organic-lines-gold h2 {\n    font-size: 3em;\n  }\n  .art-nouveau-cta-organic-lines-gold p {\n    font-size: 1.2em;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Art Nouveau CTA - Organische Linien Gold"
+        },
+        "ar": {
+            "name": "زر الدعوة للفعل بنمط آرت نوفو - خطوط عضوية ذهبية"
+        },
+        "en": {
+            "name": "Art Nouveau CTA - Organic Lines Gold"
+        }
+    }
+}

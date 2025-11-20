@@ -1,0 +1,6 @@
+{
+    "name": "FAQ mit Bild und Akkordeon",
+    "category": "FAQ",
+    "description": "An FAQ section with a bold title, followed by an accordion for questions and a large image at the bottom.",
+    "tags": ["faq", "accordion", "image", "bold"]
+}

@@ -1,0 +1,14 @@
+
+{
+    "name": "Gradient Tabs Testimonials",
+    "category": "Testimonials",
+    "description": "A modern testimonial section with a gradient background and interactive tabs to switch between different customer quotes.",
+    "tags": ["testimonial", "gradient", "tabs", "interactive", "modern", "corporate"],
+    "structure": ["tabs", "quote", "rating", "image"],
+    "complexity": "medium",
+    "use_cases": [
+        "SaaS Landing Pages",
+        "Corporate Websites",
+        "Creative Agencies"
+    ]
+}

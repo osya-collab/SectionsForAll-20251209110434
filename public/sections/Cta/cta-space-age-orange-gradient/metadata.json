@@ -1,0 +1,42 @@
+{
+    "name": "CTA - Space Age Orange Gradient",
+    "category": "Cta",
+    "description": "A vibrant space-age CTA section featuring a bright orange gradient background and a subtle geometric pattern overlay. It uses a dark navy, very rounded button and optimistic, future-focused copy.",
+    "tags": [
+        "CTA",
+        "Retro-Futurism",
+        "Orange",
+        "Gradient",
+        "Space Age",
+        "Rounded Button",
+        "Geometric"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Call to Action",
+        "Sign Up",
+        "Future Exploration",
+        "Event Promotion"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#ffa500",
+            "#ff8c00",
+            "#ffffff",
+            "rgba(255,255,255,0.1)",
+            "#2c3e50",
+            "#34495e"
+        ],
+        "fonts": [
+            "Exo 2"
+        ],
+        "visual_identity": "Bold retro-futurism with a bright orange gradient, dark navy buttons, geometric pattern, and rounded shapes."
+    }
+}

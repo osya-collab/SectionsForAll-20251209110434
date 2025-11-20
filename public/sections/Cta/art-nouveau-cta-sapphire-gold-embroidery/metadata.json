@@ -1,0 +1,40 @@
+{
+    "name": "Art Nouveau CTA - Sapphire Gold Embroidery",
+    "category": "Cta",
+    "description": "A luxurious CTA section with a dark slate blue background, white text, and goldenrod accents, inspired by embroidered art nouveau patterns.",
+    "tags": [
+        "cta",
+        "art nouveau",
+        "sapphire",
+        "gold embroidery",
+        "luxury",
+        "elegant"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "h2",
+        "p",
+        "a",
+        "div",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "high-fashion",
+        "couture",
+        "artisanal crafts"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#483d8b",
+            "#fff",
+            "#daa520"
+        ],
+        "fonts": [
+            "Palatino Linotype"
+        ],
+        "visual_identity": "Luxurious Art Nouveau with dark slate blue, white, and gold embroidery textures."
+    }
+}

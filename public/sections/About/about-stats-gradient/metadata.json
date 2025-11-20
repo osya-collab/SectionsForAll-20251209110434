@@ -1,0 +1,13 @@
+{
+    "name": "Stats with Gradient Image",
+    "category": "About",
+    "description": "A split-layout section featuring a vibrant gradient image placeholder on one side, and text with a 2x2 statistics grid on the other.",
+    "tags": ["about", "stats", "gradient", "image-placeholder", "corporate"],
+    "structure": ["image", "header", "paragraph", "stats-grid"],
+    "complexity": "medium",
+    "use_cases": [
+        "Company overviews",
+        "Highlighting key metrics",
+        "Service feature sections"
+    ]
+}

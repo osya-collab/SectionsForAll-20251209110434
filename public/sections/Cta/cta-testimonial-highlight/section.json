@@ -1,0 +1,17 @@
+{
+    "id": "cta-testimonial-highlight",
+    "html": "<section class=\"cta-testimonial-highlight\">\n  <div class=\"container\">\n    <blockquote class=\"testimonial\">\n      <p>\"This service has revolutionized our business processes. Highly recommend!\"</p>\n      <footer>- Jane Doe, CEO of ExampleCorp</footer>\n    </blockquote>\n    <a href=\"#\" class=\"cta-learn-more\">Learn How We Can Help You</a>\n  </div>\n</section>",
+    "css": ".cta-testimonial-highlight {\n  background-color: #f4f7f6;\n  padding: 40px 20px;\n  text-align: center;\n  border-top: 2px solid #4CAF50;\n}\n.cta-testimonial-highlight .container {\n  max-width: 700px;\n  margin: 0 auto;\n}\n.cta-testimonial-highlight .testimonial {\n  margin-bottom: 30px;\n  font-style: italic;\n  color: #555;\n  position: relative;\n  padding: 20px;\n  background-color: #ffffff;\n  border-left: 4px solid #4CAF50;\n  box-shadow: 0 2px 5px rgba(0,0,0,0.1);\n}\n.cta-testimonial-highlight .testimonial p {\n  font-size: 1.2em;\n  line-height: 1.6;\n  margin-bottom: 15px;\n}\n.cta-testimonial-highlight .testimonial footer {\n  font-weight: bold;\n  color: #333;\n  font-style: normal;\n}\n.cta-testimonial-highlight .cta-learn-more {\n  display: inline-block;\n  padding: 12px 30px;\n  background-color: #4CAF50;\n  color: #ffffff;\n  text-decoration: none;\n  font-weight: bold;\n  border-radius: 5px;\n  transition: background-color 0.3s ease;\n}\n.cta-testimonial-highlight .cta-learn-more:hover {\n  background-color: #45a049;\n}\n@media (min-width: 768px) {\n  .cta-testimonial-highlight {\n    padding: 60px 40px;\n  }\n  .cta-testimonial-highlight .testimonial p {\n    font-size: 1.4em;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Testimonial-Highlight-CTA"
+        },
+        "ar": {
+            "name": "زر دعوة لاتخاذ إجراء لتسليط الضوء على شهادة"
+        },
+        "en": {
+            "name": "Testimonial Highlight CTA"
+        }
+    }
+}

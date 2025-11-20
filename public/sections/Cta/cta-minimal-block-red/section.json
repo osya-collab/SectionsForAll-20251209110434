@@ -1,0 +1,17 @@
+{
+    "id": "cta-minimal-block-red",
+    "html": "<section class=\"cta-minimal-block-red\">\n  <div class=\"container\">\n    <h2>Act Now!</h2>\n    <p>Limited time offer. Don't wait to grab this deal.</p>\n    <a href=\"#\" class=\"btn\">Claim Offer</a>\n  </div>\n</section>",
+    "css": ".cta-minimal-block-red {\n  padding: 40px 20px;\n  background-color: #f4f4f4;\n  text-align: center;\n  font-family: 'Arial Narrow', sans-serif;\n}\n.cta-minimal-block-red .container {\n  max-width: 550px;\n  margin: 0 auto;\n  background-color: #e74c3c;\n  color: #fff;\n  padding: 40px 20px;\n  border-radius: 8px;\n  box-shadow: 0 4px 15px rgba(0,0,0,0.1);\n}\n.cta-minimal-block-red h2 {\n  font-size: 30px;\n  margin-bottom: 10px;\n}\n.cta-minimal-block-red p {\n  font-size: 16px;\n  margin-bottom: 25px;\n  line-height: 1.5;\n}\n.cta-minimal-block-red .btn {\n  display: inline-block;\n  padding: 10px 25px;\n  background-color: #fff;\n  color: #e74c3c;\n  text-decoration: none;\n  font-size: 16px;\n  font-weight: bold;\n  border-radius: 5px;\n  transition: background-color 0.3s ease, color 0.3s ease;\n}\n.cta-minimal-block-red .btn:hover {\n  background-color: #c0392b;\n  color: #fff;\n}\n\n@media (min-width: 768px) {\n  .cta-minimal-block-red {\n    padding: 60px 20px;\n  }\n  .cta-minimal-block-red .container {\n    padding: 50px 30px;\n  }\n  .cta-minimal-block-red h2 {\n    font-size: 40px;\n  }\n  .cta-minimal-block-red p {\n    font-size: 18px;\n  }\n  .cta-minimal-block-red .btn {\n    font-size: 18px;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Minimaler Block CTA (Rot)"
+        },
+        "ar": {
+            "name": "دعوة كتلة بسيطة (أحمر)"
+        },
+        "en": {
+            "name": "Minimal Block CTA (Red)"
+        }
+    }
+}

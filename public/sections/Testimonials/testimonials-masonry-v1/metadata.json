@@ -1,0 +1,35 @@
+{
+    "name": "Masonry Grid Testimonials",
+    "category": "Testimonials",
+    "description": "A Pinterest-style masonry grid layout that mimics the provided visual reference perfectly, supporting uneven card heights.",
+    "tags": [
+        "masonry",
+        "grid",
+        "testimonials",
+        "cards",
+        "reviews"
+    ],
+    "structure": [
+        "Header Group",
+        "Masonry Container",
+        "Cards with Avatar/Badge/Rating"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Product Reviews",
+        "User Feedback",
+        "Social Proof"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#7367f0",
+            "#f8f9fa",
+            "#333333"
+        ],
+        "fonts": [
+            "Inter",
+            "sans-serif"
+        ],
+        "visual_identity": "Clean, professional, trustworthy with soft purple accents and verified badges."
+    }
+}

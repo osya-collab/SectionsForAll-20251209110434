@@ -1,0 +1,17 @@
+{
+    "id": "cta-outlined-button-image",
+    "html": "<section class=\"cta-outlined-button-image\">\n    <div class=\"content-wrapper\">\n        <div class=\"text-content\">\n            <h2>Discover Our Latest Collection</h2>\n            <p>Explore unique designs and find the perfect piece to elevate your space. Limited time offer!</p>\n            <a href=\"#\" class=\"cta-button-outline\">Shop Now</a>\n        </div>\n        <div class=\"image-container\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=modern+interior+design&image_type=photo\" alt=\"Modern Interior Design\">\n        </div>\n    </div>\n</section>",
+    "css": ".cta-outlined-button-image {\n    background-color: #fff;\n    padding: 60px 0;\n}\n.cta-outlined-button-image .content-wrapper {\n    display: flex;\n    flex-wrap: wrap;\n    align-items: center;\n    max-width: 1100px;\n    margin: 0 auto;\n    padding: 0 20px;\n}\n.cta-outlined-button-image .text-content {\n    flex: 1;\n    padding-right: 40px;\n    min-width: 300px;\n}\n.cta-outlined-button-image h2 {\n    font-size: 2.8em;\n    color: #333;\n    margin-bottom: 15px;\n    font-family: 'Montserrat', sans-serif;\n}\n.cta-outlined-button-image p {\n    font-size: 1.1em;\n    color: #555;\n    line-height: 1.7;\n    margin-bottom: 30px;\n    font-family: 'Montserrat', sans-serif;\n}\n.cta-button-outline {\n    display: inline-block;\n    padding: 15px 35px;\n    border: 2px solid #333;\n    color: #333;\n    text-decoration: none;\n    font-size: 1.1em;\n    font-weight: bold;\n    border-radius: 30px;\n    transition: all 0.3s ease;\n    font-family: 'Montserrat', sans-serif;\n}\n.cta-button-outline:hover {\n    background-color: #333;\n    color: white;\n}\n.cta-outlined-button-image .image-container {\n    flex: 1;\n    min-width: 300px;\n}\n.cta-outlined-button-image img {\n    display: block;\n    width: 100%;\n    height: auto;\n    border-radius: 8px;\n}\n@media (max-width: 992px) {\n    .cta-outlined-button-image .content-wrapper {\n        flex-direction: column;\n    }\n    .cta-outlined-button-image .text-content {\n        padding-right: 0;\n        margin-bottom: 40px;\n        text-align: center;\n    }\n    .cta-outlined-button-image .image-container {\n        width: 80%;\n        margin: 0 auto;\n    }\n}\n@media (max-width: 768px) {\n    .cta-outlined-button-image h2 {\n        font-size: 2.2em;\n    }\n    .cta-outlined-button-image p {\n        font-size: 1em;\n    }\n    .cta-button-outline {\n        font-size: 1em;\n        padding: 12px 30px;\n    }\n}\n@media (max-width: 480px) {\n    .cta-outlined-button-image {\n        padding: 40px 15px;\n    }\n    .cta-outlined-button-image .image-container {\n        width: 100%;\n    }\n    .cta-button-outline {\n        width: 100%;\n        box-sizing: border-box;\n    }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "CTA mit Umrandungsbutton und Bild"
+        },
+        "ar": {
+            "name": "زر CTA خارجي وصورة"
+        },
+        "en": {
+            "name": "CTA with Outlined Button and Image"
+        }
+    }
+}

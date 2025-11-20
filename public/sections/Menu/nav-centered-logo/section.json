@@ -1,0 +1,31 @@
+{
+    "id": "nav-centered-logo",
+    "html": "\n<nav class=\"nav-centered-logo\" data-ai-id=\"element-placeholder\">\n    <div class=\"nav-container\">\n        <ul class=\"nav-links left\">\n            <li><a href=\"#\">{{t:about}}</a></li>\n            <li><a href=\"#\">{{t:services}}</a></li>\n            <li><a href=\"#\">{{t:caseStudies}}</a></li>\n        </ul>\n        <a href=\"#\" class=\"logo\">Logo</a>\n        <ul class=\"nav-links right\">\n            <li><a href=\"#\">{{t:careers}}</a></li>\n            <li><a href=\"#\">{{t:industries}}</a></li>\n            <li><a href=\"#\">{{t:contact}}</a></li>\n        </ul>\n        <button class=\"mobile-menu-toggle\" aria-label=\"Toggle Menu\">\n            <span></span>\n            <span></span>\n            <span></span>\n        </button>\n    </div>\n    <div class=\"mobile-menu\">\n        <a href=\"#\">{{t:about}}</a>\n        <a href=\"#\">{{t:services}}</a>\n        <a href=\"#\">{{t:caseStudies}}</a>\n        <a href=\"#\">{{t:careers}}</a>\n        <a href=\"#\">{{t:industries}}</a>\n        <a href=\"#\">{{t:contact}}</a>\n    </div>\n    <script>\n      (() => {\n        const navElement = document.currentScript.closest('nav');\n        if (!navElement) return;\n\n        const toggleButton = navElement.querySelector('.mobile-menu-toggle');\n        \n        toggleButton.addEventListener('click', (event) => {\n          event.stopPropagation();\n          navElement.classList.toggle('open');\n        });\n\n        navElement.querySelectorAll('.mobile-menu a').forEach(link => {\n            link.addEventListener('click', () => {\n                navElement.classList.remove('open');\n            });\n        });\n        \n        document.addEventListener('click', (event) => {\n            if (navElement.classList.contains('open') && !navElement.contains(event.target)) {\n                navElement.classList.remove('open');\n            }\n        });\n      })();\n    <\/script>\n</nav>",
+    "css": "\n.nav-centered-logo {\n    background-color: #f0f2f5;\n    padding: 1rem 0;\n    position: relative;\n}\n.nav-centered-logo .nav-container {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 0 1rem;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n.nav-centered-logo .logo {\n    font-size: 2rem;\n    font-weight: 700;\n    color: var(--color-dark, #1F2937);\n    text-decoration: none;\n    position: absolute;\n    left: 50%;\n    transform: translateX(-50%);\n}\n.nav-centered-logo .nav-links {\n    list-style: none;\n    display: none;\n    gap: 1.5rem;\n}\n@media (min-width: 768px) {\n    .nav-centered-logo .nav-links { display: flex; }\n}\n.nav-centered-logo .nav-links a {\n    text-decoration: none;\n    color: var(--color-dark, #1F2937);\n    font-weight: 500;\n}\n.nav-centered-logo .mobile-menu-toggle {\n    display: block;\n    background: none;\n    border: none;\n    cursor: pointer;\n    z-index: 100;\n}\n.nav-centered-logo .mobile-menu-toggle span { display: block; width: 25px; height: 2px; background-color: var(--color-dark, #1F2937); margin: 5px 0; transition: all 0.3s; }\n@media (min-width: 768px) {\n    .nav-centered-logo .mobile-menu-toggle { display: none; }\n}\n.nav-centered-logo .mobile-menu {\n    display: none;\n    flex-direction: column;\n    gap: 1.5rem;\n    padding: 2rem;\n    background-color: #f0f2f5;\n    position: absolute;\n    top: 100%;\n    left: 0;\n    right: 0;\n    text-align: center;\n    z-index: 99;\n}\n.nav-centered-logo .mobile-menu a { text-decoration: none; color: var(--color-dark, #1F2937); font-weight: 500; font-size: 1.2rem; }\n.nav-centered-logo.open .mobile-menu { display: flex; }\n.nav-centered-logo.open .mobile-menu-toggle span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }\n.nav-centered-logo.open .mobile-menu-toggle span:nth-child(2) { opacity: 0; }\n.nav-centered-logo.open .mobile-menu-toggle span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }\n",
+    "translations": {
+        "de": {
+            "about": "Über uns",
+            "services": "Dienstleistungen",
+            "caseStudies": "Fallstudien",
+            "careers": "Karriere",
+            "industries": "Branchen",
+            "contact": "Kontakt"
+        },
+        "ar": {
+            "about": "عنا",
+            "services": "خدماتنا",
+            "caseStudies": "دراسات الحالة",
+            "careers": "وظائف",
+            "industries": "الصناعات",
+            "contact": "اتصل بنا"
+        },
+        "en": {
+            "about": "About",
+            "services": "Services",
+            "caseStudies": "Case Studies",
+            "careers": "Careers",
+            "industries": "Industries",
+            "contact": "Contact"
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Centered Cover with CTA and Image",
+    "category": "Cover",
+    "description": "A centered cover section that prominently displays a call-to-action button alongside an inspiring image.",
+    "tags": [
+        "cover",
+        "hero",
+        "centered",
+        "cta",
+        "image",
+        "balanced"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "h1",
+        "p",
+        "div",
+        "button",
+        "div",
+        "img"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "Promotional banners",
+        "App landing pages",
+        "Service overviews"
+    ],
+    "style_analysis": {
+        "colors": [
+            "--color-primary",
+            "--color-secondary",
+            "--color-dark",
+            "--color-light"
+        ],
+        "fonts": [
+            "--font-heading",
+            "--font-body"
+        ],
+        "visual_identity": "Balanced and direct, with clear focal points for text and imagery."
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "id": "testimonial-magazine-pull-quotes",
+    "html": "\n<section class=\"magazine-pullquote-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <blockquote class=\"pull-quote\">\n            <p>\"{{t:quote}}\"</p>\n            <cite><img src=\"https://i.pravatar.cc/50?img=11\" alt=\"{{t:author}}\"> {{t:author}}, {{t:role}}</cite>\n        </blockquote>\n    </div>\n</section>",
+    "css": "\n.magazine-pullquote-section { padding: 5rem 0; background: #fff; font-family: 'Lora', serif; position: relative; width: 100%; box-sizing: border-box; }\n.magazine-pullquote-section * { box-sizing: border-box; }\n.magazine-pullquote-section .container { max-width: 700px; margin: 0 auto; }\n.magazine-pullquote-section .pull-quote { border: none; text-align: center; margin: 0; }\n.magazine-pullquote-section .pull-quote p { font-size: 2.25rem; font-weight: 600; line-height: 1.4; color: #111; position: relative; padding: 0 3rem; }\n.magazine-pullquote-section .pull-quote p::before, .magazine-pullquote-section .pull-quote p::after { content: '“'; font-family: Georgia, serif; font-size: 6rem; position: absolute; opacity: 0.1; line-height: 0; }\n.magazine-pullquote-section .pull-quote p::before { top: 0.5em; left: 0; content: '“'; }\n.magazine-pullquote-section .pull-quote p::after { content: '”'; bottom: -0.2em; right: 0; }\n.magazine-pullquote-section .pull-quote cite { display: flex; align-items: center; justify-content: center; margin-top: 2rem; font-style: normal; font-family: 'Inter', sans-serif; }\n.magazine-pullquote-section .pull-quote cite img { width: 50px; height: 50px; border-radius: 50%; margin-right: 1rem; }\n",
+    "translations": {
+        "en": {
+            "name": "Magazine Pull-Quotes",
+            "quote": "Their attention to detail and creative vision is unmatched.",
+            "author": "John Doe",
+            "role": "Creative Director"
+        },
+        "de": {
+            "name": "Magazin-Pull-Quotes",
+            "quote": "Ihre Liebe zum Detail und ihre kreative Vision sind unübertroffen.",
+            "author": "John Doe",
+            "role": "Kreativdirektor"
+        },
+        "ar": {
+            "name": "اقتباسات بارزة من مجلة",
+            "quote": "اهتمامهم بالتفاصيل ورؤيتهم الإبداعية لا مثيل لها.",
+            "author": "جون دو",
+            "role": "المدير الإبداعي"
+        }
+    }
+}

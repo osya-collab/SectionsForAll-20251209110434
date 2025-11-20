@@ -1,0 +1,17 @@
+{
+    "id": "cta-elegant-gold-dark",
+    "html": "<section class=\"cta-elegant-gold-dark\">\n  <div class=\"container\">\n    <h2>Elevate Your Brand</h2>\n    <p>Experience premium services designed for success.</p>\n    <a href=\"#\" class=\"btn\">Discover Luxury</a>\n  </div>\n</section>",
+    "css": ".cta-elegant-gold-dark {\n  padding: 50px 20px;\n  background-color: #1a1a1a;\n  color: #fff;\n  text-align: center;\n}\n.cta-elegant-gold-dark .container {\n  max-width: 700px;\n  margin: 0 auto;\n}\n.cta-elegant-gold-dark h2 {\n  font-size: 32px;\n  margin-bottom: 15px;\n  color: #ffd700;\n  font-family: 'Playfair Display', serif;\n}\n.cta-elegant-gold-dark p {\n  font-size: 17px;\n  margin-bottom: 30px;\n  color: #ccc;\n  line-height: 1.7;\n  font-family: 'Lato', sans-serif;\n}\n.cta-elegant-gold-dark .btn {\n  display: inline-block;\n  padding: 14px 35px;\n  background-color: transparent;\n  color: #ffd700;\n  text-decoration: none;\n  font-size: 17px;\n  font-weight: bold;\n  border: 2px solid #ffd700;\n  border-radius: 30px;\n  transition: background-color 0.3s ease, color 0.3s ease;\n}\n.cta-elegant-gold-dark .btn:hover {\n  background-color: #ffd700;\n  color: #1a1a1a;\n}\n\n@media (min-width: 768px) {\n  .cta-elegant-gold-dark {\n    padding: 70px 20px;\n  }\n  .cta-elegant-gold-dark h2 {\n    font-size: 42px;\n  }\n  .cta-elegant-gold-dark p {\n    font-size: 19px;\n  }\n  .cta-elegant-gold-dark .btn {\n    font-size: 19px;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Eleganter Gold CTA (Dunkel)"
+        },
+        "ar": {
+            "name": "دعوة ذهبية أنيقة (داكن)"
+        },
+        "en": {
+            "name": "Elegant Gold CTA (Dark)"
+        }
+    }
+}

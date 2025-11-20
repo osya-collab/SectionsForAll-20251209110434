@@ -1,0 +1,37 @@
+{
+    "id": "team-detailed-bio-cards",
+    "html": "\n<section class=\"team-bio-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <h2 class=\"section-title anim-fade-in-up\">{{t:title}}</h2>\n        <div class=\"team-bio-grid\">\n            <div class=\"bio-card anim-fade-in-up anim-delay-1\">\n                <img src=\"https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1887\" alt=\"{{t:member1_name}}\">\n                <div class=\"bio-content\">\n                    <h3>{{t:member1_name}}</h3>\n                    <span class=\"bio-title\">{{t:member1_role}}</span>\n                    <p>{{t:member1_bio}}</p>\n                    <div class=\"bio-socials\">\n                        <a href=\"#\" aria-label=\"LinkedIn\">L</a>\n                        <a href=\"#\" aria-label=\"Twitter\">T</a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"bio-card anim-fade-in-up anim-delay-2\">\n                 <img src=\"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1888\" alt=\"{{t:member2_name}}\">\n                <div class=\"bio-content\">\n                    <h3>{{t:member2_name}}</h3>\n                    <span class=\"bio-title\">{{t:member2_role}}</span>\n                    <p>{{t:member2_bio}}</p>\n                    <div class=\"bio-socials\">\n                        <a href=\"#\" aria-label=\"LinkedIn\">L</a>\n                        <a href=\"#\" aria-label=\"Dribbble\">D</a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-bio-section { padding: 5rem 0; background-color: var(--color-light, #FFFFFF); }\n.team-bio-section .container { width: 90%; max-width: 1000px; margin: 0 auto; }\n.team-bio-section .section-title { text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: var(--color-dark, #111827); }\n.team-bio-grid {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 2rem;\n}\n@media (min-width: 768px) { .team-bio-grid { grid-template-columns: 1fr 1fr; } }\n.bio-card {\n    background-color: #f9fafb;\n    border-radius: 1rem;\n    overflow: hidden;\n    box-shadow: 0 4px 6px rgba(0,0,0,0.05);\n    transition: transform 0.3s, box-shadow 0.3s;\n}\n.bio-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }\n.bio-card img {\n    width: 100%;\n    height: 300px;\n    object-fit: cover;\n}\n.bio-content {\n    padding: 2rem;\n}\n.bio-content h3 { font-size: 1.5rem; color: var(--color-dark, #111827); margin-bottom: 0.25rem; }\n.bio-title {\n    display: block;\n    color: var(--color-primary, #667eea);\n    font-weight: 500;\n    margin-bottom: 1rem;\n}\n.bio-content p { color: var(--color-secondary, #6B7280); font-size: 0.95rem; margin-bottom: 1.5rem; }\n.bio-socials {\n    display: flex;\n    gap: 0.75rem;\n}\n.bio-socials a {\n    width: 32px;\n    height: 32px;\n    border-radius: 50%;\n    background-color: #e5e7eb;\n    color: var(--color-secondary, #6B7280);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    text-decoration: none;\n    font-weight: bold;\n    transition: background-color 0.3s, color 0.3s;\n}\n.bio-socials a:hover {\n    background-color: var(--color-primary, #667eea);\n    color: var(--color-light, #FFFFFF);\n}\n",
+    "translations": {
+        "de": {
+            "name": "Detaillierte Bio-Karten",
+            "title": "Unsere Führung",
+            "member1_name": "Marcus Reid",
+            "member1_role": "Chief Executive Officer",
+            "member1_bio": "Marcus bringt eine Fülle von Erfahrungen in strategischem Wachstum und Marktführung mit und führt unser Unternehmen in eine Zukunft der Innovation.",
+            "member2_name": "Isabella Chen",
+            "member2_role": "Leiterin des Produkts",
+            "member2_bio": "Isabellas benutzerzentrierter Ansatz und ihr scharfes Auge für Design waren entscheidend für die Gestaltung unserer preisgekrönten Produkte."
+        },
+        "en": {
+            "name": "Detailed Bio Cards",
+            "title": "Our Leadership",
+            "member1_name": "Marcus Reid",
+            "member1_role": "Chief Executive Officer",
+            "member1_bio": "Marcus brings a wealth of experience in strategic growth and market leadership, guiding our company towards a future of innovation.",
+            "member2_name": "Isabella Chen",
+            "member2_role": "Head of Product",
+            "member2_bio": "Isabella's user-centric approach and keen eye for design have been instrumental in shaping our award-winning products."
+        },
+        "ar": {
+            "name": "بطاقات السيرة الذاتية التفصيلية",
+            "title": "قيادتنا",
+            "member1_name": "ماركوس ريد",
+            "member1_role": "الرئيس التنفيذي",
+            "member1_bio": "يجلب ماركوس ثروة من الخبرة في النمو الاستراتيجي وقيادة السوق ، ويوجه شركتنا نحو مستقبل من الابتكار.",
+            "member2_name": "إيزابيلا تشين",
+            "member2_role": "رئيس قسم المنتجات",
+            "member2_bio": "كان نهج إيزابيلا الذي يركز على المستخدم وعينها الثاقبة للتصميم فعالين في تشكيل منتجاتنا الحائزة على جوائز."
+        }
+    }
+}

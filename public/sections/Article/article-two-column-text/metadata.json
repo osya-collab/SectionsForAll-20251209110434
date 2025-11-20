@@ -1,0 +1,13 @@
+{
+    "name": "Two-Column Text",
+    "category": "Article",
+    "description": "A classic, newspaper-style layout with text flowing across two columns for a traditional reading experience.",
+    "tags": ["article", "two-column", "text", "newspaper", "editorial"],
+    "structure": ["header", "multi-column-text"],
+    "complexity": "simple",
+    "use_cases": [
+        "Text-heavy articles",
+        "Digital magazines",
+        "Academic papers"
+    ]
+}

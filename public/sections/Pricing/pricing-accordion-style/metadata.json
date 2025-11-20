@@ -1,0 +1,13 @@
+{
+    "name": "Accordion Style",
+    "category": "Pricing",
+    "description": "A compact pricing section where plan details are revealed in an accordion. Ideal for pages with limited space or plans with many features.",
+    "tags": ["pricing", "accordion", "compact", "interactive", "minimalist"],
+    "structure": ["header", "accordion", "plan", "features", "button"],
+    "complexity": "medium",
+    "use_cases": [
+        "Mobile-first landing pages",
+        "Services with extensive feature lists",
+        "Clean, minimalist designs"
+    ]
+}

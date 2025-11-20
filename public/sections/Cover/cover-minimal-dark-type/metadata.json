@@ -1,0 +1,33 @@
+{
+    "name": "Minimalist Typography Hero",
+    "category": "Cover",
+    "description": "A typography-led hero section with massive headings and a subtle image strip at the bottom.",
+    "tags": [
+        "hero",
+        "typography",
+        "minimal",
+        "black and white"
+    ],
+    "structure": [
+        "large heading",
+        "text columns",
+        "image grid"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "High-end Restaurant",
+        "Concept Bar",
+        "Portfolio"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#000000",
+            "#ffffff",
+            "#ff4500"
+        ],
+        "fonts": [
+            "Heavy Sans-serif"
+        ],
+        "visual_identity": "Brutalist Minimal"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": "neo-brutalism-cta-sharp-pink-line",
+    "html": "<section class=\"cta-section-sharp-pink-line\">\n        <div class=\"cta-content\">\n            <h2>Don't Miss Out</h2>\n            <p>Limited spots available. Secure yours today before it's too late.</p>\n            <a href=\"#\" class=\"cta-button\">Reserve Now</a>\n        </div>\n    </section>",
+    "css": ".cta-section-sharp-pink-line {\n            padding: 80px 20px;\n            background-color: #ffffff;\n            color: #000000;\n            text-align: center;\n            border-top: 5px solid #ff00ff;\n            border-bottom: 5px solid #ff00ff;\n        }\n        .cta-section-sharp-pink-line .cta-content {\n            max-width: 650px;\n            margin: 0 auto;\n        }\n        .cta-section-sharp-pink-line h2 {\n            font-size: 3rem;\n            margin-bottom: 20px;\n            line-height: 1.2;\n            font-weight: 900;\n        }\n        .cta-section-sharp-pink-line p {\n            font-size: 1.15rem;\n            margin-bottom: 40px;\n            line-height: 1.6;\n            color: #444444;\n        }\n        .cta-section-sharp-pink-line .cta-button {\n            display: inline-block;\n            padding: 15px 40px;\n            background-color: #000000;\n            color: #ffffff;\n            text-decoration: none;\n            font-size: 1.2rem;\n            font-weight: 900;\n            border: 3px solid #000000;\n            transition: all 0.3s ease;\n            text-transform: uppercase;\n        }\n        .cta-section-sharp-pink-line .cta-button:hover {\n            background-color: #ff00ff;\n            color: #ffffff;\n            border-color: #ff00ff;\n        }\n        @media (max-width: 768px) {\n            .cta-section-sharp-pink-line {\n                padding: 70px 15px;\n                border-width: 4px;\n            }\n            .cta-section-sharp-pink-line h2 {\n                font-size: 2.8rem;\n            }\n            .cta-section-sharp-pink-line p {\n                font-size: 1.1rem;\n            }\n            .cta-section-sharp-pink-line .cta-button {\n                padding: 12px 30px;\n                font-size: 1.1rem;\n            }\n        }\n        @media (max-width: 480px) {\n            .cta-section-sharp-pink-line {\n                padding: 50px 10px;\n                border-width: 3px;\n            }\n            .cta-section-sharp-pink-line h2 {\n                font-size: 2.2rem;\n            }\n            .cta-section-sharp-pink-line p {\n                font-size: 1rem;\n            }\n            .cta-section-sharp-pink-line .cta-button {\n                padding: 10px 25px;\n                font-size: 1rem;\n            }\n        }",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Neo-Brutalismus CTA - Scharfe Pinke Linie"
+        },
+        "ar": {
+            "name": "قسم دعوة للعمل بأسلوب نيو-بروتاليزم - خط وردي حاد"
+        },
+        "en": {
+            "name": "Neo-Brutalism CTA - Sharp Pink Line"
+        }
+    }
+}

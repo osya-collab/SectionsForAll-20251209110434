@@ -1,0 +1,13 @@
+{
+    "name": "Why Choose Us",
+    "category": "About",
+    "description": "A split-screen section with a title, paragraph, and checklist on one side, and an image on the other. Perfect for summarizing key benefits and value propositions.",
+    "tags": ["about", "features", "benefits", "checklist", "split-layout"],
+    "structure": ["header", "paragraph", "checklist", "image"],
+    "complexity": "simple",
+    "use_cases": [
+        "Value proposition sections",
+        "'Why Us?' pages",
+        "Service benefit summaries"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Centered Glassmorphism Cover",
+    "category": "Cover",
+    "description": "A centered layout combining glassmorphism side cards with a prominent central visual, adapting the soft aesthetic to a product showcase.",
+    "tags": [
+        "glassmorphism",
+        "centered",
+        "product",
+        "soft"
+    ],
+    "structure": [
+        "Centered Heading",
+        "3-Column Grid",
+        "Glass Cards",
+        "Central Visual"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Mobile App Showcase",
+        "SaaS Features"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#e0f2f1",
+            "#e3f2fd",
+            "#2e3546"
+        ],
+        "fonts": [
+            "Inter"
+        ],
+        "visual_identity": "Symmetrical, light, airy, using translucency to create depth."
+    }
+}

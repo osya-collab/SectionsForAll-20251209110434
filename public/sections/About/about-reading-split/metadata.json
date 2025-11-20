@@ -1,0 +1,13 @@
+{
+    "name": "About Us Reading Split",
+    "category": "About",
+    "description": "A light and airy split-screen layout with a paragraph of text on one side and an image on the other, all contained within a colored card.",
+    "tags": ["about", "split-layout", "image", "reading", "light"],
+    "structure": ["header", "paragraph", "image"],
+    "complexity": "simple",
+    "use_cases": [
+        "Blog introductions",
+        "Author bios",
+        "Welcome messages"
+    ]
+}

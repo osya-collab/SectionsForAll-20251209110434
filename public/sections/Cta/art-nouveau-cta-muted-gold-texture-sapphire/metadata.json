@@ -1,0 +1,40 @@
+{
+    "name": "Art Nouveau CTA - Muted Gold Texture Sapphire",
+    "category": "Cta",
+    "description": "A sophisticated split-layout CTA with a navy blue background, ghost white text, and goldenrod accents. Features an art nouveau pattern image with a goldenrod top border.",
+    "tags": [
+        "cta",
+        "art nouveau",
+        "split layout",
+        "navy",
+        "gold texture",
+        "elegant"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "h2",
+        "p",
+        "a",
+        "div",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "luxury goods",
+        "high-end services",
+        "premium branding"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#000080",
+            "#f8f8ff",
+            "#daa520"
+        ],
+        "fonts": [
+            "Trajan Pro"
+        ],
+        "visual_identity": "Elegant Art Nouveau split design with navy blue, ghost white, and goldenrod, featuring textured gold imagery."
+    }
+}

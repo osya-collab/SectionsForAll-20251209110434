@@ -1,0 +1,13 @@
+{
+    "name": "Minimal Circle Portraits",
+    "category": "Team",
+    "description": "A clean and minimalist team section with four circular portraits and names on a light, colored background.",
+    "tags": ["team", "minimalist", "portraits", "circle", "clean"],
+    "structure": ["grid", "portraits"],
+    "complexity": "simple",
+    "use_cases": [
+        "Startups",
+        "Creative agencies",
+        "Modern corporate sites"
+    ]
+}

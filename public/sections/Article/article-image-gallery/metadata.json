@@ -1,0 +1,13 @@
+{
+    "name": "Article with Image Gallery",
+    "category": "Article",
+    "description": "An article layout that seamlessly integrates a small, clean grid of images within the text flow, perfect for visual storytelling.",
+    "tags": ["article", "gallery", "images", "content", "blog"],
+    "structure": ["header", "content", "image-grid"],
+    "complexity": "simple",
+    "use_cases": [
+        "Tutorials with step-by-step images",
+        "Travel blogs",
+        "Product feature articles"
+    ]
+}

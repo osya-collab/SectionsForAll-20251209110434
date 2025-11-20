@@ -1,0 +1,43 @@
+{
+    "name": "Organic Food Cover",
+    "category": "Cover",
+    "description": "A fresh and inviting cover section for organic food businesses, using natural colors, friendly typography, and vibrant images of healthy meals.",
+    "tags": [
+        "cover",
+        "hero",
+        "food",
+        "organic",
+        "healthy",
+        "natural",
+        "restaurant"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h1",
+        "p",
+        "div",
+        "button",
+        "a",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Organic restaurant websites",
+        "Healthy food blogs",
+        "Farm-to-table businesses"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#fcfaf7",
+            "#4d633f",
+            "#7a8c6b",
+            "#81c14b"
+        ],
+        "fonts": [
+            "Quicksand",
+            "sans-serif"
+        ],
+        "visual_identity": "Natural, wholesome, and vibrant with green and earthy tones, conveying freshness and healthy living."
+    }
+}

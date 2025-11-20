@@ -1,0 +1,41 @@
+{
+    "name": "Biomorphic Art Nouveau CTA - Jewel Texture",
+    "category": "Cta",
+    "description": "A CTA section featuring a rich jewel-toned background with a textured overlay, inspired by Art Nouveau. It offers a complimentary digital art piece upon newsletter signup.",
+    "tags": [
+        "CTA",
+        "Art Nouveau",
+        "Jewel Tones",
+        "Texture",
+        "Overlay",
+        "Digital Art",
+        "Newsletter",
+        "Exclusive Offer"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "h2",
+        "p",
+        "button"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Newsletter Signup with Incentive",
+        "Digital Art Promotion",
+        "Exclusive Content Offer",
+        "Lead Generation"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#311b92",
+            "#ffffff",
+            "#fbc02d"
+        ],
+        "fonts": [
+            "Dancing Script"
+        ],
+        "visual_identity": "Art Nouveau with deep jewel tones, textured overlay, gold accents, and elegant, flowing typography."
+    }
+}

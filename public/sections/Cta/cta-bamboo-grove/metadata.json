@@ -1,0 +1,43 @@
+{
+    "name": "CTA in Bamboo Grove",
+    "category": "Cta",
+    "description": "A tranquil CTA section set within a virtual bamboo grove, featuring soft green overlays and a rounded button, promoting mindfulness and inner peace.",
+    "tags": [
+        "cta",
+        "bamboo",
+        "nature",
+        "serenity",
+        "mindfulness",
+        "overlay"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a",
+        "div"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "wellness apps",
+        "meditation services",
+        "retreat promotion"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#1b5e20",
+            "#81c784",
+            "rgba(139, 195, 74, 0.3)",
+            "#2e7d32",
+            "#388e3c",
+            "#66bb6a",
+            "#4caf50"
+        ],
+        "fonts": [
+            "Quicksand",
+            "sans-serif"
+        ],
+        "visual_identity": "Calming and organic, set against a bamboo forest backdrop with soft green tones and rounded elements."
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": "art-nouveau-cta-sapphire-cream",
+    "html": "<section class=\"art-nouveau-cta-sapphire-cream\">\n  <div class=\"container\">\n    <div class=\"image-container\">\n      <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=art+nouveau+floral+pattern&image_type=photo\" alt=\"Art Nouveau floral pattern\">\n    </div>\n    <div class=\"content\">\n      <h2>Unlock Exclusive Offers</h2>\n      <p>Immerse yourself in a world of unparalleled beauty and sophistication. Our curated collection awaits your discovery.</p>\n      <a href=\"#\" class=\"cta-button\">Discover More</a>\n    </div>\n  </div>\n</section>",
+    "css": ".art-nouveau-cta-sapphire-cream .container { display: flex; flex-direction: column; align-items: center; padding: 40px 20px; background-color: #0f4c5c; /* Deep Sapphire */ color: #f8f8f8; /* Off-White/Cream */ }\n.art-nouveau-cta-sapphire-cream .content { text-align: center; margin-top: 30px; }\n.art-nouveau-cta-sapphire-cream h2 { font-family: 'Garamond', serif; font-size: 2.3em; margin-bottom: 15px; color: #e0d6b2; /* Muted Gold/Cream */ }\n.art-nouveau-cta-sapphire-cream p { font-family: 'Garamond', serif; font-size: 1.1em; line-height: 1.6; margin-bottom: 30px; }\n.art-nouveau-cta-sapphire-cream .cta-button { display: inline-block; padding: 14px 28px; background-color: #e0d6b2; /* Muted Gold/Cream */ color: #0f4c5c; /* Deep Sapphire */ text-decoration: none; font-family: 'Garamond', serif; font-weight: bold; border-radius: 5px; transition: background-color 0.3s ease, color 0.3s ease; }\n.art-nouveau-cta-sapphire-cream .cta-button:hover { background-color: #f8f8f8; /* Off-White/Cream */ color: #0f4c5c; /* Deep Sapphire */ }\n.art-nouveau-cta-sapphire-cream .image-container { width: 100%; max-width: 400px; }\n.art-nouveau-cta-sapphire-cream .image-container img { display: block; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); }\n\n@media (min-width: 768px) {\n  .art-nouveau-cta-sapphire-cream .container { flex-direction: row; text-align: left; padding: 60px 40px; }\n  .art-nouveau-cta-sapphire-cream .image-container { flex: 1; margin-right: 40px; }\n  .art-nouveau-cta-sapphire-cream .content { flex: 1; margin-top: 0; }\n  .art-nouveau-cta-sapphire-cream h2 { font-size: 2.8em; }\n  .art-nouveau-cta-sapphire-cream p { font-size: 1.15em; }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Art Nouveau CTA - Saphir & Creme"
+        },
+        "ar": {
+            "name": "زر الدعوة للفعل بنمط آرت نوفو - ياقوت أزرق وكريمي"
+        },
+        "en": {
+            "name": "Art Nouveau CTA - Sapphire & Cream"
+        }
+    }
+}

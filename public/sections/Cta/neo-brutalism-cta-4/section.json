@@ -1,0 +1,17 @@
+{
+    "id": "neo-brutalism-cta-4",
+    "html": "<section class=\"cta-section-4\">\n  <div class=\"cta-wrapper\">\n    <h2 class=\"main-headline\">Start Your Next Chapter</h2>\n    <p class=\"sub-headline\">We provide the tools and support you need to succeed. Let's connect.</p>\n    <a href=\"#\" class=\"cta-action-button\">Discover Our Solutions</a>\n  </div>\n</section>",
+    "css": ".cta-section-4 {\n  background-color: #000000;\n  color: #FFFFFF;\n  padding: 60px 20px;\n  text-align: center;\n  font-family: 'Arial Black', sans-serif;\n}\n.cta-wrapper {\n  max-width: 750px;\n  margin: 0 auto;\n  border: 4px solid #FFFFFF;\n  padding: 40px 30px;\n}\n.main-headline {\n  font-size: 2.4rem;\n  margin-bottom: 15px;\n  font-weight: 900;\n  line-height: 1.2;\n  text-transform: uppercase;\n}\n.sub-headline {\n  font-size: 1.1rem;\n  margin-bottom: 30px;\n  color: #DDDDDD;\n}\n.cta-action-button {\n  display: inline-block;\n  padding: 18px 35px;\n  background-color: #FFFFFF;\n  color: #000000;\n  text-decoration: none;\n  font-weight: 900;\n  font-size: 1.3rem;\n  border: 4px solid #FFFFFF;\n  transition: background-color 0.3s ease, color 0.3s ease;\n}\n.cta-action-button:hover {\n  background-color: #000000;\n  color: #FFFFFF;\n}\n\n@media (min-width: 768px) {\n  .cta-section-4 {\n    padding: 100px 40px;\n  }\n  .cta-wrapper {\n    padding: 60px 40px;\n  }\n  .main-headline {\n    font-size: 4rem;\n  }\n  .sub-headline {\n    font-size: 1.3rem;\n  }\n  .cta-action-button {\n    font-size: 1.5rem;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Schwarz-Weiß Roher CTA"
+        },
+        "ar": {
+            "name": "دعوة لاتخاذ إجراء خام باللونين الأسود والأبيض"
+        },
+        "en": {
+            "name": "Black and White Raw CTA"
+        }
+    }
+}

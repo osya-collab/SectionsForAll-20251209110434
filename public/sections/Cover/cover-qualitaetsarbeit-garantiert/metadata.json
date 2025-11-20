@@ -1,0 +1,9 @@
+{
+    "name": "Qualitätsarbeit Garantiert",
+    "category": "Cover",
+    "description": "A centered, text-focused hero section that builds trust with a guarantee and key statistics.",
+    "tags": ["cover", "hero", "trust", "guarantee", "stats", "minimalist"],
+    "structure": ["header", "paragraph", "stats-list", "cta-button"],
+    "complexity": "simple",
+    "use_cases": ["Service Providers", "Freelancers", "Consultants"]
+}

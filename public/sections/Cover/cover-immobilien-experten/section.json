@@ -1,0 +1,10 @@
+{
+    "id": "cover-immobilien-experten",
+    "html": "\n<section class=\"cover-immobilien-experten-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"content anim-fade-in-right\"><h1>{{t:title}}</h1><p>{{t:subtitle}}</p><a href=\"#\" class=\"btn btn-primary\">{{t:cta_button}}</a></div>\n        <div class=\"image anim-fade-in-left\"><img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=luxury+house+exterior\" alt=\"{{t:image_alt}}\"></div>\n    </div>\n</section>",
+    "css": ".cover-immobilien-experten-section { padding: 6rem 0; } .container { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr; gap: 3rem; align-items: center; } @media(min-width: 768px) { .container { grid-template-columns: 1fr 1fr; } } h1 { font-size: clamp(2.5rem, 5vw, 3.5rem); margin-bottom: 1rem; } .content p { margin-bottom: 2rem; } .btn-primary { padding: 0.8rem 2rem; background-color: var(--color-primary); color: var(--color-light); border-radius: 0.5rem; text-decoration: none; } .image img { width: 100%; border-radius: 1rem; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }",
+    "translations": {
+        "de": { "name": "Immobilien Experten", "title": "Ihre Experten für Traumimmobilien", "subtitle": "Finden Sie Ihr perfektes Zuhause mit unserem engagierten Team.", "cta_button": "Immobilien ansehen", "image_alt": "Luxushaus außen" },
+        "en": { "name": "Real Estate Experts", "title": "Your Experts for Dream Properties", "subtitle": "Find your perfect home with our dedicated team.", "cta_button": "View Properties", "image_alt": "Luxury house exterior" },
+        "ar": { "name": "خبراء العقارات", "title": "خبراؤك في عقارات الأحلام", "subtitle": "ابحث عن منزلك المثالي مع فريقنا المتفاني.", "cta_button": "عرض العقارات", "image_alt": "واجهة منزل فاخر" }
+    }
+}

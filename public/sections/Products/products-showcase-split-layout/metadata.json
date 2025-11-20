@@ -1,0 +1,47 @@
+{
+    "name": "Products Showcase Split Layout",
+    "category": "Products",
+    "description": "A product showcase using a split layout, alternating image and text sections. Features a call-to-action button and subtle hover effects on images.",
+    "tags": [
+        "products",
+        "showcase",
+        "split-layout",
+        "cta",
+        "modern",
+        "alternating"
+    ],
+    "structure": [
+        "section",
+        "h2",
+        "div",
+        "div",
+        "div",
+        "img",
+        "div",
+        "h3",
+        "p",
+        "a"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "product category introductions",
+        "featured collections",
+        "brand storytelling"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f4f7f6",
+            "#ffffff",
+            "#2c3e50",
+            "#34495e",
+            "#7f8c8d",
+            "#e74c3c",
+            "#c0392b"
+        ],
+        "fonts": [
+            "Montserrat",
+            "sans-serif"
+        ],
+        "visual_identity": "Clean and sophisticated, using a balanced split layout with ample white space and bold calls to action."
+    }
+}

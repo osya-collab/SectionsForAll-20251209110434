@@ -1,0 +1,13 @@
+{
+    "name": "About with Stats Grid",
+    "category": "About",
+    "description": "A versatile split-screen layout that combines a detailed text description on one side with a 2x2 grid of statistics and an image with a unique dotted border effect on the other.",
+    "tags": ["about", "stats", "image", "corporate", "professional"],
+    "structure": ["header", "paragraph", "stats-grid", "image"],
+    "complexity": "medium",
+    "use_cases": [
+        "Company 'About Us' pages",
+        "Service detail pages with key metrics",
+        "Case study introductions"
+    ]
+}

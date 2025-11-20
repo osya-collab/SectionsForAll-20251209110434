@@ -1,0 +1,14 @@
+{
+    "name": "Nav with Social Icons",
+    "category": "Menu",
+    "description": "A navigation bar that integrates social media presence directly into the header. Features the logo, main links, and a set of social media icons for easy access to profiles.",
+    "tags": ["social-media", "icons", "community", "blog", "personal-brand", "header", "responsive"],
+    "structure": ["logo", "nav-links", "social-icons"],
+    "complexity": "medium",
+    "use_cases": [
+        "Blogger Websites",
+        "Influencer Portfolios",
+        "Community Sites",
+        "Artist Websites"
+    ]
+}

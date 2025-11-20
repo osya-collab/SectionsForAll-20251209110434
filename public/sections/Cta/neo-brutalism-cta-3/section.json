@@ -1,0 +1,17 @@
+{
+    "id": "neo-brutalism-cta-3",
+    "html": "<section class=\"cta-section-3\">\n  <div class=\"cta-content\">\n    <h2 class=\"cta-heading\">Your Project Needs Our Expertise</h2>\n    <p class=\"cta-subheading\">Let's build something extraordinary together. Get in touch for a consultation.</p>\n    <div class=\"cta-actions\">\n      <a href=\"#\" class=\"cta-link-primary\">Request Consultation</a>\n      <a href=\"#\" class=\"cta-link-secondary\">Learn More</a>\n    </div>\n  </div>\n</section>",
+    "css": ".cta-section-3 {\n  background-color: #FF00FF;\n  color: #FFFFFF;\n  padding: 60px 20px;\n  text-align: center;\n  position: relative;\n}\n.cta-section-3::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(135deg, #FF00FF 0%, #00FFFF 100%);\n  opacity: 0.1;\n  z-index: 0;\n}\n.cta-content {\n  position: relative;\n  z-index: 1;\n  max-width: 800px;\n  margin: 0 auto;\n}\n.cta-heading {\n  font-size: 2.6rem;\n  margin-bottom: 15px;\n  font-weight: 900;\n  line-height: 1.2;\n}\n.cta-subheading {\n  font-size: 1.15rem;\n  margin-bottom: 30px;\n}\n.cta-actions {\n  display: flex;\n  flex-direction: column;\n  gap: 15px;\n  align-items: center;\n}\n.cta-link-primary, .cta-link-secondary {\n  display: inline-block;\n  padding: 15px 30px;\n  text-decoration: none;\n  font-weight: 900;\n  font-size: 1.15rem;\n  border-radius: 0;\n  transition: all 0.3s ease;\n}\n.cta-link-primary {\n  background-color: #FFFFFF;\n  color: #FF00FF;\n  border: 3px solid #FFFFFF;\n}\n.cta-link-primary:hover {\n  background-color: #FF00FF;\n  color: #FFFFFF;\n}\n.cta-link-secondary {\n  background-color: transparent;\n  color: #FFFFFF;\n  border: 3px solid #FFFFFF;\n}\n.cta-link-secondary:hover {\n  background-color: #FFFFFF;\n  color: #FF00FF;\n}\n\n@media (min-width: 768px) {\n  .cta-section-3 {\n    padding: 100px 40px;\n  }\n  .cta-heading {\n    font-size: 4rem;\n  }\n  .cta-subheading {\n    font-size: 1.4rem;\n  }\n  .cta-actions {\n    flex-direction: row;\n    justify-content: center;\n  }\n  .cta-link-primary, .cta-link-secondary {\n    font-size: 1.3rem;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Geometrische Gitter CTA"
+        },
+        "ar": {
+            "name": "دعوة لاتخاذ إجراء شبكي هندسي"
+        },
+        "en": {
+            "name": "Geometric Grid CTA"
+        }
+    }
+}

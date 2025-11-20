@@ -1,0 +1,13 @@
+{
+    "name": "Article with Pullquote",
+    "category": "Article",
+    "description": "An elegant article layout featuring a prominent, styled pullquote that breaks the flow of text and draws the reader's attention to a key point.",
+    "tags": ["article", "pullquote", "typography", "editorial", "content"],
+    "structure": ["header", "content", "pullquote"],
+    "complexity": "simple",
+    "use_cases": [
+        "Magazine articles",
+        "Interviews",
+        "Opinion pieces"
+    ]
+}

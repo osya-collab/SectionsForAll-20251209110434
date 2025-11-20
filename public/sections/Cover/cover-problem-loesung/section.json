@@ -1,0 +1,40 @@
+{
+    "id": "cover-problem-loesung",
+    "html": "\n<section class=\"cover-problem-loesung-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container cover-problem-loesung-container\">\n        <div class=\"content-side anim-fade-in-right\">\n            <h1>{{t:title}}</h1>\n            <p>{{t:subtitle}}</p>\n            <div class=\"features-list\">\n                <div class=\"feature-item\">\n                    <i class=\"fa-solid fa-check-circle\"></i>\n                    <span>{{t:feature1}}</span>\n                </div>\n                <div class=\"feature-item\">\n                    <i class=\"fa-solid fa-check-circle\"></i>\n                    <span>{{t:feature2}}</span>\n                </div>\n                <div class=\"feature-item\">\n                    <i class=\"fa-solid fa-check-circle\"></i>\n                    <span>{{t:feature3}}</span>\n                </div>\n            </div>\n            <div class=\"cta-group\">\n                <a href=\"#\" class=\"btn btn-dark\">{{t:cta1}}</a>\n                <a href=\"#\" class=\"btn btn-light\">{{t:cta2}}</a>\n            </div>\n        </div>\n        <div class=\"image-side anim-fade-in-left\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=colleagues+talking+smiling+office+environment\" alt=\"{{t:image_alt}}\">\n        </div>\n    </div>\n</section>",
+    "css": "\n.cover-problem-loesung-section {\n    padding: 6rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.cover-problem-loesung-section .container {\n    width: 90%;\n    max-width: 1100px;\n    margin: 0 auto;\n}\n.cover-problem-loesung-container {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 3rem;\n    align-items: center;\n}\n@media (min-width: 992px) {\n    .cover-problem-loesung-container {\n        grid-template-columns: 1fr 1fr;\n    }\n}\n.cover-problem-loesung-section h1 {\n    font-size: clamp(2.5rem, 5vw, 3.5rem);\n    font-weight: 700;\n    line-height: 1.2;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1.5rem;\n}\n.cover-problem-loesung-section .content-side p {\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n    margin-bottom: 2rem;\n}\n.cover-problem-loesung-section .features-list {\n    display: flex;\n    flex-direction: column;\n    gap: 1rem;\n    margin-bottom: 2.5rem;\n}\n.cover-problem-loesung-section .feature-item {\n    display: flex;\n    align-items: center;\n    gap: 0.75rem;\n    color: var(--color-dark, #1F2937);\n    font-weight: 500;\n}\n.cover-problem-loesung-section .feature-item i {\n    color: var(--color-dark, #1F2937);\n    font-size: 1.25rem;\n}\n.cover-problem-loesung-section .cta-group {\n    display: flex;\n    flex-wrap: wrap;\n    align-items: center;\n    gap: 1rem;\n}\n.cover-problem-loesung-section .btn {\n    padding: 0.75rem 1.5rem;\n    border-radius: 0.5rem;\n    font-weight: 600;\n    text-decoration: none;\n    transition: all 0.3s;\n}\n.cover-problem-loesung-section .btn-dark {\n    background-color: var(--color-dark, #1F2937);\n    color: var(--color-light, #FFFFFF);\n    border: 1px solid var(--color-dark, #1F2937);\n}\n.cover-problem-loesung-section .btn-light {\n    background-color: transparent;\n    color: var(--color-dark, #1F2937);\n    border: 1px solid transparent;\n}\n.cover-problem-loesung-section .image-side img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    border-radius: 1.5rem;\n    box-shadow: 0 10px 30px rgba(0,0,0,0.1);\n}\n",
+    "translations": {
+        "de": {
+            "name": "Problem Lösung",
+            "title": "Die erste Lösung, die Ihr Problem wirklich behebt",
+            "subtitle": "Du wirst vielleicht bemerken, dass dieser Text etwas früher umbricht als die Überschrift darüber, obwohl die Spalte breiter ist. Das erreichen wir mit einem kleinen Ziehpunkt, der erscheint, wenn du über den Text fährst.",
+            "feature1": "24/7 Kundendienst",
+            "feature2": "Garantierte Qualität",
+            "feature3": "5.000 Kunden",
+            "cta1": "Call-to-Action Button",
+            "cta2": "Secondary action",
+            "image_alt": "Lächelnde Kollegen im Gespräch in einem hellen Büroumfeld"
+        },
+        "en": {
+            "name": "Problem Solution",
+            "title": "The first solution that truly fixes your problem",
+            "subtitle": "You might notice that this text wraps a bit earlier than the headline above, even though the column is wider. We achieve this with a small drag handle that appears when you hover over the text.",
+            "feature1": "24/7 Customer Service",
+            "feature2": "Guaranteed Quality",
+            "feature3": "5,000 Customers",
+            "cta1": "Call-to-Action Button",
+            "cta2": "Secondary action",
+            "image_alt": "Smiling colleagues talking in a bright office environment"
+        },
+        "ar": {
+            "name": "حل المشكلة",
+            "title": "الحل الأول الذي يصلح مشكلتك حقًا",
+            "subtitle": "قد تلاحظ أن هذا النص يلتف في وقت أبكر قليلاً من العنوان أعلاه ، على الرغم من أن العمود أوسع. نحقق ذلك من خلال مقبض سحب صغير يظهر عند التمرير فوق النص.",
+            "feature1": "خدمة عملاء 24/7",
+            "feature2": "جودة مضمونة",
+            "feature3": "5000 عميل",
+            "cta1": "زر الدعوة لاتخاذ إجراء",
+            "cta2": "إجراء ثانوي",
+            "image_alt": "زملاء مبتسمون يتحدثون في بيئة مكتبية مشرقة"
+        }
+    }
+}

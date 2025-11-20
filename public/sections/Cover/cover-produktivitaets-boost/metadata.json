@@ -1,0 +1,13 @@
+{
+    "name": "Produktivitäts-Boost Cover",
+    "category": "Cover",
+    "description": "A dynamic hero section combining a main headline with a multi-card feature grid, including a prominent dark card and two stat cards.",
+    "tags": ["cover", "hero", "features", "stats", "grid", "business"],
+    "structure": ["header", "cta-button", "feature-grid", "stat-cards"],
+    "complexity": "medium",
+    "use_cases": [
+        "SaaS Landing Pages",
+        "Product Homepages",
+        "Agency Websites"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Cover mit Checkliste",
+    "category": "Cover",
+    "description": "A split-screen hero section combining a strong headline and a checklist of benefits on one side, with a large image on the other.",
+    "tags": ["cover", "hero", "split-layout", "checklist", "features", "business"],
+    "structure": ["header", "paragraph", "cta-button", "feature-list", "image"],
+    "complexity": "simple",
+    "use_cases": [
+        "SaaS Landing Pages",
+        "Service-based Businesses",
+        "Product Feature Overviews"
+    ]
+}

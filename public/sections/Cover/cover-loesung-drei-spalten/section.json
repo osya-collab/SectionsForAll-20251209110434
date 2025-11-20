@@ -1,0 +1,37 @@
+{
+    "id": "cover-loesung-drei-spalten",
+    "html": "\n<section class=\"cover-3-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container text-center hero-part\">\n        <h1 class=\"anim-fade-in-up\">{{t:title}}</h1>\n        <p class=\"subtitle anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n        <a href=\"#\" class=\"btn btn-dark anim-fade-in-up anim-delay-2\">{{t:cta_button}}</a>\n    </div>\n    <div class=\"container features-part\">\n        <div class=\"feature-item anim-fade-in-up anim-delay-2\">\n            <h3>{{t:feature1_title}}</h3>\n            <p>{{t:feature_desc}}</p>\n        </div>\n        <div class=\"feature-item anim-fade-in-up anim-delay-3\">\n            <h3>{{t:feature2_title}}</h3>\n            <p>{{t:feature_desc}}</p>\n        </div>\n        <div class=\"feature-item anim-fade-in-up anim-delay-4\">\n            <h3>{{t:feature3_title}}</h3>\n            <p>{{t:feature_desc}}</p>\n        </div>\n    </div>\n</section>",
+    "css": "\n.cover-3-section {\n    background-color: #f8f9fa; /* A very light gray */\n    padding: 6rem 0;\n}\n.cover-3-section .container { width: 90%; max-width: 900px; margin: 0 auto; padding: 0 1rem; }\n.cover-3-section .hero-part { margin-bottom: 5rem; text-align: center; }\n.cover-3-section h1 {\n    font-size: clamp(2.5rem, 6vw, 4rem);\n    font-weight: 700;\n    line-height: 1.2;\n    margin-bottom: 1.5rem;\n    color: var(--color-dark, #1F2937);\n}\n.cover-3-section .subtitle {\n    font-size: 1.1rem;\n    max-width: 600px;\n    margin: 0 auto 2.5rem;\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n}\n.cover-3-section .btn {\n    display: inline-block;\n    padding: 1rem 2.5rem;\n    text-decoration: none;\n    border-radius: 0.5rem;\n    font-weight: 600;\n    transition: all 0.3s ease;\n    box-shadow: 0 4px 15px rgba(0,0,0,0.1);\n}\n.cover-3-section .btn-dark {\n    background-color: var(--color-dark, #1F2937);\n    color: var(--color-light, #FFFFFF);\n}\n.cover-3-section .btn-dark:hover {\n    transform: translateY(-3px);\n    box-shadow: 0 8px 25px rgba(0,0,0,0.15);\n}\n.cover-3-section .features-part {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n    gap: 2rem;\n    text-align: center;\n}\n.cover-3-section .feature-item h3 {\n    font-size: 1.25rem;\n    font-weight: 600;\n    margin-bottom: 0.75rem;\n    color: var(--color-dark, #1F2937);\n}\n.cover-3-section .feature-item p {\n    font-size: 0.95rem;\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.6;\n}\n.cover-3-section .anim-delay-1 { transition-delay: 0.1s; }\n.cover-3-section .anim-delay-2 { transition-delay: 0.2s; }\n.cover-3-section .anim-delay-3 { transition-delay: 0.3s; }\n.cover-3-section .anim-delay-4 { transition-delay: 0.4s; }\n",
+    "translations": {
+        "de": {
+            "name": "Lösung mit 3 Spalten",
+            "title": "Die Lösung, die deine Konkurrenz nicht finden soll",
+            "subtitle": "Hero-Bereiche sitzen direkt unter deinem Menü. Sie ziehen in diesen entscheidenden ersten Sekunden die Aufmerksamkeit auf sich und überzeugen Besucher, zu bleiben und auf den Button zu klicken.",
+            "cta_button": "Call-to-Action button",
+            "feature1_title": "Über 5.000 zufriedene Kunden",
+            "feature_desc": "So sieht dein Inhalt in einem Rasterlayout aus, mit nur ein paar Sätzen. Ganz einfach und übersichtlich für dich dargestellt.",
+            "feature2_title": "Dein Erfolg ist beeindruckend",
+            "feature3_title": "Wir sind weltweit für dich da"
+        },
+        "en": {
+            "name": "Solution with 3 Columns",
+            "title": "The solution your competition shouldn't find",
+            "subtitle": "Hero sections sit right below your menu. They grab attention in those crucial first seconds and convince visitors to stay and click the button.",
+            "cta_button": "Call-to-Action button",
+            "feature1_title": "Over 5,000 satisfied customers",
+            "feature_desc": "This is what your content looks like in a grid layout, with just a few sentences. Presented simply and clearly for you.",
+            "feature2_title": "Your success is impressive",
+            "feature3_title": "We are there for you worldwide"
+        },
+        "ar": {
+            "name": "حل بثلاثة أعمدة",
+            "title": "الحل الذي لا ينبغي لمنافسيك العثور عليه",
+            "subtitle": "توجد أقسام الأبطال مباشرة أسفل قائمتك. إنها تجذب الانتباه في تلك الثواني الأولى الحاسمة وتقنع الزوار بالبقاء والنقر على الزر.",
+            "cta_button": "زر الدعوة لاتخاذ إجراء",
+            "feature1_title": "أكثر من 5000 عميل راضٍ",
+            "feature_desc": "هذا ما يبدو عليه المحتوى الخاص بك في تخطيط شبكي، مع بضع جمل فقط. معروض ببساطة ووضوح من أجلك.",
+            "feature2_title": "نجاحك مثير للإعجاب",
+            "feature3_title": "نحن هنا من أجلك في جميع أنحاء العالم"
+        }
+    }
+}

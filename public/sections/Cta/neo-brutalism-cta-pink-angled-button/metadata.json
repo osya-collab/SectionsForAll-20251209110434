@@ -1,0 +1,38 @@
+{
+    "name": "Neo-Brutalism CTA - Pink Angled Button",
+    "category": "Cta",
+    "description": "A Neo-Brutalism CTA section on a white background, featuring a uniquely angled hot pink button that adds a dynamic, aggressive feel. The button has a black outline and shadow.",
+    "tags": [
+        "cta",
+        "neo-brutalism",
+        "angled button",
+        "pink",
+        "dynamic",
+        "modern"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a",
+        "span"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "product launches",
+        "special offers",
+        "sign-up prompts"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#ffffff",
+            "#000000",
+            "#ff00ff"
+        ],
+        "fonts": [
+            "sans-serif"
+        ],
+        "visual_identity": "Neo-Brutalism with a dynamically angled hot pink button on a white background."
+    }
+}

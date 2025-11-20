@@ -1,0 +1,44 @@
+{
+    "name": "CTA with Foliage Frame",
+    "category": "Cta",
+    "description": "A captivating call-to-action section framed by lush foliage, using a subtle leaf pattern overlay and a deep green tint on a nature background image.",
+    "tags": [
+        "cta",
+        "foliage",
+        "nature",
+        "overlay",
+        "subscribe",
+        "community"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "h2",
+        "p",
+        "a",
+        "div"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "newsletter signup",
+        "community invitation",
+        "content promotion"
+    ],
+    "style_analysis": {
+        "colors": [
+            "white",
+            "rgba(46, 125, 50, 0.7)",
+            "#e0f2f1",
+            "#b2dfdb",
+            "#a5d6a7",
+            "#1b5e20",
+            "#81c784"
+        ],
+        "fonts": [
+            "Nunito Sans",
+            "sans-serif"
+        ],
+        "visual_identity": "Enveloping nature theme with a green overlay and subtle leaf pattern for a serene feel."
+    }
+}

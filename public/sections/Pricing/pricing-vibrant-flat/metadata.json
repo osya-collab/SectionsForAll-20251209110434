@@ -1,0 +1,14 @@
+
+{
+    "name": "Vibrant Flat",
+    "category": "Pricing",
+    "description": "A clean and friendly pricing table design using bright, solid colors for each plan. The 'popular' plan is slightly larger to draw attention.",
+    "tags": ["pricing", "flat-design", "colorful", "clean", "modern"],
+    "structure": ["header", "pricing-cards", "features", "button"],
+    "complexity": "simple",
+    "use_cases": [
+        "Startups",
+        "Creative Agencies",
+        "Consumer-facing products"
+    ]
+}

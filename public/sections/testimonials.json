@@ -1,0 +1,107 @@
+[
+    {
+        "id": "testimonial-before-after-stories",
+        "name": "Before/After Stories",
+        "category": "Testimonials"
+    },
+    {
+        "id": "testimonial-chat-bubble-thread",
+        "name": "Chat Bubble Thread",
+        "category": "Testimonials"
+    },
+    {
+        "id": "testimonial-collage-avatars",
+        "name": "Collage with Avatars",
+        "category": "Testimonials"
+    },
+    {
+        "id": "testimonial-colorful-grid",
+        "name": "Colorful Grid",
+        "category": "Testimonials"
+    },
+    {
+        "id": "testimonial-featured-grid",
+        "name": "Featured Grid",
+        "category": "Testimonials"
+    },
+    {
+        "id": "testimonial-gradient-tabs",
+        "name": "Gradient Tabs",
+        "category": "Testimonials"
+    },
+    {
+        "id": "testimonial-magazine-pull-quotes",
+        "name": "Magazine Pull-Quotes",
+        "category": "Testimonials"
+    },
+    {
+        "id": "testimonial-star-rated-tiles",
+        "name": "Star-Rated Tiles",
+        "category": "Testimonials"
+    },
+    {
+        "id": "testimonials-masonry-v1",
+        "name": "Masonry Grid Testimonials",
+        "category": "Testimonials"
+    },
+    {
+        "id": "testimonials-split-grid-alpha",
+        "name": "Split Layout with Review Grid",
+        "category": "Testimonials"
+    },
+    {
+        "id": "testimonials-bento-grid-beta",
+        "name": "Bento Box Testimonials",
+        "category": "Testimonials"
+    },
+    {
+        "id": "testimonials-dark-mode-delta",
+        "name": "Dark Mode Contrast",
+        "category": "Testimonials"
+    },
+    {
+        "id": "testimonials-single-spotlight-v3",
+        "name": "Single Spotlight Feature",
+        "category": "Testimonials"
+    },
+    {
+        "id": "testimonials-sidebar-tabs-theta",
+        "name": "Vertical Tabs Testimonials",
+        "category": "Testimonials"
+    },
+    {
+        "id": "testimonials-stats-combo-iota",
+        "name": "Stats and Reviews Combo",
+        "category": "Testimonials"
+    },
+    {
+        "id": "testimonials-minimal-list-lambda",
+        "name": "Minimalist Review List",
+        "category": "Testimonials"
+    },
+    {
+        "id": "testimonial-tabs-modern-a1b2",
+        "name": "Modern Testimonial Tabs",
+        "category": "Testimonials"
+    },
+    {
+        "id": "hero-modern-tabs-a7",
+        "name": "Modern Hero with Interactive Tabs",
+        "category": "Testimonials"
+    },
+    {
+        "id": "hero-modern-tabs-a1b2",
+        "name": "Modern Hero with Interactive Tabs",
+        "category": "Testimonials"
+    },
+    {
+        "id": "hero-tabs-interactive-a1b2",
+        "name": "Modern Hero with Interactive Tabs",
+        "category": "Testimonials"
+    },
+    {
+        "id": "hero-modern-tabs-ak9z",
+        "name": "Modern Hero with Interactive Tabs",
+        "category": "Testimonials"
+    }
+]

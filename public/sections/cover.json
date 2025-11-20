@@ -1,0 +1,337 @@
+[
+    {
+        "id": "cover-ablaeufe-am-laufen",
+        "name": "Abläufe am Laufen halten",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-agentur-potenzial",
+        "name": "Agentur Potenzial",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-beeindruckende-websites",
+        "name": "Beeindruckende Websites",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-betrieb-in-bewegung",
+        "name": "Betrieb in Bewegung",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-betrieb-in-bewegung-mit-dark-card",
+        "name": "Betrieb in Bewegung mit Dark Card",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-bild-collage",
+        "name": "Cover Bild Collage",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-dringender-service",
+        "name": "Dringender Service",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-dunkler-erfolg",
+        "name": "Dunkler Erfolg Cover",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-effizientes-wachstum",
+        "name": "Effizientes Wachstum",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-erfolgsplan-formular",
+        "name": "Erfolgsplan Formular",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-fullscreen-ugc",
+        "name": "UGC Full Screen",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-geheimnis-wachstum",
+        "name": "Geheimnis für Wachstum",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-immobilien-experten",
+        "name": "Immobilien Experten",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-immobilieninvestition",
+        "name": "Immobilieninvestition",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-innovative-loesungen",
+        "name": "Innovative Lösungen",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-island-natur",
+        "name": "Island Natur",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-klueger-wachsen",
+        "name": "Klüger Wachsen",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-kostenreduktion",
+        "name": "Kostenreduktion Cover",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-live-webinar-anmeldung",
+        "name": "Live Webinar Anmeldung",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-loesung-drei-spalten",
+        "name": "Lösung mit 3 Spalten",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-mit-bewertung",
+        "name": "Cover mit Bewertung",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-mit-checkliste",
+        "name": "Cover mit Checkliste",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-mit-version-tag",
+        "name": "Cover mit Version Tag",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-nur-text",
+        "name": "Cover Nur Text",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-online-kurs",
+        "name": "Online-Kurs",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-online-marketing-webinar",
+        "name": "Online Marketing Webinar",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-persoenlicher-touch-video",
+        "name": "Persönlicher Touch Video",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-portfolio-karte",
+        "name": "Portfolio Karte",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-potenzial-mit-logos",
+        "name": "Potenzial mit Logos",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-problem-loesung",
+        "name": "Problem Lösung",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-produkt-erlebnis",
+        "name": "Produkt Erlebnis",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-produkt-merkmale",
+        "name": "Produkt Merkmale",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-produktivitaets-boost",
+        "name": "Produktivitäts-Boost Cover",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-qualitaetsarbeit-garantiert",
+        "name": "Qualitätsarbeit Garantiert",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-schnelle-dienstleistungen",
+        "name": "Schnelle Dienstleistungen",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-strategie-skalierung",
+        "name": "Strategie Skalierung",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-unternehmensloesungen",
+        "name": "Unternehmenslösungen",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-video-kurs-verkauf",
+        "name": "Video Kurs Verkauf",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-video-mit-checkliste",
+        "name": "Video mit Checkliste",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-webinar-anmeldung",
+        "name": "Webinar Anmeldung",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-webinar-countdown",
+        "name": "Webinar Countdown",
+        "category": "Cover"
+    },
+    {
+        "id": "split-screen-hero-image",
+        "name": "Split-Screen Hero with Image",
+        "category": "Cover"
+    },
+    {
+        "id": "gradient-hero-centered-cta",
+        "name": "Gradient Hero with Centered CTA",
+        "category": "Cover"
+    },
+    {
+        "id": "dark-hero-image-overlay",
+        "name": "Dark Hero with Image Overlay",
+        "category": "Cover"
+    },
+    {
+        "id": "creative-agency-cover",
+        "name": "Creative Agency Cover",
+        "category": "Cover"
+    },
+    {
+        "id": "elegant-luxury-cover",
+        "name": "Elegant Luxury Cover",
+        "category": "Cover"
+    },
+    {
+        "id": "clean-service-cover",
+        "name": "Clean Service Cover",
+        "category": "Cover"
+    },
+    {
+        "id": "organic-wellness-cover",
+        "name": "Organic Wellness Cover",
+        "category": "Cover"
+    },
+    {
+        "id": "futuristic-tech-cover",
+        "name": "Futuristic Tech Cover",
+        "category": "Cover"
+    },
+    {
+        "id": "organic-food-cover",
+        "name": "Organic Food Cover",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-testimonial-split-1",
+        "name": "Testimonial Driven Hero",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-dark-social-3",
+        "name": "Dark Mode Trust Cover",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-interactive-slider-4",
+        "name": "Interactive Tab Cover",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-glass-overlay-5",
+        "name": "Glassmorphism Hero",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-minimal-typography-10",
+        "name": "Minimal Typographic Hero",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-gradient-testimonials-v1",
+        "name": "Social Proof Hero with Gradient Cards",
+        "category": "Cover"
+    },
+    {
+        "id": "hero-soft-pastel-x2",
+        "name": "Soft Pastel Hero with Card Overlay",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-dark-focus-z9",
+        "name": "Dark Card Focus Hero",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-centered-glass-v4",
+        "name": "Centered Glassmorphism Cover",
+        "category": "Cover"
+    },
+    {
+        "id": "hero-interactive-tabs-a1b2",
+        "name": "Hero with Interactive Tabs",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-centered-cta-with-image-d3a4",
+        "name": "Centered Cover with CTA and Image",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-dark-circular-focus",
+        "name": "Dark Hero with Circular Focus",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-centered-gourmet",
+        "name": "Centered Gourmet Hero",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-split-diagonal-dark",
+        "name": "Diagonal Split Dark Hero",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-bento-grid-menu",
+        "name": "Bento Grid Menu Hero",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-floating-dish-right",
+        "name": "Floating Dish Right",
+        "category": "Cover"
+    },
+    {
+        "id": "cover-minimal-dark-type",
+        "name": "Minimalist Typography Hero",
+        "category": "Cover"
+    }
+]

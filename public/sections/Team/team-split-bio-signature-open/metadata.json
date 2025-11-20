@@ -1,0 +1,13 @@
+{
+    "name": "Split Bio Open Layout",
+    "category": "Team",
+    "description": "A light and airy split-screen layout for a team member bio, featuring a large portrait, name, title, description, and signature.",
+    "tags": ["team", "bio", "signature", "split-layout", "minimalist", "light"],
+    "structure": ["image", "header", "paragraph", "signature"],
+    "complexity": "simple",
+    "use_cases": [
+        "Founder bios",
+        "Creative director profiles",
+        "Author introductions"
+    ]
+}

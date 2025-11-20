@@ -1,0 +1,13 @@
+{
+    "name": "Office Split Image",
+    "category": "About",
+    "description": "A simple and clean split-screen layout featuring text content on one side and a large image on the other. Ideal for company introductions.",
+    "tags": ["about", "split-layout", "image", "minimalist", "corporate"],
+    "structure": ["header", "paragraph", "image"],
+    "complexity": "simple",
+    "use_cases": [
+        "Company 'About Us' pages",
+        "Service introductions",
+        "Welcome sections"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Alternating Bio Cards",
+    "category": "Team",
+    "description": "A team section with alternating rows, where each row features a portrait and a detailed bio. The layout flips for each subsequent member.",
+    "tags": ["team", "bio", "alternating", "list", "corporate"],
+    "structure": ["grid", "image", "text"],
+    "complexity": "medium",
+    "use_cases": [
+        "Leadership team introductions",
+        "Detailed 'About Us' pages",
+        "Project team showcases"
+    ]
+}

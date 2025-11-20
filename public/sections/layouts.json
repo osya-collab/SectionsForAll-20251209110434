@@ -1,0 +1,8 @@
+[
+  { "id": "layout-header-content", "name": "Header and Content", "category": "Layouts" },
+  { "id": "layout-single-block", "name": "Full Width Block", "category": "Layouts" },
+  { "id": "layout-three-col", "name": "Three Columns", "category": "Layouts" },
+  { "id": "layout-two-col-30-70", "name": "Two Columns (30/70)", "category": "Layouts" },
+  { "id": "layout-two-col-50-50", "name": "Two Columns (50/50)", "category": "Layouts" },
+  { "id": "layout-two-col-70-30", "name": "Two Columns (70/30)", "category": "Layouts" }
+]

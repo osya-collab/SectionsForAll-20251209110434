@@ -1,0 +1,28 @@
+{
+    "id": "cover-persoenlicher-touch-video",
+    "html": "\n<section class=\"cover-persoenlicher-touch-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container cover-persoenlicher-touch-container\">\n        <div class=\"content-side anim-fade-in-right\">\n            <h1>{{t:title}}</h1>\n            <p>{{t:subtitle}}</p>\n            <a href=\"#\" class=\"btn btn-dark\">{{t:cta_button}}</a>\n        </div>\n        <div class=\"video-side anim-fade-in-left\">\n            <div class=\"video-placeholder\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=man+walking+modern+white+office+hallway\" alt=\"{{t:video_alt}}\">\n                <div class=\"play-button-overlay\">\n                    <div class=\"play-button-icon\">\n                        <i class=\"fa-solid fa-play\"></i>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.cover-persoenlicher-touch-section {\n    padding: 6rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.cover-persoenlicher-touch-section .container {\n    width: 90%;\n    max-width: 1100px;\n    margin: 0 auto;\n}\n.cover-persoenlicher-touch-container {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 3rem;\n    align-items: center;\n}\n@media (min-width: 992px) {\n    .cover-persoenlicher-touch-container {\n        grid-template-columns: 1fr 1fr;\n    }\n}\n.cover-persoenlicher-touch-section .content-side {\n    max-width: 450px;\n}\n.cover-persoenlicher-touch-section h1 {\n    font-size: clamp(2.5rem, 5vw, 3.5rem);\n    font-weight: 700;\n    line-height: 1.2;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1.5rem;\n}\n.cover-persoenlicher-touch-section p {\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n    margin-bottom: 2rem;\n}\n.cover-persoenlicher-touch-section .btn-dark {\n    display: inline-block;\n    padding: 0.75rem 2rem;\n    background-color: var(--color-dark, #1F2937);\n    color: var(--color-light, #FFFFFF);\n    border: 1px solid var(--color-dark, #1F2937);\n    border-radius: 0.5rem;\n    font-weight: 600;\n    text-decoration: none;\n    transition: all 0.3s;\n}\n.cover-persoenlicher-touch-section .video-placeholder {\n    position: relative;\n    width: 100%;\n    aspect-ratio: 16 / 11;\n    border-radius: 1.5rem;\n    overflow: hidden;\n    box-shadow: 0 10px 30px rgba(0,0,0,0.1);\n}\n.cover-persoenlicher-touch-section .video-placeholder img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n}\n.cover-persoenlicher-touch-section .play-button-overlay { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background-color: rgba(0,0,0,0.2); cursor: pointer; }\n.cover-persoenlicher-touch-section .play-button-icon { width: 80px; height: 80px; background-color: rgba(255, 255, 255, 0.8); backdrop-filter: blur(5px); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: transform 0.3s; }\n.cover-persoenlicher-touch-section .play-button-overlay:hover .play-button-icon { transform: scale(1.1); }\n.cover-persoenlicher-touch-section .play-button-icon i { font-size: 1.5rem; color: var(--color-dark, #1F2937); margin-left: 5px; /* Optical adjustment */ }\n",
+    "translations": {
+        "de": {
+            "name": "Persönlicher Touch Video",
+            "title": "Dein persönlicher Touch, den große Unternehmen nicht bieten können.",
+            "subtitle": "Du wirst vielleicht bemerken, dass dieser Text etwas früher umgebrochen wird als die Überschrift darüber, obwohl die Spalte breiter ist. Das gelingt mit einem kleinen Ziehpunkt, der erscheint, wenn du über den Text fährst.",
+            "cta_button": "Call-to-Action Button",
+            "video_alt": "Mann geht durch einen modernen weißen Büroflur"
+        },
+        "en": {
+            "name": "Personal Touch Video",
+            "title": "Your personal touch that large companies can't offer.",
+            "subtitle": "You might notice that this text wraps a bit earlier than the headline above, even though the column is wider. This is achieved with a small drag handle that appears when you hover over the text.",
+            "cta_button": "Call-to-Action Button",
+            "video_alt": "Man walking through a modern white office hallway"
+        },
+        "ar": {
+            "name": "فيديو لمسة شخصية",
+            "title": "لمستك الشخصية التي لا تستطيع الشركات الكبيرة تقديمها.",
+            "subtitle": "قد تلاحظ أن هذا النص يلتف في وقت أبكر قليلاً من العنوان أعلاه ، على الرغم من أن العمود أوسع. يتم تحقيق ذلك من خلال مقبض سحب صغير يظهر عند التمرير فوق النص.",
+            "cta_button": "زر الدعوة لاتخاذ إجراء",
+            "video_alt": "رجل يمشي في رواق مكتب أبيض حديث"
+        }
+    }
+}

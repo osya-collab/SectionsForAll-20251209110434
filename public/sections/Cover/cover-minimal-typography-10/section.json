@@ -1,0 +1,17 @@
+{
+    "id": "cover-minimal-typography-10",
+    "html": "<section class=\"section-cover-minimal-typography-10\" data-ai-id=\"element-placeholder\">\n  <div class=\"container\">\n    <div class=\"minimal-grid\">\n      <div class=\"left-col\">\n        <h1 data-ai-id=\"element-title\">Less Noise.<br>More Focus.</h1>\n        <div class=\"divider\"></div>\n        <div class=\"card-stack\">\n           <div class=\"mini-card\" data-ai-id=\"element-card-1\">\n             <strong>Design</strong>\n             <p>Crafted for perfectionists.</p>\n           </div>\n           <div class=\"mini-card\" data-ai-id=\"element-card-2\">\n             <strong>Code</strong>\n             <p>Built for performance.</p>\n           </div>\n        </div>\n      </div>\n      <div class=\"right-col\">\n         <div class=\"image-mask\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=minimalist+architecture+white&image_type=photo\" class=\"minimal-img\" alt=\"Minimalist Architecture\" data-ai-id=\"element-img\">\n         </div>\n      </div>\n    </div>\n  </div>\n</section>",
+    "css": ".section-cover-minimal-typography-10 {\n  padding: 6rem 1rem;\n  background: #fff;\n  color: #000;\n  font-family: var(--font-body);\n  position: relative;\n}\n.section-cover-minimal-typography-10 .container {\n  max-width: 1000px;\n  margin: 0 auto;\n}\n.section-cover-minimal-typography-10 .minimal-grid {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 3rem;\n  align-items: start;\n}\n.section-cover-minimal-typography-10 h1 {\n  font-family: var(--font-heading);\n  font-size: 4rem;\n  line-height: 1;\n  margin-bottom: 2rem;\n  letter-spacing: -1px;\n}\n.section-cover-minimal-typography-10 .divider {\n  width: 50px;\n  height: 4px;\n  background: #000;\n  margin-bottom: 3rem;\n}\n.section-cover-minimal-typography-10 .card-stack {\n  display: flex;\n  gap: 2rem;\n}\n.section-cover-minimal-typography-10 .mini-card {\n  border-left: 1px solid #ddd;\n  padding-left: 1rem;\n}\n.section-cover-minimal-typography-10 .mini-card strong {\n  display: block;\n  font-size: 1.2rem;\n  margin-bottom: 0.5rem;\n}\n.section-cover-minimal-typography-10 .mini-card p {\n  font-size: 0.9rem;\n  color: #666;\n  margin: 0;\n}\n.section-cover-minimal-typography-10 .image-mask {\n  width: 100%;\n  height: 500px;\n  background: #f4f4f4;\n}\n.section-cover-minimal-typography-10 .minimal-img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  filter: grayscale(100%);\n  transition: filter 0.5s;\n}\n.section-cover-minimal-typography-10 .minimal-img:hover {\n  filter: grayscale(0%);\n}\n@media (max-width: 768px) {\n  .section-cover-minimal-typography-10 .minimal-grid {\n    grid-template-columns: 1fr;\n  }\n  .section-cover-minimal-typography-10 h1 {\n    font-size: 3rem;\n  }\n  .section-cover-minimal-typography-10 .image-mask {\n    height: 300px;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Minimalistischer Typo-Hero"
+        },
+        "ar": {
+            "name": "واجهة بسيطة نصية"
+        },
+        "en": {
+            "name": "Minimal Typographic Hero"
+        }
+    }
+}

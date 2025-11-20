@@ -1,0 +1,17 @@
+{
+    "id": "neo-brutalism-cta-5",
+    "html": "<section class=\"cta-section-5\">\n  <div class=\"cta-content-block\">\n    <h2 class=\"title\">Innovate. Create. Succeed.</h2>\n    <p class=\"subtitle\">Join the pioneers shaping the future. Your journey begins now.</p>\n    <a href=\"#\" class=\"cta-btn-outline\">Get Started</a>\n  </div>\n</section>",
+    "css": ".cta-section-5 {\n  background-color: #FFFFFF;\n  color: #000000;\n  padding: 60px 20px;\n  text-align: center;\n}\n.cta-content-block {\n  max-width: 700px;\n  margin: 0 auto;\n  border-left: 5px solid #FF00FF;\n  padding-left: 30px;\n  text-align: left;\n}\n.title {\n  font-size: 2.5rem;\n  margin-bottom: 15px;\n  font-weight: 900;\n  line-height: 1.2;\n}\n.subtitle {\n  font-size: 1.1rem;\n  margin-bottom: 30px;\n  color: #444444;\n}\n.cta-btn-outline {\n  display: inline-block;\n  padding: 15px 30px;\n  background-color: transparent;\n  color: #FF00FF;\n  text-decoration: none;\n  font-weight: 900;\n  font-size: 1.2rem;\n  border: 3px solid #FF00FF;\n  transition: background-color 0.3s ease, color 0.3s ease;\n}\n.cta-btn-outline:hover {\n  background-color: #FF00FF;\n  color: #FFFFFF;\n}\n\n@media (min-width: 768px) {\n  .cta-section-5 {\n    padding: 80px 40px;\n  }\n  .cta-content-block {\n    padding-left: 50px;\n    border-left-width: 8px;\n  }\n  .title {\n    font-size: 3.5rem;\n  }\n  .subtitle {\n    font-size: 1.3rem;\n  }\n  .cta-btn-outline {\n    font-size: 1.4rem;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Leuchtender Umriss CTA"
+        },
+        "ar": {
+            "name": "دعوة لاتخاذ إجراء بحدود لونية زاهية"
+        },
+        "en": {
+            "name": "Vibrant Accent Outline CTA"
+        }
+    }
+}

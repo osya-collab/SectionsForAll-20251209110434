@@ -1,0 +1,14 @@
+
+{
+    "name": "Review Snippets",
+    "category": "Trust",
+    "description": "A section designed to look like snippets of online reviews (e.g., from Google or Trustpilot), each with a star rating, quote, and author.",
+    "tags": ["reviews", "social proof", "testimonials", "grid", "rating"],
+    "structure": ["header", "grid", "review-cards"],
+    "complexity": "simple",
+    "use_cases": [
+        "E-commerce product pages",
+        "Local business websites",
+        "Service provider landing pages"
+    ]
+}

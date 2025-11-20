@@ -1,0 +1,14 @@
+{
+    "name": "Simple Links Right",
+    "category": "Menu",
+    "description": "A clean, minimalist navigation bar with the logo on the far left and all navigation links aligned to the right. Creates a spacious and modern feel, perfect for portfolios and blogs.",
+    "tags": ["minimalist", "clean", "right-aligned", "modern", "portfolio", "blog", "responsive"],
+    "structure": ["logo", "nav-links"],
+    "complexity": "simple",
+    "use_cases": [
+        "Personal Portfolios",
+        "Blogs",
+        "Minimalist Websites",
+        "Photo Galleries"
+    ]
+}

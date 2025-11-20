@@ -1,0 +1,37 @@
+{
+    "id": "about-values-grid",
+    "html": "\n<section class=\"values-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <h2 class=\"section-title\">{{t:title}}</h2>\n        <div class=\"values-grid\">\n            <div class=\"value-card anim-fade-in-up\">\n                <div class=\"value-icon\">💡</div>\n                <h3>{{t:value1_title}}</h3>\n                <p>{{t:value1_desc}}</p>\n            </div>\n            <div class=\"value-card anim-fade-in-up\" style=\"animation-delay: 0.2s\">\n                <div class=\"value-icon\">🤝</div>\n                <h3>{{t:value2_title}}</h3>\n                <p>{{t:value2_desc}}</p>\n            </div>\n            <div class=\"value-card anim-fade-in-up\" style=\"animation-delay: 0.4s\">\n                <div class=\"value-icon\">🌟</div>\n                <h3>{{t:value3_title}}</h3>\n                <p>{{t:value3_desc}}</p>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.values-section .container {\n  width: 90%;\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 1rem;\n}\n.values-section { padding: 4rem 0; background-color: var(--color-light, #FFFFFF); }\n.values-section .section-title { text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: var(--color-dark, #111827); }\n.values-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }\n.value-card { text-align: center; padding: 2rem; }\n.value-icon { font-size: 3rem; margin-bottom: 1rem; }\n.value-card h3 { font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--color-dark, #111827); }\n.value-card p { color: var(--color-secondary, #6B7280); }\n",
+    "translations": {
+        "de": {
+            "name": "Unsere Werte Gitter",
+            "title": "Unsere Grundwerte",
+            "value1_title": "Innovation",
+            "value1_desc": "Wir treiben ständig die Grenzen voran und fordern den Status quo heraus, um innovative Lösungen zu liefern.",
+            "value2_title": "Integrität",
+            "value2_desc": "Wir glauben an ehrliche, transparente und ethische Praktiken in all unseren Kooperationen und Verpflichtungen.",
+            "value3_title": "Exzellenz",
+            "value3_desc": "Wir verpflichten uns den höchsten Qualitätsstandards und streben in jedem Detail nach Perfektion."
+        },
+        "en": {
+            "name": "Our Values Grid",
+            "title": "Our Core Values",
+            "value1_title": "Innovation",
+            "value1_desc": "We constantly push boundaries and challenge the status quo to deliver cutting-edge solutions.",
+            "value2_title": "Integrity",
+            "value2_desc": "We believe in honest, transparent, and ethical practices in all our collaborations and commitments.",
+            "value3_title": "Excellence",
+            "value3_desc": "We are committed to the highest standards of quality, striving for perfection in every detail."
+        },
+        "ar": {
+            "name": "شبكة قيمنا",
+            "title": "قيمنا الأساسية",
+            "value1_title": "الابتكار",
+            "value1_desc": "ندفع باستمرار الحدود ونتحدى الوضع الراهن لتقديم حلول متطورة.",
+            "value2_title": "النزاهة",
+            "value2_desc": "نؤمن بالممارسات الصادقة والشفافة والأخلاقية في جميع تعاوناتنا والتزاماتنا.",
+            "value3_title": "التميز",
+            "value3_desc": "نحن ملتزمون بأعلى معايير الجودة، ونسعى جاهدين لتحقيق الكمال في كل التفاصيل."
+        }
+    }
+}

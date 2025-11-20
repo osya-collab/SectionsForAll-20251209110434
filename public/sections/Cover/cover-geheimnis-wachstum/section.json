@@ -1,0 +1,37 @@
+{
+    "id": "cover-geheimnis-wachstum",
+    "html": "\n<section class=\"cover-geheimnis-wachstum-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container text-center hero-part\">\n        <h1 class=\"anim-fade-in-up\">{{t:title}}</h1>\n        <p class=\"subtitle anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n        <a href=\"#\" class=\"btn btn-dark anim-fade-in-up anim-delay-2\">{{t:cta_button}}</a>\n    </div>\n    <div class=\"container features-part-geheimnis\">\n        <div class=\"feature-card-geheimnis anim-fade-in-up anim-delay-2\">\n            <h3>{{t:feature1_title}}</h3>\n            <p>{{t:feature_desc}}</p>\n        </div>\n        <div class=\"feature-card-geheimnis anim-fade-in-up anim-delay-3\">\n            <h3>{{t:feature2_title}}</h3>\n            <p>{{t:feature_desc}}</p>\n        </div>\n        <div class=\"feature-card-geheimnis anim-fade-in-up anim-delay-4\">\n            <h3>{{t:feature3_title}}</h3>\n            <p>{{t:feature_desc}}</p>\n        </div>\n    </div>\n</section>",
+    "css": "\n.cover-geheimnis-wachstum-section {\n    background-color: var(--color-light, #FFFFFF);\n    padding: 6rem 0;\n}\n.cover-geheimnis-wachstum-section .container { width: 90%; max-width: 900px; margin: 0 auto; padding: 0 1rem; }\n.cover-geheimnis-wachstum-section .hero-part { margin-bottom: 4rem; text-align: center; }\n.cover-geheimnis-wachstum-section h1 {\n    font-size: clamp(2.5rem, 6vw, 3.5rem);\n    font-weight: 700;\n    line-height: 1.2;\n    margin-bottom: 1.5rem;\n    color: var(--color-dark, #1F2937);\n}\n.cover-geheimnis-wachstum-section .subtitle {\n    font-size: 1.1rem;\n    max-width: 600px;\n    margin: 0 auto 2.5rem;\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n}\n.cover-geheimnis-wachstum-section .btn {\n    display: inline-block;\n    padding: 1rem 2.5rem;\n    text-decoration: none;\n    border-radius: 0.5rem;\n    font-weight: 600;\n    transition: all 0.3s ease;\n    box-shadow: 0 4px 15px rgba(0,0,0,0.1);\n}\n.cover-geheimnis-wachstum-section .btn-dark {\n    background-color: var(--color-dark, #1F2937);\n    color: var(--color-light, #FFFFFF);\n}\n.cover-geheimnis-wachstum-section .btn-dark:hover {\n    transform: translateY(-3px);\n    box-shadow: 0 8px 25px rgba(0,0,0,0.15);\n}\n.cover-geheimnis-wachstum-section .features-part-geheimnis {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n    gap: 1.5rem;\n}\n.cover-geheimnis-wachstum-section .feature-card-geheimnis {\n    background-color: #f3f4f6; /* gray-100 */\n    padding: 2rem;\n    border-radius: 1rem;\n    text-align: left;\n}\n.cover-geheimnis-wachstum-section .feature-card-geheimnis h3 {\n    font-size: 1.25rem;\n    font-weight: 600;\n    margin-bottom: 0.75rem;\n    color: var(--color-dark, #1F2937);\n}\n.cover-geheimnis-wachstum-section .feature-card-geheimnis p {\n    font-size: 0.95rem;\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.6;\n}\n.cover-geheimnis-wachstum-section .anim-delay-1 { transition-delay: 0.1s; }\n.cover-geheimnis-wachstum-section .anim-delay-2 { transition-delay: 0.2s; }\n.cover-geheimnis-wachstum-section .anim-delay-3 { transition-delay: 0.3s; }\n.cover-geheimnis-wachstum-section .anim-delay-4 { transition-delay: 0.4s; }\n",
+    "translations": {
+        "de": {
+            "name": "Geheimnis für Wachstum",
+            "title": "Entdecke das Geheimnis für dein unglaubliches Wachstum",
+            "subtitle": "Deine Hero-Bereiche liegen direkt unter deinem Menü. Sie ziehen in diesen entscheidenden ersten Sekunden die Aufmerksamkeit auf sich und überzeugen Besucher, zu bleiben und auf den Button zu klicken.",
+            "cta_button": "Call-to-Action button",
+            "feature1_title": "Deine Produktivität steigern",
+            "feature_desc": "Dieser Text zeigt dir, wie deine Inhalte in einem Rasterlayout aussehen, mit nur ein paar Sätzen.",
+            "feature2_title": "Beeindruckende Ergebnisse",
+            "feature3_title": "Funktioniert für jedes Team"
+        },
+        "en": {
+            "name": "Secret to Growth",
+            "title": "Discover the secret to your incredible growth",
+            "subtitle": "Your hero sections are right below your menu. They grab attention in those crucial first seconds and convince visitors to stay and click the button.",
+            "cta_button": "Call-to-Action button",
+            "feature1_title": "Increase your productivity",
+            "feature_desc": "This text shows you what your content looks like in a grid layout, with just a few sentences.",
+            "feature2_title": "Impressive results",
+            "feature3_title": "Works for any team"
+        },
+        "ar": {
+            "name": "سر النمو",
+            "title": "اكتشف سر نموك المذهل",
+            "subtitle": "أقسامك الرئيسية موجودة مباشرة أسفل قائمتك. إنها تجذب الانتباه في تلك الثواني الأولى الحاسمة وتقنع الزوار بالبقاء والنقر على الزر.",
+            "cta_button": "زر الدعوة لاتخاذ إجراء",
+            "feature1_title": "زيادة إنتاجيتك",
+            "feature_desc": "يوضح لك هذا النص كيف يبدو المحتوى الخاص بك في تخطيط شبكي ، مع بضع جمل فقط.",
+            "feature2_title": "نتائج مبهرة",
+            "feature3_title": "يعمل لأي فريق"
+        }
+    }
+}

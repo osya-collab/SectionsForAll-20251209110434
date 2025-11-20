@@ -1,0 +1,13 @@
+{
+    "name": "Technical Post",
+    "category": "Article",
+    "description": "An article layout optimized for technical content, featuring well-styled code blocks and clear typography for readability.",
+    "tags": ["article", "technical", "code", "tutorial", "dark-mode"],
+    "structure": ["header", "text", "code-block"],
+    "complexity": "simple",
+    "use_cases": [
+        "Coding tutorials",
+        "API documentation",
+        "Developer blogs"
+    ]
+}

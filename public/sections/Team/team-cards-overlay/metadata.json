@@ -1,0 +1,13 @@
+{
+    "name": "Cards with Overlay",
+    "category": "Team",
+    "description": "A stylish team section with cards that have a gradient overlay on hover, revealing the team member's name and social links.",
+    "tags": ["team", "about", "cards", "overlay", "interactive", "hover"],
+    "structure": ["header", "grid", "cards"],
+    "complexity": "medium",
+    "use_cases": [
+        "Creative agency team pages",
+        "Modern portfolios",
+        "Music or event websites"
+    ]
+}

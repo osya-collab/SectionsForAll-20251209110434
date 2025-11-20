@@ -1,0 +1,13 @@
+{
+    "name": "Cover Bild Collage",
+    "category": "Cover",
+    "description": "A split-screen hero section featuring a headline and description on one side and a dynamic three-image collage on the other.",
+    "tags": ["cover", "hero", "split-layout", "image-collage", "gallery", "business"],
+    "structure": ["header", "paragraph", "cta-button", "image-grid"],
+    "complexity": "medium",
+    "use_cases": [
+        "Creative Agencies",
+        "Portfolio Websites",
+        "Real Estate Listings"
+    ]
+}

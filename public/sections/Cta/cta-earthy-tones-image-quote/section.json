@@ -1,0 +1,17 @@
+{
+    "id": "cta-earthy-tones-image-quote",
+    "html": "<section class=\"cta-earthy-tones-image-quote\">\n  <div class=\"image-container\">\n    <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=nature+landscape+calm&image_type=photo\" alt=\"Calm natural landscape\">\n  </div>\n  <div class=\"content-container\">\n    <h3>Find Your Inspiration</h3>\n    <p>Connect with nature and yourself. Explore our retreats.</p>\n    <a href=\"#\" class=\"btn\">Book Your Escape</a>\n  </div>\n</section>",
+    "css": ".cta-earthy-tones-image-quote {\n  display: flex;\n  flex-direction: column;\n  font-family: 'Merriweather', serif;\n  background-color: #f5f5dc; /* Beige */\n}\n.cta-earthy-tones-image-quote .image-container {\n  width: 100%;\n  height: 250px;\n  overflow: hidden;\n}\n.cta-earthy-tones-image-quote .image-container img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  opacity: 0.8;\n}\n.cta-earthy-tones-image-quote .content-container {\n  padding: 40px 20px;\n  text-align: center;\n  color: #5a463a; /* Dark Brown */\n  flex: 1;\n}\n.cta-earthy-tones-image-quote h3 {\n  font-size: 26px;\n  margin-bottom: 15px;\n  color: #8b4513; /* Saddle Brown */\n}\n.cta-earthy-tones-image-quote p {\n  font-size: 16px;\n  margin-bottom: 30px;\n  line-height: 1.7;\n}\n.cta-earthy-tones-image-quote .btn {\n  display: inline-block;\n  padding: 12px 30px;\n  background-color: #8b4513;\n  color: #fff;\n  text-decoration: none;\n  font-size: 16px;\n  border-radius: 6px;\n  transition: background-color 0.3s ease, transform 0.3s ease;\n}\n.cta-earthy-tones-image-quote .btn:hover {\n  background-color: #5a463a;\n  transform: translateY(-2px);\n}\n\n@media (min-width: 768px) {\n  .cta-earthy-tones-image-quote {\n    flex-direction: row;\n  }\n  .cta-earthy-tones-image-quote .image-container {\n    width: 50%;\n    height: auto;\n  }\n  .cta-earthy-tones-image-quote .content-container {\n    width: 50%;\n    padding: 50px 40px;\n    text-align: left;\n  }\n  .cta-earthy-tones-image-quote h3 {\n    font-size: 32px;\n  }\n  .cta-earthy-tones-image-quote p {\n    font-size: 17px;\n  }\n  .cta-earthy-tones-image-quote .btn {\n    font-size: 17px;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Erdige Töne CTA mit Bild"
+        },
+        "ar": {
+            "name": "دعوة بألوان ترابية مع صورة"
+        },
+        "en": {
+            "name": "Earthy Tones CTA with Image"
+        }
+    }
+}

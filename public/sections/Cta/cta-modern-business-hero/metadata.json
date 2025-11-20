@@ -1,0 +1,39 @@
+{
+    "name": "Modern Business CTA Hero",
+    "category": "Cta",
+    "description": "A split-screen CTA section with text content on one side and a relevant business image on the other, promoting services and contact.",
+    "tags": [
+        "cta",
+        "hero",
+        "business",
+        "modern",
+        "split screen",
+        "services"
+    ],
+    "structure": [
+        "section",
+        "content-wrapper",
+        "heading",
+        "paragraph",
+        "button-group",
+        "image-container"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "landing pages",
+        "service promotion",
+        "business solutions"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f8f9fa",
+            "#333333",
+            "#007bff",
+            "#ffffff"
+        ],
+        "fonts": [
+            "sans-serif"
+        ],
+        "visual_identity": "Clean, professional, and inviting with a focus on blue and white, ideal for business services."
+    }
+}

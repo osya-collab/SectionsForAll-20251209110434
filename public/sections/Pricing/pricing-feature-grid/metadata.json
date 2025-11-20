@@ -1,0 +1,14 @@
+
+{
+    "name": "Feature-Focus Grid",
+    "category": "Pricing",
+    "description": "A detailed comparison table layout for pricing, listing features in rows and plans in columns. Ideal for complex products with many feature differences.",
+    "tags": ["pricing", "table", "comparison", "features", "saas"],
+    "structure": ["table", "features", "plans"],
+    "complexity": "medium",
+    "use_cases": [
+        "SaaS products with tiered features",
+        "Software comparisons",
+        "Detailed service plan breakdowns"
+    ]
+}

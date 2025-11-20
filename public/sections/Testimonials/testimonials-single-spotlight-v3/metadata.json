@@ -1,0 +1,30 @@
+{
+    "name": "Single Spotlight Feature",
+    "category": "Testimonials",
+    "description": "A large featured testimonial section focusing on a single high-impact client story.",
+    "tags": [
+        "spotlight",
+        "feature",
+        "large"
+    ],
+    "structure": [
+        "Split Layout",
+        "Large Image",
+        "Blockquote"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "Case Studies",
+        "Home Page Feature"
+    ],
+    "style_analysis": {
+        "colors": [
+            "var(--color-surface-1)",
+            "var(--color-primary)"
+        ],
+        "fonts": [
+            "Sans Serif Bold"
+        ],
+        "visual_identity": "Impactful, focused, corporate"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Nav with Language & CTA",
+    "category": "Menu",
+    "description": "A versatile navigation bar for international websites, featuring a language indicator (flag) alongside a primary call-to-action button. Ideal for businesses with a global audience.",
+    "tags": ["international", "language-selector", "i18n", "cta", "global-business", "header", "responsive"],
+    "structure": ["logo", "nav-links", "language-icon", "cta-button"],
+    "complexity": "medium",
+    "use_cases": [
+        "Global E-commerce",
+        "Multinational Corporations",
+        "Travel Websites",
+        "International Services"
+    ]
+}

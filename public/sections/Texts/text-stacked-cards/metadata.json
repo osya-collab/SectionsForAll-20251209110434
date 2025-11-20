@@ -1,0 +1,13 @@
+{
+    "name": "Stacked Text Cards",
+    "category": "Texts",
+    "description": "An interactive section that presents text in a series of stacked, overlapping cards that the user can click through.",
+    "tags": ["text", "interactive", "cards", "storytelling"],
+    "structure": ["cards", "text"],
+    "complexity": "medium",
+    "use_cases": [
+        "Storytelling",
+        "Chapter-based content",
+        "Interactive articles"
+    ]
+}

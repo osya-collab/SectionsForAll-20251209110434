@@ -1,0 +1,38 @@
+{
+    "name": "Hero Section - Tech Innovation",
+    "category": "Sport",
+    "description": "A sleek, modern hero section focused on sports technology and innovation. It uses a dark background with bright cyan accents and futuristic imagery to convey advanced performance.",
+    "tags": [
+        "hero",
+        "sports",
+        "technology",
+        "innovation",
+        "futuristic",
+        "performance"
+    ],
+    "structure": [
+        "heading",
+        "sub-heading",
+        "paragraph",
+        "call-to-action",
+        "image"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Sports tech companies",
+        "Wearable fitness devices",
+        "Performance analytics"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#000000",
+            "#ffffff",
+            "#00f2ff",
+            "#cccccc"
+        ],
+        "fonts": [
+            "sans-serif"
+        ],
+        "visual_identity": "High-tech and sophisticated with a dark base and electric cyan highlights, representing cutting-edge advancements."
+    }
+}

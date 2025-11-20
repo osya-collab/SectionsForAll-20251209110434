@@ -1,0 +1,13 @@
+{
+    "name": "Detailed Bio Cards",
+    "category": "Team",
+    "description": "A professional team section featuring detailed biography cards, each with a large image, name, title, short bio, and social media links.",
+    "tags": ["team", "about", "bio", "cards", "corporate", "social-media"],
+    "structure": ["header", "grid", "cards"],
+    "complexity": "medium",
+    "use_cases": [
+        "Leadership team pages",
+        "Detailed 'About Us' sections",
+        "Consultant profiles"
+    ]
+}

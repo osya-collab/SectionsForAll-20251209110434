@@ -1,0 +1,6 @@
+{
+    "name": "Kleine Hilfe",
+    "category": "FAQ",
+    "description": "A split layout with contact information on one side and a simple FAQ accordion on the other.",
+    "tags": ["faq", "contact", "split-layout", "accordion"]
+}

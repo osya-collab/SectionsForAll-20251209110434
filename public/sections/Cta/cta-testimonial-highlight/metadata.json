@@ -1,0 +1,38 @@
+{
+    "name": "Testimonial Highlight CTA",
+    "category": "Cta",
+    "description": "CTA section featuring a prominent customer testimonial with a green accent, encouraging further engagement.",
+    "tags": [
+        "cta",
+        "testimonial",
+        "social proof",
+        "modern",
+        "recommendation"
+    ],
+    "structure": [
+        "container",
+        "blockquote",
+        "paragraph",
+        "footer",
+        "button"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "building trust",
+        "encouraging signups",
+        "showcasing customer satisfaction"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f4f7f6",
+            "#4CAF50",
+            "#ffffff",
+            "#555555",
+            "#333333"
+        ],
+        "fonts": [
+            "sans-serif"
+        ],
+        "visual_identity": "Trustworthy and encouraging, using a light background, green accents, and a highlighted testimonial quote."
+    }
+}

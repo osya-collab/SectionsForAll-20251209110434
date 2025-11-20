@@ -1,0 +1,14 @@
+
+{
+    "name": "Soft Claymorphism",
+    "category": "Pricing",
+    "description": "A trendy pricing table with a soft, 3D 'claymorphism' effect. Cards have an inner shadow to create a pressed look, giving a tactile and modern feel.",
+    "tags": ["pricing", "claymorphism", "3d", "soft", "modern", "trendy"],
+    "structure": ["header", "pricing-cards", "features", "button"],
+    "complexity": "medium",
+    "use_cases": [
+        "Modern SaaS websites",
+        "Creative portfolios",
+        "Mobile app landing pages"
+    ]
+}

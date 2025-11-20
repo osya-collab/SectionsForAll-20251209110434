@@ -1,0 +1,13 @@
+{
+    "name": "Problem Lösung",
+    "category": "Cover",
+    "description": "A clean, split-screen hero section that presents a problem/solution format with a strong headline, checklist, dual CTAs, and a large image.",
+    "tags": ["cover", "hero", "problem-solution", "checklist", "cta", "business"],
+    "structure": ["header", "paragraph", "checklist", "cta-buttons", "image"],
+    "complexity": "medium",
+    "use_cases": [
+        "SaaS Landing Pages",
+        "Consulting Services",
+        "Product Feature Pages"
+    ]
+}

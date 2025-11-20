@@ -1,0 +1,13 @@
+{
+    "name": "Betrieb in Bewegung",
+    "category": "Cover",
+    "description": "A multi-part hero section combining a main content block with a rating card, followed by a grid of statistics and a final feature card.",
+    "tags": ["cover", "hero", "stats", "rating", "features", "business"],
+    "structure": ["header", "paragraph", "cta-button", "rating-card", "stats-grid", "feature-card"],
+    "complexity": "high",
+    "use_cases": [
+        "SaaS Landing Pages",
+        "Corporate Homepages",
+        "Agency Websites"
+    ]
+}

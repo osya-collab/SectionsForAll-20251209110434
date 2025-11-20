@@ -1,0 +1,37 @@
+{
+    "name": "Black and White Raw CTA",
+    "category": "Cta",
+    "description": "A stark Neo-Brutalism CTA section. It features a black background with a thick white border around the content area. The button is a solid white with black text, designed for maximum impact.",
+    "tags": [
+        "cta",
+        "neo-brutalism",
+        "black-and-white",
+        "bold",
+        "border"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "product promotion",
+        "service offerings",
+        "direct call to action"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#000000",
+            "#FFFFFF",
+            "#DDDDDD"
+        ],
+        "fonts": [
+            "Arial Black",
+            "sans-serif"
+        ],
+        "visual_identity": "Uncompromising black and white Neo-Brutalism with a framed layout."
+    }
+}

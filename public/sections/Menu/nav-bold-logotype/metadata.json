@@ -1,0 +1,14 @@
+
+{
+    "name": "Bold Logotype Nav",
+    "category": "Menu",
+    "description": "A typography-focused navigation bar that features a large, bold logotype on the left, with minimal navigation links on the right.",
+    "tags": ["header", "typography", "bold", "minimalist", "creative"],
+    "structure": ["logotype", "nav-links"],
+    "complexity": "simple",
+    "use_cases": [
+        "Design Portfolios",
+        "Creative Agencies",
+        "Fashion Brands"
+    ]
+}

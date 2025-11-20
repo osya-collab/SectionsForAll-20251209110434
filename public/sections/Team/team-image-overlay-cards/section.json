@@ -1,0 +1,37 @@
+{
+    "id": "team-image-overlay-cards",
+    "html": "\n<section class=\"team-image-overlay-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"section-header\">\n            <h2 class=\"anim-fade-in-up\">{{t:title}}</h2>\n            <p class=\"anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n        </div>\n        <div class=\"team-grid\">\n            <div class=\"team-card anim-fade-in-up anim-delay-2\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=man+portrait\" alt=\"{{t:member1_name}}\">\n                <div class=\"card-overlay\">\n                    <h3>{{t:member1_name}}</h3>\n                    <p>{{t:member_bio}}</p>\n                </div>\n            </div>\n            <div class=\"team-card anim-fade-in-up anim-delay-3\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=woman+portrait\" alt=\"{{t:member2_name}}\">\n                <div class=\"card-overlay\">\n                    <h3>{{t:member2_name}}</h3>\n                    <p>{{t:member_bio}}</p>\n                </div>\n            </div>\n            <div class=\"team-card anim-fade-in-up anim-delay-4\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=male+professional\" alt=\"{{t:member3_name}}\">\n                <div class=\"card-overlay\">\n                    <h3>{{t:member3_name}}</h3>\n                    <p>{{t:member_bio}}</p>\n                </div>\n            </div>\n            <div class=\"team-card anim-fade-in-up anim-delay-5\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=professional+woman\" alt=\"{{t:member4_name}}\">\n                <div class=\"card-overlay\">\n                    <h3>{{t:member4_name}}</h3>\n                    <p>{{t:member_bio}}</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-image-overlay-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.team-image-overlay-section .container {\n    width: 90%;\n    max-width: 1200px;\n    margin: 0 auto;\n}\n.team-image-overlay-section .section-header {\n    text-align: center;\n    max-width: 700px;\n    margin: 0 auto 4rem;\n}\n.team-image-overlay-section h2 {\n    font-size: 2.5rem;\n    font-weight: 700;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1rem;\n}\n.team-image-overlay-section .section-header p {\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n}\n.team-image-overlay-section .team-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n    gap: 1.5rem;\n}\n.team-image-overlay-section .team-card {\n    position: relative;\n    border-radius: 1.5rem;\n    overflow: hidden;\n    aspect-ratio: 3/4;\n    color: var(--color-light, #FFFFFF);\n}\n.team-image-overlay-section .team-card img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    transition: transform 0.4s ease;\n}\n.team-image-overlay-section .team-card:hover img {\n    transform: scale(1.05);\n}\n.team-image-overlay-section .card-overlay {\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    padding: 1.5rem;\n    background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 100%);\n}\n.team-image-overlay-section .card-overlay h3 {\n    font-size: 1.25rem;\n    font-weight: 600;\n    margin-bottom: 0.25rem;\n}\n.team-image-overlay-section .card-overlay p {\n    font-size: 0.9rem;\n    opacity: 0.9;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Bildüberlagerungskarten",
+            "title": "Lerne unser Team kennen",
+            "subtitle": "Wähle einen gut lesbaren Font aus, damit es schön aussieht. So bleiben sie länger und erfahren, was du zu bieten hast.",
+            "member1_name": "Achim Braun",
+            "member_bio": "Wähle einen gut lesbaren Font aus, damit es schön aussieht.",
+            "member2_name": "Emily Jones",
+            "member3_name": "Oliver Santana",
+            "member4_name": "Anna Becker"
+        },
+        "en": {
+            "name": "Image Overlay Cards",
+            "title": "Meet our team",
+            "subtitle": "Choose a legible font to make it look nice. This way, they'll stay longer and learn what you have to offer.",
+            "member1_name": "Achim Braun",
+            "member_bio": "Choose a legible font to make it look nice.",
+            "member2_name": "Emily Jones",
+            "member3_name": "Oliver Santana",
+            "member4_name": "Anna Becker"
+        },
+        "ar": {
+            "name": "بطاقات تراكب الصور",
+            "title": "تعرف على فريقنا",
+            "subtitle": "اختر خطًا مقروءًا لجعله يبدو لطيفًا. بهذه الطريقة، سيبقون لفترة أطول ويتعلمون ما لديك لتقدمه.",
+            "member1_name": "أخيم براون",
+            "member_bio": "اختر خطًا مقروءًا لجعله يبدو لطيفًا.",
+            "member2_name": "إميلي جونز",
+            "member3_name": "أوليفر سانتانا",
+            "member4_name": "آنا بيكر"
+        }
+    }
+}

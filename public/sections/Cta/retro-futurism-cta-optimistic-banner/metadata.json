@@ -1,0 +1,44 @@
+{
+    "name": "Retro Futurism CTA with Optimistic Banner",
+    "category": "Cta",
+    "description": "An optimistic retro-futuristic CTA banner with a warm beige background and a dusty blue button. Features space-themed imagery and clean, forward-looking typography.",
+    "tags": [
+        "retro",
+        "futurism",
+        "cta",
+        "banner",
+        "optimistic",
+        "space",
+        "beige"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h1",
+        "p",
+        "button",
+        "div",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "call to action",
+        "newsletter signup",
+        "early access notification"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#e8dcd0",
+            "#333",
+            "#555",
+            "#ffffff",
+            "#b0d0e0",
+            "#5a4a4a"
+        ],
+        "fonts": [
+            "Audiowide",
+            "sans-serif"
+        ],
+        "visual_identity": "Bright and optimistic retro-futurism with a warm palette and aspirational themes."
+    }
+}

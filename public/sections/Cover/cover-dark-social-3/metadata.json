@@ -1,0 +1,22 @@
+{
+    "name": "Dark Mode Trust Cover",
+    "category": "Cover",
+    "description": "A sophisticated dark-themed cover section featuring stacked review cards and an accent image.",
+    "tags": [
+        "cover",
+        "dark-mode",
+        "testimonials",
+        "trust"
+    ],
+    "structure": [
+        "Heading",
+        "Review Stack",
+        "Image with Badge"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "Night Mode App",
+        "Luxury Service",
+        "Tech Product"
+    ]
+}

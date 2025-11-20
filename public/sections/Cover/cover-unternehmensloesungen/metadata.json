@@ -1,0 +1,9 @@
+{
+    "name": "Unternehmenslösungen",
+    "category": "Cover",
+    "description": "A corporate-themed cover section with a split layout, featuring key statistics and a large image.",
+    "tags": ["cover", "hero", "corporate", "business", "stats"],
+    "structure": ["header", "stats-grid", "image"],
+    "complexity": "medium",
+    "use_cases": ["B2B Services", "Corporate Websites"]
+}

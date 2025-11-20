@@ -1,0 +1,14 @@
+
+{
+    "name": "Logo Wall",
+    "category": "Trust",
+    "description": "A simple but powerful section to display logos of clients, partners, or companies you've been featured in. Builds social proof and credibility.",
+    "tags": ["trust", "social-proof", "logos", "clients", "partners", "corporate"],
+    "structure": ["header", "logo-grid"],
+    "complexity": "simple",
+    "use_cases": [
+        "Landing pages to show credibility",
+        "Corporate homepages",
+        "'As Featured In' sections"
+    ]
+}

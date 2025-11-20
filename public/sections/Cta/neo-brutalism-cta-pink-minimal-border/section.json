@@ -1,0 +1,17 @@
+{
+    "id": "neo-brutalism-cta-pink-minimal-border",
+    "html": "<section class=\"cta-section-pink-minimal-border\">\n        <div class=\"cta-content\">\n            <h2>Ready to Transform?</h2>\n            <p>Take the first step towards a brighter future. Our team is ready to guide you.</p>\n            <a href=\"#\" class=\"cta-button\">Get Started Today</a>\n        </div>\n    </section>",
+    "css": ".cta-section-pink-minimal-border {\n            padding: 70px 20px;\n            background-color: #ffffff;\n            color: #000000;\n            text-align: center;\n            border: 3px solid #ff00ff;\n        }\n        .cta-section-pink-minimal-border .cta-content {\n            max-width: 650px;\n            margin: 0 auto;\n        }\n        .cta-section-pink-minimal-border h2 {\n            font-size: 3rem;\n            margin-bottom: 20px;\n            line-height: 1.2;\n            font-weight: 900;\n        }\n        .cta-section-pink-minimal-border p {\n            font-size: 1.1rem;\n            margin-bottom: 35px;\n            line-height: 1.6;\n            color: #555555;\n        }\n        .cta-section-pink-minimal-border .cta-button {\n            display: inline-block;\n            padding: 15px 40px;\n            background-color: #000000;\n            color: #ffffff;\n            text-decoration: none;\n            font-size: 1.2rem;\n            font-weight: 900;\n            border: 3px solid #ff00ff;\n            transition: all 0.3s ease;\n            text-transform: uppercase;\n        }\n        .cta-section-pink-minimal-border .cta-button:hover {\n            background-color: #ff00ff;\n            color: #ffffff;\n            border-color: #000000;\n        }\n        @media (max-width: 768px) {\n            .cta-section-pink-minimal-border {\n                padding: 60px 15px;\n                border-width: 3px;\n            }\n            .cta-section-pink-minimal-border h2 {\n                font-size: 2.8rem;\n            }\n            .cta-section-pink-minimal-border p {\n                font-size: 1.1rem;\n            }\n            .cta-section-pink-minimal-border .cta-button {\n                padding: 12px 30px;\n                font-size: 1.1rem;\n            }\n        }\n        @media (max-width: 480px) {\n            .cta-section-pink-minimal-border {\n                padding: 50px 10px;\n                border-width: 2px;\n            }\n            .cta-section-pink-minimal-border h2 {\n                font-size: 2.3rem;\n            }\n            .cta-section-pink-minimal-border p {\n                font-size: 1rem;\n            }\n            .cta-section-pink-minimal-border .cta-button {\n                padding: 10px 25px;\n                font-size: 1rem;\n            }\n        }",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Neo-Brutalismus CTA - Pinker Minimaler Rand"
+        },
+        "ar": {
+            "name": "قسم دعوة للعمل بأسلوب نيو-بروتاليزم - حدود وردية بسيطة"
+        },
+        "en": {
+            "name": "Neo-Brutalism CTA - Pink Minimal Border"
+        }
+    }
+}

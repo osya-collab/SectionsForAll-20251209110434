@@ -1,0 +1,30 @@
+{
+    "name": "Stats and Reviews Combo",
+    "category": "Testimonials",
+    "description": "Combines a large aggregate rating score with a list of recent short reviews.",
+    "tags": [
+        "stats",
+        "rating",
+        "combo"
+    ],
+    "structure": [
+        "Score Panel",
+        "Review List"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "E-commerce",
+        "Service Booking"
+    ],
+    "style_analysis": {
+        "colors": [
+            "var(--color-primary)",
+            "#FFFFFF",
+            "#F5F5F5"
+        ],
+        "fonts": [
+            "Sans Serif Bold"
+        ],
+        "visual_identity": "Data-driven, trustworthy"
+    }
+}

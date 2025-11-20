@@ -1,0 +1,17 @@
+{
+    "id": "biomorphic-art-nouveau-cta-cream-floral",
+    "html": "<section class=\"cta-section-cream-floral\">\n    <div class=\"cta-content\">\n        <h2>Find Your Inspiration</h2>\n        <p>Delve into the beauty of natural forms and artistic expression. Sign up for our monthly dose of curated inspiration.</p>\n        <button class=\"cta-button\">Get Inspired</button>\n    </div>\n    <div class=\"cta-background-image\"></div>\n</section>",
+    "css": ".cta-section-cream-floral {\n    position: relative;\n    background-color: #f5f5dc;\n    color: #3e2723;\n    padding: 60px 20px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    text-align: center;\n    overflow: hidden;\n    font-family: 'Lora', serif;\n}\n\n.cta-section-cream-floral .cta-background-image {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background-image: url('https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=art+nouveau+cream+floral+pattern+muted&image_type=photo');\n    background-size: cover;\n    background-position: center;\n    opacity: 0.3;\n    z-index: 1;\n}\n\n.cta-section-cream-floral .cta-content {\n    position: relative;\n    z-index: 2;\n    max-width: 650px;\n    padding: 40px;\n    background: rgba(245, 245, 220, 0.8);\n    border-radius: 8px;\n}\n\n.cta-section-cream-floral h2 {\n    font-size: 2.7rem;\n    margin-bottom: 18px;\n    color: #8d6e63;\n    letter-spacing: 0.5px;\n}\n\n.cta-section-cream-floral p {\n    font-size: 1.1rem;\n    line-height: 1.7;\n    margin-bottom: 30px;\n    color: #3e2723;\n}\n\n.cta-button {\n    font-family: 'Lora', serif;\n    background-color: #8d6e63;\n    color: #f5f5dc;\n    border: none;\n    padding: 14px 30px;\n    font-size: 1.1rem;\n    cursor: pointer;\n    border-radius: 6px;\n    transition: background-color 0.3s ease, transform 0.3s ease;\n    font-weight: bold;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n}\n\n.cta-button:hover {\n    background-color: #a1887f;\n    transform: translateY(-3px);\n}\n\n@media (max-width: 768px) {\n    .cta-section-cream-floral {\n        padding: 50px 20px;\n    }\n    .cta-section-cream-floral .cta-content {\n        padding: 35px;\n    }\n    .cta-section-cream-floral h2 {\n        font-size: 2.4rem;\n    }\n    .cta-section-cream-floral p {\n        font-size: 1.05rem;\n    }\n    .cta-button {\n        padding: 12px 28px;\n        font-size: 1rem;\n    }\n}\n\n@media (max-width: 480px) {\n    .cta-section-cream-floral {\n        padding: 40px 15px;\n    }\n    .cta-section-cream-floral .cta-content {\n        padding: 30px 20px;\n    }\n    .cta-section-cream-floral h2 {\n        font-size: 2.1rem;\n    }\n    .cta-section-cream-floral p {\n        font-size: 1rem;\n    }\n    .cta-button {\n        padding: 10px 25px;\n    }\n}\n\n/* Placeholder for Pixabay API fetch */\n.cta-section-cream-floral .cta-background-image[style*='pixabay.com'] {\n    background-image: url('https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=art+nouveau+cream+floral+pattern+muted&image_type=photo');\n    background-size: cover;\n    background-position: center;\n    opacity: 0.3;\n}\n",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Biomorpher Jugendstil CTA - Cremefarbene Blüte"
+        },
+        "ar": {
+            "name": "دعوة للاستجابة بنمط فن الآرت نوفو الحيوي - زهرة كريمية"
+        },
+        "en": {
+            "name": "Biomorphic Art Nouveau CTA - Cream Blossom"
+        }
+    }
+}

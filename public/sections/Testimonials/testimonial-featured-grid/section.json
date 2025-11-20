@@ -1,0 +1,55 @@
+{
+  "id": "testimonial-featured-grid",
+  "html": "\n<section class=\"testimonial-featured-combo-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"top-card-wrapper\">\n            <div class=\"top-card anim-fade-in-up\">\n                <div class=\"stars\">★★★★★</div>\n                <p class=\"rating\">\"This AI platform is a game-changer. It takes my rough ideas and builds a polished, functional website in minutes. Their dedication to creating an intuitive environment has brought immense happiness and fulfillment to my creative process.\"</p>\n                <div class=\"author\">\n                    <img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=100&h=100&fit=crop&crop=faces\" alt=\"Mara Henson\">\n                    <span>Mara Henson</span>\n                </div>\n            </div>\n        </div>\n        <div class=\"bottom-grid\">\n            <div class=\"bottom-card anim-fade-in-up anim-delay-1\">\n                <div class=\"icon-wrapper\">\n                     <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\"/></svg>\n                </div>\n                <p>\"The customer support is top-notch and the user interface is incredibly intuitive. I would highly recommend it.\"</p>\n                <cite>Lassy Chester, Art Director</cite>\n            </div>\n             <div class=\"bottom-card anim-fade-in-up anim-delay-2\">\n                <div class=\"icon-wrapper\">\n                     <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\"/></svg>\n                </div>\n                <p>\"Skeptical at first, but now I'm a believer. The designs are modern and the code quality generated is clean.\"</p>\n                <cite>Lassy Chester, Art Director</cite>\n            </div>\n        </div>\n    </div>\n</section>",
+  "css": "\n.testimonial-featured-combo-section {\n    padding: 5rem 0;\n    font-family: 'Inter', sans-serif;\n    background-color: var(--color-light, #FFFFFF);\n    color: var(--color-dark, #212529);\n    overflow: hidden;\n    position: relative;\n    width: 100%;\n    box-sizing: border-box;\n}\n.testimonial-featured-combo-section * { box-sizing: border-box; }\n.testimonial-featured-combo-section .container {\n    width: 90%;\n    max-width: 900px;\n    margin: 0 auto;\n}\n.testimonial-featured-combo-section .top-card-wrapper {\n    margin-bottom: 60px; /* Creates space for the overlapping avatar */\n}\n.testimonial-featured-combo-section .top-card {\n    background: linear-gradient(135deg, #00C9FF 0%, #92FE9D 100%);\n    color: var(--color-dark, #212529);\n    padding: 3rem 3rem 0;\n    border-radius: 1.5rem;\n    text-align: center;\n}\n.testimonial-featured-combo-section .stars {\n    color: #FFD700;\n    font-size: 1.5rem;\n    text-shadow: 0 1px 2px rgba(0,0,0,0.1);\n    margin-bottom: 1rem;\n}\n.testimonial-featured-combo-section .rating {\n    font-size: 1.25rem;\n    line-height: 1.6;\n    max-width: 600px;\n    margin: 0 auto 2rem;\n}\n.testimonial-featured-combo-section .author {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 0.5rem;\n    transform: translateY(50%); /* Pulls the author down to overlap */\n}\n.testimonial-featured-combo-section .author img {\n    width: 80px;\n    height: 80px;\n    border-radius: 50%;\n    object-fit: cover;\n    border: 4px solid var(--color-light, #FFFFFF);\n    box-shadow: 0 4px 15px rgba(0,0,0,0.1);\n}\n.testimonial-featured-combo-section .author span {\n    font-weight: 600;\n    font-size: 1rem;\n    color: var(--color-dark, #212529);\n    background-color: var(--color-light);\n    padding: 0.1rem 0.5rem;\n    border-radius: 6px;\n    box-shadow: 0 2px 5px rgba(0,0,0,0.1);\n}\n.testimonial-featured-combo-section .bottom-grid {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 2rem;\n    margin-top: 0;\n}\n@media (min-width: 768px) {\n    .testimonial-featured-combo-section .bottom-grid {\n        grid-template-columns: 1fr 1fr;\n    }\n}\n.testimonial-featured-combo-section .bottom-card {\n    text-align: center;\n}\n.testimonial-featured-combo-section .icon-wrapper {\n    width: 48px;\n    height: 48px;\n    border-radius: 50%;\n    background-color: #4CAF50;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin: 0 auto 1.5rem;\n}\n.testimonial-featured-combo-section .icon-wrapper svg {\n    width: 24px;\n    height: 24px;\n    color: white;\n}\n.testimonial-featured-combo-section .bottom-card p {\n    color: var(--color-secondary, #6B7280);\n    font-style: italic;\n}\n.testimonial-featured-combo-section .bottom-card cite {\n    display: block;\n    margin-top: 1rem;\n    font-style: normal;\n    font-weight: 500;\n}\n",
+  "translations": {
+    "de": {
+      "name": "Featured Grid",
+      "featured_title": "Besondere Testimonials",
+      "featured_quote_1": "Die KI-Plattform ist ein Game-Changer. Sie nimmt meine groben Ideen und erstellt in Minuten eine ausgefeilte, funktionale Website.",
+      "featured_author_1": "Mara Henson",
+      "featured_quote_2": "Ich war skeptisch, aber jetzt bin ich überzeugt. Die Designs sind modern und die Codequalität ist sauber.",
+      "featured_author_2": "Mark Humphries",
+      "quote1": "Liebe hat neu definiert, was es bedeutet, einen positiven Einfluss in der Branche zu schaffen. Das unerschütterliche Engagement des Unternehmens für die Verbreitung von Liebe und Glück ist in jedem Aspekt ihrer Arbeit offensichtlich.",
+      "author1": "Jamie Boli",
+      "quote2": "Die Atmosphäre bei Love ist wirklich einzigartig. Es ist ein Ort, an dem Liebe und Freundlichkeit allgegenwärtig sind und eine Umgebung schaffen, die echtes Glück und Erfüllung fördert.",
+      "author2": "Steph Marberry",
+      "quote3": "Liebe hat eine außergewöhnliche Fähigkeit, das Beste in den Menschen hervorzubringen. Das Engagement des Unternehmens für die Verbreitung von Liebe und Positivität ist wirklich lobenswert.",
+      "author3": "Alex Dumfries",
+      "quote4": "Ich habe noch nie ein Unternehmen erlebt, das Liebe und Mitgefühl so tief verkörpert wie Love. Ihr Engagement, einen positiven Einfluss in der Branche zu schaffen, ist wirklich bemerkenswert.",
+      "author4": "Cole Palmino"
+    },
+    "en": {
+      "name": "Featured Grid",
+      "featured_title": "Featured Testimonials",
+      "featured_quote_1": "The AI platform is a game-changer. It takes my rough ideas and builds a polished, functional website in minutes.",
+      "featured_author_1": "Mara Henson",
+      "featured_quote_2": "Skeptical at first, but now I'm a believer. The designs are modern and the code quality is clean.",
+      "featured_author_2": "Mark Humphries",
+      "quote1": "Love has redefined what it means to create a positive impact in the industry. The company's unwavering commitment to spreading love and happiness is evident in every aspect of their work.",
+      "author1": "Jamie Boli",
+      "quote2": "The atmosphere at Love is truly one of a kind. It's a place where love and kindness are pervasive, creating an environment that fosters genuine happiness and fulfillment.",
+      "author2": "Steph Marberry",
+      "quote3": "Love has an extraordinary ability to bring out the best in people. The company's dedication to spreading love and positivity is truly commendable.",
+      "author3": "Alex Dumfries",
+      "quote4": "I have never experienced a company that embodies love and compassion as profoundly as Love does. Their commitment to creating a positive impact in the industry is truly remarkable.",
+      "author4": "Cole Palmino"
+    },
+    "ar": {
+      "name": "شبكة مميزة",
+      "featured_title": "شهادات مميزة",
+      "featured_quote_1": "منصة الذكاء الاصطناعي هذه تغير قواعد اللعبة. تأخذ أفكاري الأولية وتبني موقعًا إلكترونيًا مصقولًا وعمليًا في دقائق.",
+      "featured_author_1": "مارا هينسون",
+      "featured_quote_2": "كنت متشككًا في البداية، لكنني الآن مؤمن. التصميمات حديثة وجودة الكود نظيفة.",
+      "featured_author_2": "مارك همفريز",
+      "quote1": "لقد أعادت الحب تعريف معنى إحداث تأثير إيجابي في الصناعة. إن التزام الشركة الثابت بنشر الحب والسعادة واضح في كل جانب من جوانب عملهم.",
+      "author1": "جيمي بولي",
+      "quote2": "الأجواء في Love فريدة من نوعها حقًا. إنه مكان يسود فيه الحب واللطف، مما يخلق بيئة تعزز السعادة والإنجاز الحقيقيين.",
+      "author2": "ستيف ماربيري",
+      "quote3": "لدى Love قدرة غير عادية على إخراج أفضل ما في الناس. إن تفاني الشركة في نشر الحب والإيجابية أمر يستحق الثناء حقًا.",
+      "author3": "أليكس دومفريز",
+      "quote4": "لم يسبق لي أن جربت شركة تجسد الحب والرحمة بعمق مثل Love. إن التزامهم بإحداث تأثير إيجابي في الصناعة أمر رائع حقًا.",
+      "author4": "كول بالمينو"
+    }
+  }
+}

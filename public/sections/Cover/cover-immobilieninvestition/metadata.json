@@ -1,0 +1,9 @@
+{
+    "name": "Immobilieninvestition",
+    "category": "Cover",
+    "description": "A hero section focused on real estate investment, featuring a strong headline and an image of a modern property.",
+    "tags": ["cover", "hero", "real estate", "investment", "property"],
+    "structure": ["header", "image"],
+    "complexity": "simple",
+    "use_cases": ["Real Estate Agencies", "Investment Firms"]
+}

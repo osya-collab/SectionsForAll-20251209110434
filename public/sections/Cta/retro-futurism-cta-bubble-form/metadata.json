@@ -1,0 +1,48 @@
+{
+    "name": "Retro Futurism CTA with Bubble Form",
+    "category": "Cta",
+    "description": "A retro-futuristic CTA section featuring a pastel background, a central form with rounded inputs, and an optimistic headline. Includes a representative image to enhance the theme.",
+    "tags": [
+        "retro",
+        "futurism",
+        "cta",
+        "form",
+        "pastel",
+        "optimistic"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "form",
+        "div",
+        "label",
+        "input",
+        "button",
+        "div",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "newsletter signup",
+        "early access signup",
+        "contact form",
+        "lead generation"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f0e6e0",
+            "#ffffff",
+            "#b0a0b0",
+            "#d4af37",
+            "#4a4a4a",
+            "#666"
+        ],
+        "fonts": [
+            "Orbitron",
+            "sans-serif"
+        ],
+        "visual_identity": "Whimsical retro-futurism with muted pastels and rounded shapes."
+    }
+}

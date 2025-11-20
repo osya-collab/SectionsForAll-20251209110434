@@ -1,0 +1,13 @@
+{
+    "name": "Cover mit Bewertung",
+    "category": "Cover",
+    "description": "A split-screen hero section that builds trust with a social proof rating block, featuring a headline, description, and a large image.",
+    "tags": ["cover", "hero", "split-layout", "social proof", "rating", "trust"],
+    "structure": ["header", "paragraph", "rating", "cta-button", "image"],
+    "complexity": "medium",
+    "use_cases": [
+        "SaaS Landing Pages",
+        "E-commerce Homepages",
+        "Service Provider Websites"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "In-Content Gallery",
+    "category": "Article",
+    "description": "An article with a small, 2x2 grid of images embedded directly within the flow of the text.",
+    "tags": ["article", "images", "gallery", "blog"],
+    "structure": ["text", "image-grid", "text"],
+    "complexity": "simple",
+    "use_cases": [
+        "Tutorials",
+        "Travel blogs",
+        "Product descriptions"
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "id": "team-grid-with-cta",
+    "html": "\n<section class=\"team-grid-cta-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"grid-container\">\n            <div class=\"cta-content anim-fade-in-up\">\n                <h2>{{t:title}}</h2>\n                <p>{{t:subtitle}}</p>\n                <a href=\"#\" class=\"btn-primary\">{{t:cta_button}}</a>\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-1\">\n                <img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887\" alt=\"{{t:member1_name}}\">\n                <h3>{{t:member1_name}}</h3>\n                <p>{{t:member1_role}}</p>\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-2\">\n                <img src=\"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070\" alt=\"{{t:member2_name}}\">\n                <h3>{{t:member2_name}}</h3>\n                <p>{{t:member2_role}}</p>\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-3\">\n                <img src=\"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887\" alt=\"{{t:member3_name}}\">\n                <h3>{{t:member3_name}}</h3>\n                <p>{{t:member3_role}}</p>\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-4\">\n                <img src=\"https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=1887\" alt=\"{{t:member4_name}}\">\n                <h3>{{t:member4_name}}</h3>\n                <p>{{t:member4_role}}</p>\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-5\">\n                <img src=\"https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887\" alt=\"{{t:member5_name}}\">\n                <h3>{{t:member5_name}}</h3>\n                <p>{{t:member5_role}}</p>\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-6\">\n                <img src=\"https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961\" alt=\"{{t:member6_name}}\">\n                <h3>{{t:member6_name}}</h3>\n                <p>{{t:member6_role}}</p>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-grid-cta-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.team-grid-cta-section .container {\n    width: 90%;\n    max-width: 1200px;\n    margin: 0 auto;\n}\n.team-grid-cta-section .grid-container {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n    gap: 2.5rem;\n}\n.team-grid-cta-section .cta-content {\n    grid-column: 1 / -1;\n}\n@media (min-width: 992px) {\n    .team-grid-cta-section .cta-content {\n        grid-column: 1 / 2;\n        grid-row: 1 / 3;\n    }\n    .team-grid-cta-section .grid-container {\n        grid-template-columns: repeat(4, 1fr);\n    }\n}\n@media (min-width: 768px) and (max-width: 991px) {\n    .team-grid-cta-section .grid-container {\n        grid-template-columns: repeat(3, 1fr);\n    }\n}\n.team-grid-cta-section .cta-content h2 {\n    font-size: 3rem;\n    font-weight: 700;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1.5rem;\n}\n.team-grid-cta-section .cta-content p {\n    color: var(--color-secondary, #6B7280);\n    margin-bottom: 2rem;\n    line-height: 1.7;\n}\n.team-grid-cta-section .btn-primary {\n    display: inline-block;\n    padding: 0.8rem 2rem;\n    background-color: var(--color-dark, #111827);\n    color: var(--color-light, #FFFFFF);\n    text-decoration: none;\n    border-radius: 8px;\n    font-weight: 600;\n}\n.team-grid-cta-section .team-member {\n    text-align: left;\n}\n.team-grid-cta-section .team-member img {\n    width: 100%;\n    height: auto;\n    aspect-ratio: 1/1;\n    object-fit: cover;\n    border-radius: 1rem;\n    margin-bottom: 1rem;\n}\n.team-grid-cta-section .team-member h3 {\n    font-size: 1.1rem;\n    font-weight: 600;\n    color: var(--color-dark, #1F2937);\n}\n.team-grid-cta-section .team-member p {\n    font-size: 0.9rem;\n    color: var(--color-secondary, #6B7280);\n}\n",
+    "translations": {
+        "de": {
+            "name": "Gitter mit CTA",
+            "title": "Lerne unser Team kennen",
+            "subtitle": "Eine klare Beschreibung deiner Dienstleistungen sorgt dafür, dass Besucher nicht sofort wieder abspringen. So bleiben sie länger auf deiner Seite und finden genau das, was sie suchen.",
+            "cta_button": "Call to action button",
+            "member1_name": "Achim Braun",
+            "member1_role": "Geschäftsführer & Gründer",
+            "member2_name": "Emily Jones",
+            "member2_role": "Finanzen & Buchhaltung",
+            "member3_name": "Berndt Becker",
+            "member3_role": "Rechtsberater",
+            "member4_name": "Oliver Santana",
+            "member4_role": "Berater",
+            "member5_name": "Anna Becker",
+            "member5_role": "Rechtsberaterin",
+            "member6_name": "Anna Schneider",
+            "member6_role": "Leiterin des Betriebs"
+        },
+        "en": {
+            "name": "Grid with CTA",
+            "title": "Meet our team",
+            "subtitle": "A clear description of your services ensures that visitors don't leave immediately. This way, they stay longer on your page and find exactly what they are looking for.",
+            "cta_button": "Call to action button",
+            "member1_name": "Achim Braun",
+            "member1_role": "CEO & Founder",
+            "member2_name": "Emily Jones",
+            "member2_role": "Finance & Accounting",
+            "member3_name": "Berndt Becker",
+            "member3_role": "Legal consultant",
+            "member4_name": "Oliver Santana",
+            "member4_role": "Advisor",
+            "member5_name": "Anna Becker",
+            "member5_role": "Legal advisor",
+            "member6_name": "Anna Schneider",
+            "member6_role": "Head of Operations"
+        },
+        "ar": {
+            "name": "شبكة مع دعوة للعمل",
+            "title": "تعرف على فريقنا",
+            "subtitle": "يضمن الوصف الواضح لخدماتك عدم مغادرة الزوار على الفور. بهذه الطريقة، يبقون على صفحتك لفترة أطول ويجدون بالضبط ما يبحثون عنه.",
+            "cta_button": "زر الدعوة لاتخاذ إجراء",
+            "member1_name": "أخيم براون",
+            "member1_role": "الرئيس التنفيذي والمؤسس",
+            "member2_name": "إميلي جونز",
+            "member2_role": "المالية والمحاسبة",
+            "member3_name": "بيرندت بيكر",
+            "member3_role": "مستشار قانوني",
+            "member4_name": "أوليفر سانتانا",
+            "member4_role": "مستشار",
+            "member5_name": "آنا بيكر",
+            "member5_role": "مستشارة قانونية",
+            "member6_name": "آنا شنايدر",
+            "member6_role": "رئيس العمليات"
+        }
+    }
+}

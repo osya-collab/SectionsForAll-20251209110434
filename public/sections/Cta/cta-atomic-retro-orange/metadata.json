@@ -1,0 +1,40 @@
+{
+    "name": "CTA with Atomic Motif - Orange",
+    "category": "Cta",
+    "description": "A retro-futuristic CTA section with a vibrant orange background, encouraging sign-ups with optimistic messaging and a prominent navy blue button featuring rounded edges and a subtle hover effect. Atomic motifs are implied through the optimistic, forward-thinking design.",
+    "tags": [
+        "CTA",
+        "Retro-Futurism",
+        "Orange",
+        "Newsletter",
+        "Optimistic",
+        "Rounded"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "Newsletter Signup",
+        "Call to Action",
+        "Service Promotion",
+        "Event Invitation"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f5a623",
+            "#ffffff",
+            "#2c3e50",
+            "#34495e"
+        ],
+        "fonts": [
+            "Futura PT",
+            "Avenir Next"
+        ],
+        "visual_identity": "Vibrant retro-futurism with optimistic orange and dark navy accents, emphasizing rounded shapes."
+    }
+}

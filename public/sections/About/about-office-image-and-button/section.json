@@ -1,0 +1,28 @@
+{
+    "id": "about-office-image-and-button",
+    "html": "\n<section class=\"about-office-image-bottom-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container text-center\">\n        <div class=\"section-header anim-fade-in-up\">\n            <h2>{{t:title}}</h2>\n        </div>\n        <div class=\"description-box anim-fade-in-up anim-delay-1\">\n            <p>{{t:description}}</p>\n        </div>\n        <div class=\"cta-wrapper anim-fade-in-up anim-delay-2\">\n            <a href=\"#\" class=\"btn-dark\">{{t:cta_button}}</a>\n        </div>\n        <div class=\"image-wrapper anim-fade-in-up anim-delay-3\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=modern+office+coworking\" alt=\"{{t:image_alt}}\">\n        </div>\n    </div>\n</section>",
+    "css": "\n.about-office-image-bottom-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.about-office-image-bottom-section .container {\n    width: 90%;\n    max-width: 800px;\n    margin: 0 auto;\n    text-align: center;\n}\n.about-office-image-bottom-section .section-header {\n    margin-bottom: 2rem;\n}\n.about-office-image-bottom-section .section-header h2 {\n    font-size: 2.5rem;\n    color: var(--color-dark, #111827);\n    position: relative;\n    display: inline-block;\n    padding: 0 1rem;\n}\n.about-office-image-bottom-section .section-header h2::before,\n.about-office-image-bottom-section .section-header h2::after {\n    content: '';\n    position: absolute;\n    top: 50%;\n    width: 50px;\n    height: 1px;\n    background-color: #ccc;\n}\n.about-office-image-bottom-section .section-header h2::before {\n    right: 100%;\n    margin-right: 1rem;\n}\n.about-office-image-bottom-section .section-header h2::after {\n    left: 100%;\n    margin-left: 1rem;\n}\n.about-office-image-bottom-section .description-box {\n    padding: 2rem;\n    margin-bottom: 2rem;\n}\n.about-office-image-bottom-section .description-box p {\n    color: var(--color-secondary, #6B7280);\n    margin: 0;\n}\n.about-office-image-bottom-section .cta-wrapper {\n    margin-bottom: 3rem;\n}\n.about-office-image-bottom-section .btn-dark {\n    background-color: var(--color-dark, #111827);\n    color: var(--color-light, #FFFFFF);\n    padding: 0.75rem 2.5rem;\n    text-decoration: none;\n    font-weight: 600;\n    transition: all 0.3s;\n}\n.about-office-image-bottom-section .btn-dark:hover {\n    background-color: #333;\n}\n.about-office-image-bottom-section .image-wrapper {\n    border: 2px solid var(--color-dark, #111827);\n    padding: 0.5rem;\n}\n.about-office-image-bottom-section .image-wrapper img {\n    width: 100%;\n    height: auto;\n    display: block;\n}\n.about-office-image-bottom-section .anim-delay-1 { transition-delay: 0.1s; }\n.about-office-image-bottom-section .anim-delay-2 { transition-delay: 0.2s; }\n.about-office-image-bottom-section .anim-delay-3 { transition-delay: 0.3s; }\n",
+    "translations": {
+        "de": {
+            "name": "Über Uns Sektion",
+            "title": "Über uns",
+            "description": "Auf dieser Seite finden Sie die neuesten Informationen über uns. Unser Unternehmen entwickelt sich ständig weiter und wächst ständig. Wir bieten eine breite Palette von Dienstleistungen. Unsere Mission ist es, die beste Lösung bereitzustellen, die allen hilft. Wenn Sie uns kontaktieren möchten, füllen Sie bitte das Kontaktformular auf unserer Website aus. Wir wünschen Ihnen einen schönen Tag!",
+            "cta_button": "Mach es einfach!",
+            "image_alt": "Moderner Büro-Coworking-Bereich"
+        },
+        "en": {
+            "name": "About Us Section",
+            "title": "About Us",
+            "description": "On this page you will find the latest information about us. Our company is constantly evolving and growing. We offer a wide range of services. Our mission is to provide the best solution that helps everyone. If you would like to contact us, please fill out the contact form on our website. We wish you a nice day!",
+            "cta_button": "Make it simple!",
+            "image_alt": "Modern office coworking space"
+        },
+        "ar": {
+            "name": "قسم عنا",
+            "title": "عنا",
+            "description": "في هذه الصفحة ستجد أحدث المعلومات عنا. شركتنا تتطور وتنمو باستمرار. نحن نقدم مجموعة واسعة من الخدمات. مهمتنا هي تقديم أفضل حل يساعد الجميع. إذا كنت ترغب في الاتصال بنا، يرجى ملء نموذج الاتصال على موقعنا. نتمنى لك يوما سعيدا!",
+            "cta_button": "اجعل الأمر بسيطًا!",
+            "image_alt": "مساحة عمل مشتركة في مكتب حديث"
+        }
+    }
+}

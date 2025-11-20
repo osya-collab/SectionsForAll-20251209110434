@@ -1,0 +1,14 @@
+
+{
+    "name": "Single Large Testimonial",
+    "category": "Trust",
+    "description": "A powerful section focusing on a single, impactful testimonial with a large quote and client photo.",
+    "tags": ["testimonial", "quote", "social proof", "corporate"],
+    "structure": ["header", "image", "blockquote"],
+    "complexity": "simple",
+    "use_cases": [
+        "Homepage hero sections",
+        "Landing pages",
+        "Case study intros"
+    ]
+}

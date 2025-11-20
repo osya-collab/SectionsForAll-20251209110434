@@ -1,0 +1,28 @@
+{
+    "id": "team-split-bio-signature",
+    "html": "\n<section class=\"team-split-bio-signature-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"split-grid\">\n            <div class=\"content-wrapper anim-fade-in-right\">\n                <h2>{{t:member_name}}</h2>\n                <p class=\"subtitle\">{{t:member_role}}</p>\n                <p>{{t:p1}}</p>\n                <p>{{t:p2}}</p>\n                <img src=\"https://firebasestorage.googleapis.com/v0/b/ai-apps-f5139.appspot.com/o/vision-os%2Fassets%2Fsignature.png?alt=media&token=d16e6f99-3171-4ac3-a442-7c1524317424\" alt=\"Signature\" class=\"signature\">\n            </div>\n            <div class=\"image-wrapper anim-fade-in-left\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=businessman+crossed+arms+desk\" alt=\"{{t:member_name}}\">\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-split-bio-signature-section {\n    padding: 5rem 0;\n    background-color: #f3f4f6; /* gray-100 */\n    font-family: 'Inter', sans-serif;\n}\n.team-split-bio-signature-section .container {\n    width: 90%;\n    max-width: 1100px;\n    margin: 0 auto;\n}\n.team-split-bio-signature-section .split-grid {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 1.5rem;\n    align-items: stretch; /* Make cards same height */\n}\n@media (min-width: 992px) {\n    .team-split-bio-signature-section .split-grid {\n        grid-template-columns: 1fr 1fr;\n    }\n}\n.team-split-bio-signature-section .content-wrapper,\n.team-split-bio-signature-section .image-wrapper {\n    background-color: var(--color-light, #FFFFFF);\n    border-radius: 1rem;\n    padding: 3rem;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n}\n.team-split-bio-signature-section .image-wrapper {\n    padding: 0;\n    overflow: hidden;\n}\n.team-split-bio-signature-section .image-wrapper img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n    aspect-ratio: 1 / 1;\n}\n.team-split-bio-signature-section h2 {\n    font-size: 3rem;\n    font-weight: 800;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 0.5rem;\n}\n.team-split-bio-signature-section .subtitle {\n    color: var(--color-secondary, #6B7280);\n    margin-bottom: 2rem;\n    font-weight: 500;\n}\n.team-split-bio-signature-section p:not(.subtitle) {\n    color: var(--color-dark, #1F2937);\n    opacity: 0.8;\n    margin-bottom: 1.5rem;\n}\n.team-split-bio-signature-section .signature {\n    width: 150px;\n    margin-top: 2rem;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Geteilte Bio mit Unterschrift",
+            "member_name": "Andreas Lehmann",
+            "member_role": "Geschäftsführer bei GutFirma GmbH",
+            "p1": "Teile lange Texte in Abschnitte auf, damit du die wichtigsten Punkte auf einen Blick erkennen kannst. Das macht das Lesen für dich viel einfacher und angenehmer.",
+            "p2": "Versuche, die Textmenge für jedes Element konsistent zu halten, um einen stimmigen Gesamteindruck zu erzielen."
+        },
+        "en": {
+            "name": "Split Bio with Signature",
+            "member_name": "Andreas Lehmann",
+            "member_role": "Managing Director at GoodCompany GmbH",
+            "p1": "Break up long texts into sections so you can see the most important points at a glance. This makes reading much easier and more pleasant for you.",
+            "p2": "Try to keep the amount of text consistent for each element to create a cohesive overall impression."
+        },
+        "ar": {
+            "name": "سيرة ذاتية مقسمة مع توقيع",
+            "member_name": "أندرياس ليمان",
+            "member_role": "المدير الإداري في GoodCompany GmbH",
+            "p1": "قسّم النصوص الطويلة إلى أقسام حتى تتمكن من رؤية أهم النقاط في لمحة. هذا يجعل القراءة أسهل وأكثر متعة بالنسبة لك.",
+            "p2": "حاول الحفاظ على كمية النص متسقة لكل عنصر لخلق انطباع عام متماسك."
+        }
+    }
+}

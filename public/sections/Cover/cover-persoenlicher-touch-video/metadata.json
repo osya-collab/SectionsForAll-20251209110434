@@ -1,0 +1,13 @@
+{
+    "name": "Persönlicher Touch Video",
+    "category": "Cover",
+    "description": "A split-screen hero section featuring a headline and description on one side, and a large video placeholder with a play button on the other.",
+    "tags": ["cover", "hero", "video", "split-layout", "cta", "business"],
+    "structure": ["header", "paragraph", "cta-button", "video"],
+    "complexity": "medium",
+    "use_cases": [
+        "Product demos",
+        "Company introductions",
+        "Service explanations"
+    ]
+}

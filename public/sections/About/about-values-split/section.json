@@ -1,0 +1,37 @@
+{
+    "id": "about-values-split",
+    "html": "\n<section class=\"values-section-from-image\" data-ai-id=\"element-placeholder\">\n    <div class=\"container values-container-from-image\">\n        <div class=\"values-content anim-fade-in-right\">\n            <h2 class=\"values-title\">{{t:title}}</h2>\n            <p>{{t:p1}}</p>\n            <p>{{t:p2}}</p>\n        </div>\n        <div class=\"values-cards anim-fade-in-left\">\n            <div class=\"value-card\">\n                <h3>{{t:card1_title}}</h3>\n                <p>{{t:card_desc}}</p>\n            </div>\n            <div class=\"value-card\">\n                <h3>{{t:card2_title}}</h3>\n                <p>{{t:card_desc}}</p>\n            </div>\n            <div class=\"value-card\">\n                <h3>{{t:card3_title}}</h3>\n                <p>{{t:card_desc}}</p>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.values-section-from-image {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.values-section-from-image .container {\n  width: 90%;\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 1rem;\n}\n.values-container-from-image {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 3rem;\n    align-items: center;\n}\n@media (min-width: 992px) {\n    .values-container-from-image {\n        grid-template-columns: 45% 55%;\n        gap: 4rem;\n    }\n}\n.values-section-from-image .values-title {\n    font-size: clamp(2.5rem, 5vw, 3.5rem);\n    font-weight: 700;\n    color: var(--color-dark, #111827);\n    margin-bottom: 1.5rem;\n    line-height: 1.2;\n}\n.values-section-from-image .values-content p {\n    color: var(--color-secondary, #6B7280);\n    margin-bottom: 1rem;\n}\n.values-section-from-image .values-cards {\n    display: flex;\n    flex-direction: column;\n    gap: 1.5rem;\n}\n.values-section-from-image .value-card {\n    background-color: #f3f4f6;\n    padding: 2rem;\n    border-radius: 12px;\n}\n.values-section-from-image .value-card h3 {\n    font-size: 1.25rem;\n    font-weight: 600;\n    color: var(--color-dark, #111827);\n    margin-bottom: 0.5rem;\n}\n.values-section-from-image .value-card p {\n    font-size: 0.95rem;\n    color: var(--color-secondary, #6B7280);\n    margin-bottom: 0;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Werte Geteiltes Layout",
+            "title": "Wir halten immer an unseren Werten fest",
+            "p1": "Zeig deinen Besuchern, was dich von allen anderen abhebt. Liste alle deine Vorteile auf, damit ganz klar wird, warum sie sich für dich entscheiden sollten.",
+            "p2": "Du brauchst ein Element woanders? Kopiere es einfach mit Strg + C und füge es mit Strg + V ein. Das funktioniert sogar zwischen verschiedenen Projekten!",
+            "card1_title": "Unternehmensvorteile",
+            "card_desc": "Wir achten darauf, dass alle Elemente in Ihrem Raster ungefähr gleich viel Inhalt haben. So sieht alles super aus und ist übersichtlich.",
+            "card2_title": "Wettbewerbsfähiges Gehalt",
+            "card3_title": "Über uns"
+        },
+        "en": {
+            "name": "Values Split Layout",
+            "title": "We always stick to our values",
+            "p1": "Show your visitors what sets you apart from everyone else. List all your advantages to make it clear why they should choose you.",
+            "p2": "Need an element somewhere else? Just copy it with Ctrl + C and paste it with Ctrl + V. This even works between different projects!",
+            "card1_title": "Company Benefits",
+            "card_desc": "We make sure that all elements in your grid have about the same amount of content. This way, everything looks great and is clear.",
+            "card2_title": "Competitive Salary",
+            "card3_title": "About Us"
+        },
+        "ar": {
+            "name": "تخطيط مقسم للقيم",
+            "title": "نحن نتمسك دائمًا بقيمنا",
+            "p1": "أظهر لزوارك ما يميزك عن أي شخص آخر. اذكر جميع مزاياك لتوضح سبب اختيارهم لك.",
+            "p2": "هل تحتاج إلى عنصر في مكان آخر؟ ما عليك سوى نسخه باستخدام Ctrl + C ولصقه باستخدام Ctrl + V. هذا يعمل حتى بين المشاريع المختلفة!",
+            "card1_title": "مزايا الشركة",
+            "card_desc": "نتأكد من أن جميع العناصر في شبكتك تحتوي على نفس القدر من المحتوى تقريبًا. بهذه الطريقة ، يبدو كل شيء رائعًا وواضحًا.",
+            "card2_title": "راتب تنافسي",
+            "card3_title": "عنا"
+        }
+    }
+}

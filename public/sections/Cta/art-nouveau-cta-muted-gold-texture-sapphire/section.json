@@ -1,0 +1,17 @@
+{
+    "id": "art-nouveau-cta-muted-gold-texture-sapphire",
+    "html": "<section class=\"art-nouveau-cta-muted-gold-texture-sapphire\">\n  <div class=\"container\">\n    <div class=\"text-content\">\n      <h2>Discover Elegance Redefined</h2>\n      <p>Experience the fusion of timeless art and modern luxury. Our collection embodies sophistication.</p>\n      <a href=\"#\" class=\"cta-button\">Explore Collections</a>\n    </div>\n    <div class=\"image-content\">\n      <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=art+nouveau+pattern+gold&image_type=photo\" alt=\"Art Nouveau gold pattern\">\n    </div>\n  </div>\n</section>",
+    "css": ".art-nouveau-cta-muted-gold-texture-sapphire .container {\n  display: flex;\n  flex-direction: column;\n  background-color: #000080; /* Navy Blue */\n  color: #f8f8ff; /* Ghost White */\n}\n.art-nouveau-cta-muted-gold-texture-sapphire .text-content {\n  padding: 40px 20px;\n  background-color: #000080; /* Navy Blue */\n  text-align: center;\n}\n.art-nouveau-cta-muted-gold-texture-sapphire h2 {\n  font-family: 'Trajan Pro', serif;\n  font-size: 2.3em;\n  margin-bottom: 15px;\n  color: #daa520; /* Goldenrod */\n}\n.art-nouveau-cta-muted-gold-texture-sapphire p {\n  font-family: 'Trajan Pro', serif;\n  font-size: 1.1em;\n  line-height: 1.6;\n  margin-bottom: 30px;\n}\n.art-nouveau-cta-muted-gold-texture-sapphire .cta-button {\n  display: inline-block;\n  padding: 14px 28px;\n  background-color: #daa520; /* Goldenrod */\n  color: #000080; /* Navy Blue */\n  text-decoration: none;\n  font-family: 'Trajan Pro', serif;\n  font-weight: bold;\n  border-radius: 5px;\n  transition: background-color 0.3s ease, color 0.3s ease;\n}\n.art-nouveau-cta-muted-gold-texture-sapphire .cta-button:hover {\n  background-color: #f8f8ff; /* Ghost White */\n  color: #000080; /* Navy Blue */\n}\n.art-nouveau-cta-muted-gold-texture-sapphire .image-content {\n  width: 100%;\n  background-color: #000080;\n  position: relative;\n  overflow: hidden;\n}\n.art-nouveau-cta-muted-gold-texture-sapphire .image-content img {\n  display: block;\n  width: 100%;\n  height: auto;\n  object-fit: cover;\n  opacity: 0.7;\n  border-top: 5px solid #daa520;\n}\n\n@media (min-width: 768px) {\n  .art-nouveau-cta-muted-gold-texture-sapphire .container {\n    flex-direction: row;\n  }\n  .art-nouveau-cta-muted-gold-texture-sapphire .text-content {\n    flex: 1;\n    padding: 60px 40px;\n    text-align: left;\n  }\n  .art-nouveau-cta-muted-gold-texture-sapphire .image-content {\n    flex: 1;\n  }\n  .art-nouveau-cta-muted-gold-texture-sapphire h2 {\n    font-size: 2.6em;\n  }\n  .art-nouveau-cta-muted-gold-texture-sapphire p {\n    font-size: 1.15em;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Art Nouveau CTA - Mattgold Textur Saphir"
+        },
+        "ar": {
+            "name": "زر الدعوة للفعل بنمط آرت نوفو - نسيج ذهبي باهت ياقوتي"
+        },
+        "en": {
+            "name": "Art Nouveau CTA - Muted Gold Texture Sapphire"
+        }
+    }
+}

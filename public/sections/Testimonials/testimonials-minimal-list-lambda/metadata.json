@@ -1,0 +1,30 @@
+{
+    "name": "Minimalist Review List",
+    "category": "Testimonials",
+    "description": "A simple, list-based layout with rows of reviews, emphasizing readability and minimalism.",
+    "tags": [
+        "list",
+        "minimal",
+        "clean"
+    ],
+    "structure": [
+        "List Rows",
+        "User Info Left",
+        "Text Right"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "Blog",
+        "Content Site"
+    ],
+    "style_analysis": {
+        "colors": [
+            "var(--color-surface-1)",
+            "var(--color-dark)"
+        ],
+        "fonts": [
+            "Sans Serif"
+        ],
+        "visual_identity": "Editorial, clean, spacious"
+    }
+}

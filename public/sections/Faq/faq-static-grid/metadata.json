@@ -1,0 +1,6 @@
+{
+    "name": "FAQ Static Grid",
+    "category": "FAQ",
+    "description": "A static (non-accordion) grid layout for presenting questions and answers in a clear, easy-to-scan format.",
+    "tags": ["faq", "grid", "static", "clean", "corporate"]
+}

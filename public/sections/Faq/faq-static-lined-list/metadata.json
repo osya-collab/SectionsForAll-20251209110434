@@ -1,0 +1,6 @@
+{
+    "name": "FAQ Static Lined List",
+    "category": "FAQ",
+    "description": "A static (non-accordion) FAQ where each question/answer pair is separated by a horizontal line, presented in a two-column format.",
+    "tags": ["faq", "static", "list", "two-column", "clean"]
+}

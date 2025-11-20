@@ -1,0 +1,13 @@
+{
+    "name": "Chat Bubble Thread",
+    "category": "Testimonials",
+    "description": "Style testimonials as a conversation thread with chat bubbles and avatars. The conversational format feels human and easy to skim across different viewpoints.",
+    "tags": ["testimonial", "chat", "bubbles", "conversational", "modern"],
+    "structure": ["chat-bubbles", "avatars"],
+    "complexity": "simple",
+    "use_cases": [
+        "Community feedback pages",
+        "Informal product reviews",
+        "Modern SaaS websites"
+    ]
+}

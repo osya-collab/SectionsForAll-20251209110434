@@ -1,0 +1,13 @@
+[
+  { "id": "trust-awards-badges", "name": "Awards & Badges", "category": "Trust" },
+  { "id": "trust-case-study-teaser", "name": "Case Study Teaser", "category": "Trust" },
+  { "id": "trust-checklist", "name": "Why Trust Us Checklist", "category": "Trust" },
+  { "id": "trust-data-snapshot", "name": "Data Snapshot", "category": "Trust" },
+  { "id": "trust-featured-in", "name": "Featured In", "category": "Trust" },
+  { "id": "trust-guarantee-banner", "name": "Guarantees Banner", "category": "Trust" },
+  { "id": "trust-logo-wall", "name": "Logo Wall", "category": "Trust" },
+  { "id": "trust-review-snippets", "name": "Review Snippets", "category": "Trust" },
+  { "id": "trust-single-testimonial", "name": "Single Large Testimonial", "category": "Trust" },
+  { "id": "trust-testimonial-grid", "name": "Testimonial Grid", "category": "Trust" },
+  { "id": "trust-video-testimonial", "name": "Video Testimonial", "category": "Trust" }
+]

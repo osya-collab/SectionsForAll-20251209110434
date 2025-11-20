@@ -1,0 +1,40 @@
+{
+    "name": "Bold Orange CTA (Minimal)",
+    "category": "Cta",
+    "description": "A striking CTA section with a light grey background and a bold orange call to action button, designed to grab attention for offers.",
+    "tags": [
+        "cta",
+        "bold",
+        "orange",
+        "minimal",
+        "offers",
+        "signup"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "promotional signups",
+        "limited-time offers",
+        "newsletter subscriptions"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#fafafa",
+            "#d35400",
+            "#444",
+            "#e67e22",
+            "#c0392b"
+        ],
+        "fonts": [
+            "Helvetica Neue",
+            "sans-serif"
+        ],
+        "visual_identity": "Energetic and direct with a light background and a vibrant orange CTA that commands attention."
+    }
+}

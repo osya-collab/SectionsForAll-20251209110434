@@ -1,0 +1,14 @@
+{
+    "name": "Centered Logo Nav",
+    "category": "Menu",
+    "description": "A balanced and symmetrical navigation bar featuring a prominent logo in the center, flanked by an equal number of navigation links on each side. Ideal for brand-centric websites that want to highlight their logo.",
+    "tags": ["centered-logo", "symmetrical", "minimalist", "clean", "corporate", "agency", "responsive"],
+    "structure": ["nav-links-left", "logo", "nav-links-right"],
+    "complexity": "simple",
+    "use_cases": [
+        "Corporate Websites",
+        "Brand Homepages",
+        "Fashion Labels",
+        "Architectural Firms"
+    ]
+}

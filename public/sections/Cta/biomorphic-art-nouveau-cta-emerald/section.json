@@ -1,0 +1,17 @@
+{
+    "id": "biomorphic-art-nouveau-cta-emerald",
+    "html": "<section class=\"cta-section-emerald\">\n    <div class=\"cta-content\">\n        <h2>Discover the Art of Nature</h2>\n        <p>Immerse yourself in a world where design blooms. Sign up for our exclusive newsletter to receive updates on our latest collections and artisanal inspirations.</p>\n        <button class=\"cta-button\">Join Our Garden</button>\n    </div>\n    <div class=\"cta-background-element\"></div>\n</section>",
+    "css": ".cta-section-emerald {\n    position: relative;\n    background-color: #0a3d2e;\n    color: #f0e6d2;\n    padding: 60px 20px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    overflow: hidden;\n    text-align: center;\n}\n\n.cta-section-emerald .cta-content {\n    position: relative;\n    z-index: 2;\n    max-width: 700px;\n}\n\n.cta-section-emerald h2 {\n    font-family: 'Playfair Display', serif;\n    font-size: 2.8rem;\n    margin-bottom: 20px;\n    color: #e0c28e;\n    letter-spacing: 1px;\n}\n\n.cta-section-emerald p {\n    font-family: 'Lato', sans-serif;\n    font-size: 1.1rem;\n    line-height: 1.6;\n    margin-bottom: 30px;\n    color: #f0e6d2;\n}\n\n.cta-button {\n    font-family: 'Playfair Display', serif;\n    background-color: #e0c28e;\n    color: #0a3d2e;\n    border: none;\n    padding: 15px 30px;\n    font-size: 1.1rem;\n    cursor: pointer;\n    border-radius: 5px;\n    transition: background-color 0.3s ease, transform 0.3s ease;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n}\n\n.cta-button:hover {\n    background-color: #f0e6d2;\n    color: #0a3d2e;\n    transform: translateY(-3px);\n}\n\n.cta-background-element {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background-image: url('https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=art+nouveau+floral+pattern+emerald+gold&image_type=photo');\n    background-size: cover;\n    background-position: center;\n    opacity: 0.2;\n    z-index: 1;\n}\n\n@media (max-width: 768px) {\n    .cta-section-emerald {\n        padding: 40px 15px;\n    }\n    .cta-section-emerald h2 {\n        font-size: 2.2rem;\n    }\n    .cta-section-emerald p {\n        font-size: 1rem;\n    }\n    .cta-button {\n        font-size: 1rem;\n        padding: 12px 25px;\n    }\n}\n\n@media (max-width: 480px) {\n    .cta-section-emerald h2 {\n        font-size: 2rem;\n    }\n    .cta-section-emerald p {\n        font-size: 0.95rem;\n    }\n    .cta-button {\n        padding: 10px 20px;\n    }\n}\n\n/* Placeholder for Pixabay API fetch */\n.cta-section-emerald img[src^='https://pixabay.com/api/'] {\n    background-image: url('https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=art+nouveau+floral+pattern+emerald+gold&image_type=photo');\n    background-size: cover;\n    background-position: center;\n    opacity: 0.2;\n}\n",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Biomorpher Jugendstil CTA - Smaragd-Wirbel"
+        },
+        "ar": {
+            "name": "دعوة للاستجابة بنمط فن الآرت نوفو الحيوي - دوامة الزمرد"
+        },
+        "en": {
+            "name": "Biomorphic Art Nouveau CTA - Emerald Swirl"
+        }
+    }
+}

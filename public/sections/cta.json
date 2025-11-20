@@ -1,0 +1,307 @@
+[
+    {
+        "id": "cta-gradient-banner",
+        "name": "Gradient CTA Banner",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-modern-business-hero",
+        "name": "Modern Business CTA Hero",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-testimonial-highlight",
+        "name": "Testimonial Highlight CTA",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-modern-minimal-purple",
+        "name": "Modern Minimal CTA (Purple)",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-bold-orange-minimal",
+        "name": "Bold Orange CTA (Minimal)",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-elegant-gold-dark",
+        "name": "Elegant Gold CTA (Dark)",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-split-layout-peach-green",
+        "name": "Split Layout CTA (Peach & Green)",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-minimal-block-red",
+        "name": "Minimal Block CTA (Red)",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-earthy-tones-image-quote",
+        "name": "Earthy Tones CTA with Image",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-outlined-button-image",
+        "name": "CTA with Outlined Button and Image",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-split-screen-image-text",
+        "name": "CTA Split Screen Image & Text",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-animated-button",
+        "name": "CTA with Animated Button",
+        "category": "Cta"
+    },
+    {
+        "id": "neo-brutalism-cta-1",
+        "name": "Neo-Brutalism CTA",
+        "category": "Cta"
+    },
+    {
+        "id": "neo-brutalism-cta-2",
+        "name": "Electric Blue Neo-Brutalism CTA",
+        "category": "Cta"
+    },
+    {
+        "id": "neo-brutalism-cta-3",
+        "name": "Geometric Grid CTA",
+        "category": "Cta"
+    },
+    {
+        "id": "neo-brutalism-cta-4",
+        "name": "Black and White Raw CTA",
+        "category": "Cta"
+    },
+    {
+        "id": "neo-brutalism-cta-5",
+        "name": "Vibrant Accent Outline CTA",
+        "category": "Cta"
+    },
+    {
+        "id": "neo-brutalism-cta-8",
+        "name": "High-Contrast Blue CTA",
+        "category": "Cta"
+    },
+    {
+        "id": "retro-futurism-cta-bubble-form",
+        "name": "Retro Futurism CTA with Bubble Form",
+        "category": "Cta"
+    },
+    {
+        "id": "retro-futurism-cta-chrome-headline",
+        "name": "Retro Futurism CTA with Chrome Headline",
+        "category": "Cta"
+    },
+    {
+        "id": "retro-futurism-cta-curved-banner",
+        "name": "Retro Futurism CTA with Curved Banner",
+        "category": "Cta"
+    },
+    {
+        "id": "retro-futurism-cta-silver-accent",
+        "name": "Retro Futurism CTA with Silver Accent",
+        "category": "Cta"
+    },
+    {
+        "id": "retro-futurism-cta-pastel-bubble",
+        "name": "Retro Futurism CTA with Pastel Bubbles",
+        "category": "Cta"
+    },
+    {
+        "id": "retro-futurism-cta-optimistic-banner",
+        "name": "Retro Futurism CTA with Optimistic Banner",
+        "category": "Cta"
+    },
+    {
+        "id": "retro-futurism-cta-curvy-contact",
+        "name": "Retro Futurism CTA with Curvy Contact Form",
+        "category": "Cta"
+    },
+    {
+        "id": "retro-futurism-cta-rounded-promo",
+        "name": "Retro Futurism CTA with Rounded Promo",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-foliage-frame",
+        "name": "CTA with Foliage Frame",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-bamboo-grove",
+        "name": "CTA in Bamboo Grove",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-forest-path-entry",
+        "name": "CTA with Forest Path Entry",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-sun-dappled-clearing",
+        "name": "CTA in Sun-Dappled Clearing",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-minimalist-scandi-07",
+        "name": "Pale Yellow and White Geometric CTA",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-atomic-retro-orange",
+        "name": "CTA with Atomic Motif - Orange",
+        "category": "Cta"
+    },
+    {
+        "id": "cta-space-age-orange-gradient",
+        "name": "CTA - Space Age Orange Gradient",
+        "category": "Cta"
+    },
+    {
+        "id": "biomorphic-art-nouveau-cta-emerald",
+        "name": "Biomorphic Art Nouveau CTA - Emerald Swirl",
+        "category": "Cta"
+    },
+    {
+        "id": "biomorphic-art-nouveau-cta-gold-leaf",
+        "name": "Biomorphic Art Nouveau CTA - Gilded Flourish",
+        "category": "Cta"
+    },
+    {
+        "id": "biomorphic-art-nouveau-cta-cream-floral",
+        "name": "Biomorphic Art Nouveau CTA - Cream Blossom",
+        "category": "Cta"
+    },
+    {
+        "id": "biomorphic-art-nouveau-cta-jewel-tones-abstract",
+        "name": "Biomorphic Art Nouveau CTA - Jewel Abstract",
+        "category": "Cta"
+    },
+    {
+        "id": "biomorphic-art-nouveau-cta-muted-gold-frame",
+        "name": "Biomorphic Art Nouveau CTA - Muted Gold Frame",
+        "category": "Cta"
+    },
+    {
+        "id": "biomorphic-art-nouveau-cta-jewel-texture-overlay",
+        "name": "Biomorphic Art Nouveau CTA - Jewel Texture",
+        "category": "Cta"
+    },
+    {
+        "id": "biomorphic-art-nouveau-cta-muted-gold-floral-pattern",
+        "name": "Biomorphic Art Nouveau CTA - Muted Gold Floral",
+        "category": "Cta"
+    },
+    {
+        "id": "art-nouveau-cta-emerald-gold",
+        "name": "Art Nouveau CTA - Emerald & Gold",
+        "category": "Cta"
+    },
+    {
+        "id": "art-nouveau-cta-sapphire-cream",
+        "name": "Art Nouveau CTA - Sapphire & Cream",
+        "category": "Cta"
+    },
+    {
+        "id": "art-nouveau-cta-jewel-tones-split",
+        "name": "Art Nouveau CTA - Jewel Tones Split",
+        "category": "Cta"
+    },
+    {
+        "id": "art-nouveau-cta-organic-lines-gold",
+        "name": "Art Nouveau CTA - Organic Lines Gold",
+        "category": "Cta"
+    },
+    {
+        "id": "art-nouveau-cta-intricate-design-muted-gold",
+        "name": "Art Nouveau CTA - Intricate Design Muted Gold",
+        "category": "Cta"
+    },
+    {
+        "id": "art-nouveau-cta-muted-gold-texture-sapphire",
+        "name": "Art Nouveau CTA - Muted Gold Texture Sapphire",
+        "category": "Cta"
+    },
+    {
+        "id": "art-nouveau-cta-emerald-motif-cream",
+        "name": "Art Nouveau CTA - Emerald Motif Cream",
+        "category": "Cta"
+    },
+    {
+        "id": "art-nouveau-cta-jewel-tones-decorative",
+        "name": "Art Nouveau CTA - Jewel Tones Decorative",
+        "category": "Cta"
+    },
+    {
+        "id": "art-nouveau-cta-sapphire-gold-embroidery",
+        "name": "Art Nouveau CTA - Sapphire Gold Embroidery",
+        "category": "Cta"
+    },
+    {
+        "id": "art-nouveau-cta-emerald-gold-floral-border",
+        "name": "Art Nouveau CTA - Emerald Gold Floral Border",
+        "category": "Cta"
+    },
+    {
+        "id": "neo-brutalism-cta-pink-shock",
+        "name": "Neo-Brutalism CTA - Pink Shock",
+        "category": "Cta"
+    },
+    {
+        "id": "neo-brutalism-cta-blue-alert",
+        "name": "Neo-Brutalism CTA - Blue Alert",
+        "category": "Cta"
+    },
+    {
+        "id": "neo-brutalism-cta-framed-pink",
+        "name": "Neo-Brutalism CTA - Framed Pink",
+        "category": "Cta"
+    },
+    {
+        "id": "neo-brutalism-cta-sharp-pink-line",
+        "name": "Neo-Brutalism CTA - Sharp Pink Line",
+        "category": "Cta"
+    },
+    {
+        "id": "neo-brutalism-cta-blue-overlay-button",
+        "name": "Neo-Brutalism CTA - Blue Overlay Button",
+        "category": "Cta"
+    },
+    {
+        "id": "neo-brutalism-cta-pink-outline-text",
+        "name": "Neo-Brutalism CTA - Pink Outline Text",
+        "category": "Cta"
+    },
+    {
+        "id": "neo-brutalism-cta-blue-block",
+        "name": "Neo-Brutalism CTA - Blue Block",
+        "category": "Cta"
+    },
+    {
+        "id": "neo-brutalism-cta-pink-angled-button",
+        "name": "Neo-Brutalism CTA - Pink Angled Button",
+        "category": "Cta"
+    },
+    {
+        "id": "neo-brutalism-cta-blue-sharp-corners",
+        "name": "Neo-Brutalism CTA - Blue Sharp Corners",
+        "category": "Cta"
+    },
+    {
+        "id": "neo-brutalism-cta-pink-minimal-border",
+        "name": "Neo-Brutalism CTA - Pink Minimal Border",
+        "category": "Cta"
+    },
+    {
+        "id": "neo-brutalism-cta-blue-underline-button",
+        "name": "Neo-Brutalism CTA - Blue Underline Button",
+        "category": "Cta"
+    }
+]

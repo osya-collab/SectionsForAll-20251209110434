@@ -1,0 +1,25 @@
+{
+    "id": "about-office-split",
+    "html": "\n<section class=\"about-office-split-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container about-office-split-container\">\n        <div class=\"about-office-text anim-fade-in-right\">\n            <h2>{{t:title}}</h2>\n            <p>{{t:description}}</p>\n        </div>\n        <div class=\"about-office-image anim-fade-in-left\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=modern+office+lounge\" alt=\"{{t:image_alt}}\">\n        </div>\n    </div>\n</section>",
+    "css": "\n.about-office-split-section { padding: 5rem 0; background-color: var(--color-light); }\n.about-office-split-section .container { width: 90%; max-width: 1100px; margin: 0 auto; }\n.about-office-split-container { display: grid; grid-template-columns: 1fr; gap: 3rem; align-items: center; }\n@media (min-width: 768px) { .about-office-split-container { grid-template-columns: 1fr 1fr; } }\n.about-office-split-section .about-office-text { padding: 1rem; }\n.about-office-split-section .about-office-text h2 { font-size: 2rem; color: #c47d34; border-bottom: 2px solid #c47d34; padding-bottom: 0.5rem; display: inline-block; margin-bottom: 1.5rem; }\n.about-office-split-section .about-office-text p { color: var(--color-secondary); }\n.about-office-split-section .about-office-image img { width: 100%; height: auto; object-fit: cover; }\n",
+    "translations": {
+        "de": {
+            "name": "Büro Geteiltes Bild",
+            "title": "Über uns",
+            "description": "Auf dieser Seite finden Sie die neuesten Informationen über uns. Unser Unternehmen entwickelt sich ständig weiter und wächst ständig. Wir bieten eine breite Palette von Dienstleistungen. Unsere Mission ist es, die beste Lösung bereitzustellen, die allen hilft. Wenn Sie uns kontaktieren möchten, füllen Sie bitte das Kontaktformular auf unserer Website aus. Wir wünschen Ihnen einen schönen Tag!",
+            "image_alt": "Moderner Büro-Loungebereich"
+        },
+        "en": {
+            "name": "Office Split Image",
+            "title": "About Us",
+            "description": "On this page you will find the latest information about us. Our company is constantly evolving and growing. We offer a wide range of services. Our mission is to provide the best solution that helps everyone. If you would like to contact us, please fill out the contact form on our website. We wish you a nice day!",
+            "image_alt": "Modern office lounge area"
+        },
+        "ar": {
+            "name": "صورة مكتب مقسمة",
+            "title": "عنا",
+            "description": "في هذه الصفحة ستجد أحدث المعلومات عنا. شركتنا تتطور وتنمو باستمرار. نحن نقدم مجموعة واسعة من الخدمات. مهمتنا هي تقديم أفضل حل يساعد الجميع. إذا كنت ترغب في الاتصال بنا ، يرجى ملء نموذج الاتصال على موقعنا. نتمنى لك يوما سعيدا!",
+            "image_alt": "منطقة صالة مكتب حديثة"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": "art-nouveau-cta-sapphire-gold-embroidery",
+    "html": "<section class=\"art-nouveau-cta-sapphire-gold-embroidery\">\n  <div class=\"container\">\n    <div class=\"content\">\n      <h2>Crafted with Passion</h2>\n      <p>Discover pieces where artistry meets exquisite detail. Inspired by nature's finest forms.</p>\n      <a href=\"#\" class=\"cta-button\">View Our Creations</a>\n    </div>\n    <div class=\"image-container\">\n      <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=art+nouveau+textile+pattern+gold&image_type=photo\" alt=\"Art Nouveau textile pattern gold\">\n    </div>\n  </div>\n</section>",
+    "css": ".art-nouveau-cta-sapphire-gold-embroidery {\n  background-color: #483d8b; /* Dark Slate Blue */\n  color: #fff;\n  padding: 50px 25px;\n  text-align: center;\n}\n.art-nouveau-cta-sapphire-gold-embroidery .container {\n  max-width: 1100px;\n  margin: 0 auto;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n.art-nouveau-cta-sapphire-gold-embroidery .content {\n  margin-bottom: 30px;\n}\n.art-nouveau-cta-sapphire-gold-embroidery h2 {\n  font-family: 'Palatino Linotype', serif;\n  font-size: 2.6em;\n  margin-bottom: 15px;\n  color: #daa520; /* Goldenrod */\n}\n.art-nouveau-cta-sapphire-gold-embroidery p {\n  font-family: 'Palatino Linotype', serif;\n  font-size: 1.15em;\n  line-height: 1.6;\n  margin-bottom: 30px;\n}\n.art-nouveau-cta-sapphire-gold-embroidery .cta-button {\n  display: inline-block;\n  padding: 16px 32px;\n  background-color: #daa520; /* Goldenrod */\n  color: #483d8b; /* Dark Slate Blue */\n  text-decoration: none;\n  font-family: 'Palatino Linotype', serif;\n  font-weight: bold;\n  border-radius: 5px;\n  transition: background-color 0.3s ease, color 0.3s ease;\n}\n.art-nouveau-cta-sapphire-gold-embroidery .cta-button:hover {\n  background-color: #fff;\n  color: #483d8b; /* Dark Slate Blue */\n}\n.art-nouveau-cta-sapphire-gold-embroidery .image-container {\n  width: 100%;\n  max-width: 450px;\n  margin-top: 20px;\n}\n.art-nouveau-cta-sapphire-gold-embroidery .image-container img {\n  display: block;\n  width: 100%;\n  height: auto;\n  border-radius: 8px;\n  opacity: 0.8;\n}\n\n@media (min-width: 768px) {\n  .art-nouveau-cta-sapphire-gold-embroidery .container {\n    flex-direction: row;\n    justify-content: space-between;\n    align-items: flex-start;\n  }\n  .art-nouveau-cta-sapphire-gold-embroidery .content {\n    flex: 1;\n    padding-right: 40px;\n    text-align: left;\n  }\n  .art-nouveau-cta-sapphire-gold-embroidery .image-container {\n    flex-basis: 50%;\n    margin-top: 0;\n  }\n  .art-nouveau-cta-sapphire-gold-embroidery h2 {\n    font-size: 3em;\n  }\n  .art-nouveau-cta-sapphire-gold-embroidery p {\n    font-size: 1.2em;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Art Nouveau CTA - Saphir Gold Stickerei"
+        },
+        "ar": {
+            "name": "زر الدعوة للفعل بنمط آرت نوفو - تطريز ذهبي ياقوتي"
+        },
+        "en": {
+            "name": "Art Nouveau CTA - Sapphire Gold Embroidery"
+        }
+    }
+}

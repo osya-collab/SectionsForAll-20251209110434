@@ -1,0 +1,28 @@
+{
+    "id": "nav-simple-right",
+    "html": "\n<nav class=\"nav-simple-right\" data-ai-id=\"element-placeholder\">\n    <div class=\"nav-container\">\n        <a href=\"#\" class=\"logo\">Logo</a>\n        <div class=\"nav-links\">\n            <a href=\"#\">{{t:about}}</a>\n            <a href=\"#\">{{t:services}}</a>\n            <a href=\"#\">{{t:caseStudies}}</a>\n            <a href=\"#\">{{t:careers}}</a>\n            <a href=\"#\">{{t:contact}}</a>\n        </div>\n        <button class=\"mobile-menu-toggle\" aria-label=\"Toggle Menu\"><span></span><span></span><span></span></button>\n    </div>\n    <div class=\"mobile-menu\">\n        <a href=\"#\">{{t:about}}</a>\n        <a href=\"#\">{{t:services}}</a>\n        <a href=\"#\">{{t:caseStudies}}</a>\n        <a href=\"#\">{{t:careers}}</a>\n        <a href=\"#\">{{t:contact}}</a>\n    </div>\n    <script>\n      (() => {\n        const navElement = document.currentScript.closest('nav');\n        if (!navElement) return;\n\n        const toggleButton = navElement.querySelector('.mobile-menu-toggle');\n        const mobileMenu = navElement.querySelector('.mobile-menu');\n\n        if (!toggleButton || !mobileMenu) return;\n\n        toggleButton.addEventListener('click', (event) => {\n          event.stopPropagation();\n          navElement.classList.toggle('open');\n        });\n\n        mobileMenu.querySelectorAll('a').forEach(link => {\n            link.addEventListener('click', () => {\n                navElement.classList.remove('open');\n            });\n        });\n        \n        document.addEventListener('click', (event) => {\n            if (navElement.classList.contains('open') && !navElement.contains(event.target)) {\n                navElement.classList.remove('open');\n            }\n        });\n      })();\n    <\/script>\n</nav>",
+    "css": "\n.nav-simple-right { background-color: #f0f2f5; padding: 1.5rem 0; position: relative; }\n.nav-simple-right .nav-container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; display: flex; justify-content: space-between; align-items: center; }\n.nav-simple-right .logo { font-size: 2rem; font-weight: 700; color: var(--color-dark, #1F2937); text-decoration: none; }\n.nav-simple-right .nav-links { display: none; gap: 2rem; }\n@media (min-width: 768px) { .nav-simple-right .nav-links { display: flex; } }\n.nav-simple-right .nav-links a { text-decoration: none; color: var(--color-dark, #1F2937); font-weight: 500; }\n.nav-simple-right .mobile-menu-toggle { display: block; background: none; border: none; cursor: pointer; z-index: 100; }\n@media (min-width: 768px) { .nav-simple-right .mobile-menu-toggle { display: none; } }\n.nav-simple-right .mobile-menu-toggle span { display: block; width: 25px; height: 2px; background-color: var(--color-dark, #1F2937); margin: 5px 0; transition: all 0.3s; }\n.nav-simple-right .mobile-menu { display: none; flex-direction: column; gap: 1.5rem; padding: 2rem; background-color: #f0f2f5; position: absolute; top: 100%; left: 0; right: 0; text-align: center; z-index: 99; }\n.nav-simple-right .mobile-menu a { text-decoration: none; color: var(--color-dark, #1F2937); font-weight: 500; font-size: 1.2rem; }\n.nav-simple-right.open .mobile-menu { display: flex; }\n.nav-simple-right.open .mobile-menu-toggle span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }\n.nav-simple-right.open .mobile-menu-toggle span:nth-child(2) { opacity: 0; }\n.nav-simple-right.open .mobile-menu-toggle span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }\n",
+    "translations": {
+        "de": {
+            "about": "Über uns",
+            "services": "Dienstleistungen",
+            "caseStudies": "Fallstudien",
+            "careers": "Karriere",
+            "contact": "Kontakt"
+        },
+        "ar": {
+            "about": "عنا",
+            "services": "خدماتنا",
+            "caseStudies": "دراسات الحالة",
+            "careers": "وظائف",
+            "contact": "اتصل بنا"
+        },
+        "en": {
+            "about": "About",
+            "services": "Services",
+            "caseStudies": "Case Studies",
+            "careers": "Careers",
+            "contact": "Contact"
+        }
+    }
+}

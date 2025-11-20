@@ -1,0 +1,27 @@
+{
+    "name": "Horizontal Scrolling Filmstrip Gallery",
+    "category": "Gallery",
+    "description": "A sleek, filmstrip-style gallery that scrolls horizontally. It's perfect for showcasing a series of images in a compact space, accompanied by a clear title and call-to-action.",
+    "tags": [
+        "horizontal scroll",
+        "filmstrip",
+        "carousel",
+        "image strip",
+        "minimalist"
+    ],
+    "structure": [
+        "header",
+        "h1",
+        "p",
+        "button",
+        "div (scroll container)",
+        "div (flex wrapper)",
+        "img"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "Lookbooks",
+        "Behind-the-scenes galleries",
+        "Timeline of events"
+    ]
+}

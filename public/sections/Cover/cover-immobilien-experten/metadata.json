@@ -1,0 +1,9 @@
+{
+    "name": "Immobilien Experten",
+    "category": "Cover",
+    "description": "A clean, bright hero section for real estate experts with a split-screen layout.",
+    "tags": ["cover", "hero", "real estate", "clean", "professional"],
+    "structure": ["header", "paragraph", "cta-button", "image"],
+    "complexity": "simple",
+    "use_cases": ["Real Estate Agencies", "Property Listings"]
+}

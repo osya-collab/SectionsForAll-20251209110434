@@ -1,0 +1,41 @@
+{
+    "name": "Art Nouveau CTA - Emerald Motif Cream",
+    "category": "Cta",
+    "description": "A refreshing CTA section with a cream background, dark green text, and forest green accents. Features an art nouveau image with flowing lines.",
+    "tags": [
+        "cta",
+        "art nouveau",
+        "cream",
+        "emerald",
+        "organic lines",
+        "elegant"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "img",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "natural products",
+        "design services",
+        "boutique offerings"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f5f5dc",
+            "#006400",
+            "#228b22",
+            "#2f4f4f"
+        ],
+        "fonts": [
+            "Times New Roman"
+        ],
+        "visual_identity": "Fresh Art Nouveau with cream, dark green, and flowing organic lines."
+    }
+}

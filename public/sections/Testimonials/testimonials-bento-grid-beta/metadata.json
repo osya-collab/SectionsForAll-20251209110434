@@ -1,0 +1,32 @@
+{
+    "name": "Bento Box Testimonials",
+    "category": "Testimonials",
+    "description": "A trendy bento-box grid layout with asymmetrical cards emphasizing a featured testimonial.",
+    "tags": [
+        "bento",
+        "grid",
+        "modern",
+        "cards"
+    ],
+    "structure": [
+        "Grid Layout",
+        "Large Feature Card",
+        "Small Cards"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "SaaS Home",
+        "Design Portfolio"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#FFFFFF",
+            "#F5F5F5",
+            "var(--color-primary)"
+        ],
+        "fonts": [
+            "Sans Serif"
+        ],
+        "visual_identity": "Trendy, structured, bold"
+    }
+}

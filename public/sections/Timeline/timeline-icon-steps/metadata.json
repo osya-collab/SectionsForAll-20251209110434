@@ -1,0 +1,13 @@
+{
+    "name": "Icon-Focused Step Timeline",
+    "category": "Timeline",
+    "description": "A clear, process-oriented timeline where each step is visually represented by a distinct icon, making it easy to understand a sequence of actions.",
+    "tags": ["timeline", "steps", "process", "icons", "clean", "corporate"],
+    "structure": ["header", "step-grid", "icon-cards"],
+    "complexity": "simple",
+    "use_cases": [
+        "How-it-works sections",
+        "Onboarding guides",
+        "Product feature workflows"
+    ]
+}

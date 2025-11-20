@@ -1,0 +1,14 @@
+
+{
+    "name": "Video Testimonial",
+    "category": "Trust",
+    "description": "A section featuring a video placeholder for a client testimonial, with a quote and name alongside or below it.",
+    "tags": ["testimonial", "video", "social proof", "customer story", "corporate"],
+    "structure": ["header", "video", "quote"],
+    "complexity": "simple",
+    "use_cases": [
+        "SaaS landing pages",
+        "Case study pages",
+        "High-trust service websites"
+    ]
+}

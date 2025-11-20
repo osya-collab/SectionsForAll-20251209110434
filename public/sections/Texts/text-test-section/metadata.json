@@ -1,0 +1,13 @@
+{
+    "name": "Text Elements Showcase",
+    "category": "Texts",
+    "description": "A comprehensive showcase of various text elements including all heading levels, paragraphs, lists, and inline styles.",
+    "tags": ["text", "typography", "headings", "content", "style-guide"],
+    "structure": ["headings", "paragraphs", "list"],
+    "complexity": "simple",
+    "use_cases": [
+        "Style guides",
+        "Content pages",
+        "Article templates"
+    ]
+}

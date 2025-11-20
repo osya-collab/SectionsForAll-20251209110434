@@ -1,0 +1,41 @@
+{
+    "name": "Biomorphic Art Nouveau CTA - Muted Gold Floral",
+    "category": "Cta",
+    "description": "A CTA section with a light, off-white background featuring a muted gold floral Art Nouveau pattern. It offers a timeless feel and prompts users to subscribe for exclusive updates.",
+    "tags": [
+        "CTA",
+        "Art Nouveau",
+        "Muted Gold",
+        "Floral Pattern",
+        "Elegant",
+        "Timeless",
+        "Subscription",
+        "Light Background"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "h2",
+        "p",
+        "button"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Newsletter Signup",
+        "Elegant Product Promotion",
+        "Artistic Service Offering",
+        "Timeless Design Showcase"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f8f8f8",
+            "#333333",
+            "#bcaaa4"
+        ],
+        "fonts": [
+            "EB Garamond"
+        ],
+        "visual_identity": "Soft Art Nouveau with an off-white base, muted gold floral patterns, and elegant typography."
+    }
+}

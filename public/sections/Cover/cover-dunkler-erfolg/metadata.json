@@ -1,0 +1,13 @@
+{
+    "name": "Dunkler Erfolg Cover",
+    "category": "Cover",
+    "description": "A dark, atmospheric hero section with a background image, overlay, and customer rating display, ideal for professional services like law or consulting.",
+    "tags": ["cover", "hero", "dark", "rating", "professional", "law"],
+    "structure": ["background-image", "rating", "header", "cta-button"],
+    "complexity": "medium",
+    "use_cases": [
+        "Law Firm Websites",
+        "Consulting Agencies",
+        "Professional Service Providers"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "about-full-width-bg-image",
+    "html": "\n<section class=\"full-bg-section\" data-ai-id=\"element-placeholder\" style=\"background-image: url('https://images.unsplash.com/photo-1497032628192-86f99d791ba7?q=80&w=2070');\">\n    <div class=\"full-bg-overlay\"></div>\n    <div class=\"container text-content\">\n        <h2 class=\"anim-fade-in-up\">{{t:title}}</h2>\n        <p class=\"anim-fade-in-up\" style=\"animation-delay: 0.2s\">{{t:text}}</p>\n    </div>\n</section>",
+    "css": "\n.full-bg-section .container {\n  width: 90%;\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 1rem;\n}\n.full-bg-section {\n    position: relative;\n    padding: 6rem 0;\n    background-size: cover;\n    background-position: center;\n    background-attachment: fixed;\n    color: var(--color-light, #FFFFFF);\n    text-align: center;\n}\n.full-bg-overlay {\n    position: absolute;\n    inset: 0;\n    background-color: rgba(0,0,0,0.6);\n}\n.full-bg-section .container {\n    position: relative;\n    z-index: 1;\n}\n.full-bg-section h2 { font-size: 3rem; color: var(--color-light, #FFFFFF); margin-bottom: 1rem; }\n.full-bg-section p { max-width: 700px; margin: 0 auto; color: #e0e0e0; }\n",
+    "translations": {
+        "de": {
+            "name": "Vollbreites Hintergrundbild",
+            "title": "Unser Engagement für Innovation",
+            "text": "Wir werden von einem unermüdlichen Streben nach Innovation angetrieben und erforschen ständig neue Technologien und kreative Ansätze, um komplexe Herausforderungen zu lösen und außergewöhnliche Ergebnisse für unsere Kunden weltweit zu liefern."
+        },
+        "en": {
+            "name": "Full Width BG Image",
+            "title": "Our Commitment to Innovation",
+            "text": "We are driven by a relentless pursuit of innovation, constantly exploring new technologies and creative approaches to solve complex challenges and deliver exceptional results for our clients worldwide."
+        },
+        "ar": {
+            "name": "صورة خلفية بعرض كامل",
+            "title": "التزامنا بالابتكار",
+            "text": "نحن مدفوعون بالسعي الدؤوب للابتكار، ونستكشف باستمرار التقنيات الجديدة والأساليب الإبداعية لحل التحديات المعقدة وتقديم نتائج استثنائية لعملائنا في جميع أنحاء العالم."
+        }
+    }
+}

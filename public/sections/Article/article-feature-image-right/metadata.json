@@ -1,0 +1,13 @@
+{
+    "name": "Featured Image Right",
+    "category": "Article",
+    "description": "An article layout with the main text content on the left and a large featured image on the right.",
+    "tags": ["article", "image", "split-layout", "feature"],
+    "structure": ["text", "image"],
+    "complexity": "simple",
+    "use_cases": [
+        "Blog posts",
+        "News articles",
+        "Service descriptions"
+    ]
+}

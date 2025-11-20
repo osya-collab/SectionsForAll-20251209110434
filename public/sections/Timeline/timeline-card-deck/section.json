@@ -1,0 +1,31 @@
+{
+    "id": "timeline-card-deck",
+    "html": "\n<section class=\"timeline-card-deck-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <h2 class=\"section-title anim-fade-in-up\">{{t:title}}</h2>\n        <div class=\"card-deck\">\n            <div class=\"timeline-card anim-fade-in-up\">\n                <div class=\"card-year\">2020</div>\n                <h3>{{t:event1_title}}</h3>\n                <p>{{t:event_desc}}</p>\n            </div>\n            <div class=\"timeline-card anim-fade-in-up anim-delay-1\">\n                <div class=\"card-year\">2022</div>\n                <h3>{{t:event2_title}}</h3>\n                <p>{{t:event_desc}}</p>\n            </div>\n            <div class=\"timeline-card anim-fade-in-up anim-delay-2\">\n                <div class=\"card-year\">2024</div>\n                <h3>{{t:event3_title}}</h3>\n                <p>{{t:event_desc}}</p>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.timeline-card-deck-section { padding: 5rem 0; }\n.timeline-card-deck-section .container { max-width: 600px; margin: 0 auto; }\n.timeline-card-deck-section .section-title { text-align: center; font-size: 2.5rem; margin-bottom: 2rem; color: var(--color-dark, #111827); }\n.timeline-card-deck-section .card-deck {\n    position: relative;\n    height: 350px;\n}\n.timeline-card-deck-section .timeline-card {\n    position: absolute;\n    width: 100%;\n    background-color: var(--color-light, #FFFFFF);\n    border: 1px solid #e5e7eb;\n    border-radius: 1rem;\n    padding: 2rem;\n    box-shadow: 0 10px 30px rgba(0,0,0,0.1);\n    transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;\n    cursor: pointer;\n}\n.timeline-card-deck-section .timeline-card:nth-child(1) { transform: translateY(0) rotate(-2deg); z-index: 3; }\n.timeline-card-deck-section .timeline-card:nth-child(2) { transform: translateY(20px) rotate(2deg); z-index: 2; }\n.timeline-card-deck-section .timeline-card:nth-child(3) { transform: translateY(40px) rotate(-1deg); z-index: 1; }\n.timeline-card-deck-section .card-deck:hover .timeline-card:nth-child(1) { transform: translateY(-120px) rotate(0); }\n.timeline-card-deck-section .card-deck:hover .timeline-card:nth-child(2) { transform: translateY(0) rotate(0); }\n.timeline-card-deck-section .card-deck:hover .timeline-card:nth-child(3) { transform: translateY(120px) rotate(0); }\n\n.timeline-card-deck-section .card-year { font-weight: 600; color: var(--color-primary, #667eea); margin-bottom: 0.5rem; }\n.timeline-card-deck-section h3 { font-size: 1.5rem; margin-bottom: 1rem; color: var(--color-dark, #111827); }\n.timeline-card-deck-section p { color: var(--color-secondary, #6B7280); }\n.timeline-card-deck-section .anim-delay-1 { animation-delay: 0.2s; }\n.timeline-card-deck-section .anim-delay-2 { animation-delay: 0.4s; }\n",
+    "translations": {
+        "de": {
+            "name": "Kartenstapel-Zeitleiste",
+            "title": "Unsere Geschichte",
+            "event1_title": "Die Gründung",
+            "event_desc": "Alles begann mit einer Idee. Wir legten den Grundstein für das, was kommen sollte.",
+            "event2_title": "Das Wachstum",
+            "event3_title": "Die Zukunft"
+        },
+        "en": {
+            "name": "Card Deck Timeline",
+            "title": "Our Story",
+            "event1_title": "The Foundation",
+            "event_desc": "It all started with an idea. We laid the groundwork for what was to come.",
+            "event2_title": "The Growth",
+            "event3_title": "The Future"
+        },
+        "ar": {
+            "name": "خط زمني بشكل مجموعة بطاقات",
+            "title": "قصتنا",
+            "event1_title": "التأسيس",
+            "event_desc": "بدأ كل شيء بفكرة. لقد وضعنا الأساس لما هو قادم.",
+            "event2_title": "النمو",
+            "event3_title": "المستقبل"
+        }
+    }
+}

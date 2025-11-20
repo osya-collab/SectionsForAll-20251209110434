@@ -1,0 +1,17 @@
+{
+    "id": "art-nouveau-cta-jewel-tones-split",
+    "html": "<section class=\"art-nouveau-cta-jewel-tones-split\">\n  <div class=\"container\">\n    <div class=\"text-content\">\n      <h2>Your Masterpiece Awaits</h2>\n      <p>Crafted with passion and inspired by nature's artistry. Discover pieces that speak to your soul.</p>\n      <a href=\"#\" class=\"cta-button\">View Collection</a>\n    </div>\n    <div class=\"image-content\">\n      <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=art+nouveau+stained+glass&image_type=photo\" alt=\"Art Nouveau stained glass design\">\n    </div>\n  </div>\n</section>",
+    "css": ".art-nouveau-cta-jewel-tones-split .container {\n  display: flex;\n  flex-direction: column;\n  background-color: #8a2be2; /* Blue Violet (jewel tone) */\n  color: #fff;\n}\n.art-nouveau-cta-jewel-tones-split .text-content {\n  padding: 40px 20px;\n  background-color: #8a2be2; /* Blue Violet */\n  color: #fff0f5; /* Lavender Blush (soft cream) */\n  text-align: center;\n}\n.art-nouveau-cta-jewel-tones-split h2 {\n  font-family: 'Cinzel', serif;\n  font-size: 2.2em;\n  margin-bottom: 15px;\n  color: #ffd700; /* Gold */\n}\n.art-nouveau-cta-jewel-tones-split p {\n  font-family: 'Cinzel', serif;\n  font-size: 1.1em;\n  line-height: 1.6;\n  margin-bottom: 30px;\n}\n.art-nouveau-cta-jewel-tones-split .cta-button {\n  display: inline-block;\n  padding: 14px 28px;\n  background-color: #ffd700; /* Gold */\n  color: #8a2be2; /* Blue Violet */\n  text-decoration: none;\n  font-family: 'Cinzel', serif;\n  font-weight: bold;\n  border-radius: 5px;\n  transition: background-color 0.3s ease, color 0.3s ease;\n}\n.art-nouveau-cta-jewel-tones-split .cta-button:hover {\n  background-color: #fff0f5; /* Lavender Blush */\n  color: #8a2be2; /* Blue Violet */\n}\n.art-nouveau-cta-jewel-tones-split .image-content {\n  width: 100%;\n}\n.art-nouveau-cta-jewel-tones-split .image-content img {\n  display: block;\n  width: 100%;\n  height: auto;\n  object-fit: cover;\n}\n\n@media (min-width: 768px) {\n  .art-nouveau-cta-jewel-tones-split .container {\n    flex-direction: row;\n  }\n  .art-nouveau-cta-jewel-tones-split .text-content {\n    flex: 1;\n    padding: 60px 40px;\n    text-align: left;\n  }\n  .art-nouveau-cta-jewel-tones-split .image-content {\n    flex: 1;\n  }\n  .art-nouveau-cta-jewel-tones-split h2 {\n    font-size: 2.6em;\n  }\n  .art-nouveau-cta-jewel-tones-split p {\n    font-size: 1.15em;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Art Nouveau CTA - Juwelentöne geteilt"
+        },
+        "ar": {
+            "name": "زر الدعوة للفعل بنمط آرت نوفو - درجات الجواهر مقسوم"
+        },
+        "en": {
+            "name": "Art Nouveau CTA - Jewel Tones Split"
+        }
+    }
+}

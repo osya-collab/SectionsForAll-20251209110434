@@ -1,0 +1,13 @@
+{
+    "name": "Slider Style Pricing",
+    "category": "Pricing",
+    "description": "A pricing section that visually represents a pricing slider for usage-based plans. While not functional, it's a great way to communicate scalable pricing.",
+    "tags": ["pricing", "slider", "usage-based", "saas", "modern"],
+    "structure": ["header", "slider", "pricing-cards"],
+    "complexity": "medium",
+    "use_cases": [
+        "SaaS products with usage-based pricing",
+        "API services",
+        "Cloud hosting providers"
+    ]
+}

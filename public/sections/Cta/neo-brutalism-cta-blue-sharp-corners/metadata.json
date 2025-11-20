@@ -1,0 +1,37 @@
+{
+    "name": "Neo-Brutalism CTA - Blue Sharp Corners",
+    "category": "Cta",
+    "description": "A Neo-Brutalism CTA section with a solid electric blue background and sharp, unrounded corners. Features bold white text and a white button outlined in black for maximum contrast.",
+    "tags": [
+        "cta",
+        "neo-brutalism",
+        "sharp corners",
+        "blue",
+        "contrast",
+        "modern"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "service promotion",
+        "call to action",
+        "information requests"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#007bff",
+            "#ffffff",
+            "#000000"
+        ],
+        "fonts": [
+            "sans-serif"
+        ],
+        "visual_identity": "Sharp-cornered Neo-Brutalism with an electric blue background and high-contrast white/black elements."
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Gradient Hero with Centered CTA",
+    "category": "Cover",
+    "description": "A bold, full-screen hero section featuring a dynamic, animated gradient background. The content is centered for maximum impact, making it perfect for startups, apps, or event pages that want to make a strong first impression.",
+    "tags": [
+        "hero",
+        "gradient",
+        "animated",
+        "centered",
+        "minimalist",
+        "cta",
+        "startup"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h1",
+        "p",
+        "a"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "SaaS landing pages",
+        "App promotional sites",
+        "Event announcements",
+        "Modern portfolios"
+    ]
+}

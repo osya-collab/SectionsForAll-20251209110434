@@ -1,0 +1,14 @@
+
+{
+    "name": "Elegant Lines",
+    "category": "Pricing",
+    "description": "A sophisticated and minimalist pricing table that uses thin lines, ample whitespace, and elegant typography to create a high-end, premium feel.",
+    "tags": ["pricing", "elegant", "minimalist", "line-art", "clean", "premium"],
+    "structure": ["header", "pricing-cards", "features", "button"],
+    "complexity": "simple",
+    "use_cases": [
+        "Luxury Brands",
+        "Design Studios",
+        "High-end service providers"
+    ]
+}

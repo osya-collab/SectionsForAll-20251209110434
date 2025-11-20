@@ -1,0 +1,25 @@
+{
+    "id": "timeline-centered-blocks",
+    "html": "\n<section class=\"timeline-centered-blocks-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"timeline-block anim-fade-in\" style=\"background-color: #A7C5EB;\">\n        <h2>2020</h2>\n        <p>{{t:event1_title}}</p>\n    </div>\n    <div class=\"timeline-block anim-fade-in\" style=\"background-color: #FBC3A6;\">\n        <h2>2022</h2>\n        <p>{{t:event2_title}}</p>\n    </div>\n    <div class=\"timeline-block anim-fade-in\" style=\"background-color: #B2D8B2;\">\n        <h2>2024</h2>\n        <p>{{t:event3_title}}</p>\n    </div>\n</section>",
+    "css": "\n.timeline-centered-blocks-section {\n    display: flex;\n    flex-direction: column;\n}\n.timeline-centered-blocks-section .timeline-block {\n    padding: 6rem 2rem;\n    text-align: center;\n    color: var(--color-dark, #1F2937);\n}\n.timeline-centered-blocks-section h2 {\n    font-size: clamp(3rem, 8vw, 5rem);\n    font-weight: 800;\n    line-height: 1;\n    opacity: 0.8;\n}\n.timeline-centered-blocks-section p {\n    font-size: 1.25rem;\n    font-weight: 500;\n    margin-top: 1rem;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Zentrierte Block-Zeitleiste",
+            "event1_title": "Ein neues Kapitel beginnt",
+            "event2_title": "Expansion und Wachstum",
+            "event3_title": "Innovation für die Zukunft"
+        },
+        "en": {
+            "name": "Centered Block Timeline",
+            "event1_title": "A New Chapter Begins",
+            "event2_title": "Expansion and Growth",
+            "event3_title": "Innovating for the Future"
+        },
+        "ar": {
+            "name": "خط زمني بكتل مركزية",
+            "event1_title": "بداية فصل جديد",
+            "event2_title": "التوسع والنمو",
+            "event3_title": "الابتكار من أجل المستقبل"
+        }
+    }
+}

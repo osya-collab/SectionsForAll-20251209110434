@@ -1,0 +1,43 @@
+{
+    "id": "cover-video-mit-checkliste",
+    "html": "\n<section class=\"cover-video-checkliste-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container text-center header-part\">\n        <h1 class=\"anim-fade-in-up\">{{t:title}}</h1>\n        <p class=\"subtitle anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n    </div>\n    <div class=\"container main-content-grid\">\n        <div class=\"video-side anim-fade-in-right\">\n            <div class=\"video-placeholder\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=woman+typing+computer+office\" alt=\"{{t:video_alt}}\">\n                <div class=\"play-button-overlay\">\n                    <div class=\"play-button-icon\"><i class=\"fa-solid fa-play\"></i></div>\n                </div>\n            </div>\n        </div>\n        <div class=\"checklist-side anim-fade-in-left\">\n            <h3>{{t:checklist_title}}</h3>\n            <p>{{t:checklist_desc}}</p>\n            <ul class=\"checklist\">\n                <li><i class=\"fa-solid fa-check-circle\"></i> {{t:item1}}</li>\n                <li><i class=\"fa-solid fa-check-circle\"></i> {{t:item2}}</li>\n                <li><i class=\"fa-solid fa-check-circle\"></i> {{t:item3}}</li>\n            </ul>\n        </div>\n    </div>\n    <div class=\"container text-center cta-part anim-fade-in-up anim-delay-2\">\n        <a href=\"#\" class=\"btn btn-dark\">{{t:cta_button}}</a>\n    </div>\n</section>",
+    "css": "\n.cover-video-checkliste-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.cover-video-checkliste-section .container { width: 90%; max-width: 1000px; margin: 0 auto; }\n.cover-video-checkliste-section .text-center { text-align: center; }\n.cover-video-checkliste-section .header-part { margin-bottom: 4rem; }\n.cover-video-checkliste-section h1 { font-size: clamp(2.5rem, 5vw, 3.5rem); font-weight: 700; color: var(--color-dark, #1F2937); margin-bottom: 1rem; }\n.cover-video-checkliste-section .subtitle { font-size: 1.1rem; max-width: 700px; margin: 0 auto; color: var(--color-secondary, #6B7280); }\n.cover-video-checkliste-section .main-content-grid { display: grid; grid-template-columns: 1fr; gap: 3rem; align-items: center; margin-bottom: 4rem; }\n@media (min-width: 992px) { .cover-video-checkliste-section .main-content-grid { grid-template-columns: 1fr 1fr; } }\n.cover-video-checkliste-section .video-placeholder { position: relative; width: 100%; aspect-ratio: 16 / 10; border-radius: 1rem; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }\n.cover-video-checkliste-section .video-placeholder img { width: 100%; height: 100%; object-fit: cover; }\n.cover-video-checkliste-section .play-button-overlay { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background-color: rgba(0,0,0,0.2); }\n.cover-video-checkliste-section .play-button-icon { width: 70px; height: 70px; background-color: rgba(255, 255, 255, 0.8); backdrop-filter: blur(5px); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: var(--color-dark, #1F2937); cursor: pointer; transition: transform 0.3s; }\n.cover-video-checkliste-section .play-button-overlay:hover .play-button-icon { transform: scale(1.1); }\n.cover-video-checkliste-section .play-button-icon i { margin-left: 5px; }\n.cover-video-checkliste-section .checklist-side h3 { font-size: 1.75rem; font-weight: 600; color: var(--color-dark, #1F2937); margin-bottom: 1rem; }\n.cover-video-checkliste-section .checklist-side p { color: var(--color-secondary, #6B7280); margin-bottom: 2rem; }\n.cover-video-checkliste-section .checklist { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 1rem; }\n.cover-video-checkliste-section .checklist li { display: flex; align-items: flex-start; gap: 0.75rem; color: var(--color-dark, #1F2937); }\n.cover-video-checkliste-section .checklist li i { color: var(--color-dark, #1F2937); margin-top: 4px; }\n.cover-video-checkliste-section .cta-part { margin-top: 2rem; }\n.cover-video-checkliste-section .btn-dark { display: inline-block; padding: 0.8rem 2.5rem; background-color: var(--color-dark, #1F2937); color: var(--color-light, #FFFFFF); border: none; border-radius: 0.5rem; font-weight: 600; text-decoration: none; }\n",
+    "translations": {
+        "de": {
+            "name": "Video mit Checkliste",
+            "title": "Steigere deine Conversion um 300 %",
+            "subtitle": "Abschnitte wie dieser haben eine innere Abstands-Einstellung, die kontrolliert, wie viel 'Luft' darin ist. Stelle den gleichen Abstand in all deinen Abschnitten ein, um Konsistenz zu gewährleisten.",
+            "video_alt": "Frau tippt an einem Computer im Büro",
+            "checklist_title": "Verbessere dein Copywriting im Handumdrehen mit unserem kostenlosen Video",
+            "checklist_desc": "Halte deine Aufzählungspunkte auf einer Zeile. Falls der Text zu lang wird, ziehe die Spalte nach links, um sie breiter zu machen.",
+            "item1": "Entdecken Sie 5 Erkenntnisse zur Verbesserung Ihrer Website-Inhalte",
+            "item2": "Wo Sie erstklassige Texter für Ihre Branche finden",
+            "item3": "Wie Sie den Texterstellungsprozess vollständig delegieren",
+            "cta_button": "Call-to-Action button"
+        },
+        "en": {
+            "name": "Video with Checklist",
+            "title": "Increase your conversion by 300%",
+            "subtitle": "Sections like this have an inner padding setting that controls how much 'air' is in them. Set the same spacing in all your sections to ensure consistency.",
+            "video_alt": "Woman typing on a computer in the office",
+            "checklist_title": "Improve your copywriting in no time with our free video",
+            "checklist_desc": "Keep your bullet points on one line. If the text gets too long, drag the column to the left to make it wider.",
+            "item1": "Discover 5 insights to improve your website content",
+            "item2": "Where to find top-notch copywriters for your industry",
+            "item3": "How to completely delegate the copywriting process",
+            "cta_button": "Call-to-Action button"
+        },
+        "ar": {
+            "name": "فيديو مع قائمة تحقق",
+            "title": "زيادة تحويلاتك بنسبة 300٪",
+            "subtitle": "تحتوي الأقسام مثل هذا على إعداد حشوة داخلية يتحكم في مقدار 'الهواء' الموجود فيها. قم بتعيين نفس التباعد في جميع أقسامك لضمان الاتساق.",
+            "video_alt": "امرأة تكتب على جهاز كمبيوتر في المكتب",
+            "checklist_title": "حسِّن كتابة النصوص الخاصة بك في وقت قصير من خلال الفيديو المجاني الخاص بنا",
+            "checklist_desc": "حافظ على نقاطك في سطر واحد. إذا أصبح النص طويلاً جدًا ، فاسحب العمود إلى اليسار لجعله أوسع.",
+            "item1": "اكتشف 5 رؤى لتحسين محتوى موقع الويب الخاص بك",
+            "item2": "أين تجد أفضل مؤلفي النصوص في مجال عملك",
+            "item3": "كيفية تفويض عملية كتابة النصوص بالكامل",
+            "cta_button": "زر الدعوة لاتخاذ إجراء"
+        }
+    }
+}

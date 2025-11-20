@@ -1,0 +1,14 @@
+{
+    "name": "Nav with Auth Buttons (White)",
+    "category": "Menu",
+    "description": "A clean, pure white navigation bar designed for user-centric platforms, featuring clear sign-in and registration buttons. Its minimalist design fits well with modern web applications.",
+    "tags": ["authentication", "auth-buttons", "white", "clean", "minimalist", "web-app", "header", "responsive"],
+    "structure": ["logo", "nav-links", "auth-buttons"],
+    "complexity": "medium",
+    "use_cases": [
+        "Web Applications",
+        "E-learning Platforms",
+        "Customer Portals",
+        "SaaS"
+    ]
+}

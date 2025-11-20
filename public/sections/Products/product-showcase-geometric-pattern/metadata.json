@@ -1,0 +1,40 @@
+{
+    "name": "Product Showcase - Geometric Pattern",
+    "category": "Products",
+    "description": "A product showcase featuring a subtle geometric pattern background. Product cards are clean and display images and details, offering a modern and artistic feel.",
+    "tags": [
+        "products",
+        "geometric",
+        "pattern",
+        "modern",
+        "ecommerce"
+    ],
+    "structure": [
+        "header",
+        "product grid",
+        "product card",
+        "product image",
+        "product details"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "fashion brands",
+        "artistic product lines",
+        "design-focused websites"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f7f7f7",
+            "#fff",
+            "#333",
+            "#777",
+            "#eee",
+            "#e67e22"
+        ],
+        "fonts": [
+            "Arial",
+            "sans-serif"
+        ],
+        "visual_identity": "Modern, artistic, and clean with a subtle geometric pattern and balanced composition."
+    }
+}

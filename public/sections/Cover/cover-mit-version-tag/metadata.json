@@ -1,0 +1,13 @@
+{
+    "name": "Cover mit Version Tag",
+    "category": "Cover",
+    "description": "A clean, split-screen hero section featuring a prominent version tag, headline, description, and a large image on the right. Ideal for product updates or software landing pages.",
+    "tags": ["cover", "hero", "split-layout", "product update", "saas", "tech"],
+    "structure": ["header", "paragraph", "cta-button", "image", "tag"],
+    "complexity": "simple",
+    "use_cases": [
+        "SaaS Product Launches",
+        "Software Update Announcements",
+        "Feature Showcase Pages"
+    ]
+}

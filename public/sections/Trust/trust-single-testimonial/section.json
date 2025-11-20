@@ -1,0 +1,10 @@
+{
+    "id": "trust-single-testimonial",
+    "html": "\n<section class=\"single-testimonial-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"testimonial-content anim-fade-in-up\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=ceo+portrait\" alt=\"{{t:author_name}}\">\n            <blockquote>\"{{t:quote}}\"</blockquote>\n            <cite>{{t:author_name}}, {{t:author_title}}</cite>\n        </div>\n    </div>\n</section>",
+    "css": "\n.single-testimonial-section { padding: 5rem 0; background-color: var(--color-dark, #111827); color: var(--color-light, #FFFFFF); position: relative; }\n.single-testimonial-section .container { max-width: 800px; margin: 0 auto; text-align: center; }\n.single-testimonial-section .testimonial-content img { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin: 0 auto 1.5rem; border: 3px solid var(--color-primary, #4B88D7); }\n.single-testimonial-section blockquote { font-size: 1.5rem; font-weight: 500; line-height: 1.6; margin-bottom: 2rem; }\n.single-testimonial-section cite { font-style: normal; font-weight: 600; color: var(--color-secondary, #9CA3AF); }\n",
+    "translations": {
+        "de": { "quote": "Die Zusammenarbeit mit diesem Team war ein Wendepunkt für unser Unternehmen. Ihre Expertise und ihr Engagement sind unübertroffen.", "author_name": "Max Mustermann", "author_title": "CEO, Acme Corp" },
+        "en": { "quote": "Working with this team was a game-changer for our business. Their expertise and dedication are second to none.", "author_name": "John Doe", "author_title": "CEO, Acme Corp" },
+        "ar": { "quote": "كان العمل مع هذا الفريق نقطة تحول لأعمالنا. خبرتهم وتفانيهم لا يعلى عليهما.", "author_name": "جون دو", "author_title": "الرئيس التنفيذي، شركة أكمي" }
+    }
+}

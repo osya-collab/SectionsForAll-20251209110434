@@ -1,0 +1,14 @@
+
+{
+    "name": "Data Snapshot",
+    "category": "Trust",
+    "description": "A visually impactful section that presents key company metrics and stats in a clean, easy-to-read grid.",
+    "tags": ["stats", "data", "metrics", "social proof", "corporate"],
+    "structure": ["header", "stats-grid"],
+    "complexity": "simple",
+    "use_cases": [
+        "Corporate homepages",
+        "Investor relations pages",
+        "Annual reports"
+    ]
+}

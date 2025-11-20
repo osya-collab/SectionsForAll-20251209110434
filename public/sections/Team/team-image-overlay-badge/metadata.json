@@ -1,0 +1,13 @@
+{
+    "name": "Image Overlay with Badge",
+    "category": "Team",
+    "description": "A stylish team section with portrait cards that feature a role badge at the top and a name/bio overlay at the bottom.",
+    "tags": ["team", "overlay", "badge", "cards", "modern", "creative"],
+    "structure": ["header", "grid", "cards"],
+    "complexity": "medium",
+    "use_cases": [
+        "Creative agency websites",
+        "Modern corporate team pages",
+        "Startups"
+    ]
+}

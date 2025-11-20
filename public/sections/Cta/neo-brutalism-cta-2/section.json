@@ -1,0 +1,17 @@
+{
+    "id": "neo-brutalism-cta-2",
+    "html": "<section class=\"cta-section-2\">\n  <div class=\"cta-container\">\n    <h2 class=\"section-title\">Unlock Your Potential</h2>\n    <p class=\"section-text\">Experience the difference. Join our community and elevate your journey.</p>\n    <button class=\"cta-button-alt\">Join Us Now</button>\n  </div>\n</section>",
+    "css": ".cta-section-2 {\n  background-color: #FFFFFF;\n  color: #000000;\n  padding: 60px 20px;\n  text-align: center;\n}\n.cta-section-2 .cta-container {\n  max-width: 700px;\n  margin: 0 auto;\n}\n.cta-section-2 .section-title {\n  font-size: 2.8rem;\n  margin-bottom: 15px;\n  font-weight: 900;\n  line-height: 1.2;\n}\n.cta-section-2 .section-text {\n  font-size: 1.1rem;\n  margin-bottom: 30px;\n  color: #333333;\n}\n.cta-button-alt {\n  display: inline-block;\n  padding: 15px 30px;\n  background-color: #00FFFF;\n  color: #000000;\n  text-decoration: none;\n  font-weight: 900;\n  font-size: 1.2rem;\n  border: 3px solid #00FFFF;\n  transition: background-color 0.3s ease, color 0.3s ease;\n  cursor: pointer;\n}\n.cta-button-alt:hover {\n  background-color: #000000;\n  color: #00FFFF;\n}\n\n@media (min-width: 768px) {\n  .cta-section-2 {\n    padding: 80px 40px;\n  }\n  .cta-section-2 .section-title {\n    font-size: 3.8rem;\n  }\n  .cta-section-2 .section-text {\n    font-size: 1.3rem;\n  }\n  .cta-button-alt {\n    font-size: 1.4rem;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Elektrisch-Blauer Neo-Brutalismus CTA"
+        },
+        "ar": {
+            "name": "دعوة لاتخاذ إجراء نيو-بروتاليزم باللون الأزرق الكهربائي"
+        },
+        "en": {
+            "name": "Electric Blue Neo-Brutalism CTA"
+        }
+    }
+}

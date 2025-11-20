@@ -1,0 +1,14 @@
+
+{
+    "name": "Glassmorphism Nav",
+    "category": "Menu",
+    "description": "A stylish, dark navigation bar that uses the glassmorphism effect (semi-transparent, blurred background) for a modern, futuristic look.",
+    "tags": ["header", "dark", "glassmorphism", "modern", "futuristic"],
+    "structure": ["logo", "nav-links", "cta-button"],
+    "complexity": "medium",
+    "use_cases": [
+        "Tech Startups",
+        "SaaS Landing Pages",
+        "Creative Portfolios"
+    ]
+}

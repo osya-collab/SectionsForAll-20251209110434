@@ -1,0 +1,13 @@
+{
+    "name": "Wavy Path Timeline",
+    "category": "Timeline",
+    "description": "A creative and organic timeline where events are positioned along a subtle, wavy path, creating a sense of flow and movement.",
+    "tags": ["timeline", "creative", "wavy", "organic", "storytelling"],
+    "structure": ["header", "timeline-items"],
+    "complexity": "medium",
+    "use_cases": [
+        "Creative portfolio timelines",
+        "Brand storytelling",
+        "Non-profit impact reports"
+    ]
+}

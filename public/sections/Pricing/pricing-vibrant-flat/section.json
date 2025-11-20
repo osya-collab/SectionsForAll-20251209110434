@@ -1,0 +1,49 @@
+{
+    "id": "pricing-vibrant-flat",
+    "html": "\n<section class=\"pricing-vibrant-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <h2 class=\"section-title anim-fade-in-up\">{{t:title}}</h2>\n        <div class=\"pricing-grid\">\n            <div class=\"pricing-card plan-1 anim-fade-in-up anim-delay-1\">\n                <div class=\"icon\"><i class=\"fa-solid fa-user\"></i></div>\n                <h3>{{t:plan1_name}}</h3>\n                <div class=\"price\">{{t:plan1_price}}</div>\n                <ul>\n                    <li>{{t:feature1}}</li>\n                    <li>{{t:feature2}}</li>\n                </ul>\n                <a href=\"#\" class=\"btn\">{{t:cta_button}}</a>\n            </div>\n            <div class=\"pricing-card plan-2 popular anim-fade-in-up anim-delay-2\">\n                <div class=\"icon\"><i class=\"fa-solid fa-users\"></i></div>\n                <h3>{{t:plan2_name}}</h3>\n                <div class=\"price\">{{t:plan2_price}}</div>\n                <ul>\n                    <li>{{t:feature1}}</li>\n                    <li>{{t:feature2}}</li>\n                    <li>{{t:feature3}}</li>\n                </ul>\n                <a href=\"#\" class=\"btn btn-primary\">{{t:cta_button}}</a>\n            </div>\n            <div class=\"pricing-card plan-3 anim-fade-in-up anim-delay-3\">\n                <div class=\"icon\"><i class=\"fa-solid fa-building\"></i></div>\n                <h3>{{t:plan3_name}}</h3>\n                <div class=\"price\">{{t:plan3_price}}</div>\n                <ul>\n                    <li>{{t:feature1}}</li>\n                    <li>{{t:feature2}}</li>\n                    <li>{{t:feature3}}</li>\n                    <li>{{t:feature4}}</li>\n                </ul>\n                <a href=\"#\" class=\"btn\">{{t:cta_button}}</a>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.pricing-vibrant-section { padding: 5rem 0; background-color: #f8f9fa; font-family: 'Inter', sans-serif; }\n.pricing-vibrant-section .container { max-width: 1100px; margin: 0 auto; padding: 0 1rem; text-align: center; }\n.pricing-vibrant-section .section-title { font-size: 2.5rem; margin-bottom: 3rem; color: var(--color-dark); }\n.pricing-vibrant-section .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; align-items: center; }\n.pricing-vibrant-section .pricing-card { border-radius: 1rem; padding: 2.5rem 2rem; color: #fff; transition: all 0.3s ease; text-align: center; }\n.pricing-vibrant-section .pricing-card:hover { transform: scale(1.03); }\n.pricing-vibrant-section .plan-1 { background-color: #3b82f6; }\n.pricing-vibrant-section .plan-2 { background-color: #8b5cf6; }\n.pricing-vibrant-section .plan-3 { background-color: #10b981; }\n.pricing-vibrant-section .popular { transform: scale(1.1); }\n.pricing-vibrant-section .icon { font-size: 2.5rem; margin-bottom: 1rem; }\n.pricing-vibrant-section h3 { font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem; }\n.pricing-vibrant-section .price { font-size: 3rem; font-weight: 700; margin-bottom: 1.5rem; }\n.pricing-vibrant-section ul { list-style: none; padding: 0; margin-bottom: 2rem; }\n.pricing-vibrant-section li { margin-bottom: 0.5rem; }\n.pricing-vibrant-section .btn { display: inline-block; padding: 0.8rem 2rem; background-color: rgba(255,255,255,0.2); color: #fff; border-radius: 99px; text-decoration: none; font-weight: 500; }\n.pricing-vibrant-section .btn-primary { background-color: #fff; color: #8b5cf6; }\n",
+    "translations": {
+        "en": {
+            "title": "Simple, Powerful Pricing",
+            "plan1_name": "Solo",
+            "plan1_price": "$12/mo",
+            "plan2_name": "Startup",
+            "plan2_price": "$35/mo",
+            "plan3_name": "Agency",
+            "plan3_price": "$79/mo",
+            "feature1": "1 User",
+            "feature2": "10GB Storage",
+            "feature3": "Team Collaboration",
+            "feature4": "API Access",
+            "cta_button": "Choose Plan"
+        },
+        "de": {
+            "title": "Einfache, leistungsstarke Preise",
+            "plan1_name": "Solo",
+            "plan1_price": "12€/Monat",
+            "plan2_name": "Startup",
+            "plan2_price": "35€/Monat",
+            "plan3_name": "Agentur",
+            "plan3_price": "79€/Monat",
+            "feature1": "1 Benutzer",
+            "feature2": "10GB Speicher",
+            "feature3": "Team-Zusammenarbeit",
+            "feature4": "API-Zugriff",
+            "cta_button": "Plan wählen"
+        },
+        "ar": {
+            "title": "تسعير بسيط وقوي",
+            "plan1_name": "فردي",
+            "plan1_price": "١٢$/شهريا",
+            "plan2_name": "شركة ناشئة",
+            "plan2_price": "٣٥$/شهريا",
+            "plan3_name": "وكالة",
+            "plan3_price": "٧٩$/شهريا",
+            "feature1": "مستخدم واحد",
+            "feature2": "١٠ جيجا تخزين",
+            "feature3": "تعاون الفريق",
+            "feature4": "وصول API",
+            "cta_button": "اختر الخطة"
+        }
+    }
+}

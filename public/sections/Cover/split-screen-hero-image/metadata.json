@@ -1,0 +1,28 @@
+{
+    "name": "Split-Screen Hero with Image",
+    "category": "Cover",
+    "description": "A modern, balanced hero section with a two-column layout. One side features a prominent heading, subheading, and call-to-action, while the other displays a dynamic image. It's ideal for corporate or portfolio sites.",
+    "tags": [
+        "hero",
+        "split-screen",
+        "cta",
+        "image",
+        "modern",
+        "corporate"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h1",
+        "p",
+        "a",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Landing pages",
+        "Corporate websites",
+        "Portfolio homepages",
+        "Product introductions"
+    ]
+}

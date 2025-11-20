@@ -1,0 +1,28 @@
+{
+    "id": "timeline-photo-wall",
+    "html": "\n<section class=\"timeline-photo-wall-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <h2 class=\"section-title anim-fade-in-up\">{{t:title}}</h2>\n        <div class=\"timeline-grid\">\n            <div class=\"timeline-item anim-fade-in-up\">\n                <div class=\"image-card\">\n                    <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=startup+office+garage\" alt=\"{{t:event1_title}}\">\n                    <div class=\"card-overlay\">\n                        <span class=\"timeline-date\">2020</span>\n                        <h3>{{t:event1_title}}</h3>\n                        <p>{{t:event_desc}}</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"timeline-item anim-fade-in-up\">\n                <div class=\"image-card\">\n                    <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=team+celebrating+success\" alt=\"{{t:event2_title}}\">\n                    <div class=\"card-overlay\">\n                        <span class=\"timeline-date\">2022</span>\n                        <h3>{{t:event2_title}}</h3>\n                        <p>{{t:event_desc}}</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.timeline-photo-wall-section {\n    padding: 5rem 0;\n    background-color: #f3f4f6;\n}\n.timeline-photo-wall-section .container {\n    width: 90%;\n    max-width: 1000px;\n    margin: 0 auto;\n}\n.timeline-photo-wall-section .section-title {\n    text-align: center;\n    font-size: 2.5rem;\n    font-weight: 700;\n    margin-bottom: 3rem;\n    color: var(--color-dark, #1F2937);\n}\n.timeline-photo-wall-section .timeline-grid {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 3rem;\n}\n.timeline-photo-wall-section .timeline-item {\n    display: contents; /* Allows direct grid placement of children */\n}\n.timeline-photo-wall-section .image-card {\n    position: relative;\n    border-radius: 1rem;\n    overflow: hidden;\n    aspect-ratio: 16/9;\n    color: var(--color-light, #FFFFFF);\n}\n.timeline-photo-wall-section .image-card img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n}\n.timeline-photo-wall-section .card-overlay {\n    position: absolute;\n    inset: 0;\n    background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, transparent 100%);\n    padding: 2rem;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n}\n.timeline-photo-wall-section .timeline-item:nth-child(even) .card-overlay {\n    background: linear-gradient(to left, rgba(0,0,0,0.7) 0%, transparent 100%);\n    text-align: right;\n    align-items: flex-end;\n}\n.timeline-photo-wall-section .timeline-date {\n    font-weight: 600;\n    font-size: 0.9rem;\n    margin-bottom: 0.5rem;\n    opacity: 0.8;\n}\n.timeline-photo-wall-section h3 {\n    font-size: 1.75rem;\n    margin-bottom: 1rem;\n    font-weight: 700;\n}\n.timeline-photo-wall-section p {\n    max-width: 350px;\n    line-height: 1.6;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Fotowand-Zeitleiste",
+            "title": "Visuelle Reise",
+            "event1_title": "Bescheidene Anfänge",
+            "event_desc": "Unsere Reise begann in einer kleinen Garage mit einer großen Vision, die die Regeln neu schreiben sollte.",
+            "event2_title": "Den ersten Meilenstein erreichen"
+        },
+        "en": {
+            "name": "Photo Wall Timeline",
+            "title": "Visual Journey",
+            "event1_title": "Humble Beginnings",
+            "event_desc": "Our journey started in a small garage with a big vision to rewrite the rules.",
+            "event2_title": "Hitting the First Milestone"
+        },
+        "ar": {
+            "name": "خط زمني لجدار الصور",
+            "title": "رحلة بصرية",
+            "event1_title": "بدايات متواضعة",
+            "event_desc": "بدأت رحلتنا في مرآب صغير برؤية كبيرة لإعادة كتابة القواعد.",
+            "event2_title": "تحقيق أول إنجاز"
+        }
+    }
+}

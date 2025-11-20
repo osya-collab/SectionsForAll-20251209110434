@@ -1,0 +1,17 @@
+{
+    "id": "retro-futurism-cta-chrome-headline",
+    "html": "<section class=\"cta-chrome-headline\">\n    <div class=\"cta-content\">\n        <h1>Explore the Future, Today!</h1>\n        <p>Step into a world of innovation and exciting possibilities. Sign up now.</p>\n        <button class=\"cta-button\">Join the Journey</button>\n    </div>\n    <div class=\"cta-graphic\">\n        <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=retro+futuristic+rocket\" alt=\"Retro futuristic rocket\">\n    </div>\n</section>",
+    "css": ".cta-chrome-headline {\n    font-family: 'Audiowide', sans-serif;\n    background-color: #e0d8c0; /* Pale Mustard */\n    color: #333;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding: 40px 20px;\n    text-align: center;\n    overflow: hidden;\n}\n\n.cta-chrome-headline .cta-content {\n    position: relative;\n    z-index: 2;\n    background: rgba(255, 255, 255, 0.7);\n    padding: 30px;\n    border-radius: 25px;\n    margin-bottom: 30px;\n    box-shadow: 0 8px 16px rgba(0,0,0,0.1);\n}\n\n.cta-chrome-headline h1 {\n    font-size: 2.8em;\n    margin-bottom: 20px;\n    color: transparent;\n    background-clip: text;\n    background-image: linear-gradient(to right, #a090a0, #c0b0c0); /* Muted metallic gradient */\n    -webkit-text-stroke: 1px #5a5a5a;\n    font-weight: 700;\n    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);\n}\n\n.cta-chrome-headline p {\n    font-size: 1.1em;\n    margin-bottom: 30px;\n    line-height: 1.6;\n    color: #555;\n}\n\n.cta-button {\n    background-color: #b0c4de; /* Pale Teal */\n    color: #333;\n    border: none;\n    padding: 15px 35px;\n    border-radius: 30px;\n    font-size: 1.2em;\n    font-weight: 700;\n    cursor: pointer;\n    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;\n    box-shadow: 0 4px 10px rgba(176, 196, 222, 0.5);\n}\n\n.cta-button:hover {\n    background-color: #a0b4cd; /* Darker Pale Teal */\n    transform: translateY(-3px);\n    box-shadow: 0 6px 15px rgba(176, 196, 222, 0.7);\n}\n\n.cta-graphic img {\n    width: 100%;\n    max-width: 400px;\n    height: auto;\n    display: block;\n    margin: 0 auto;\n    border-radius: 15px;\n    box-shadow: 0 4px 8px rgba(0,0,0,0.1);\n}\n\n@media (min-width: 768px) {\n    .cta-chrome-headline {\n        flex-direction: row;\n        justify-content: space-between;\n        align-items: center;\n        padding: 60px 40px;\n        text-align: left;\n    }\n    .cta-chrome-headline .cta-content {\n        flex: 1;\n        max-width: 50%;\n        padding: 40px;\n        margin-bottom: 0;\n    }\n    .cta-chrome-headline h1 {\n        font-size: 3.5em;\n    }\n    .cta-chrome-headline p {\n        font-size: 1.2em;\n    }\n    .cta-graphic {\n        flex: 1;\n        max-width: 50%;\n        text-align: center;\n    }\n    .cta-graphic img {\n        margin: 0;\n    }\n}\n\n@media (min-width: 1024px) {\n    .cta-chrome-headline {\n        padding: 80px 60px;\n    }\n    .cta-chrome-headline .cta-content {\n        padding: 50px;\n    }\n    .cta-chrome-headline h1 {\n        font-size: 4em;\n    }\n}\n",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Retro-Futurismus CTA mit Chrom-Schlagzeile"
+        },
+        "ar": {
+            "name": "CTA مستقبلية رجعية بعنوان كروم"
+        },
+        "en": {
+            "name": "Retro Futurism CTA with Chrome Headline"
+        }
+    }
+}

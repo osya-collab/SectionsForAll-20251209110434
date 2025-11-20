@@ -1,0 +1,39 @@
+{
+    "name": "Geometric Grid CTA",
+    "category": "Cta",
+    "description": "A dynamic CTA section with a vibrant hot pink background and an electric blue gradient overlay. Features two contrasting buttons: a solid white primary and an outlined secondary.",
+    "tags": [
+        "cta",
+        "neo-brutalism",
+        "geometric",
+        "dual-button",
+        "pink",
+        "blue"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "div",
+        "a",
+        "a"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "consultation requests",
+        "service inquiries",
+        "multiple actions"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#FF00FF",
+            "#FFFFFF",
+            "#00FFFF"
+        ],
+        "fonts": [
+            "sans-serif"
+        ],
+        "visual_identity": "Bold pink and blue gradient with geometric undercurrent and sharp buttons."
+    }
+}

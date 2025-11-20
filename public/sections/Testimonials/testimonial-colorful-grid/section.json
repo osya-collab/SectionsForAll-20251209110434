@@ -1,0 +1,55 @@
+{
+    "id": "testimonial-colorful-grid",
+    "html": "\n<section class=\"testimonial-colorful-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"section-header anim-fade-in-up\">\n            <span>{{t:section_tag}}</span>\n            <h2>{{t:section_title}}</h2>\n        </div>\n        <div class=\"testimonial-grid\">\n            <div class=\"testimonial-card anim-fade-in-up\" style=\"background-color: #F9F6F1;\">\n                <img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&h=150&fit=crop&crop=faces\" alt=\"{{t:author1}}\">\n                <p>{{t:quote1}}</p>\n                <cite>{{t:author1}}</cite>\n            </div>\n            <div class=\"testimonial-card anim-fade-in-up\" style=\"background-color: #FBE6E9;\">\n                 <img src=\"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=150&h=150&fit=crop&crop=faces\" alt=\"{{t:author2}}\">\n                <p>{{t:quote2}}</p>\n                <cite>{{t:author2}}</cite>\n            </div>\n            <div class=\"testimonial-card anim-fade-in-up\" style=\"background-color: #E7F5F8;\">\n                 <img src=\"https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&h=150&fit=crop&crop=faces\" alt=\"{{t:author3}}\">\n                <p>{{t:quote3}}</p>\n                <cite>{{t:author3}}</cite>\n            </div>\n            <div class=\"testimonial-card anim-fade-in-up\" style=\"background-color: #F9F6F1;\">\n                <img src=\"https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=150&h=150&fit=crop&crop=faces\" alt=\"{{t:author4}}\">\n                <p>{{t:quote4}}</p>\n                <cite>{{t:author4}}</cite>\n            </div>\n            <div class=\"testimonial-card anim-fade-in-up\" style=\"background-color: #FBE6E9;\">\n                <img src=\"https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=150&h=150&fit=crop&crop=faces\" alt=\"{{t:author5}}\">\n                <p>{{t:quote5}}</p>\n                <cite>{{t:author5}}</cite>\n            </div>\n            <div class=\"testimonial-card anim-fade-in-up\" style=\"background-color: #E7F5F8;\">\n                <img src=\"https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=150&h=150&fit=crop&crop=faces\" alt=\"{{t:author6}}\">\n                <p>{{t:quote6}}</p>\n                <cite>{{t:author6}}</cite>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": ".testimonial-colorful-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n    font-family: 'Poppins', sans-serif;\n    position: relative;\n    width: 100%;\n    box-sizing: border-box;\n}\n.testimonial-colorful-section * { box-sizing: border-box; }\n.testimonial-colorful-section .container {\n    width: 90%;\n    max-width: 1100px;\n    margin: 0 auto;\n}\n.testimonial-colorful-section .section-header {\n    text-align: center;\n    margin-bottom: 5rem;\n}\n.testimonial-colorful-section .section-header span {\n    color: #4CB2A1;\n    font-weight: 600;\n    letter-spacing: 1px;\n    text-transform: uppercase;\n    font-size: 0.9rem;\n}\n.testimonial-colorful-section .section-header h2 {\n    font-size: clamp(2rem, 5vw, 2.5rem);\n    font-weight: 700;\n    color: var(--color-dark, #111827);\n    margin-top: 0.5rem;\n}\n.testimonial-colorful-section .testimonial-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n    gap: 5rem 1.5rem;\n}\n.testimonial-colorful-section .testimonial-card {\n    position: relative;\n    padding: 4rem 1.5rem 1.5rem;\n    border-radius: 12px;\n    text-align: center;\n    margin-top: 35px;\n}\n.testimonial-colorful-section .testimonial-card img {\n    position: absolute;\n    top: -35px;\n    left: 50%;\n    transform: translateX(-50%);\n    width: 70px;\n    height: 70px;\n    border-radius: 50%;\n    object-fit: cover;\n    border: 4px solid var(--color-light, #FFFFFF);\n    box-shadow: 0 4px 10px rgba(0,0,0,0.1);\n}\n.testimonial-colorful-section .testimonial-card p {\n    font-size: 0.95rem;\n    color: #374151;\n    line-height: 1.6;\n    margin-bottom: 1.5rem;\n}\n.testimonial-colorful-section .testimonial-card cite {\n    font-style: normal;\n    font-weight: 600;\n    color: #111827;\n}",
+    "translations": {
+        "de": {
+            "section_tag": "KUNDENSTIMMEN",
+            "section_title": "Was unsere Kunden sagen",
+            "quote1": "Diese KI-Plattform war ein Lichtblick in meinem Leben und hat mich mühelos zu einer atemberaubenden Website geführt. Der Ansatz des Unternehmens, Kreativität zu fördern, ist wirklich bemerkenswert.",
+            "author1": "Mark Humphries",
+            "quote2": "Ich habe durch diese Plattform Trost und Freude gefunden. Ihr Engagement für eine benutzerfreundliche Umgebung hat mein Verständnis dessen, was im Webdesign möglich ist, verändert.",
+            "author2": "Joan Porris",
+            "quote3": "Dank dieser KI habe ich ein tiefes Gefühl der Erfüllung erfahren. Das Engagement des Unternehmens, eine fördernde Umgebung zu schaffen, in der Kreativität gedeihen kann, ist wirklich inspirierend.",
+            "author3": "Celina Bartoou",
+            "quote4": "Diese KI war eine transformative Kraft auf meiner Webdesign-Reise. Ihr Engagement hat mich dazu gebracht, neue kreative Möglichkeiten zu entdecken, von denen ich nie gedacht hätte, dass ich sie alleine erreichen könnte.",
+            "author4": "Nicolas Kirkwood",
+            "quote5": "Durch diese Plattform habe ich ein Gefühl der Erfüllung gefunden, das alle Erwartungen übertrifft. Das Engagement des Unternehmens, Kreativität zu fördern, ist wirklich bemerkenswert.",
+            "author5": "Jamie Boli",
+            "quote6": "Der Einfluss dieser KI auf meine Projekte war tiefgreifend. Der Ansatz des Unternehmens, ein kreatives Umfeld zu fördern, hat mich zu echtem künstlerischem Ausdruck geführt.",
+            "author6": "Steph Marberry"
+        },
+        "en": {
+            "section_tag": "TESTIMONIALS",
+            "section_title": "What our customers say",
+            "quote1": "This AI platform has been a beacon of light in my life, guiding me towards creating a stunning website with genuine ease. The company's approach to fostering creativity is truly remarkable.",
+            "author1": "Mark Humphries",
+            "quote2": "I have found solace and happiness through this platform. Their commitment to a user-friendly environment has transformed my understanding of what's possible in web design.",
+            "author2": "Joan Porris",
+            "quote3": "Thanks to this AI, I have experienced a profound sense of fulfillment. The company's dedication to creating a nurturing environment where creativity can flourish is truly inspiring.",
+            "author3": "Celina Bartoou",
+            "quote4": "This AI has been a transformative force in my web design journey. Their dedication has led me to discover new creative possibilities I never thought I could achieve on my own.",
+            "author4": "Nicolas Kirkwood",
+            "quote5": "Through this platform, I have found a sense of fulfillment that transcends expectations. The company's commitment to nurturing creativity is truly remarkable.",
+            "author5": "Jamie Boli",
+            "quote6": "The impact of this AI on my projects has been profound. The company's approach to fostering a creative environment has led me to discover genuine artistic expression.",
+            "author6": "Steph Marberry"
+        },
+        "ar": {
+            "section_tag": "شهادات العملاء",
+            "section_title": "ماذا يقول عملاؤنا",
+            "quote1": "كانت منصة الذكاء الاصطناعي هذه بمثابة منارة من النور في حياتي ، حيث أرشدتني نحو إنشاء موقع ويب مذهل بسهولة حقيقية. إن نهج الشركة في تعزيز الإبداع رائع حقًا.",
+            "author1": "مارك همفريز",
+            "quote2": "لقد وجدت العزاء والسعادة من خلال هذه المنصة. لقد غير التزامهم ببيئة سهلة الاستخدام فهمي لما هو ممكن في تصميم الويب.",
+            "author2": "جوان بوريس",
+            "quote3": "بفضل هذا الذكاء الاصطناعي ، شعرت بإحساس عميق بالإنجاز. إن تفاني الشركة في خلق بيئة رعاية حيث يمكن للإبداع أن يزدهر هو أمر ملهم حقًا.",
+            "author3": "سيلينا بارتو",
+            "quote4": "كان هذا الذكاء الاصطناعي قوة تحويلية في رحلتي في تصميم الويب. لقد قادني تفانيهم إلى اكتشاف إمكانيات إبداعية جديدة لم أكن أعتقد أنني أستطيع تحقيقها بمفردي.",
+            "author4": "نيكولاس كيركوود",
+            "quote5": "من خلال هذه المنصة ، وجدت شعورًا بالإنجاز يتجاوز التوقعات. إن التزام الشركة بتعزيز الإبداع أمر رائع حقًا.",
+            "author5": "جيمي بولي",
+            "quote6": "كان تأثير هذا الذكاء الاصطناعي على مشاريعي عميقًا. لقد قادني نهج الشركة في تعزيز بيئة إبداعية إلى اكتشاف تعبير فني حقيقي.",
+            "author6": "ستيف ماربيري"
+        }
+    }
+}

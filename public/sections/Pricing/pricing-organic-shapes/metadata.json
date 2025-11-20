@@ -1,0 +1,15 @@
+
+{
+    "name": "Organic Shapes",
+    "category": "Pricing",
+    "description": "A soft and friendly pricing table where each card has a decorative, non-uniform 'blob' shape in the background. Uses a gentle, pastel color palette.",
+    "tags": ["pricing", "organic", "soft", "friendly", "creative", "wellness"],
+    "structure": ["header", "pricing-cards", "features", "button"],
+    "complexity": "medium",
+    "use_cases": [
+        "Wellness Apps",
+        "Creative Studios",
+        "Children's Products",
+        "Health & Beauty"
+    ]
+}

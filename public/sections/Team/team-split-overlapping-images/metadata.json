@@ -1,0 +1,13 @@
+{
+    "name": "Split with Overlapping Images",
+    "category": "Team",
+    "description": "A dynamic team section with a split layout, featuring text on one side and an artistic collage of overlapping team portraits on the other.",
+    "tags": ["team", "split-layout", "overlap", "collage", "creative", "modern"],
+    "structure": ["header", "paragraph", "cta-button", "image-collage"],
+    "complexity": "high",
+    "use_cases": [
+        "Creative agency websites",
+        "Design studios",
+        "Modern corporate team pages"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Photo Story Layout",
+    "category": "Article",
+    "description": "An immersive, image-heavy layout for photojournalism or visual storytelling, alternating between full-width images and centered text blocks.",
+    "tags": ["article", "photo-story", "full-width-image", "storytelling", "visual"],
+    "structure": ["image", "text", "image", "text"],
+    "complexity": "medium",
+    "use_cases": [
+        "Photojournalism stories",
+        "Travel blogs",
+        "Visual portfolios"
+    ]
+}

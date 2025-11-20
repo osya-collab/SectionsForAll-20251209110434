@@ -1,0 +1,51 @@
+{
+    "name": "Modern Hero with Interactive Tabs",
+    "category": "Testimonials",
+    "description": "A modern hero section featuring a prominent title, subtitle, and a call-to-action button, complemented by interactive tabs that reveal client testimonials. Each testimonial includes an avatar, quote, and author.",
+    "tags": [
+        "hero",
+        "testimonials",
+        "tabs",
+        "interactive",
+        "modern",
+        "call-to-action"
+    ],
+    "structure": [
+        "section",
+        "container",
+        "hero-content",
+        "h1",
+        "p",
+        "button",
+        "tabs-container",
+        "tab-headers",
+        "button (tab)",
+        "tab-content",
+        "tab-pane",
+        "testimonial-card",
+        "img",
+        "blockquote",
+        "footer"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Website landing pages",
+        "Product showcases",
+        "Service introduction pages"
+    ],
+    "style_analysis": {
+        "colors": [
+            "--color-primary",
+            "--color-secondary",
+            "--color-dark",
+            "--color-light",
+            "--color-surface-1",
+            "--color-border"
+        ],
+        "fonts": [
+            "--font-heading",
+            "--font-body"
+        ],
+        "visual_identity": "Clean, modern, and interactive with a focus on user engagement through testimonials."
+    }
+}

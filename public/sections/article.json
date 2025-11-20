@@ -1,0 +1,22 @@
+[
+  { "id": "article-classic-blog-post", "name": "Classic Blog Post", "category": "Article" },
+  { "id": "article-split-column", "name": "Split Column Article", "category": "Article" },
+  { "id": "article-with-pullquote", "name": "Article with Pullquote", "category": "Article" },
+  { "id": "article-image-gallery", "name": "Article with Image Gallery", "category": "Article" },
+  { "id": "article-minimalist-typography", "name": "Minimalist Typography", "category": "Article" },
+  { "id": "article-dark-theme", "name": "Dark Theme Article", "category": "Article" },
+  { "id": "article-magazine-layout", "name": "Magazine Layout", "category": "Article" },
+  { "id": "article-with-sidebar", "name": "Article with Sidebar", "category": "Article" },
+  { "id": "article-with-code-snippet", "name": "Article with Code", "category": "Article" },
+  { "id": "article-photo-story", "name": "Photo Story Layout", "category": "Article" },
+  { "id": "article-alternating-media", "name": "Alternating Media", "category": "Article" },
+  { "id": "article-feature-image-left", "name": "Featured Image Left", "category": "Article" },
+  { "id": "article-feature-image-right", "name": "Featured Image Right", "category": "Article" },
+  { "id": "article-full-width-title-card", "name": "Full-Width Title Card", "category": "Article" },
+  { "id": "article-image-text-overlap", "name": "Image & Text Overlap", "category": "Article" },
+  { "id": "article-in-content-gallery", "name": "In-Content Gallery", "category": "Article" },
+  { "id": "article-interview-format", "name": "Interview Q&A Format", "category": "Article" },
+  { "id": "article-technical-post", "name": "Technical Post", "category": "Article" },
+  { "id": "article-timeline-story", "name": "Timeline Story", "category": "Article" },
+  { "id": "article-two-column-text", "name": "Two-Column Text", "category": "Article" }
+]

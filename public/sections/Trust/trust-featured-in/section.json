@@ -1,0 +1,10 @@
+{
+    "id": "trust-featured-in",
+    "html": "\n<section class=\"featured-in-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container text-center\">\n        <h3 class=\"section-title anim-fade-in-up\">{{t:title}}</h3>\n        <div class=\"logo-grid anim-fade-in-up anim-delay-1\">\n            <img src=\"https://logo.clearbit.com/forbes.com\" alt=\"Forbes\">\n            <img src=\"https://logo.clearbit.com/techcrunch.com\" alt=\"TechCrunch\">\n            <img src=\"https://logo.clearbit.com/wired.com\" alt=\"Wired\">\n            <img src=\"https://logo.clearbit.com/theverge.com\" alt=\"The Verge\">\n            <img src=\"https://logo.clearbit.com/wsj.com\" alt=\"The Wall Street Journal\">\n        </div>\n    </div>\n</section>",
+    "css": "\n.featured-in-section { padding: 3rem 0; background-color: transparent; position: relative; }\n.featured-in-section .container { width: 90%; max-width: 1000px; margin: 0 auto; }\n.featured-in-section .section-title { font-size: 1rem; font-weight: 500; color: var(--color-secondary, #6B7280); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 2rem; }\n.featured-in-section .logo-grid { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 3rem; }\n.featured-in-section .logo-grid img { height: 28px; width: auto; filter: grayscale(100%) opacity(0.6); transition: filter 0.3s, opacity 0.3s; }\n.featured-in-section .logo-grid img:hover { filter: grayscale(0%) opacity(1); }\n",
+    "translations": {
+        "de": { "title": "Bekannt aus" },
+        "en": { "title": "As Featured In" },
+        "ar": { "title": "كما ظهرنا في" }
+    }
+}

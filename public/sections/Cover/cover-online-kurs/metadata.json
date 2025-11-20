@@ -1,0 +1,13 @@
+{
+    "name": "Online-Kurs",
+    "category": "Cover",
+    "description": "A comprehensive hero section for promoting an online course, featuring a version tag, ratings, a video placeholder, and a scrolling logo wall.",
+    "tags": ["cover", "hero", "course", "webinar", "education", "video", "social proof"],
+    "structure": ["header", "cta-button", "ratings", "video", "logo-wall"],
+    "complexity": "high",
+    "use_cases": [
+        "Online Course Landing Pages",
+        "Webinar Sign-up Pages",
+        "Digital Product Sales"
+    ]
+}

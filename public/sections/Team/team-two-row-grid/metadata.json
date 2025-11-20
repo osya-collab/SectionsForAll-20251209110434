@@ -1,0 +1,13 @@
+{
+    "name": "Two Row Grid",
+    "category": "Team",
+    "description": "A team section with a two-row grid of cards, each featuring a large square portrait and detailed bio information.",
+    "tags": ["team", "grid", "bio", "cards", "corporate"],
+    "structure": ["header", "grid", "cards"],
+    "complexity": "medium",
+    "use_cases": [
+        "Corporate team pages",
+        "Agency 'About Us' sections",
+        "Project team showcases"
+    ]
+}

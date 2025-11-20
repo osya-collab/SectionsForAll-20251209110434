@@ -1,0 +1,13 @@
+{
+    "name": "Circle Images without Bio",
+    "category": "Team",
+    "description": "A clean, minimalist team section featuring multiple rows of circular portraits with names and roles, but no detailed bios.",
+    "tags": ["team", "grid", "portraits", "minimalist", "clean"],
+    "structure": ["header", "grid", "cards"],
+    "complexity": "simple",
+    "use_cases": [
+        "Large team showcases",
+        "Corporate directories",
+        "Community member lists"
+    ]
+}

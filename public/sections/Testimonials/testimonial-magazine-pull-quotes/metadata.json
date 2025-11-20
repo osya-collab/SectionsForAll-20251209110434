@@ -1,0 +1,13 @@
+{
+    "name": "Magazine Pull-Quotes",
+    "category": "Testimonials",
+    "description": "Design like editorial spreads with dramatic pull-quote marks and serif display fonts. Add small portrait thumbnails and brand colors for a premium, story-driven feel.",
+    "tags": ["testimonial", "pullquote", "magazine", "editorial", "typography", "elegant"],
+    "structure": ["quote-blocks"],
+    "complexity": "simple",
+    "use_cases": [
+        "High-end brand websites",
+        "Case studies",
+        "Portfolio pages for designers or writers"
+    ]
+}

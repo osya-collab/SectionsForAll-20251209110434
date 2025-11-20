@@ -1,0 +1,14 @@
+
+{
+    "name": "Full Width Block",
+    "category": "Layouts",
+    "description": "A single, full-width block. The most basic building block for a page, ready to contain any component.",
+    "tags": ["layout", "structure", "full-width", "basic", "container"],
+    "structure": ["container", "placeholder"],
+    "complexity": "simple",
+    "use_cases": [
+        "Creating custom page layouts",
+        "Starting a new page section",
+        "Wrapping complex components"
+    ]
+}

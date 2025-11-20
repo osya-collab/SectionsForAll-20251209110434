@@ -1,0 +1,13 @@
+{
+    "name": "Alternating Layout",
+    "category": "Team",
+    "description": "A visually engaging team section where each member's bio alternates between a left-image and right-image layout.",
+    "tags": ["team", "about", "alternating", "bio", "portraits"],
+    "structure": ["header", "team-member-rows"],
+    "complexity": "medium",
+    "use_cases": [
+        "Founder bios",
+        "Key team member introductions",
+        "Agency 'About Us' pages"
+    ]
+}

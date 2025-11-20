@@ -1,0 +1,17 @@
+{
+    "id": "split-screen-hero-image",
+    "html": "<section class=\"split-hero-container-1\">\n  <div class=\"split-hero-content-1\">\n    <h1 class=\"split-hero-heading-1\">Innovate &amp; Elevate Your Business</h1>\n    <p class=\"split-hero-subheading-1\">Discover powerful solutions designed to streamline your workflow and drive growth. Let's build the future together.</p>\n    <a href=\"#\" class=\"split-hero-cta-1\">Get Started</a>\n  </div>\n  <div class=\"split-hero-image-wrapper-1\">\n    <img src=\"images/split-screen-hero-image-0.webp\" alt=\"A modern and creative workspace\" class=\"split-hero-image-1\">\n  </div>\n</section>",
+    "css": ".split-hero-container-1 {\n  display: flex;\n  flex-direction: column;\n  background-color: #F8F9FA;\n  font-family: Arial, sans-serif;\n  overflow: hidden;\n  min-height: 80vh;\n}\n.split-hero-content-1 {\n  padding: 40px 20px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  text-align: center;\n}\n.split-hero-heading-1 {\n  font-size: 2.5rem;\n  color: #212529;\n  margin-bottom: 16px;\n  font-weight: 700;\n}\n.split-hero-subheading-1 {\n  font-size: 1.1rem;\n  color: #6C757D;\n  line-height: 1.6;\n  margin-bottom: 32px;\n  max-width: 500px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.split-hero-cta-1 {\n  background-color: #007BFF;\n  color: #FFFFFF;\n  padding: 14px 28px;\n  border-radius: 5px;\n  text-decoration: none;\n  font-weight: bold;\n  transition: background-color 0.3s ease, transform 0.3s ease;\n  display: inline-block;\n  align-self: center;\n}\n.split-hero-cta-1:hover {\n  background-color: #0056b3;\n  transform: translateY(-2px);\n}\n.split-hero-image-wrapper-1 {\n  width: 100%;\n  height: 300px;\n}\n.split-hero-image-1 {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n}\n\n@media (min-width: 768px) {\n  .split-hero-container-1 {\n    flex-direction: row;\n  }\n  .split-hero-content-1 {\n    width: 50%;\n    padding: 60px;\n    text-align: left;\n    align-items: flex-start;\n  }\n  .split-hero-subheading-1 {\n    margin-left: 0;\n    margin-right: 0;\n  }\n  .split-hero-cta-1 {\n    align-self: flex-start;\n  }\n  .split-hero-image-wrapper-1 {\n    width: 50%;\n    height: auto;\n  }\n}\n\n@media (min-width: 1024px) {\n  .split-hero-heading-1 {\n    font-size: 3.5rem;\n  }\n  .split-hero-subheading-1 {\n    font-size: 1.25rem;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Heldenbereich im geteilten Bildschirm mit Bild"
+        },
+        "ar": {
+            "name": "قسم الغلاف بشاشة مقسمة مع صورة"
+        },
+        "en": {
+            "name": "Split-Screen Hero with Image"
+        }
+    }
+}

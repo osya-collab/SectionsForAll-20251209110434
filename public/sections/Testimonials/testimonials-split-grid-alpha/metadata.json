@@ -1,0 +1,37 @@
+{
+    "name": "Split Layout with Review Grid",
+    "category": "Testimonials",
+    "description": "A clean split layout with a hero image on top and a 3-column grid of detailed review cards below, mimicking the reference structure.",
+    "tags": [
+        "testimonials",
+        "grid",
+        "modern",
+        "clean",
+        "split"
+    ],
+    "structure": [
+        "Split Header",
+        "Hero Image",
+        "3-Column Grid",
+        "Review Cards"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Agency Landing Page",
+        "SaaS Features",
+        "Corporate Home"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#F5F5F5",
+            "#FFFFFF",
+            "#111111",
+            "#99E200"
+        ],
+        "fonts": [
+            "Sans Serif Bold",
+            "Sans Serif Regular"
+        ],
+        "visual_identity": "Professional, structured, airy, trustworthy"
+    }
+}

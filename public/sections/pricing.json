@@ -1,0 +1,112 @@
+[
+  {
+    "id": "pricing-3-tier",
+    "name": "3-Tier Pricing Table",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-3d-flip-cards",
+    "name": "3D Flip Cards",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-accordion-style",
+    "name": "Accordion Style",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-angled-headers",
+    "name": "Angled Headers",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-bold-blocky",
+    "name": "Bold Blocky",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-checklist-comparison",
+    "name": "Checklist Comparison",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-dark-neon",
+    "name": "Dark Neon",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-elegant-lines",
+    "name": "Elegant Lines",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-enterprise-focus",
+    "name": "Enterprise Focus",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-feature-grid",
+    "name": "Feature-Focus Grid",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-feature-rows",
+    "name": "Feature-Centric Rows",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-hand-drawn",
+    "name": "Hand-Drawn Sketch",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-industrial-dark",
+    "name": "Industrial Dark",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-minimalist-mono",
+    "name": "Minimalist Monochrome",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-organic-shapes",
+    "name": "Organic Shapes",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-pastel-soft",
+    "name": "Pastel & Soft",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-shadow-pop",
+    "name": "Shadow Pop",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-slider-style",
+    "name": "Slider Style Pricing",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-soft-clay",
+    "name": "Soft Claymorphism",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-split-tone",
+    "name": "Split-Tone Cards",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-tabbed-monthly-yearly",
+    "name": "Tabbed Monthly/Yearly",
+    "category": "Pricing"
+  },
+  {
+    "id": "pricing-vibrant-flat",
+    "name": "Vibrant Flat",
+    "category": "Pricing"
+  }
+]

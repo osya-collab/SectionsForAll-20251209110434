@@ -1,0 +1,17 @@
+{
+    "id": "cta-modern-minimal-purple",
+    "html": "<section class=\"cta-modern-minimal-purple\">\n  <div class=\"container\">\n    <h2>Ready to Transform Your Ideas?</h2>\n    <p>Let's build something amazing together. Contact us to start your project.</p>\n    <a href=\"#\" class=\"btn\">Let's Connect</a>\n  </div>\n</section>",
+    "css": ".cta-modern-minimal-purple {\n  padding: 40px 20px;\n  background-color: #fff;\n  text-align: center;\n}\n.cta-modern-minimal-purple .container {\n  max-width: 600px;\n  margin: 0 auto;\n}\n.cta-modern-minimal-purple h2 {\n  font-size: 28px;\n  margin-bottom: 15px;\n  color: #4b0082;\n  font-family: 'Verdana', sans-serif;\n}\n.cta-modern-minimal-purple p {\n  font-size: 16px;\n  margin-bottom: 30px;\n  color: #555;\n  line-height: 1.6;\n  font-family: 'Verdana', sans-serif;\n}\n.cta-modern-minimal-purple .btn {\n  display: inline-block;\n  padding: 12px 30px;\n  background-color: #8a2be2;\n  color: #fff;\n  text-decoration: none;\n  font-size: 16px;\n  border-radius: 8px;\n  transition: background-color 0.3s ease, transform 0.3s ease;\n  font-family: 'Verdana', sans-serif;\n}\n.cta-modern-minimal-purple .btn:hover {\n  background-color: #6a0dad;\n  transform: translateY(-2px);\n}\n\n@media (min-width: 768px) {\n  .cta-modern-minimal-purple {\n    padding: 60px 20px;\n  }\n  .cta-modern-minimal-purple h2 {\n    font-size: 36px;\n  }\n  .cta-modern-minimal-purple p {\n    font-size: 18px;\n  }\n  .cta-modern-minimal-purple .btn {\n    font-size: 18px;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Modern Minimal CTA (Lila)"
+        },
+        "ar": {
+            "name": "دعوة بسيطة حديثة (بنفسجي)"
+        },
+        "en": {
+            "name": "Modern Minimal CTA (Purple)"
+        }
+    }
+}

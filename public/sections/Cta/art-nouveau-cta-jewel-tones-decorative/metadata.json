@@ -1,0 +1,40 @@
+{
+    "name": "Art Nouveau CTA - Jewel Tones Decorative",
+    "category": "Cta",
+    "description": "A decorative CTA section in dark magenta with gold accents, featuring elegant, almost calligraphic typography and art nouveau ornamental motifs.",
+    "tags": [
+        "cta",
+        "art nouveau",
+        "jewel tones",
+        "decorative",
+        "gold",
+        "ornate"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "h2",
+        "p",
+        "a",
+        "div",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "art galleries",
+        "boutique shops",
+        "luxury branding"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#8b008b",
+            "#fff",
+            "#ffd700"
+        ],
+        "fonts": [
+            "Uncial Antiqua"
+        ],
+        "visual_identity": "Ornate Art Nouveau with dark magenta, gold, and decorative elements, using calligraphic-inspired fonts."
+    }
+}

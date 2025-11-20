@@ -1,0 +1,45 @@
+{
+    "name": "Retro Futurism CTA with Silver Accent",
+    "category": "Cta",
+    "description": "A retro-futuristic CTA with a dusty rose background, featuring a silver button and a subtle pale teal accent line. An abstract image adds depth.",
+    "tags": [
+        "retro",
+        "futurism",
+        "cta",
+        "silver",
+        "accent",
+        "modern",
+        "optimistic"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "button",
+        "div",
+        "div",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "call to action",
+        "signup",
+        "promotional link"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f0e6e0",
+            "#ffffff",
+            "#333",
+            "#555",
+            "#c0c0c0",
+            "#b0c4de"
+        ],
+        "fonts": [
+            "Exo 2",
+            "sans-serif"
+        ],
+        "visual_identity": "Sleek retro-futurism with metallic accents and clean, optimistic messaging."
+    }
+}

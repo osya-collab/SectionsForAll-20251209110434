@@ -1,0 +1,37 @@
+{
+    "id": "about-stats-gradient",
+    "html": "\n<section class=\"about-stats-gradient-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container about-stats-gradient-container\">\n        <div class=\"gradient-image anim-fade-in-right\">\n            <span>{{t:image_placeholder}}</span>\n        </div>\n        <div class=\"stats-content anim-fade-in-left\">\n            <h2>{{t:title}}</h2>\n            <p>{{t:description}}</p>\n            <div class=\"stats-grid\">\n                <div class=\"stat-block\">\n                    <span class=\"stat-value\">200</span>\n                    <span class=\"stat-label\">{{t:stat1_label}}</span>\n                </div>\n                <div class=\"stat-block\">\n                    <span class=\"stat-value\">25</span>\n                    <span class=\"stat-label\">{{t:stat2_label}}</span>\n                </div>\n                <div class=\"stat-block\">\n                    <span class=\"stat-value\">100</span>\n                    <span class=\"stat-label\">{{t:stat3_label}}</span>\n                </div>\n                <div class=\"stat-block\">\n                    <span class=\"stat-value\">75</span>\n                    <span class=\"stat-label\">{{t:stat4_label}}</span>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.about-stats-gradient-section { padding: 5rem 0; background-color: var(--color-light); }\n.about-stats-gradient-section .container { width: 90%; max-width: 1000px; margin: 0 auto; }\n.about-stats-gradient-container { display: grid; grid-template-columns: 1fr 1.5fr; gap: 3rem; align-items: center; }\n.about-stats-gradient-section .gradient-image {\n    width: 100%;\n    aspect-ratio: 3/4;\n    border-radius: 1rem;\n    background: linear-gradient(180deg, #ffecd2 0%, #fcb69f 100%);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    color: rgba(0,0,0,0.5);\n    font-size: 0.9rem;\n}\n.about-stats-gradient-section .stats-content h2 { font-family: serif; font-size: 3rem; color: var(--color-dark); }\n.about-stats-gradient-section .stats-content p { color: var(--color-secondary); margin-bottom: 2rem; }\n.about-stats-gradient-section .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background-color: #e5e7eb; border: 1px solid #e5e7eb; }\n.about-stats-gradient-section .stat-block { background-color: var(--color-light); padding: 1.5rem; text-align: center; }\n.about-stats-gradient-section .stat-value { display: block; font-size: 2.5rem; font-weight: 600; color: var(--color-dark); }\n.about-stats-gradient-section .stat-label { font-size: 1rem; color: var(--color-secondary); }\n@media (max-width: 768px) {\n    .about-stats-gradient-container { grid-template-columns: 1fr; }\n}\n",
+    "translations": {
+        "de": {
+            "name": "Statistiken mit Farbverlauf-Bild",
+            "image_placeholder": "Klick zum Hinzufügen",
+            "title": "Über",
+            "description": "Fügen Sie hier eine Produktbeschreibung hinzu, die für Ihre Kunden nützlich ist. Fügen Sie die herausragenden Eigenschaften dieses Artikels hinzu, die die Kunden dazu bringen können, es zu kaufen. Schreiben Sie einen eigenen Text und gestalten Sie ihn in den Eigenschaften auf der Registerkarte Style.",
+            "stat1_label": "Beratung",
+            "stat2_label": "Gesamtzahl der Fälle",
+            "stat3_label": "Mitglieder",
+            "stat4_label": "Zufriedene Kunden"
+        },
+        "en": {
+            "name": "Stats with Gradient Image",
+            "image_placeholder": "Click to Add",
+            "title": "About",
+            "description": "Add a product description here that will be useful for your customers. Add the outstanding features of this item that can make customers want to buy it. Write your own text and style it in the properties on the Style tab.",
+            "stat1_label": "Consultation",
+            "stat2_label": "Total Cases",
+            "stat3_label": "Members",
+            "stat4_label": "Satisfied Customers"
+        },
+        "ar": {
+            "name": "إحصائيات مع صورة متدرجة",
+            "image_placeholder": "انقر للإضافة",
+            "title": "عن",
+            "description": "أضف وصف المنتج هنا الذي سيكون مفيدًا لعملائك. أضف الميزات البارزة لهذا العنصر التي يمكن أن تجعل العملاء يرغبون في شرائه. اكتب نصك الخاص ونسقه في الخصائص الموجودة في علامة التبويب النمط.",
+            "stat1_label": "استشارة",
+            "stat2_label": "إجمالي الحالات",
+            "stat3_label": "أعضاء",
+            "stat4_label": "عملاء راضون"
+        }
+    }
+}

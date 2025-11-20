@@ -1,0 +1,22 @@
+[
+  { "id": "nav-accent-border", "name": "Accent Border Nav", "category": "Menu" },
+  { "id": "nav-auth-light", "name": "Nav with Auth Buttons (Light)", "category": "Menu" },
+  { "id": "nav-auth-white", "name": "Nav with Auth Buttons (White)", "category": "Menu" },
+  { "id": "nav-bold-logotype", "name": "Bold Logotype Nav", "category": "Menu" },
+  { "id": "nav-button-group", "name": "Button Group Nav", "category": "Menu" },
+  { "id": "nav-centered-logo", "name": "Centered Logo Nav", "category": "Menu" },
+  { "id": "nav-centered-tagline", "name": "Centered Logo & Tagline", "category": "Menu" },
+  { "id": "nav-contact-strip", "name": "Contact Strip Nav", "category": "Menu" },
+  { "id": "nav-dark-glassmorphism", "name": "Glassmorphism Nav", "category": "Menu" },
+  { "id": "nav-inline-phone", "name": "Inline Phone Nav", "category": "Menu" },
+  { "id": "nav-lang-cta", "name": "Nav with Language & CTA", "category": "Menu" },
+  { "id": "nav-phone-cta", "name": "Nav with Phone & CTA", "category": "Menu" },
+  { "id": "nav-pill-buttons", "name": "Pill Style Nav", "category": "Menu" },
+  { "id": "nav-search-bar", "name": "Nav with Search Bar", "category": "Menu" },
+  { "id": "nav-simple-right", "name": "Simple Links Right", "category": "Menu" },
+  { "id": "nav-social-top-bar", "name": "Social Top Bar Nav", "category": "Menu" },
+  { "id": "nav-split-cta", "name": "Split Nav with CTA", "category": "Menu" },
+  { "id": "nav-studio-header", "name": "Studio Header Style Nav", "category": "Menu" },
+  { "id": "nav-with-cta", "name": "Nav with CTA Button", "category": "Menu" },
+  { "id": "nav-with-socials", "name": "Nav with Social Icons", "category": "Menu" }
+]

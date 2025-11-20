@@ -1,0 +1,41 @@
+{
+    "name": "CTA in Sun-Dappled Clearing",
+    "category": "Cta",
+    "description": "A serene CTA set in a sun-dappled forest clearing, using a soft peach overlay and natural green/brown tones to evoke peace and renewal.",
+    "tags": [
+        "cta",
+        "forest clearing",
+        "sunlight",
+        "nature",
+        "peace",
+        "renewal"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "wellness retreats",
+        "meditation guides",
+        "nature therapy"
+    ],
+    "style_analysis": {
+        "colors": [
+            "rgba(255, 245, 238, 0.8)",
+            "#2c3e50",
+            "#4e342e",
+            "#795548",
+            "#8fbc8f",
+            "#2e7d32"
+        ],
+        "fonts": [
+            "Playfair Display",
+            "serif"
+        ],
+        "visual_identity": "Peaceful and radiant, with dappled sunlight effects and a warm peach overlay, promoting natural well-being."
+    }
+}

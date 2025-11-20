@@ -1,0 +1,41 @@
+{
+    "name": "Product Highlight - Modern Minimal",
+    "category": "Products",
+    "description": "A modern and minimalist product highlight section with a split layout featuring an image on one side and product details on the other. Includes a prominent call-to-action button.",
+    "tags": [
+        "products",
+        "highlight",
+        "minimalist",
+        "ecommerce",
+        "featured"
+    ],
+    "structure": [
+        "container",
+        "highlight content",
+        "image container",
+        "text container",
+        "price and action"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "showcasing a single key product",
+        "promotional banners",
+        "landing page features"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f8f9fa",
+            "#ffffff",
+            "#888",
+            "#333",
+            "#555",
+            "#2c3e50",
+            "#34495e"
+        ],
+        "fonts": [
+            "Inter",
+            "sans-serif"
+        ],
+        "visual_identity": "Sophisticated, clean, modern, and premium with a focus on detail."
+    }
+}

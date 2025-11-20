@@ -1,0 +1,41 @@
+{
+    "name": "Split Layout CTA (Peach & Green)",
+    "category": "Cta",
+    "description": "A split-layout CTA with a soft peach left side for text and a calming green right side for the button, promoting growth and partnership.",
+    "tags": [
+        "cta",
+        "split layout",
+        "peach",
+        "green",
+        "growth",
+        "partnership"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "h2",
+        "p",
+        "div",
+        "a"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "business consulting",
+        "partnerships",
+        "growth strategies"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#ffe5d9",
+            "#c06c84",
+            "#a8dadc",
+            "#fff"
+        ],
+        "fonts": [
+            "Roboto",
+            "sans-serif"
+        ],
+        "visual_identity": "Balanced and organic with a gentle peach and teal split, conveying growth and collaboration."
+    }
+}

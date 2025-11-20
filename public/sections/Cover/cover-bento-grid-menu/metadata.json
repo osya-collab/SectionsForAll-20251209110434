@@ -1,0 +1,33 @@
+{
+    "name": "Bento Grid Menu Hero",
+    "category": "Cover",
+    "description": "A trendy 'bento' grid layout showcasing multiple aspects of the food service in a structured, dark-themed grid.",
+    "tags": [
+        "hero",
+        "bento grid",
+        "modern",
+        "gallery"
+    ],
+    "structure": [
+        "grid layout",
+        "cards",
+        "typography"
+    ],
+    "complexity": "complex",
+    "use_cases": [
+        "Food Delivery",
+        "Modern Restaurant",
+        "Online Menu"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#050505",
+            "#151515",
+            "#ff4500"
+        ],
+        "fonts": [
+            "Sans-serif"
+        ],
+        "visual_identity": "Grid Based Modern"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Neo-Brutalism CTA - Framed Pink",
+    "category": "Cta",
+    "description": "A framed Neo-Brutalism CTA section with a thick black border around the content. Uses a hot pink accent for the box shadow and button, creating a strong visual focus.",
+    "tags": [
+        "cta",
+        "neo-brutalism",
+        "framed",
+        "pink",
+        "modern",
+        "impactful"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "highlighted offers",
+        "key service promotion",
+        "lead capture"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#ffffff",
+            "#000000",
+            "#ff00ff"
+        ],
+        "fonts": [
+            "sans-serif"
+        ],
+        "visual_identity": "Framed Neo-Brutalism with stark black borders and a vibrant hot pink accent for emphasis."
+    }
+}

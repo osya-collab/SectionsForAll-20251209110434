@@ -1,0 +1,25 @@
+{
+    "id": "team-alternating-bio-cards",
+    "html": "\n<section class=\"team-alternating-cards-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"team-member-row anim-fade-in-up\">\n            <div class=\"text-content\">\n                <h3>{{t:member1_name}}</h3>\n                <p>{{t:member_bio}}</p>\n            </div>\n            <div class=\"image-content\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=smiling+man+portrait+outdoors\" alt=\"{{t:member1_name}}\">\n            </div>\n        </div>\n        <div class=\"team-member-row anim-fade-in-up anim-delay-1\">\n            <div class=\"image-content\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=woman+portrait+dark+background\" alt=\"{{t:member2_name}}\">\n            </div>\n            <div class=\"text-content\">\n                <h3>{{t:member2_name}}</h3>\n                <p>{{t:member_bio}}</p>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-alternating-cards-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.team-alternating-cards-section .container {\n    width: 90%;\n    max-width: 900px;\n    margin: 0 auto;\n    display: flex;\n    flex-direction: column;\n    gap: 4rem;\n}\n.team-alternating-cards-section .team-member-row {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 2rem;\n    align-items: center;\n}\n@media (min-width: 768px) {\n    .team-alternating-cards-section .team-member-row {\n        grid-template-columns: 1fr 1fr;\n    }\n    .team-alternating-cards-section .team-member-row:nth-child(even) .image-content {\n        order: -1;\n    }\n}\n.team-alternating-cards-section .text-content h3 {\n    font-size: 1.75rem;\n    font-weight: 600;\n    color: #8B572A; /* Brown color like the image */\n    margin-bottom: 1rem;\n}\n.team-alternating-cards-section .text-content p {\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n}\n.team-alternating-cards-section .image-content img {\n    width: 100%;\n    height: auto;\n    aspect-ratio: 1/1;\n    object-fit: cover;\n    border-radius: 0.5rem;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Abwechselnde Bio-Karten",
+            "member1_name": "David Willmann",
+            "member_bio": "Auf dieser Seite finden Sie die neuesten Informationen über uns. Unser Unternehmen entwickelt sich ständig weiter und wächst ständig. Wir bieten eine breite Palette von Dienstleistungen. Unsere Mission ist es, die beste Lösung bereitzustellen, die allen hilft. Wenn Sie uns kontaktieren möchten, füllen Sie bitte das Kontaktformular auf unserer Website aus. Wir wünschen Ihnen einen schönen Tag!",
+            "member2_name": "Barbara Santa"
+        },
+        "en": {
+            "name": "Alternating Bio Cards",
+            "member1_name": "David Willmann",
+            "member_bio": "On this page, you will find the latest information about us. Our company is constantly evolving and growing. We offer a wide range of services. Our mission is to provide the best solution that helps everyone. If you would like to contact us, please fill out the contact form on our website. We wish you a nice day!",
+            "member2_name": "Barbara Santa"
+        },
+        "ar": {
+            "name": "بطاقات السيرة الذاتية المتناوبة",
+            "member1_name": "ديفيد ويلمان",
+            "member_bio": "في هذه الصفحة ستجد أحدث المعلومات عنا. شركتنا تتطور وتنمو باستمرار. نحن نقدم مجموعة واسعة من الخدمات. مهمتنا هي تقديم أفضل حل يساعد الجميع. إذا كنت ترغب في الاتصال بنا، يرجى ملء نموذج الاتصال على موقعنا. نتمنى لك يوما سعيدا!",
+            "member2_name": "باربرا سانتا"
+        }
+    }
+}

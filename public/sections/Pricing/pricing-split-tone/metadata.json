@@ -1,0 +1,14 @@
+
+{
+    "name": "Split-Tone Cards",
+    "category": "Pricing",
+    "description": "A visually distinct pricing table where each card is split vertically into two tones of the same color. Icons and plan names are in the top half, with details below.",
+    "tags": ["pricing", "split-color", "modern", "cards", "design"],
+    "structure": ["header", "pricing-cards", "features", "button"],
+    "complexity": "medium",
+    "use_cases": [
+        "Design Agencies",
+        "Modern Startups",
+        "Creative Services"
+    ]
+}

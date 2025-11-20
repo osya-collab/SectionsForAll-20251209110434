@@ -1,0 +1,58 @@
+{
+    "id": "pricing-3-tier",
+    "html": "\n<section class=\"pricing-3-tier-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <h2 class=\"section-title anim-fade-in-up\">{{t:title}}</h2>\n        <div class=\"pricing-grid\">\n            <div class=\"pricing-card anim-fade-in-up\">\n                <h3>{{t:plan1_name}}</h3>\n                <div class=\"price\">{{t:plan1_price}}<span>/{{t:price_unit}}</span></div>\n                <ul>\n                    <li>✓ {{t:feature1}}</li>\n                    <li>✓ {{t:feature2}}</li>\n                    <li>✗ {{t:feature3}}</li>\n                    <li>✗ {{t:feature4}}</li>\n                </ul>\n                <a href=\"#\" class=\"btn-pricing\">{{t:cta_button}}</a>\n            </div>\n            <div class=\"pricing-card popular anim-fade-in-up\" style=\"animation-delay: 0.2s\">\n                <div class=\"popular-badge\">{{t:popular_badge}}</div>\n                <h3>{{t:plan2_name}}</h3>\n                <div class=\"price\">{{t:plan2_price}}<span>/{{t:price_unit}}</span></div>\n                <ul>\n                    <li>✓ {{t:feature1}}</li>\n                    <li>✓ {{t:feature2}}</li>\n                    <li>✓ {{t:feature3}}</li>\n                    <li>✗ {{t:feature4}}</li>\n                </ul>\n                <a href=\"#\" class=\"btn-pricing-popular\">{{t:cta_button}}</a>\n            </div>\n            <div class=\"pricing-card anim-fade-in-up\" style=\"animation-delay: 0.4s\">\n                <h3>{{t:plan3_name}}</h3>\n                <div class=\"price\">{{t:plan3_price}}<span>/{{t:price_unit}}</span></div>\n                <ul>\n                    <li>✓ {{t:feature1}}</li>\n                    <li>✓ {{t:feature2}}</li>\n                    <li>✓ {{t:feature3}}</li>\n                    <li>✓ {{t:feature4}}</li>\n                </ul>\n                <a href=\"#\" class=\"btn-pricing\">{{t:cta_button}}</a>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.pricing-3-tier-section .container {\n  width: 90%;\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 1rem;\n}\n.pricing-3-tier-section { padding: 4rem 0; background-color: var(--color-light, #FFFFFF); }\n.pricing-3-tier-section .section-title { text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: var(--color-dark, #111827); }\n.pricing-3-tier-section .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; align-items: center; }\n.pricing-3-tier-section .pricing-card {\n    background: var(--color-light, #fff);\n    border: 1px solid #e0e0e0;\n    border-radius: 12px;\n    padding: 2rem;\n    text-align: center;\n    transition: transform 0.3s, box-shadow 0.3s;\n}\n.pricing-3-tier-section .pricing-card:hover { transform: translateY(-10px); box-shadow: 0 15px 40px rgba(0,0,0,0.1); }\n.pricing-3-tier-section .pricing-card.popular { border-color: var(--color-primary, #667eea); transform: scale(1.05); position: relative; }\n.pricing-3-tier-section .popular-badge {\n    position: absolute;\n    top: -15px;\n    left: 50%;\n    transform: translateX(-50%);\n    background: var(--color-primary, #667eea);\n    color: var(--color-light, #FFFFFF);\n    padding: 0.25rem 1rem;\n    border-radius: 20px;\n    font-size: 0.8rem;\n    font-weight: 600;\n}\n.pricing-3-tier-section .pricing-card h3 { font-size: 1.2rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem; }\n.pricing-3-tier-section .price { font-size: 3rem; font-weight: 700; margin-bottom: 1.5rem; color: var(--color-dark, #111827); }\n.pricing-3-tier-section .price span { font-size: 1rem; font-weight: 400; color: var(--color-secondary, #6B7280); vertical-align: middle; }\n.pricing-3-tier-section .pricing-card ul { list-style: none; padding: 0; margin-bottom: 2rem; }\n.pricing-3-tier-section .pricing-card li { margin-bottom: 0.75rem; color: var(--color-secondary, #6B7280); }\n.pricing-3-tier-section .btn-pricing { display: block; width: 100%; padding: 1rem; border: 1px solid var(--color-dark, #111827); color: var(--color-dark, #111827); text-decoration: none; border-radius: 8px; font-weight: 600; }\n.pricing-3-tier-section .btn-pricing-popular { display: block; width: 100%; padding: 1rem; background-color: var(--color-primary, #667eea); color: var(--color-light, #FFFFFF); text-decoration: none; border-radius: 8px; font-weight: 600; }\n",
+    "translations": {
+        "de": {
+            "name": "3-stufige Preistabelle",
+            "title": "Unsere Preispläne",
+            "plan1_name": "Basis",
+            "plan1_price": "19€",
+            "plan2_name": "Pro",
+            "plan2_price": "49€",
+            "plan3_name": "Unternehmen",
+            "plan3_price": "99€",
+            "price_unit": "Monat",
+            "feature1": "Funktion Eins",
+            "feature2": "Funktion Zwei",
+            "feature3": "Funktion Drei",
+            "feature4": "Funktion Vier",
+            "cta_button": "Plan wählen",
+            "popular_badge": "Am beliebtesten"
+        },
+        "ar": {
+            "name": "جدول أسعار من 3 مستويات",
+            "title": "خطط التسعير لدينا",
+            "plan1_name": "أساسي",
+            "plan1_price": "١٩ دولار",
+            "plan2_name": "احترافي",
+            "plan2_price": "٤٩ دولار",
+            "plan3_name": "مؤسسة",
+            "plan3_price": "٩٩ دولار",
+            "price_unit": "شهريًا",
+            "feature1": "الميزة الأولى",
+            "feature2": "الميزة الثانية",
+            "feature3": "الميزة الثالثة",
+            "feature4": "الميزة الرابعة",
+            "cta_button": "اختر الخطة",
+            "popular_badge": "الأكثر شهرة"
+        },
+        "en": {
+            "name": "3-Tier Pricing Table",
+            "title": "Our Pricing Plans",
+            "plan1_name": "Basic",
+            "plan1_price": "$19",
+            "plan2_name": "Pro",
+            "plan2_price": "$49",
+            "plan3_name": "Enterprise",
+            "plan3_price": "$99",
+            "price_unit": "mo",
+            "feature1": "Feature One",
+            "feature2": "Feature Two",
+            "feature3": "Feature Three",
+            "feature4": "Feature Four",
+            "cta_button": "Choose Plan",
+            "popular_badge": "Most Popular"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+
+{
+    "name": "Guarantees Banner",
+    "category": "Trust",
+    "description": "A bold banner to highlight key guarantees or promises, building customer confidence with icons and clear statements.",
+    "tags": ["guarantee", "trust", "banner", "features", "corporate"],
+    "structure": ["grid", "guarantee-cards"],
+    "complexity": "simple",
+    "use_cases": [
+        "Product pages",
+        "Checkout pages",
+        "Service-based business websites"
+    ]
+}

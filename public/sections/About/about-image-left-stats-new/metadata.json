@@ -1,0 +1,13 @@
+{
+    "name": "About with Left Image & Stats",
+    "category": "About",
+    "description": "A clean, professional layout featuring an image on the left and text content with a 2x2 statistics grid on the right.",
+    "tags": ["about", "stats", "corporate", "professional", "image"],
+    "structure": ["image", "header", "paragraph", "stats-grid"],
+    "complexity": "medium",
+    "use_cases": [
+        "Corporate 'About Us' pages",
+        "Service descriptions with data points",
+        "Company overview sections"
+    ]
+}

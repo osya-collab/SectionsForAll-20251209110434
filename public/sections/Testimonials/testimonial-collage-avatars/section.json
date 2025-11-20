@@ -1,0 +1,22 @@
+{
+    "id": "testimonial-collage-avatars",
+    "html": "\n<section class=\"avatar-collage-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"avatar-collage\">\n            <img src=\"https://i.pravatar.cc/80?img=13\" alt=\"{{t:avatar_alt}}\" style=\"top: 10%; left: 15%; transform: rotate(-10deg);\"> \n            <img src=\"https://i.pravatar.cc/80?img=14\" alt=\"{{t:avatar_alt}}\" style=\"top: 50%; left: 5%; transform: rotate(5deg);\">\n            <img src=\"https://i.pravatar.cc/80?img=15\" alt=\"{{t:avatar_alt}}\" style=\"top: 20%; right: 10%; transform: rotate(8deg);\">\n            <img src=\"https://i.pravatar.cc/80?img=16\" alt=\"{{t:avatar_alt}}\" style=\"top: 60%; right: 15%; transform: rotate(-5deg);\">\n        </div>\n        <blockquote>\"{{t:quote}}\"</blockquote>\n    </div>\n</section>",
+    "css": "\n.avatar-collage-section { padding: 5rem 0; text-align: center; position: relative; overflow: hidden; width: 100%; box-sizing: border-box; background-color: var(--color-light, #ffffff); }\n.avatar-collage-section * { box-sizing: border-box; }\n.avatar-collage-section .container { max-width: 600px; margin: 0 auto; position: relative; z-index: 2; padding: 0 1rem; }\n.avatar-collage-section .avatar-collage { position: absolute; inset: 0; z-index: 1; opacity: 0.15; pointer-events: none; }\n.avatar-collage-section .avatar-collage img { position: absolute; width: 80px; height: 80px; border-radius: 50%; object-fit: cover; }\n.avatar-collage-section blockquote { font-size: 2.25rem; font-weight: 600; line-height: 1.4; margin: 0; color: var(--color-dark, #111827); }\n",
+    "translations": {
+        "en": {
+            "name": "Collage with Avatars",
+            "quote": "Join a community of thousands of happy users.",
+            "avatar_alt": "User Avatar"
+        },
+        "de": {
+            "name": "Collage mit Avataren",
+            "quote": "Treten Sie einer Community von Tausenden zufriedener Benutzer bei.",
+            "avatar_alt": "Benutzer-Avatar"
+        },
+        "ar": {
+            "name": "كولاج مع صور رمزية",
+            "quote": "انضم إلى مجتمع يضم الآلاف من المستخدمين السعداء.",
+            "avatar_alt": "صورة المستخدم الرمزية"
+        }
+    }
+}

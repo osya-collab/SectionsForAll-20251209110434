@@ -1,0 +1,13 @@
+{
+    "name": "Dark Theme Article",
+    "category": "Article",
+    "description": "A sleek and modern article layout designed specifically for dark-themed websites, featuring a glowing title and high-contrast text.",
+    "tags": ["article", "dark-theme", "modern", "tech", "content"],
+    "structure": ["header", "content"],
+    "complexity": "simple",
+    "use_cases": [
+        "Tech blogs",
+        "Night-mode articles",
+        "Modern digital magazines"
+    ]
+}

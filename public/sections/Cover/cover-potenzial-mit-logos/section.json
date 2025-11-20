@@ -1,0 +1,25 @@
+{
+    "id": "cover-potenzial-mit-logos",
+    "html": "\n<section class=\"cover-2-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container text-center\">\n        <h1 class=\"anim-fade-in-up\">{{t:title}}</h1>\n        <p class=\"subtitle anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n        <a href=\"#\" class=\"btn btn-dark anim-fade-in-up anim-delay-2\">{{t:cta_button}}</a>\n    </div>\n    <div class=\"logos-container anim-fade-in-up anim-delay-3\">\n        <img src=\"https://logo.clearbit.com/inside.com\" alt=\"inside.com logo\">\n        <img src=\"https://logo.clearbit.com/moderndigest.com\" alt=\"Modern Digest logo\">\n        <img src=\"https://logo.clearbit.com/nextfoundry.com\" alt=\"Next Foundry logo\">\n        <img src=\"https://logo.clearbit.com/techcrunch.com\" alt=\"TechCrunch logo\">\n        <img src=\"https://logo.clearbit.com/wired.com\" alt=\"Wired logo\">\n    </div>\n</section>",
+    "css": "\n.cover-2-section {\n    background-color: #f8f9fa; /* A very light gray */\n    padding: 6rem 0;\n}\n.cover-2-section .container { width: 90%; max-width: 800px; margin: 0 auto; padding: 0 1rem; text-align: center; }\n.cover-2-section h1 {\n    font-size: clamp(2.5rem, 6vw, 4rem);\n    font-weight: 700;\n    line-height: 1.2;\n    margin-bottom: 1.5rem;\n    color: var(--color-dark, #1F2937);\n}\n.cover-2-section .subtitle {\n    font-size: 1.1rem;\n    max-width: 600px;\n    margin: 0 auto 2.5rem;\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n}\n.cover-2-section .btn {\n    display: inline-block;\n    padding: 1rem 2.5rem;\n    text-decoration: none;\n    border-radius: 0.5rem;\n    font-weight: 600;\n    transition: all 0.3s ease;\n    box-shadow: 0 4px 15px rgba(0,0,0,0.1);\n}\n.cover-2-section .btn-dark {\n    background-color: var(--color-dark, #1F2937);\n    color: var(--color-light, #FFFFFF);\n}\n.cover-2-section .btn-dark:hover {\n    transform: translateY(-3px);\n    box-shadow: 0 8px 25px rgba(0,0,0,0.15);\n}\n.cover-2-section .logos-container {\n    max-width: 1000px;\n    margin: 4rem auto 0;\n    display: flex;\n    justify-content: space-around;\n    align-items: center;\n    flex-wrap: wrap;\n    gap: 2rem;\n}\n.cover-2-section .logos-container img {\n    height: 24px;\n    width: auto;\n    filter: grayscale(100%);\n    opacity: 0.6;\n    transition: opacity 0.3s, filter 0.3s;\n}\n.cover-2-section .logos-container img:hover {\n    opacity: 1;\n    filter: grayscale(0%);\n}\n.cover-2-section .anim-delay-1 { transition-delay: 0.1s; }\n.cover-2-section .anim-delay-2 { transition-delay: 0.2s; }\n.cover-2-section .anim-delay-3 { transition-delay: 0.3s; }\n",
+    "translations": {
+        "de": {
+            "name": "Potenzial mit Logos",
+            "title": "Entfalte dein Potenzial",
+            "subtitle": "Deine Hero-Bereiche sind direkt unter dem Menü. Sie ziehen in den entscheidenden ersten Sekunden die Aufmerksamkeit auf sich und überzeugen Besucher, zu bleiben und auf den Button zu klicken.",
+            "cta_button": "Call-to-Action button"
+        },
+        "en": {
+            "name": "Potential with Logos",
+            "title": "Unleash Your Potential",
+            "subtitle": "Your hero sections are right below the menu. They grab attention in those crucial first seconds and convince visitors to stay and click the button.",
+            "cta_button": "Call-to-Action button"
+        },
+        "ar": {
+            "name": "الإمكانات مع الشعارات",
+            "title": "أطلق العنان لإمكانياتك",
+            "subtitle": "أقسامك الرئيسية موجودة مباشرة أسفل القائمة. إنها تجذب الانتباه في تلك الثواني الأولى الحاسمة وتقنع الزوار بالبقاء والنقر على الزر.",
+            "cta_button": "زر الدعوة لاتخاذ إجراء"
+        }
+    }
+}

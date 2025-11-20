@@ -1,0 +1,13 @@
+{
+    "name": "Produkt Merkmale",
+    "category": "Cover",
+    "description": "A clean and professional hero section with a centered headline, followed by a split layout of a large image and a list of key product features.",
+    "tags": ["cover", "hero", "features", "product", "clean", "corporate"],
+    "structure": ["header", "image", "feature-list", "cta-button"],
+    "complexity": "medium",
+    "use_cases": [
+        "Product Landing Pages",
+        "SaaS Websites",
+        "Feature highlight pages"
+    ]
+}

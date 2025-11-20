@@ -1,0 +1,13 @@
+{
+    "name": "Before/After Stories",
+    "category": "Testimonials",
+    "description": "Each card shows “Before” pain points and “After” results with a short quote. Clear contrast frames impact and helps prospects relate to specific outcomes.",
+    "tags": ["testimonial", "before-after", "case-study", "results", "comparison"],
+    "structure": ["cards", "before-column", "after-column"],
+    "complexity": "medium",
+    "use_cases": [
+        "Consulting websites",
+        "Fitness or coaching services",
+        "Any service that provides a clear transformation"
+    ]
+}

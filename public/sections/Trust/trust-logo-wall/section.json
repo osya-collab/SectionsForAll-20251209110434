@@ -1,0 +1,10 @@
+{
+    "id": "trust-logo-wall",
+    "html": "\n<section class=\"logo-wall-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container text-center\">\n        <h3 class=\"logo-wall-title\">Trusted by the world's leading companies</h3>\n        <div class=\"logo-grid\">\n            <img src=\"https://logo.clearbit.com/google.com\" alt=\"Google\">\n            <img src=\"https://logo.clearbit.com/microsoft.com\" alt=\"Microsoft\">\n            <img src=\"https://logo.clearbit.com/spotify.com\" alt=\"Spotify\">\n            <img src=\"https://logo.clearbit.com/amazon.com\" alt=\"Amazon\">\n            <img src=\"https://logo.clearbit.com/netflix.com\" alt=\"Netflix\">\n        </div>\n    </div>\n</section>",
+    "css": "\n.logo-wall-section { padding: 3rem 0; background-color: transparent; position: relative; }\n.logo-wall-section .container { width: 90%; max-width: 1200px; margin: 0 auto; padding: 0 1rem; }\n.logo-wall-section .text-center { text-align: center; }\n.logo-wall-section .logo-wall-title { font-size: 1rem; font-weight: 500; color: var(--color-secondary, #6B7280); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 2rem; }\n.logo-wall-section .logo-grid { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 3rem; }\n.logo-wall-section .logo-grid img { height: 32px; width: auto; filter: grayscale(100%) opacity(0.6); transition: filter 0.3s; }\n.logo-wall-section .logo-grid img:hover { filter: grayscale(0%) opacity(1); }\n",
+    "translations": {
+        "de": { "name": "Logo-Wand" },
+        "ar": { "name": "جدار الشعارات" },
+        "en": { "name": "Logo Wall" }
+    }
+}

@@ -1,0 +1,97 @@
+[
+    {
+        "id": "gallery-3d-cards",
+        "name": "3D Hover Cards",
+        "category": "Gallery"
+    },
+    {
+        "id": "gallery-4-col-grid",
+        "name": "4-Column Grid Gallery",
+        "category": "Gallery"
+    },
+    {
+        "id": "gallery-circular-segments",
+        "name": "Circular Segment Gallery",
+        "category": "Gallery"
+    },
+    {
+        "id": "gallery-masonry-dynamic",
+        "name": "Masonry Gallery",
+        "category": "Gallery"
+    },
+    {
+        "id": "gallery-pastime",
+        "name": "Photo Time Gallery",
+        "category": "Gallery"
+    },
+    {
+        "id": "gallery-scrolling-cards",
+        "name": "Scrolling Preview Cards",
+        "category": "Gallery"
+    },
+    {
+        "id": "gallery-smarters",
+        "name": "3D Sports Cards",
+        "category": "Gallery"
+    },
+    {
+        "id": "gallery-masonry-hover-effect",
+        "name": "Masonry Gallery with Hover Effects",
+        "category": "Gallery"
+    },
+    {
+        "id": "gallery-full-width-slider",
+        "name": "Full-Width Image Slider Gallery",
+        "category": "Gallery"
+    },
+    {
+        "id": "gallery-grid-modal-preview",
+        "name": "Grid Gallery with Modal Preview",
+        "category": "Gallery"
+    },
+    {
+        "id": "gallery-asymmetrical-split-screen",
+        "name": "Asymmetrical Split Screen Gallery",
+        "category": "Gallery"
+    },
+    {
+        "id": "gallery-horizontal-scroll-strip",
+        "name": "Horizontal Scrolling Filmstrip Gallery",
+        "category": "Gallery"
+    },
+    {
+        "id": "gallery-animated-card-reveal",
+        "name": "Animated Card Reveal Gallery",
+        "category": "Gallery"
+    },
+    {
+        "id": "gallery-hero-fullscreen-masonry",
+        "name": "Full-Screen Masonry Gallery Hero",
+        "category": "Gallery"
+    },
+    {
+        "id": "gallery-hero-feature-thumbnail",
+        "name": "Feature Image with Thumbnail Strip",
+        "category": "Gallery"
+    },
+    {
+        "id": "gallery-hero-asymmetrical-grid",
+        "name": "Asymmetrical Grid Gallery",
+        "category": "Gallery"
+    },
+    {
+        "id": "gallery-hero-overlapping-cards",
+        "name": "Overlapping Cards Gallery",
+        "category": "Gallery"
+    },
+    {
+        "id": "gallery-hero-horizontal-filmstrip",
+        "name": "Horizontal Filmstrip Gallery",
+        "category": "Gallery"
+    },
+    {
+        "id": "gallery-hero-text-and-image-columns",
+        "name": "Alternating Text & Image Columns",
+        "category": "Gallery"
+    }
+]

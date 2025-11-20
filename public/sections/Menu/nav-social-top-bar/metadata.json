@@ -1,0 +1,14 @@
+
+{
+    "name": "Social Top Bar Nav",
+    "category": "Menu",
+    "description": "A two-tier navigation bar where the top bar is dedicated to social media links and a call-to-action, with the main navigation below.",
+    "tags": ["header", "social", "cta", "two-tier", "modern"],
+    "structure": ["top-bar", "main-nav", "logo", "nav-links"],
+    "complexity": "medium",
+    "use_cases": [
+        "Blogs",
+        "Portfolio Websites",
+        "Community Sites"
+    ]
+}

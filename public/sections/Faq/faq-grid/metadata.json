@@ -1,0 +1,6 @@
+{
+    "name": "FAQ Grid",
+    "category": "FAQ",
+    "description": "A two-column grid layout for frequently asked questions, allowing multiple items to be open at once.",
+    "tags": ["faq", "grid", "accordion", "two-column"]
+}

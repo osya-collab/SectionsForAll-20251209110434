@@ -1,0 +1,25 @@
+{
+    "id": "cover-kostenreduktion",
+    "html": "\n<section class=\"cover-4-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container text-center\">\n        <h1 class=\"anim-fade-in-up\">{{t:title}}</h1>\n        <p class=\"subtitle anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n        <a href=\"#\" class=\"btn btn-dark anim-fade-in-up anim-delay-2\">{{t:cta_button}}</a>\n    </div>\n</section>",
+    "css": "\n.cover-4-section {\n    background-color: var(--color-light, #FFFFFF);\n    padding: 8rem 0;\n}\n.cover-4-section .container { width: 90%; max-width: 800px; margin: 0 auto; padding: 0 1rem; text-align: center; }\n.cover-4-section h1 {\n    font-size: clamp(2.5rem, 6vw, 4rem);\n    font-weight: 700;\n    line-height: 1.2;\n    margin-bottom: 1.5rem;\n    color: var(--color-dark, #1F2937);\n}\n.cover-4-section .subtitle {\n    font-size: 1.1rem;\n    max-width: 600px;\n    margin: 0 auto 2.5rem;\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n}\n.cover-4-section .btn {\n    display: inline-block;\n    padding: 1rem 2.5rem;\n    text-decoration: none;\n    border-radius: 0.5rem;\n    font-weight: 600;\n    transition: all 0.3s ease;\n    box-shadow: 0 4px 15px rgba(0,0,0,0.1);\n}\n.cover-4-section .btn-dark {\n    background-color: var(--color-dark, #1F2937);\n    color: var(--color-light, #FFFFFF);\n}\n.cover-4-section .btn-dark:hover {\n    transform: translateY(-3px);\n    box-shadow: 0 8px 25px rgba(0,0,0,0.15);\n}\n.cover-4-section .anim-delay-1 { transition-delay: 0.1s; }\n.cover-4-section .anim-delay-2 { transition-delay: 0.2s; }\n",
+    "translations": {
+        "de": {
+            "name": "Kostenreduktion Cover",
+            "title": "Reduziere deine Werbekosten um 50 % mit unserer bewährten Strategie",
+            "subtitle": "Deine Hero-Bereiche, direkt unter deinem Menü, sind dazu da, in den ersten kritischen Momenten Aufmerksamkeit zu erregen und deine Besucher dazu zu bringen, auf deiner Website zu bleiben und deine Handlungsaufforderung zu nutzen.",
+            "cta_button": "Call-to-Action button"
+        },
+        "en": {
+            "name": "Cost Reduction Cover",
+            "title": "Reduce your advertising costs by 50% with our proven strategy",
+            "subtitle": "Your hero sections, right below your menu, are there to grab attention in those crucial first moments and convince your visitors to stay on your website and use your call-to-action.",
+            "cta_button": "Call-to-Action button"
+        },
+        "ar": {
+            "name": "غلاف تخفيض التكاليف",
+            "title": "قلل تكاليف إعلاناتك بنسبة 50٪ باستراتيجيتنا المجربة",
+            "subtitle": "أقسامك الرئيسية، مباشرة تحت القائمة، مصممة لجذب الانتباه في اللحظات الأولى الحاسمة وإقناع زوارك بالبقاء على موقعك واستخدام دعوتك لاتخاذ إجراء.",
+            "cta_button": "زر الدعوة لاتخاذ إجراء"
+        }
+    }
+}

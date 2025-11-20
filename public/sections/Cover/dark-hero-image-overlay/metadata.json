@@ -1,0 +1,29 @@
+{
+    "name": "Dark Hero with Image Overlay",
+    "category": "Cover",
+    "description": "An elegant and modern dark-themed hero section. It features a full-screen background image with a dark overlay, creating a cinematic feel and ensuring text is crisp and readable. Ideal for luxury brands, tech products, or creative portfolios.",
+    "tags": [
+        "hero",
+        "dark mode",
+        "image",
+        "overlay",
+        "elegant",
+        "cta",
+        "background"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "img",
+        "h1",
+        "p",
+        "a"
+    ],
+    "complexity": "complex",
+    "use_cases": [
+        "Luxury brand websites",
+        "Tech product showcases",
+        "Creative agency portfolios",
+        "Cinematic landing pages"
+    ]
+}

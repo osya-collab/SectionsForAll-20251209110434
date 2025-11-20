@@ -1,0 +1,28 @@
+{
+    "id": "team-cards-overlay",
+    "html": "\n<section class=\"team-overlay-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <h2 class=\"section-title anim-fade-in-up\">{{t:title}}</h2>\n        <div class=\"team-overlay-grid\">\n            <div class=\"team-overlay-card anim-fade-in-up\">\n                <img src=\"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887\" alt=\"{{t:member1_name}}\" class=\"card-bg-image\">\n                <div class=\"card-overlay\">\n                    <div class=\"card-content\">\n                        <h3>{{t:member1_name}}</h3>\n                        <div class=\"social-icons\">\n                            <a href=\"#\" aria-label=\"Facebook\"><i class=\"fab fa-facebook-f\"></i></a>\n                            <a href=\"#\" aria-label=\"Instagram\"><i class=\"fab fa-instagram\"></i></a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"team-overlay-card anim-fade-in-up anim-delay-1\">\n                <img src=\"https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961\" alt=\"{{t:member2_name}}\" class=\"card-bg-image\">\n                <div class=\"card-overlay\">\n                    <div class=\"card-content\">\n                        <h3>{{t:member2_name}}</h3>\n                        <div class=\"social-icons\">\n                            <a href=\"#\" aria-label=\"Facebook\"><i class=\"fab fa-facebook-f\"></i></a>\n                            <a href=\"#\" aria-label=\"Instagram\"><i class=\"fab fa-instagram\"></i></a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"team-overlay-card anim-fade-in-up anim-delay-2\">\n                <img src=\"https://images.unsplash.com/photo-1542327897-4141b355e20a?q=80&w=1887\" alt=\"{{t:member3_name}}\" class=\"card-bg-image\">\n                <div class=\"card-overlay\">\n                    <div class=\"card-content\">\n                        <h3>{{t:member3_name}}</h3>\n                        <div class=\"social-icons\">\n                            <a href=\"#\" aria-label=\"Facebook\"><i class=\"fab fa-facebook-f\"></i></a>\n                            <a href=\"#\" aria-label=\"Instagram\"><i class=\"fab fa-instagram\"></i></a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-overlay-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.team-overlay-section .container {\n    width: 90%;\n    max-width: 1100px;\n    margin: 0 auto;\n}\n.team-overlay-section .section-title {\n    text-align: center;\n    font-size: 2.5rem;\n    margin-bottom: 3rem;\n    color: var(--color-dark, #111827);\n}\n.team-overlay-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n    gap: 2rem;\n}\n.team-overlay-card {\n    position: relative;\n    aspect-ratio: 3 / 4;\n    border-radius: 1rem;\n    overflow: hidden;\n    color: var(--color-light, #FFFFFF);\n}\n.team-overlay-card .card-bg-image {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    transition: transform 0.4s ease;\n}\n.team-overlay-card:hover .card-bg-image {\n    transform: scale(1.05);\n}\n.team-overlay-card .card-overlay {\n    position: absolute;\n    inset: 0;\n    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 60%);\n    display: flex;\n    flex-direction: column;\n    justify-content: flex-end;\n    padding: 1.5rem;\n}\n.team-overlay-card .card-content {\n    transform: translateY(20px);\n    transition: transform 0.4s ease;\n}\n.team-overlay-card:hover .card-content {\n    transform: translateY(0);\n}\n.team-overlay-card h3 {\n    font-size: 1.5rem;\n    font-weight: 600;\n    margin-bottom: 0.5rem;\n}\n.team-overlay-card .social-icons {\n    display: flex;\n    gap: 1rem;\n}\n.team-overlay-card .social-icons a {\n    color: var(--color-light, #FFFFFF);\n    font-size: 1rem;\n    opacity: 0.8;\n    transition: opacity 0.3s, transform 0.3s;\n}\n.team-overlay-card .social-icons a:hover {\n    opacity: 1;\n    transform: scale(1.2);\n}\n",
+    "translations": {
+        "de": {
+            "name": "Karten mit Überlagerung",
+            "title": "Treffen Sie die Visionäre",
+            "member1_name": "Jack White",
+            "member2_name": "Amy Jones",
+            "member3_name": "Ben Presley"
+        },
+        "en": {
+            "name": "Cards with Overlay",
+            "title": "Meet the Visionaries",
+            "member1_name": "Jack White",
+            "member2_name": "Amy Jones",
+            "member3_name": "Ben Presley"
+        },
+        "ar": {
+            "name": "بطاقات مع تراكب",
+            "title": "تعرف على أصحاب الرؤى",
+            "member1_name": "جاك وايت",
+            "member2_name": "إيمي جونز",
+            "member3_name": "بن بريسلي"
+        }
+    }
+}

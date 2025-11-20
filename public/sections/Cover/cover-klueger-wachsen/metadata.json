@@ -1,0 +1,13 @@
+{
+    "name": "Klüger Wachsen",
+    "category": "Cover",
+    "description": "A clean, centered hero section with a strong headline, subtitle, CTA, and a row of feature checkmarks for social proof.",
+    "tags": ["cover", "hero", "features", "checklist", "cta", "business"],
+    "structure": ["header", "paragraph", "cta-button", "feature-list"],
+    "complexity": "simple",
+    "use_cases": [
+        "SaaS Landing Pages",
+        "Service-based Businesses",
+        "Lead Generation Pages"
+    ]
+}

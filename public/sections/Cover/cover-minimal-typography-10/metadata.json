@@ -1,0 +1,23 @@
+{
+    "name": "Minimal Typographic Hero",
+    "category": "Cover",
+    "description": "A clean, minimalist cover section focusing on large typography and simple grid alignment.",
+    "tags": [
+        "cover",
+        "minimal",
+        "typography",
+        "clean"
+    ],
+    "structure": [
+        "Large Heading",
+        "Divider",
+        "Mini Cards",
+        "Grayscale Image"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "Architecture Firm",
+        "Design Portfolio",
+        "Editorial"
+    ]
+}

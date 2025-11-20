@@ -1,0 +1,17 @@
+{
+    "id": "cta-split-layout-peach-green",
+    "html": "<section class=\"cta-split-layout-peach-green\">\n  <div class=\"left-panel\">\n    <h2>Let's Grow Together</h2>\n    <p>Partner with us for sustainable business growth.</p>\n  </div>\n  <div class=\"right-panel\">\n    <a href=\"#\" class=\"btn\">Start Growing</a>\n  </div>\n</section>",
+    "css": ".cta-split-layout-peach-green {\n  display: flex;\n  flex-direction: column;\n  font-family: 'Roboto', sans-serif;\n}\n.cta-split-layout-peach-green .left-panel {\n  background-color: #ffe5d9;\n  padding: 40px 20px;\n  color: #c06c84;\n  text-align: center;\n  flex: 1;\n}\n.cta-split-layout-peach-green .right-panel {\n  background-color: #a8dadc;\n  padding: 40px 20px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex: 1;\n}\n.cta-split-layout-peach-green h2 {\n  font-size: 28px;\n  margin-bottom: 15px;\n}\n.cta-split-layout-peach-green p {\n  font-size: 16px;\n  line-height: 1.6;\n}\n.cta-split-layout-peach-green .btn {\n  display: inline-block;\n  padding: 12px 30px;\n  background-color: #fff;\n  color: #a8dadc;\n  text-decoration: none;\n  font-size: 16px;\n  font-weight: bold;\n  border-radius: 50px;\n  transition: background-color 0.3s ease, color 0.3s ease;\n}\n.cta-split-layout-peach-green .btn:hover {\n  background-color: #a8dadc;\n  color: #fff;\n}\n\n@media (min-width: 768px) {\n  .cta-split-layout-peach-green {\n    flex-direction: row;\n  }\n  .cta-split-layout-peach-green .left-panel {\n    text-align: left;\n    padding: 60px 40px;\n  }\n  .cta-split-layout-peach-green .right-panel {\n    padding: 60px 40px;\n  }\n  .cta-split-layout-peach-green h2 {\n    font-size: 36px;\n  }\n  .cta-split-layout-peach-green p {\n    font-size: 18px;\n  }\n  .cta-split-layout-peach-green .btn {\n    font-size: 18px;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Geteilter Layout CTA (Pfirsich & Grün)"
+        },
+        "ar": {
+            "name": "دعوة بتصميم مقسم (خوخي وأخضر)"
+        },
+        "en": {
+            "name": "Split Layout CTA (Peach & Green)"
+        }
+    }
+}

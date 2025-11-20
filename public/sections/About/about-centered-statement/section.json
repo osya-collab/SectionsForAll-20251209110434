@@ -1,0 +1,19 @@
+{
+    "id": "about-centered-statement",
+    "html": "\n<section class=\"centered-statement-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <h2 class=\"anim-fade-in-up\">{{t:statement}}</h2>\n    </div>\n</section>",
+    "css": "\n.centered-statement-section .container {\n  width: 90%;\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 1rem;\n}\n.centered-statement-section { padding: 5rem 0; background-color: var(--color-light, #FFFFFF); }\n.centered-statement-section h2 {\n    max-width: 900px;\n    margin: 0 auto;\n    text-align: center;\n    font-size: 2.5rem;\n    line-height: 1.4;\n    color: var(--color-dark, #111827);\n}\n",
+    "translations": {
+        "de": {
+            "name": "Zentrierte Aussage",
+            "statement": "Wir glauben, dass großartiges Design aus Zusammenarbeit entsteht. Es ist das Ergebnis gemeinsamer Ideen, vielfältiger Perspektiven und einer vereinten Leidenschaft für Exzellenz."
+        },
+        "en": {
+            "name": "Centered Statement",
+            "statement": "We believe that great design is born from collaboration. It’s the result of shared ideas, diverse perspectives, and a unified passion for excellence."
+        },
+        "ar": {
+            "name": "بيان مركزي",
+            "statement": "نحن نؤمن بأن التصميم الرائع يولد من التعاون. إنه نتيجة الأفكار المشتركة، ووجهات النظر المتنوعة، وشغف موحد بالتميز."
+        }
+    }
+}

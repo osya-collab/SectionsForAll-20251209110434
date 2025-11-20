@@ -1,0 +1,13 @@
+{
+    "name": "Vertical List",
+    "category": "Team",
+    "description": "A clean, vertical list format for showcasing team members, with a square portrait on the left and a detailed bio on the right.",
+    "tags": ["team", "list", "bio", "corporate", "clean"],
+    "structure": ["list", "portrait", "bio"],
+    "complexity": "simple",
+    "use_cases": [
+        "Corporate team pages",
+        "Faculty or staff directories",
+        "Project team introductions"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "neo-brutalism-cta-blue-block",
+    "html": "<section class=\"cta-section-blue-block\">\n        <div class=\"cta-content\">\n            <h2>Your Future Starts Now</h2>\n            <p>Don't hesitate. This is your chance to make a significant impact. Click to get started.</p>\n            <a href=\"#\" class=\"cta-button\">Begin</a>\n        </div>\n    </section>",
+    "css": ".cta-section-blue-block {\n            padding: 100px 20px;\n            background-color: #007bff;\n            color: #ffffff;\n            text-align: center;\n        }\n        .cta-section-blue-block .cta-content {\n            max-width: 750px;\n            margin: 0 auto;\n        }\n        .cta-section-blue-block h2 {\n            font-size: 3.3rem;\n            margin-bottom: 20px;\n            line-height: 1.15;\n            font-weight: 900;\n            letter-spacing: -1px;\n        }\n        .cta-section-blue-block p {\n            font-size: 1.15rem;\n            margin-bottom: 40px;\n            line-height: 1.6;\n        }\n        .cta-section-blue-block .cta-button {\n            display: inline-block;\n            padding: 18px 50px;\n            background-color: #ffffff;\n            color: #007bff;\n            text-decoration: none;\n            font-size: 1.3rem;\n            font-weight: 900;\n            border: 4px solid #000000;\n            transition: all 0.3s ease;\n            text-transform: uppercase;\n            box-shadow: 6px 6px 0px #000000;\n        }\n        .cta-section-blue-block .cta-button:hover {\n            background-color: #000000;\n            color: #ffffff;\n            border-color: #ffffff;\n            box-shadow: 6px 6px 0px #ffffff;\n        }\n        @media (max-width: 768px) {\n            .cta-section-blue-block {\n                padding: 80px 15px;\n            }\n            .cta-section-blue-block h2 {\n                font-size: 3rem;\n            }\n            .cta-section-blue-block p {\n                font-size: 1.1rem;\n            }\n            .cta-section-blue-block .cta-button {\n                padding: 15px 40px;\n                font-size: 1.2rem;\n                box-shadow: 5px 5px 0px #000000;\n            }\n            .cta-section-blue-block .cta-button:hover {\n                box-shadow: 5px 5px 0px #ffffff;\n            }\n        }\n        @media (max-width: 480px) {\n            .cta-section-blue-block {\n                padding: 60px 10px;\n            }\n            .cta-section-blue-block h2 {\n                font-size: 2.5rem;\n                letter-spacing: -0.5px;\n            }\n            .cta-section-blue-block p {\n                font-size: 1rem;\n            }\n            .cta-section-blue-block .cta-button {\n                padding: 12px 35px;\n                font-size: 1.1rem;\n                box-shadow: 4px 4px 0px #000000;\n            }\n            .cta-section-blue-block .cta-button:hover {\n                box-shadow: 4px 4px 0px #ffffff;\n            }\n        }",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Neo-Brutalismus CTA - Blauer Block"
+        },
+        "ar": {
+            "name": "قسم دعوة للعمل بأسلوب نيو-بروتاليزم - كتلة زرقاء"
+        },
+        "en": {
+            "name": "Neo-Brutalism CTA - Blue Block"
+        }
+    }
+}

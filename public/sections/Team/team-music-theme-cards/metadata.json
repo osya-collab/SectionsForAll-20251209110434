@@ -1,0 +1,13 @@
+{
+    "name": "Music Theme Cards",
+    "category": "Team",
+    "description": "Team member cards with a music or event theme, featuring a background image, circular portrait, name, bio, and social links.",
+    "tags": ["team", "music", "event", "cards", "overlay", "creative"],
+    "structure": ["grid", "cards", "images", "social-links"],
+    "complexity": "medium",
+    "use_cases": [
+        "Band member pages",
+        "DJ profiles",
+        "Event staff showcases"
+    ]
+}

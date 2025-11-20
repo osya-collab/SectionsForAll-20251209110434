@@ -1,0 +1,13 @@
+{
+    "name": "Article with Code Snippet",
+    "category": "Article",
+    "description": "A layout designed for technical articles or tutorials, featuring a styled code block for displaying code snippets clearly.",
+    "tags": ["article", "code", "tutorial", "tech", "development"],
+    "structure": ["header", "content", "code-block"],
+    "complexity": "simple",
+    "use_cases": [
+        "Technical blogs",
+        "Coding tutorials",
+        "Documentation"
+    ]
+}

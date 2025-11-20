@@ -1,0 +1,14 @@
+
+{
+    "name": "Contact Strip Nav",
+    "category": "Menu",
+    "description": "A two-tier navigation bar with contact information and social links in a top strip, and the main navigation below.",
+    "tags": ["header", "contact", "social", "two-tier", "corporate"],
+    "structure": ["top-bar", "main-nav", "logo", "nav-links"],
+    "complexity": "medium",
+    "use_cases": [
+        "Corporate Websites",
+        "E-commerce Sites",
+        "Business Portfolios"
+    ]
+}

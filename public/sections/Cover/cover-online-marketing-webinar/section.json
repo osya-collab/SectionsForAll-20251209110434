@@ -1,0 +1,10 @@
+{
+    "id": "cover-online-marketing-webinar",
+    "html": "\n<section class=\"cover-online-marketing-webinar-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <h1 class=\"anim-fade-in-up\">{{t:title}}</h1>\n        <p class=\"subtitle anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n        <a href=\"#\" class=\"btn btn-primary anim-fade-in-up anim-delay-2\">{{t:cta_button}}</a>\n        <div class=\"image-wrapper anim-zoom-in anim-delay-3\"><img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=webinar+online+conference\" alt=\"{{t:image_alt}}\"></div>\n    </div>\n</section>",
+    "css": ".cover-online-marketing-webinar-section { padding: 6rem 0; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); text-align: center; } .container { max-width: 900px; margin: 0 auto; } h1 { font-size: clamp(2.5rem, 5vw, 3.5rem); margin-bottom: 1rem; } .subtitle { max-width: 600px; margin: 0 auto 2rem; } .btn-primary { display: inline-block; padding: 1rem 2.5rem; background-color: var(--color-primary); color: var(--color-light); border-radius: 0.5rem; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 3rem; } .image-wrapper { border-radius: 1.5rem; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1); } .image-wrapper img { width: 100%; display: block; }",
+    "translations": {
+        "de": { "name": "Online Marketing Webinar", "title": "Steigere deinen Online-Umsatz", "subtitle": "Erfahre Strategien von Top-Marken. Begrenzte Plätze.", "cta_button": "Platz sichern", "image_alt": "Online Webinar" },
+        "en": { "name": "Online Marketing Webinar", "title": "Boost Your Online Sales", "subtitle": "Learn strategies from top brands. Limited spots.", "cta_button": "Secure Spot", "image_alt": "Online Webinar" },
+        "ar": { "name": "ندوة التسويق عبر الإنترنت", "title": "عزز مبيعاتك عبر الإنترنت", "subtitle": "تعلم استراتيجيات من أفضل العلامات التجارية. أماكن محدودة.", "cta_button": "احجز مقعدك", "image_alt": "ندوة عبر الإنترنت" }
+    }
+}

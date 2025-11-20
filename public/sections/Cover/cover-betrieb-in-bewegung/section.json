@@ -1,0 +1,43 @@
+{
+    "id": "cover-betrieb-in-bewegung",
+    "html": "\n<section class=\"cover-betrieb-bewegung-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"hero-content\">\n            <div class=\"text-content anim-fade-in-up\">\n                <h1>{{t:title}}</h1>\n                <p>{{t:subtitle}}</p>\n                <a href=\"#\" class=\"btn btn-dark\">{{t:cta_button}}</a>\n            </div>\n            <div class=\"rating-content anim-fade-in-up anim-delay-1\">\n                <div class=\"avatars\">\n                    <img src=\"https://i.pravatar.cc/40?img=9\" alt=\"User avatar\"><img src=\"https://i.pravatar.cc/40?img=10\" alt=\"User avatar\"><img src=\"https://i.pravatar.cc/40?img=11\" alt=\"User avatar\">\n                </div>\n                <div class=\"stars\">★★★★☆</div>\n                <p>{{t:rating_text}}</p>\n            </div>\n        </div>\n        <div class=\"stats-grid\">\n            <div class=\"stat-item anim-fade-in-up anim-delay-2\">\n                <span class=\"stat-number\">10000+</span>\n                <p>{{t:stat1_label}}</p>\n            </div>\n            <div class=\"stat-item anim-fade-in-up anim-delay-3\">\n                <span class=\"stat-number\">3m+</span>\n                <p>{{t:stat2_label}}</p>\n            </div>\n            <div class=\"stat-item anim-fade-in-up anim-delay-4\">\n                <span class=\"stat-number\">95%</span>\n                <p>{{t:stat3_label}}</p>\n            </div>\n            <div class=\"dark-card anim-fade-in-up anim-delay-5\">\n                <h3>{{t:feature_title}}</h3>\n                <p>{{t:feature_desc}}</p>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.cover-betrieb-bewegung-section {\n    padding: 6rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.cover-betrieb-bewegung-section .container {\n    width: 90%;\n    max-width: 1100px;\n    margin: 0 auto;\n}\n.cover-betrieb-bewegung-section .hero-content {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 2rem;\n    align-items: start;\n    margin-bottom: 4rem;\n}\n@media (min-width: 768px) {\n    .cover-betrieb-bewegung-section .hero-content {\n        grid-template-columns: 2fr 1fr;\n    }\n}\n.cover-betrieb-bewegung-section .text-content h1 { font-size: clamp(2.5rem, 5vw, 3.5rem); font-weight: 700; color: var(--color-dark, #1F2937); line-height: 1.2; margin-bottom: 1.5rem; }\n.cover-betrieb-bewegung-section .text-content p { color: var(--color-secondary, #6B7280); margin-bottom: 2rem; }\n.cover-betrieb-bewegung-section .btn-dark { display: inline-block; padding: 0.8rem 2rem; background-color: var(--color-dark, #1F2937); color: var(--color-light, #FFFFFF); border-radius: 0.5rem; font-weight: 600; text-decoration: none; }\n.cover-betrieb-bewegung-section .rating-content { background-color: #f3f4f6; padding: 1.5rem; border-radius: 1rem; text-align: center; }\n.cover-betrieb-bewegung-section .avatars { display: flex; justify-content: center; margin-bottom: 1rem; }\n.cover-betrieb-bewegung-section .avatars img { width: 40px; height: 40px; border-radius: 50%; border: 2px solid var(--color-light, #FFFFFF); margin-left: -10px; }\n.cover-betrieb-bewegung-section .stars { color: #f59e0b; margin-bottom: 0.5rem; }\n.cover-betrieb-bewegung-section .rating-content p { font-size: 0.9rem; color: var(--color-secondary, #6B7280); margin: 0; }\n.cover-betrieb-bewegung-section .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; }\n.cover-betrieb-bewegung-section .stat-item, .cover-betrieb-bewegung-section .dark-card { padding: 1.5rem; border-radius: 1rem; }\n.cover-betrieb-bewegung-section .stat-item { text-align: center; }\n.cover-betrieb-bewegung-section .stat-number { font-size: 3rem; font-weight: 700; color: var(--color-dark, #1F2937); line-height: 1; }\n.cover-betrieb-bewegung-section .stat-item p { color: var(--color-secondary, #6B7280); margin-top: 0.5rem; }\n.cover-betrieb-bewegung-section .dark-card { background-color: var(--color-dark, #1F2937); color: var(--color-light, #FFFFFF); }\n.cover-betrieb-bewegung-section .dark-card h3 { font-size: 1.25rem; margin-bottom: 0.5rem; color: var(--color-light, #FFFFFF); }\n.cover-betrieb-bewegung-section .dark-card p { color: #d1d5db; font-size: 0.9rem; }\n",
+    "translations": {
+        "de": {
+            "name": "Betrieb in Bewegung",
+            "title": "Halten Sie den Betrieb in Bewegung, ohne Verzögerungen oder Verwirrung zu erleben.",
+            "subtitle": "Moderne Designs lieben weiche, abgerundete Ecken, große, schöne Bilder und diesen leichten, 'luftigen' Vibe. Und weißt du was? Genau so sind die Onepage-Sektionen aufgebaut!",
+            "cta_button": "Call to Action Button",
+            "rating_text": "4.8 von 5 (1450 Bewertungen)",
+            "stat1_label": "Kunden in 10 Jahren",
+            "stat2_label": "Bearbeitete Aufträge",
+            "stat3_label": "Kundenzufriedenheit",
+            "feature_title": "Sparen Sie über 15+ Stunden wöchentlich",
+            "feature_desc": "Dieser Text zeigt dir, wie deine Seite funktioniert, mit ungefähr 100 Zeichen pro Absatz."
+        },
+        "en": {
+            "name": "Business in Motion",
+            "title": "Keep operations moving without experiencing delays or confusion.",
+            "subtitle": "Modern designs love soft, rounded corners, large, beautiful images, and that light, 'airy' vibe. And you know what? That's exactly how Onepage sections are built!",
+            "cta_button": "Call to Action Button",
+            "rating_text": "4.8 out of 5 (1450 reviews)",
+            "stat1_label": "Customers in 10 years",
+            "stat2_label": "Processed orders",
+            "stat3_label": "Customer satisfaction",
+            "feature_title": "Save over 15+ hours weekly",
+            "feature_desc": "This text shows you how your page works, with about 100 characters per paragraph."
+        },
+        "ar": {
+            "name": "عمل متحرك",
+            "title": "حافظ على سير العمليات دون تأخير أو ارتباك.",
+            "subtitle": "تحب التصاميم الحديثة الزوايا الناعمة والمستديرة والصور الكبيرة والجميلة وهذا الشعور الخفيف 'المنعش'. وهل تعلم؟ هذه هي الطريقة التي تم بها بناء أقسام Onepage!",
+            "cta_button": "زر الدعوة لاتخاذ إجراء",
+            "rating_text": "4.8 من 5 (1450 تقييمًا)",
+            "stat1_label": "عميل في 10 سنوات",
+            "stat2_label": "الطلبات المعالجة",
+            "stat3_label": "رضا العملاء",
+            "feature_title": "وفر أكثر من 15 ساعة أسبوعيًا",
+            "feature_desc": "يوضح لك هذا النص كيفية عمل صفحتك ، بحوالي 100 حرف لكل فقرة."
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Card Deck Timeline",
+    "category": "Timeline",
+    "description": "A creative timeline where each event is presented on a card, stacked like a deck. On hover, cards lift up to reveal their content.",
+    "tags": ["timeline", "cards", "stacked", "interactive", "creative"],
+    "structure": ["header", "card-stack"],
+    "complexity": "medium",
+    "use_cases": [
+        "Creative portfolios",
+        "Interactive storytelling",
+        "Unique 'About Us' pages"
+    ]
+}

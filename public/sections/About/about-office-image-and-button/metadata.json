@@ -1,0 +1,13 @@
+{
+    "name": "Über Uns Section",
+    "category": "About",
+    "description": "A centered 'About Us' section with a description, CTA button, and a large, bordered image below.",
+    "tags": ["about", "cta", "image", "centered", "corporate"],
+    "structure": ["header", "paragraph", "cta-button", "image"],
+    "complexity": "simple",
+    "use_cases": [
+        "Company introductions",
+        "Simple 'About Us' pages",
+        "Service summaries"
+    ]
+}

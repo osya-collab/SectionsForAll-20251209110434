@@ -1,0 +1,40 @@
+{
+    "name": "Art Nouveau CTA - Jewel Tones Split",
+    "category": "Cta",
+    "description": "A split-layout CTA section using jewel tones. Features a blue violet text side with gold accents and a stained glass art nouveau image on the other.",
+    "tags": [
+        "cta",
+        "art nouveau",
+        "split layout",
+        "jewel tones",
+        "gold",
+        "stained glass"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "h2",
+        "p",
+        "a",
+        "div",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "product display",
+        "service highlight",
+        "portfolio showcase"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#8a2be2",
+            "#fff0f5",
+            "#ffd700"
+        ],
+        "fonts": [
+            "Cinzel"
+        ],
+        "visual_identity": "Art Nouveau split design with rich jewel tones, gold highlights, and stained glass imagery."
+    }
+}

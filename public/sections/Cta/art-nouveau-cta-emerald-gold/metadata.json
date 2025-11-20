@@ -1,0 +1,40 @@
+{
+    "name": "Art Nouveau CTA - Emerald & Gold",
+    "category": "Cta",
+    "description": "A luxurious CTA section with a deep emerald background, cream text, and muted gold accents, featuring elegant typography and an art nouveau-inspired image.",
+    "tags": [
+        "cta",
+        "art nouveau",
+        "luxury",
+        "emerald",
+        "gold",
+        "elegant"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a",
+        "div",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "product promotion",
+        "service offering",
+        "lead generation"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#1e3a30",
+            "#f5f5dc",
+            "#d4af37"
+        ],
+        "fonts": [
+            "Playfair Display",
+            "Lato"
+        ],
+        "visual_identity": "Luxurious Art Nouveau with deep jewel tones, gold accents, and organic motifs."
+    }
+}

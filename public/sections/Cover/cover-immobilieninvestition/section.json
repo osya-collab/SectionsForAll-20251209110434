@@ -1,0 +1,10 @@
+{
+    "id": "cover-immobilieninvestition",
+    "html": "\n<section class=\"cover-immobilieninvestition-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <h1 class=\"anim-fade-in-up\">{{t:title}}</h1>\n        <p class=\"anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n        <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=modern+house+exterior\" alt=\"{{t:image_alt}}\" class=\"anim-zoom-in anim-delay-2\">\n    </div>\n</section>",
+    "css": ".cover-immobilieninvestition-section { padding: 6rem 0; text-align: center; background-color: #f3f4f6; } .cover-immobilieninvestition-section .container { max-width: 900px; margin: 0 auto; } .cover-immobilieninvestition-section h1 { font-size: 3rem; margin-bottom: 1rem; } .cover-immobilieninvestition-section p { font-size: 1.1rem; color: var(--color-secondary); margin-bottom: 3rem; } .cover-immobilieninvestition-section img { width: 100%; border-radius: 1rem; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }",
+    "translations": {
+        "de": { "name": "Immobilieninvestition", "title": "Investieren Sie in Ihre Zukunft", "subtitle": "Entdecken Sie erstklassige Immobilienmöglichkeiten mit hohem Renditepotenzial.", "image_alt": "Modernes Haus" },
+        "en": { "name": "Real Estate Investment", "title": "Invest in Your Future", "subtitle": "Discover premium real estate opportunities with high return potential.", "image_alt": "Modern House" },
+        "ar": { "name": "الاستثمار العقاري", "title": "استثمر في مستقبلك", "subtitle": "اكتشف فرصًا عقارية مميزة ذات عائد استثماري مرتفع.", "image_alt": "منزل حديث" }
+    }
+}

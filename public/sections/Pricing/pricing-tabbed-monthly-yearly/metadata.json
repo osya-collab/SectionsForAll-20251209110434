@@ -1,0 +1,13 @@
+{
+    "name": "Tabbed Monthly/Yearly",
+    "category": "Pricing",
+    "description": "An interactive pricing table with a toggle to switch between monthly and yearly pricing, often showing a discount for the annual plan. Requires JavaScript.",
+    "tags": ["pricing", "toggle", "monthly", "yearly", "interactive", "saas"],
+    "structure": ["header", "toggle", "pricing-cards", "button"],
+    "complexity": "high",
+    "use_cases": [
+        "SaaS products",
+        "Subscription services",
+        "Membership sites"
+    ]
+}

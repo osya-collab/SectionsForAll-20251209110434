@@ -1,0 +1,13 @@
+{
+    "name": "Quality Showcase",
+    "category": "About",
+    "description": "A dynamic bento-style grid layout to showcase company values, mission, and stats with strong imagery.",
+    "tags": ["about", "bento grid", "stats", "mission", "corporate", "modern"],
+    "structure": ["header", "image", "text-card", "stat-card"],
+    "complexity": "medium",
+    "use_cases": [
+        "Corporate 'About Us' pages",
+        "Agency introductions",
+        "Startup mission statements"
+    ]
+}

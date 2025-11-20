@@ -1,0 +1,14 @@
+
+{
+    "name": "Vertical Alternating Timeline",
+    "category": "Timeline",
+    "description": "A classic vertical timeline with alternating content blocks, perfect for showcasing company history, project milestones, or a personal journey.",
+    "tags": ["timeline", "history", "process", "alternating", "corporate"],
+    "structure": ["header", "timeline-items"],
+    "complexity": "medium",
+    "use_cases": [
+        "Company history pages",
+        "Project roadmaps",
+        "Personal biography sites"
+    ]
+}

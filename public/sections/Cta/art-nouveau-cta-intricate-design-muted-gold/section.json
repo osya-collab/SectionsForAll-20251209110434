@@ -1,0 +1,17 @@
+{
+    "id": "art-nouveau-cta-intricate-design-muted-gold",
+    "html": "<section class=\"art-nouveau-cta-intricate-design-muted-gold\">\n  <div class=\"container\">\n    <div class=\"image-container\">\n      <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=art+nouveau+architectural+detail&image_type=photo\" alt=\"Art Nouveau architectural detail\">\n    </div>\n    <div class=\"content\">\n      <h2>Discover Artistic Heritage</h2>\n      <p>Explore a collection rich in history and artistry. Our designs are inspired by the masters of a bygone era.</p>\n      <a href=\"#\" class=\"cta-button\">Learn More</a>\n    </div>\n  </div>\n</section>",
+    "css": ".art-nouveau-cta-intricate-design-muted-gold {\n  background-color: #5d4037; /* Earthy Brown */\n  color: #e0cfae; /* Muted Cream/Beige */\n  padding: 50px 25px;\n  text-align: center;\n}\n.art-nouveau-cta-intricate-design-muted-gold .container {\n  max-width: 1100px;\n  margin: 0 auto;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n.art-nouveau-cta-intricate-design-muted-gold .image-container {\n  width: 100%;\n  max-width: 450px;\n  margin-bottom: 30px;\n}\n.art-nouveau-cta-intricate-design-muted-gold .image-container img {\n  display: block;\n  width: 100%;\n  height: auto;\n  border-radius: 8px;\n  border: 3px solid #b8860b; /* DarkGoldenrod */\n}\n.art-nouveau-cta-intricate-design-muted-gold .content {\n  color: #fff;\n}\n.art-nouveau-cta-intricate-design-muted-gold h2 {\n  font-family: 'Playfair Display', serif;\n  font-size: 2.5em;\n  margin-bottom: 15px;\n  color: #b8860b; /* DarkGoldenrod */\n}\n.art-nouveau-cta-intricate-design-muted-gold p {\n  font-family: 'Lato', sans-serif;\n  font-size: 1.1em;\n  line-height: 1.6;\n  margin-bottom: 30px;\n}\n.art-nouveau-cta-intricate-design-muted-gold .cta-button {\n  display: inline-block;\n  padding: 15px 30px;\n  background-color: #b8860b; /* DarkGoldenrod */\n  color: #5d4037; /* Earthy Brown */\n  text-decoration: none;\n  font-family: 'Lato', sans-serif;\n  font-weight: bold;\n  border-radius: 5px;\n  transition: background-color 0.3s ease, color 0.3s ease;\n}\n.art-nouveau-cta-intricate-design-muted-gold .cta-button:hover {\n  background-color: #e0cfae; /* Muted Cream/Beige */\n  color: #5d4037; /* Earthy Brown */\n}\n\n@media (min-width: 768px) {\n  .art-nouveau-cta-intricate-design-muted-gold .container {\n    flex-direction: row;\n    justify-content: space-between;\n    text-align: left;\n  }\n  .art-nouveau-cta-intricate-design-muted-gold .image-container {\n    flex-basis: 45%;\n    margin-bottom: 0;\n  }\n  .art-nouveau-cta-intricate-design-muted-gold .content {\n    flex: 1;\n    padding-left: 40px;\n  }\n  .art-nouveau-cta-intricate-design-muted-gold h2 {\n    font-size: 2.8em;\n  }\n  .art-nouveau-cta-intricate-design-muted-gold p {\n    font-size: 1.15em;\n  }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Art Nouveau CTA - Aufwändiges Design Mattgold"
+        },
+        "ar": {
+            "name": "زر الدعوة للفعل بنمط آرت نوفو - تصميم معقد وذهب باهت"
+        },
+        "en": {
+            "name": "Art Nouveau CTA - Intricate Design Muted Gold"
+        }
+    }
+}

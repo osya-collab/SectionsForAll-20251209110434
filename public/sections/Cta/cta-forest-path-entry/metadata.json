@@ -1,0 +1,41 @@
+{
+    "name": "CTA with Forest Path Entry",
+    "category": "Cta",
+    "description": "An inviting CTA with a deep forest path background and a dark green overlay, using light green accents and an earthy button to encourage exploration.",
+    "tags": [
+        "cta",
+        "forest",
+        "path",
+        "nature",
+        "adventure",
+        "exploration"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "outdoor activities",
+        "adventure travel",
+        "nature exploration blogs"
+    ],
+    "style_analysis": {
+        "colors": [
+            "rgba(0, 50, 0, 0.5)",
+            "#fff",
+            "#dcedc8",
+            "#aed581",
+            "#556b2f",
+            "#3e4a2b"
+        ],
+        "fonts": [
+            "Merriweather Sans",
+            "sans-serif"
+        ],
+        "visual_identity": "Mysterious and inviting, featuring a forest path with a deep green overlay and earthy brown accents."
+    }
+}

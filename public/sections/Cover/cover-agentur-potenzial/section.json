@@ -1,0 +1,31 @@
+{
+    "id": "cover-agentur-potenzial",
+    "html": "\n<section class=\"cover-agentur-potenzial-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container text-center\">\n        <div class=\"hero-content\">\n            <p class=\"pre-title anim-fade-in-up\">{{t:pre_title}}</p>\n            <h1 class=\"anim-fade-in-up anim-delay-1\">{{t:title}}</h1>\n            <p class=\"subtitle anim-fade-in-up anim-delay-2\">{{t:subtitle}}</p>\n            <a href=\"#\" class=\"btn btn-dark anim-fade-in-up anim-delay-3\">{{t:cta_button}}</a>\n        </div>\n        <div class=\"image-wrapper anim-zoom-in anim-delay-4\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=modern+agency+office+team+collaboration\" alt=\"{{t:image_alt}}\">\n        </div>\n    </div>\n</section>",
+    "css": ".cover-agentur-potenzial-section { padding: 6rem 0; background-color: var(--color-light, #FFFFFF); } .cover-agentur-potenzial-section .container { width: 90%; max-width: 1000px; margin: 0 auto; text-align: center; } .cover-agentur-potenzial-section .hero-content { max-width: 700px; margin: 0 auto 3rem; } .cover-agentur-potenzial-section .pre-title { font-size: 0.9rem; font-weight: 600; color: var(--color-secondary, #6B7280); margin-bottom: 1rem; display: inline-block; } .cover-agentur-potenzial-section h1 { font-size: clamp(2.5rem, 6vw, 4rem); font-weight: 700; color: var(--color-dark, #1F2937); line-height: 1.2; margin-bottom: 1.5rem; } .cover-agentur-potenzial-section .subtitle { font-size: 1.1rem; color: var(--color-secondary, #6B7280); margin: 0 auto 2.5rem; } .cover-agentur-potenzial-section .btn-dark { display: inline-block; padding: 0.8rem 2.5rem; background-color: var(--color-dark, #1F2937); color: var(--color-light, #FFFFFF); border-radius: 0.5rem; font-weight: 600; text-decoration: none; } .cover-agentur-potenzial-section .image-wrapper img { width: 100%; height: auto; max-height: 500px; object-fit: cover; border-radius: 1.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.1); } .cover-agentur-potenzial-section .anim-delay-1 { transition-delay: 0.1s; } .cover-agentur-potenzial-section .anim-delay-2 { transition-delay: 0.2s; } .cover-agentur-potenzial-section .anim-delay-3 { transition-delay: 0.3s; } .cover-agentur-potenzial-section .anim-delay-4 { transition-delay: 0.4s; } ",
+    "translations": {
+        "de": {
+            "name": "Agentur Potenzial",
+            "pre_title": "FÜR AGENTUREN",
+            "title": "Entfalte das Potenzial deiner Agentur.",
+            "subtitle": "Moderne Designs lieben weiche, abgerundete Ecken, große, schöne Bilder und diesen leichten, 'luftigen' Vibe. Und rate mal? Genau so sind die Onepage-Sektionen aufgebaut!",
+            "cta_button": "Call to Action button",
+            "image_alt": "Modernes Agenturbüro mit Teamarbeit"
+        },
+        "en": {
+            "name": "Agency Potential",
+            "pre_title": "FOR AGENCIES",
+            "title": "Unleash your agency's potential.",
+            "subtitle": "Modern designs love soft, rounded corners, large, beautiful images, and that light, 'airy' vibe. And guess what? That's exactly how Onepage sections are built!",
+            "cta_button": "Call to Action button",
+            "image_alt": "Modern agency office with team collaboration"
+        },
+        "ar": {
+            "name": "إمكانات الوكالة",
+            "pre_title": "للوكالات",
+            "title": "أطلق العنان لإمكانيات وكالتك.",
+            "subtitle": "تحب التصاميم الحديثة الزوايا الناعمة والمستديرة والصور الكبيرة والجميلة وهذا الشعور الخفيف 'المنعش'. وخمن ماذا؟ هذه هي الطريقة التي تم بها بناء أقسام Onepage!",
+            "cta_button": "زر الدعوة لاتخاذ إجراء",
+            "image_alt": "مكتب وكالة حديث مع تعاون الفريق"
+        }
+    }
+}

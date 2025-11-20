@@ -1,0 +1,43 @@
+{
+    "name": "Products Modern Feature Cards",
+    "category": "Products",
+    "description": "Modern feature cards highlighting key product attributes. Each card combines an image with descriptive text, featuring a subtle hover effect.",
+    "tags": [
+        "products",
+        "features",
+        "cards",
+        "modern",
+        "minimalist",
+        "showcase"
+    ],
+    "structure": [
+        "section",
+        "h2",
+        "div",
+        "div",
+        "div",
+        "img",
+        "div",
+        "h3",
+        "p"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "highlighting product features",
+        "service descriptions",
+        "benefit explanations"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#fdfdfd",
+            "#ffffff",
+            "#333333",
+            "#666666"
+        ],
+        "fonts": [
+            "Merriweather",
+            "serif"
+        ],
+        "visual_identity": "Elegant and informative, using a refined serif font and clean card layout to emphasize quality and design."
+    }
+}

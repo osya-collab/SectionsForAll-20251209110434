@@ -1,0 +1,13 @@
+{
+    "name": "Timeline Story",
+    "category": "Article",
+    "description": "Tell a story or present history in a chronological format using this clean, vertical timeline integrated within an article.",
+    "tags": ["article", "timeline", "history", "storytelling", "process"],
+    "structure": ["header", "timeline-items"],
+    "complexity": "medium",
+    "use_cases": [
+        "Company history pages",
+        "Project development stories",
+        "Biographical articles"
+    ]
+}

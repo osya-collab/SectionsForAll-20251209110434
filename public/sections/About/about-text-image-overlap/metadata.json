@@ -1,0 +1,13 @@
+{
+    "name": "Text Image Overlap",
+    "category": "About",
+    "description": "A modern and dynamic layout where a text box overlaps a larger background image. The image is positioned to the right.",
+    "tags": ["about", "overlap", "image", "modern", "dynamic"],
+    "structure": ["text-box", "image"],
+    "complexity": "medium",
+    "use_cases": [
+        "Feature highlights",
+        "Creative agency introductions",
+        "Modern 'About Us' sections"
+    ]
+}

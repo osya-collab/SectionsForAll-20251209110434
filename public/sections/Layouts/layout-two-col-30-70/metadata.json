@@ -1,0 +1,14 @@
+
+{
+    "name": "Two Columns (30/70)",
+    "category": "Layouts",
+    "description": "An asymmetrical two-column layout with a smaller sidebar (30%) and a larger main content area (70%). Ideal for secondary navigation or supplementary content.",
+    "tags": ["layout", "structure", "two-column", "asymmetrical", "sidebar", "responsive"],
+    "structure": ["sidebar-column", "main-column"],
+    "complexity": "simple",
+    "use_cases": [
+        "Blog layouts with sidebars",
+        "Product pages with specs on the side",
+        "Dashboards with navigation"
+    ]
+}

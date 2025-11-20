@@ -1,0 +1,13 @@
+{
+    "name": "Bouncing Dots Timeline",
+    "category": "Timeline",
+    "description": "A playful and dynamic vertical timeline where the event markers bounce into place as the user scrolls, drawing attention to each point in the journey.",
+    "tags": ["timeline", "vertical", "animated", "interactive", "playful"],
+    "structure": ["header", "timeline-items", "animated-dots"],
+    "complexity": "medium",
+    "use_cases": [
+        "Creative agency project timelines",
+        "Startup journeys",
+        "Engaging 'About Us' stories"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Nav with CTA Button",
+    "category": "Menu",
+    "description": "A classic and effective navigation bar with the logo on the left, primary links in the middle, and a clear call-to-action button on the right. Versatile and suitable for most business websites.",
+    "tags": ["standard", "cta", "business", "header", "responsive", "versatile"],
+    "structure": ["logo", "nav-links", "cta-button"],
+    "complexity": "simple",
+    "use_cases": [
+        "Business Websites",
+        "Landing Pages",
+        "Service-based companies",
+        "Startups"
+    ]
+}

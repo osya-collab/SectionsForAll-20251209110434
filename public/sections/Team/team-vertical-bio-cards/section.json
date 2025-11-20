@@ -1,0 +1,58 @@
+{
+    "id": "team-vertical-bio-cards",
+    "html": "\n<section class=\"team-vertical-bio-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"section-header\">\n            <h2 class=\"anim-fade-in-up\">{{t:title}}</h2>\n            <p class=\"anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n        </div>\n        <div class=\"team-grid\">\n            <div class=\"team-card anim-fade-in-up anim-delay-2\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=man+portrait\" alt=\"{{t:member1_name}}\">\n                <div class=\"card-content\">\n                    <h3>{{t:member1_name}}</h3>\n                    <p class=\"role\">{{t:member1_role}}</p>\n                    <p class=\"bio\">{{t:member_bio_1}}</p>\n                    <div class=\"social-icons\">\n                        <a href=\"#\" aria-label=\"LinkedIn\"><i class=\"fab fa-linkedin-in\"></i></a>\n                        <a href=\"#\" aria-label=\"Twitter\"><i class=\"fab fa-twitter\"></i></a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"team-card anim-fade-in-up anim-delay-3\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=woman+portrait\" alt=\"{{t:member2_name}}\">\n                <div class=\"card-content\">\n                    <h3>{{t:member2_name}}</h3>\n                    <p class=\"role\">{{t:member2_role}}</p>\n                    <p class=\"bio\">{{t:member_bio_2}}</p>\n                    <div class=\"social-icons\">\n                        <a href=\"#\" aria-label=\"LinkedIn\"><i class=\"fab fa-linkedin-in\"></i></a>\n                        <a href=\"#\" aria-label=\"Twitter\"><i class=\"fab fa-twitter\"></i></a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"team-card anim-fade-in-up anim-delay-4\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=male+professional\" alt=\"{{t:member3_name}}\">\n                <div class=\"card-content\">\n                    <h3>{{t:member3_name}}</h3>\n                    <p class=\"role\">{{t:member3_role}}</p>\n                    <p class=\"bio\">{{t:member_bio_3}}</p>\n                    <div class=\"social-icons\">\n                        <a href=\"#\" aria-label=\"LinkedIn\"><i class=\"fab fa-linkedin-in\"></i></a>\n                        <a href=\"#\" aria-label=\"Twitter\"><i class=\"fab fa-twitter\"></i></a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"team-card anim-fade-in-up anim-delay-5\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=businessman\" alt=\"{{t:member4_name}}\">\n                <div class=\"card-content\">\n                    <h3>{{t:member4_name}}</h3>\n                    <p class=\"role\">{{t:member4_role}}</p>\n                    <p class=\"bio\">{{t:member_bio_4}}</p>\n                    <div class=\"social-icons\">\n                        <a href=\"#\" aria-label=\"LinkedIn\"><i class=\"fab fa-linkedin-in\"></i></a>\n                        <a href=\"#\" aria-label=\"Twitter\"><i class=\"fab fa-twitter\"></i></a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>\n",
+    "css": "\n.team-vertical-bio-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.team-vertical-bio-section .container {\n    width: 90%;\n    max-width: 1200px;\n    margin: 0 auto;\n}\n.team-vertical-bio-section .section-header {\n    text-align: center;\n    max-width: 700px;\n    margin: 0 auto 4rem;\n}\n.team-vertical-bio-section h2 {\n    font-size: 2.5rem;\n    font-weight: 700;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1rem;\n}\n.team-vertical-bio-section .section-header p {\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n}\n.team-vertical-bio-section .team-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n    gap: 2rem;\n}\n.team-vertical-bio-section .team-card {\n    background-color: #f3f4f6; /* gray-100 */\n    border-radius: 1.5rem;\n    overflow: hidden;\n}\n.team-vertical-bio-section .team-card img {\n    width: 100%;\n    height: auto;\n    aspect-ratio: 1/1;\n    object-fit: cover;\n}\n.team-vertical-bio-section .card-content {\n    padding: 2rem;\n}\n.team-vertical-bio-section .card-content h3 {\n    font-size: 1.25rem;\n    font-weight: 600;\n    color: var(--color-dark, #1F2937);\n}\n.team-vertical-bio-section .card-content .role {\n    font-size: 0.9rem;\n    color: var(--color-secondary, #6B7280);\n    margin-bottom: 1rem;\n}\n.team-vertical-bio-section .card-content .bio {\n    font-size: 0.95rem;\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.6;\n    margin-bottom: 1.5rem;\n}\n.team-vertical-bio-section .social-icons {\n    display: flex;\n    gap: 1rem;\n}\n.team-vertical-bio-section .social-icons a {\n    color: var(--color-secondary, #6B7280);\n    font-size: 1.2rem;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Vertikale Bio-Karten",
+            "title": "Lernen Sie unser Team kennen",
+            "subtitle": "Eine klare und überzeugende Beschreibung deiner Dienstleistungen sorgt dafür, dass Besucher nicht sofort wieder abspringen, nachdem sie deine Seite geöffnet haben.",
+            "member1_name": "Achim Braun",
+            "member1_role": "CEO & Gründer",
+            "member_bio_1": "Kurze Texte sind perfekt für Onepage. Etwa 30 Wörter reichen aus, um einen Absatz gut zu füllen.",
+            "member2_name": "Emily Mayer",
+            "member2_role": "Finanzen & Buchhaltung",
+            "member_bio_2": "So bleibt alles sauber und lesbar, genau wie du es magst.",
+            "member3_name": "Oliver Friedrich",
+            "member3_role": "Berater",
+            "member_bio_3": "Kurze Texte sind perfekt für dein Onepage-Projekt. Mit etwa 30 Wörtern füllst du einen typischen Absatz optimal aus.",
+            "member4_name": "Berndt Becker",
+            "member4_role": "Anwaltliche Beratung",
+            "member_bio_4": "So bleibt alles sauber und gut lesbar – genau richtig für dich."
+        },
+        "en": {
+            "name": "Vertical Bio Cards",
+            "title": "Meet our team",
+            "subtitle": "A clear and compelling description of your services ensures that visitors don't leave immediately after opening your page.",
+            "member1_name": "Achim Braun",
+            "member1_role": "CEO & Founder",
+            "member_bio_1": "Short texts are perfect for Onepage. About 30 words are enough to fill a paragraph well.",
+            "member2_name": "Emily Mayer",
+            "member2_role": "Finance & Accounting",
+            "member_bio_2": "This keeps everything clean and readable, just the way you like it.",
+            "member3_name": "Oliver Friedrich",
+            "member3_role": "Advisor",
+            "member_bio_3": "Short texts are perfect for your Onepage project. With about 30 words, you can optimally fill a typical paragraph.",
+            "member4_name": "Berndt Becker",
+            "member4_role": "Legal Advice",
+            "member_bio_4": "This keeps everything clean and easy to read – just right for you."
+        },
+        "ar": {
+            "name": "بطاقات السيرة الذاتية العمودية",
+            "title": "تعرف على فريقنا",
+            "subtitle": "يضمن الوصف الواضح والمقنع لخدماتك عدم مغادرة الزوار فور فتح صفحتك.",
+            "member1_name": "أخيم براون",
+            "member1_role": "الرئيس التنفيذي والمؤسس",
+            "member_bio_1": "النصوص القصيرة مثالية لـ Onepage. حوالي 30 كلمة كافية لملء فقرة بشكل جيد.",
+            "member2_name": "إميلي ماير",
+            "member2_role": "المالية والمحاسبة",
+            "member_bio_2": "هذا يحافظ على كل شيء نظيفًا وقابلًا للقراءة، تمامًا كما تحب.",
+            "member3_name": "أوليفر فريدريش",
+            "member3_role": "مستشار",
+            "member_bio_3": "النصوص القصيرة مثالية لمشروع Onepage الخاص بك. بحوالي 30 كلمة، يمكنك ملء فقرة نموذجية على النحو الأمثل.",
+            "member4_name": "بيرندت بيكر",
+            "member4_role": "استشارة قانونية",
+            "member_bio_4": "هذا يحافظ على كل شيء نظيفًا وسهل القراءة - مناسب لك تمامًا."
+        }
+    }
+}

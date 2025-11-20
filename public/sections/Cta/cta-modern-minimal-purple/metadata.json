@@ -1,0 +1,40 @@
+{
+    "name": "Modern Minimal CTA (Purple)",
+    "category": "Cta",
+    "description": "A modern and minimal CTA section with a white background and a vibrant purple call to action button, encouraging user engagement.",
+    "tags": [
+        "cta",
+        "minimalist",
+        "modern",
+        "purple",
+        "engagement",
+        "contact"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "service inquiry",
+        "project startup",
+        "consultation booking"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#fff",
+            "#4b0082",
+            "#555",
+            "#8a2be2",
+            "#6a0dad"
+        ],
+        "fonts": [
+            "Verdana",
+            "sans-serif"
+        ],
+        "visual_identity": "Elegant and modern with a clean white canvas and a striking purple accent for calls to action."
+    }
+}

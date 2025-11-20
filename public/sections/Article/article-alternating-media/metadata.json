@@ -1,0 +1,13 @@
+{
+    "name": "Alternating Media",
+    "category": "Article",
+    "description": "A dynamic long-form article layout that alternates text blocks with full-width images and pullquotes.",
+    "tags": ["article", "long-form", "alternating", "images", "quotes"],
+    "structure": ["text", "image", "text", "quote"],
+    "complexity": "medium",
+    "use_cases": [
+        "Feature stories",
+        "In-depth blog posts",
+        "Visual storytelling"
+    ]
+}

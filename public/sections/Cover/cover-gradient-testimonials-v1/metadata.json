@@ -1,0 +1,38 @@
+{
+    "name": "Social Proof Hero with Gradient Cards",
+    "category": "Cover",
+    "description": "A hero-style testimonial section replicating the provided visual reference with a gradient background, large feature card, and stacked dark cards.",
+    "tags": [
+        "cover",
+        "testimonials",
+        "gradient",
+        "social proof",
+        "modern"
+    ],
+    "structure": [
+        "Header Badge",
+        "Watermark Title",
+        "Grid Layout",
+        "Large Gradient Card",
+        "Stacked Dark Cards"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "SaaS Landing Pages",
+        "Product Reviews",
+        "Trust Building Sections"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#e0f2f1",
+            "#e3f2fd",
+            "#2e3546",
+            "#ffffff"
+        ],
+        "fonts": [
+            "Inter",
+            "Dancing Script"
+        ],
+        "visual_identity": "Soft, modern, trustworthy, gradient-heavy with rounded corners."
+    }
+}

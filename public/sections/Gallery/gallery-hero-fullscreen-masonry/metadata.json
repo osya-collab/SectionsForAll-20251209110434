@@ -1,0 +1,27 @@
+{
+    "name": "Full-Screen Masonry Gallery Hero",
+    "category": "Gallery",
+    "description": "A full-screen, responsive masonry gallery that serves as a hero section. A centered text overlay provides context for the collection.",
+    "tags": [
+        "masonry",
+        "fullscreen",
+        "gallery",
+        "hero",
+        "portfolio",
+        "modern"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h1",
+        "p",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Portfolios",
+        "photography websites",
+        "art showcases",
+        "agency landing pages"
+    ]
+}

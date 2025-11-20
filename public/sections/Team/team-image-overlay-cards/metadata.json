@@ -1,0 +1,13 @@
+{
+    "name": "Image Overlay Cards",
+    "category": "Team",
+    "description": "A stylish team section where member names and bios are presented in a gradient overlay on top of their portraits.",
+    "tags": ["team", "overlay", "image", "cards", "modern", "creative"],
+    "structure": ["header", "grid", "cards"],
+    "complexity": "simple",
+    "use_cases": [
+        "Creative agency websites",
+        "Fashion or design portfolios",
+        "Modern corporate team pages"
+    ]
+}

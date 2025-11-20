@@ -1,0 +1,40 @@
+{
+    "id": "about-stats-and-image-split",
+    "html": "\n<section class=\"about-stats-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container about-stats-container\">\n        <div class=\"about-stats-content anim-fade-in-right\">\n            <h2>{{t:title}}</h2>\n            <p>{{t:p1}}</p>\n            <p>{{t:p2}}</p>\n            <div class=\"stats-grid\">\n                <div class=\"stat-card\">\n                    <h3>3+</h3>\n                    <p>{{t:stat1_label}}</p>\n                </div>\n                <div class=\"stat-card highlighted\">\n                    <h3>1000+</h3>\n                    <p>{{t:stat2_label}}</p>\n                </div>\n                <div class=\"stat-card\">\n                    <h3>5000+</h3>\n                    <p>{{t:stat3_label}}</p>\n                </div>\n                <div class=\"stat-card\">\n                    <h3>24/7</h3>\n                    <p>{{t:stat4_label}}</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"about-stats-image-wrapper anim-fade-in-left\">\n            <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=office+chair+window+building\" alt=\"{{t:image_alt}}\">\n        </div>\n    </div>\n</section>",
+    "css": "\n.about-stats-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.about-stats-section .container {\n    width: 90%;\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 0 1rem;\n}\n.about-stats-container {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 3rem;\n}\n@media (min-width: 992px) {\n    .about-stats-container {\n        grid-template-columns: 1fr 1fr;\n    }\n}\n.about-stats-content h2 {\n    font-size: clamp(2.5rem, 5vw, 3.5rem);\n    font-weight: 700;\n    color: var(--color-dark, #111827);\n    margin-bottom: 1.5rem;\n    line-height: 1.2;\n}\n.about-stats-content p {\n    color: var(--color-secondary, #6B7280);\n    margin-bottom: 1rem;\n}\n.about-stats-section .stats-grid {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 1.5rem;\n    margin-top: 2.5rem;\n}\n.about-stats-section .stat-card {\n    background-color: #f3f4f6; /* A light gray */\n    padding: 1.5rem;\n    border-radius: 12px;\n}\n.about-stats-section .stat-card.highlighted {\n    background-color: #d1d5db; /* A darker gray */\n}\n.about-stats-section .stat-card h3 {\n    font-size: clamp(2rem, 4vw, 2.5rem);\n    font-weight: 700;\n    color: var(--color-dark, #111827);\n    margin-bottom: 0.5rem;\n}\n.about-stats-section .stat-card.highlighted h3 {\n    color: var(--color-dark, #111827);\n}\n.about-stats-section .stat-card p {\n    font-size: 0.9rem;\n    color: var(--color-secondary, #6B7280);\n    margin: 0;\n}\n.about-stats-section .stat-card.highlighted p {\n    color: var(--color-dark, #111827);\n    opacity: 0.9;\n}\n\n.about-stats-image-wrapper {\n    position: relative;\n    height: 100%;\n}\n.about-stats-image-wrapper::before {\n    content: '';\n    position: absolute;\n    top: -10px;\n    left: 0;\n    right: 0;\n    height: 10px;\n    background-image: radial-gradient(var(--color-secondary, #6B7280) 25%, transparent 25%);\n    background-size: 10px 10px;\n    opacity: 0.2;\n}\n.about-stats-image-wrapper img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n    border-radius: 16px;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Über uns mit Statistikraster",
+            "title": "Über 10 Jahre Wachstum für dein Geschäft",
+            "p1": "Wir haben einen Page Builder entwickelt, der wirklich für dich arbeitet. Unsere Bereiche und Vorlagen sind von den beliebtesten und effektivsten Webseiten inspiriert.",
+            "p2": "Unsere Abschnitte und Vorlagen basieren auf dem, was auf den beliebtesten Seiten gerade gut ankommt.",
+            "stat1_label": "Jahre seit Eröffnung",
+            "stat2_label": "Stammkunden",
+            "stat3_label": "Dienstleistungen erbracht",
+            "stat4_label": "Support",
+            "image_alt": "Modernes Büro-Interieur mit einem Stuhl"
+        },
+        "en": {
+            "name": "About with Stats Grid",
+            "title": "Over 10 years of growth for your business",
+            "p1": "We've developed a page builder that really works for you. Our sections and templates are inspired by the most popular and effective websites.",
+            "p2": "Our sections and templates are based on what's currently performing well on the most popular sites.",
+            "stat1_label": "Years Since Opening",
+            "stat2_label": "Regular Customers",
+            "stat3_label": "Services Provided",
+            "stat4_label": "Support",
+            "image_alt": "Modern office interior with a chair"
+        },
+        "ar": {
+            "name": "نبذة عنا مع شبكة إحصائيات",
+            "title": "أكثر من 10 سنوات من النمو لعملك",
+            "p1": "لقد قمنا بتطوير أداة إنشاء صفحات تعمل من أجلك حقًا. أقسامنا وقوالبنا مستوحاة من مواقع الويب الأكثر شهرة وفعالية.",
+            "p2": "تستند أقسامنا وقوالبنا إلى ما يحقق أداءً جيدًا حاليًا على المواقع الأكثر شهرة.",
+            "stat1_label": "سنوات منذ الافتتاح",
+            "stat2_label": "عملاء دائمون",
+            "stat3_label": "الخدمات المقدمة",
+            "stat4_label": "الدعم",
+            "image_alt": "تصميم داخلي لمكتب حديث مع كرسي"
+        }
+    }
+}

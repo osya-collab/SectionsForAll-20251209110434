@@ -1,0 +1,14 @@
+
+{
+    "name": "Accent Border Nav",
+    "category": "Menu",
+    "description": "A clean navigation bar where active or hovered links are highlighted with a colorful bottom border, adding a subtle touch of elegance.",
+    "tags": ["header", "minimalist", "hover-effect", "underline", "elegant"],
+    "structure": ["logo", "nav-links"],
+    "complexity": "simple",
+    "use_cases": [
+        "Portfolios",
+        "Corporate Websites",
+        "Blogs"
+    ]
+}

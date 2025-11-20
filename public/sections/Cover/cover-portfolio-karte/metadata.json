@@ -1,0 +1,9 @@
+{
+    "name": "Portfolio Karte",
+    "category": "Cover",
+    "description": "A full-screen hero section with a background image and a central 'glassmorphism' card for a portfolio or personal brand.",
+    "tags": ["cover", "hero", "portfolio", "glassmorphism", "personal"],
+    "structure": ["background-image", "card"],
+    "complexity": "medium",
+    "use_cases": ["Personal Portfolios", "Freelancer Websites"]
+}

@@ -1,0 +1,46 @@
+{
+    "id": "about-feature-cards-header",
+    "html": "\n<section class=\"feature-cards-header-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"feature-cards-header anim-fade-in-up\">\n            <h2>{{t:title}}</h2>\n            <div class=\"header-content\">\n                <p>{{t:subtitle}}</p>\n                <a href=\"#\" class=\"btn-primary\">{{t:cta_button}}</a>\n            </div>\n        </div>\n        <div class=\"feature-cards-grid\">\n            <div class=\"feature-card anim-fade-in-up\">\n                <div class=\"card-image-wrapper\">\n                    <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=business+team+meeting+modern+office\" alt=\"{{t:card1_alt}}\">\n                </div>\n                <div class=\"card-content\">\n                    <h3>{{t:card1_title}}</h3>\n                    <p>{{t:card_desc}}</p>\n                </div>\n            </div>\n             <div class=\"feature-card anim-fade-in-up anim-delay-1\">\n                <div class=\"card-image-wrapper\">\n                    <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=minimalist+office+lake+view\" alt=\"{{t:card2_alt}}\">\n                </div>\n                <div class=\"card-content\">\n                    <h3>{{t:card2_title}}</h3>\n                    <p>{{t:card_desc}}</p>\n                </div>\n            </div>\n             <div class=\"feature-card anim-fade-in-up anim-delay-2\">\n                <div class=\"card-image-wrapper\">\n                    <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=desk+chair+window+view\" alt=\"{{t:card3_alt}}\">\n                </div>\n                <div class=\"card-content\">\n                    <h3>{{t:card3_title}}</h3>\n                    <p>{{t:card_desc}}</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.feature-cards-header-section { padding: 5rem 0; background-color: var(--color-light, #FFFFFF); }\n.feature-cards-header-section .container { width: 90%; max-width: 1200px; margin: 0 auto; padding: 0 1rem; }\n.feature-cards-header {\n    display: flex;\n    flex-direction: column;\n    gap: 1.5rem;\n    margin-bottom: 4rem;\n}\n@media (min-width: 768px) {\n    .feature-cards-header { flex-direction: row; justify-content: space-between; align-items: flex-end; }\n    .feature-cards-header h2 { flex-basis: 40%; }\n    .feature-cards-header .header-content { flex-basis: 55%; }\n}\n.feature-cards-header-section h2 {\n    font-size: clamp(2.5rem, 5vw, 3.5rem);\n    font-weight: 700;\n    line-height: 1.2;\n    margin: 0;\n    color: var(--color-dark, #111827);\n}\n.feature-cards-header-section .header-content p {\n    color: var(--color-secondary, #6B7280);\n    margin-bottom: 1.5rem;\n}\n.feature-cards-header-section .btn-primary {\n    display: inline-block;\n    padding: 0.8rem 2rem;\n    background-color: var(--color-dark, #111827);\n    color: var(--color-light, #FFFFFF);\n    text-decoration: none;\n    border-radius: 8px;\n    font-weight: 600;\n    transition: background-color 0.3s ease;\n}\n.feature-cards-header-section .btn-primary:hover {\n    background-color: #333;\n}\n.feature-cards-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n    gap: 2rem;\n}\n.feature-cards-header-section .feature-card {\n    background-color: #f3f4f6;\n    border-radius: 1.5rem;\n    overflow: hidden;\n}\n.feature-cards-header-section .card-image-wrapper {\n    aspect-ratio: 16 / 10;\n}\n.feature-cards-header-section .card-image-wrapper img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n}\n.feature-cards-header-section .card-content {\n    padding: 2rem;\n}\n.feature-cards-header-section .card-content h3 {\n    font-size: 1.5rem;\n    margin-bottom: 0.75rem;\n    color: var(--color-dark, #111827);\n}\n.feature-cards-header-section .card-content p {\n    color: var(--color-secondary, #6B7280);\n    margin: 0;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Feature-Karten mit Kopfzeile",
+            "title": "Vorteile der Arbeit für unser Unternehmen",
+            "subtitle": "Wir aktualisieren Onepages Abschnitte, Vorlagen und Elemente ständig, um mit aktuellen Webdesign-Trends Schritt zu halten. Gerade jetzt bedeutet das abgerundete Ecken, großzügige Layouts, Verläufe und einzigartige Elemente, die du nirgendwo anders findest.",
+            "cta_button": "Call-to-action button",
+            "card1_alt": "Komfortabler Büroraum",
+            "card1_title": "Komfortables Büro",
+            "card_desc": "Halte die Textlänge in sich wiederholenden Abschnitten ähnlich für visuelle Balance und bessere Lesbarkeit",
+            "card2_alt": "Leute bei einer Diskussion",
+            "card2_title": "Transparente Prozesse",
+            "card3_alt": "Schreibtisch mit Aussicht",
+            "card3_title": "Spannende Arbeit"
+        },
+        "en": {
+            "name": "Feature Cards with Header",
+            "title": "Benefits of working for our company",
+            "subtitle": "We constantly update Onepage's sections, templates, and elements to keep up with current web design trends. Right now, that means rounded corners, generous layouts, gradients, and unique elements you won't find anywhere else.",
+            "cta_button": "Call-to-action button",
+            "card1_alt": "Comfortable office space",
+            "card1_title": "Comfortable Office",
+            "card_desc": "Keep the text length similar in repeating sections for visual balance and better readability",
+            "card2_alt": "People in a discussion",
+            "card2_title": "Transparent Processes",
+            "card3_alt": "Desk with a view",
+            "card3_title": "Exciting Work"
+        },
+        "ar": {
+            "name": "بطاقات الميزات مع رأس الصفحة",
+            "title": "فوائد العمل في شركتنا",
+            "subtitle": "نقوم باستمرار بتحديث أقسام وقوالب وعناصر Onepage لمواكبة اتجاهات تصميم الويب الحالية. في الوقت الحالي، يعني ذلك زوايا مستديرة، وتخطيطات واسعة، وتدرجات، وعناصر فريدة لن تجدها في أي مكان آخر.",
+            "cta_button": "زر الدعوة لاتخاذ إجراء",
+            "card1_alt": "مساحة مكتبية مريحة",
+            "card1_title": "مكتب مريح",
+            "card_desc": "حافظ على طول النص متشابهًا في الأقسام المتكررة لتحقيق التوازن البصري وسهولة القراءة",
+            "card2_alt": "أشخاص في نقاش",
+            "card2_title": "عمليات شفافة",
+            "card3_alt": "مكتب مع إطلالة",
+            "card3_title": "عمل مثير"
+        }
+    }
+}

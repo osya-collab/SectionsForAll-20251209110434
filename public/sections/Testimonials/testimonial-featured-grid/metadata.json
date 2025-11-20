@@ -1,0 +1,14 @@
+
+{
+    "name": "Featured Testimonials Grid",
+    "category": "Testimonials",
+    "description": "A showcase section with two main featured testimonials in an autoplaying carousel, and a grid of four smaller testimonials below. Ideal for homepages.",
+    "tags": ["testimonial", "carousel", "grid", "featured", "modern", "corporate"],
+    "structure": ["carousel", "grid", "cards", "avatars"],
+    "complexity": "high",
+    "use_cases": [
+        "Homepage hero sections",
+        "Landing pages for social proof",
+        "Service-based business websites"
+    ]
+}

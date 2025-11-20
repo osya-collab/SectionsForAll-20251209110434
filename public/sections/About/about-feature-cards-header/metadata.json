@@ -1,0 +1,13 @@
+{
+    "name": "Feature Cards with Header",
+    "category": "About",
+    "description": "A section featuring a split header with a title and a call-to-action, followed by a three-column grid of feature cards with images.",
+    "tags": ["about", "features", "cards", "cta", "corporate", "image-grid"],
+    "structure": ["header", "cta-button", "feature-cards"],
+    "complexity": "medium",
+    "use_cases": [
+        "Company benefits pages",
+        "Service overviews",
+        "Team culture highlights"
+    ]
+}

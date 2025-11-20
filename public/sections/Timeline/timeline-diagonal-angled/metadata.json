@@ -1,0 +1,13 @@
+{
+    "name": "Diagonal Angled Timeline",
+    "category": "Timeline",
+    "description": "A visually dynamic timeline that follows a diagonal path, with content blocks angled for a modern and energetic feel.",
+    "tags": ["timeline", "diagonal", "angled", "modern", "creative", "dynamic"],
+    "structure": ["header", "timeline-items"],
+    "complexity": "high",
+    "use_cases": [
+        "Creative agency portfolios",
+        "Tech startup timelines",
+        "Forward-thinking brand stories"
+    ]
+}

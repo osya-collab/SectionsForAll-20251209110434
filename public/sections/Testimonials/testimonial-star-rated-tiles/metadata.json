@@ -1,0 +1,13 @@
+{
+    "name": "Star-Rated Tiles",
+    "category": "Testimonials",
+    "description": "A grid of compact tiles each with a star rating, short blurb, and customer info. Great for volume and quick scanning, with a “read more” drawer for long quotes.",
+    "tags": ["testimonial", "grid", "ratings", "reviews", "ecommerce"],
+    "structure": ["grid", "tiles", "stars"],
+    "complexity": "simple",
+    "use_cases": [
+        "E-commerce product pages",
+        "Service provider websites (e.g., plumbers, electricians)",
+        "Review aggregate pages"
+    ]
+}

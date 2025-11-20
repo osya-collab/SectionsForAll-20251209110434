@@ -1,0 +1,6 @@
+{
+    "name": "FAQ mit Tabs",
+    "category": "FAQ",
+    "description": "An organized FAQ section with category tabs that filter the questions displayed in the accordion below. Includes exclusive accordion logic.",
+    "tags": ["faq", "accordion", "tabs", "categorized", "interactive"]
+}

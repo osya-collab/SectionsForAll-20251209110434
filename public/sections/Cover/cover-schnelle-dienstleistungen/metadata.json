@@ -1,0 +1,9 @@
+{
+    "name": "Schnelle Dienstleistungen",
+    "category": "Cover",
+    "description": "A business-oriented cover section with a split layout, featuring two rating/stat cards on one side.",
+    "tags": ["cover", "hero", "business", "services", "stats", "rating"],
+    "structure": ["header", "cta-buttons", "cards"],
+    "complexity": "medium",
+    "use_cases": ["Service Providers", "B2B Companies"]
+}

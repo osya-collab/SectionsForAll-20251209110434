@@ -1,0 +1,44 @@
+{
+    "name": "CTA Split Screen Image & Text",
+    "category": "Cta",
+    "description": "A visually engaging split-screen section with an image on one side and text content with a call-to-action on the other. This layout is responsive and stacks vertically on smaller screens.",
+    "tags": [
+        "cta",
+        "split screen",
+        "image text",
+        "free trial",
+        "signup"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "img",
+        "div",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "free trial signups",
+        "product feature explanation",
+        "service promotion"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f1f3f6",
+            "white",
+            "#2c3e50",
+            "#7f8c8d",
+            "#e67e22",
+            "#d35400"
+        ],
+        "fonts": [
+            "Nunito",
+            "sans-serif"
+        ],
+        "visual_identity": "Modern split layout with an image and text content side-by-side, featuring an orange accent button."
+    }
+}

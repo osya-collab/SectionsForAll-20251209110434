@@ -1,0 +1,37 @@
+{
+    "name": "Neo-Brutalism CTA - Pink Minimal Border",
+    "category": "Cta",
+    "description": "A minimalist Neo-Brutalism CTA section with a thin hot pink border around the entire content area. Uses stark black and white for text, with a black button that turns pink on hover.",
+    "tags": [
+        "cta",
+        "neo-brutalism",
+        "minimal border",
+        "pink",
+        "modern",
+        "clean"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "sign-ups",
+        "contact prompts",
+        "lead generation"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#ffffff",
+            "#000000",
+            "#ff00ff"
+        ],
+        "fonts": [
+            "sans-serif"
+        ],
+        "visual_identity": "Minimalist Neo-Brutalism with a subtle hot pink border and high contrast black and white elements."
+    }
+}

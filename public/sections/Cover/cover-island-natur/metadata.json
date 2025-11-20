@@ -1,0 +1,9 @@
+{
+    "name": "Island Natur",
+    "category": "Cover",
+    "description": "An atmospheric, full-screen hero section with a moody background image, perfect for travel or nature themes.",
+    "tags": ["cover", "hero", "full-screen", "nature", "travel", "moody"],
+    "structure": ["background-image", "header", "paragraph"],
+    "complexity": "simple",
+    "use_cases": ["Travel Blogs", "Photography Portfolios", "Nature Documentaries"]
+}

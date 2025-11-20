@@ -1,0 +1,37 @@
+[
+    {
+        "id": "products-grid-minimalist-monochrome",
+        "name": "Products Grid Minimalist Monochrome",
+        "category": "Products"
+    },
+    {
+        "id": "products-cards-advanced-hover",
+        "name": "Products Cards Advanced Hover",
+        "category": "Products"
+    },
+    {
+        "id": "products-showcase-split-layout",
+        "name": "Products Showcase Split Layout",
+        "category": "Products"
+    },
+    {
+        "id": "products-modern-card-hover-zoom",
+        "name": "Products Modern Card Hover Zoom",
+        "category": "Products"
+    },
+    {
+        "id": "products-modern-feature-cards",
+        "name": "Products Modern Feature Cards",
+        "category": "Products"
+    },
+    {
+        "id": "product-highlight-modern-minimal",
+        "name": "Product Highlight - Modern Minimal",
+        "category": "Products"
+    },
+    {
+        "id": "product-showcase-geometric-pattern",
+        "name": "Product Showcase - Geometric Pattern",
+        "category": "Products"
+    }
+]

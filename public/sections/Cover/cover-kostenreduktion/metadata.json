@@ -1,0 +1,13 @@
+{
+    "name": "Kostenreduktion Cover",
+    "category": "Cover",
+    "description": "A clean, text-focused hero section with a bold headline, subtitle, and a single call-to-action button. Ideal for making a strong, direct value proposition.",
+    "tags": ["cover", "hero", "minimalist", "text-focused", "cta", "business"],
+    "structure": ["header", "paragraph", "cta-button"],
+    "complexity": "simple",
+    "use_cases": [
+        "Landing Pages",
+        "Service Announcements",
+        "Business Proposals"
+    ]
+}

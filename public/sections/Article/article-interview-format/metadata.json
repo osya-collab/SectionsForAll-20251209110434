@@ -1,0 +1,13 @@
+{
+    "name": "Interview Q&A Format",
+    "category": "Article",
+    "description": "A clean, conversational layout for presenting interviews in a question-and-answer format.",
+    "tags": ["article", "interview", "q&a", "conversational", "content"],
+    "structure": ["qa-pair"],
+    "complexity": "simple",
+    "use_cases": [
+        "Interviews",
+        "Expert Q&A sessions",
+        "Case studies in a conversational format"
+    ]
+}

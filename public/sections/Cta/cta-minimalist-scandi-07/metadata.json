@@ -1,0 +1,46 @@
+{
+    "name": "Pale Yellow and White Geometric CTA",
+    "category": "Cta",
+    "description": "A newsletter signup CTA with a pale yellow background, featuring soft, blurred accent shapes and a primary button in a mid wood tone.",
+    "tags": [
+        "cta",
+        "minimalist",
+        "scandinavian",
+        "newsletter",
+        "form",
+        "geometric",
+        "pale yellow"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "div",
+        "input",
+        "button"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "newsletter signup",
+        "lead generation",
+        "community engagement"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#fefefe",
+            "#fffaf0",
+            "#e5dccf",
+            "#6b5a4a",
+            "#8a7a6a",
+            "#ffffff",
+            "#a08a70"
+        ],
+        "fonts": [
+            "Poppins",
+            "Roboto",
+            "sans-serif"
+        ],
+        "visual_identity": "Soft Scandinavian minimalism with pale yellow, blurred accents, and clean geometric forms."
+    }
+}

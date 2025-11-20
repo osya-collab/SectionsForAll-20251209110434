@@ -1,0 +1,9 @@
+{
+    "name": "Effizientes Wachstum",
+    "category": "Cover",
+    "description": "A cover section about efficient business growth, using a bento grid layout.",
+    "tags": ["cover", "hero", "bento", "growth", "business", "stats"],
+    "structure": ["header", "bento-grid"],
+    "complexity": "medium",
+    "use_cases": ["Startups", "Tech Companies", "Consulting Firms"]
+}

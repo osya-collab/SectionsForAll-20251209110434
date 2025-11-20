@@ -1,0 +1,45 @@
+{
+    "name": "Products Grid Minimalist Monochrome",
+    "category": "Products",
+    "description": "A minimalist product display section featuring a clean grid layout with monochrome product cards. Each card has a subtle hover effect that zooms the image and adds a light overlay.",
+    "tags": [
+        "products",
+        "grid",
+        "minimalist",
+        "monochrome",
+        "hover-effect",
+        "clean"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "div",
+        "img",
+        "div",
+        "h3",
+        "p",
+        "div"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "e-commerce product listing",
+        "portfolio showcase",
+        "catalog display"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#ffffff",
+            "#f8f9fa",
+            "#333333",
+            "#666666"
+        ],
+        "fonts": [
+            "Helvetica Neue",
+            "Helvetica",
+            "Arial",
+            "sans-serif"
+        ],
+        "visual_identity": "Clean, modern, and minimalist with a focus on white space and sharp typography."
+    }
+}

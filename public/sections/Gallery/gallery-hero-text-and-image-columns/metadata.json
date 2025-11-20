@@ -1,0 +1,27 @@
+{
+    "name": "Alternating Text & Image Columns",
+    "category": "Gallery",
+    "description": "A clean and structured gallery layout featuring alternating rows of images and text columns. Ideal for case studies or project highlights.",
+    "tags": [
+        "columns",
+        "clean",
+        "portfolio",
+        "case-study",
+        "structured"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h1",
+        "p",
+        "h3",
+        "img"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "Portfolio project pages",
+        "case studies",
+        "feature explanations",
+        "company services"
+    ]
+}

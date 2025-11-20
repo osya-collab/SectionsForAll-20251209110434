@@ -1,0 +1,17 @@
+{
+    "id": "neo-brutalism-cta-blue-overlay-button",
+    "html": "<section class=\"cta-section-blue-overlay-button\">\n        <div class=\"cta-content\">\n            <h2>Join the Movement</h2>\n            <p>Be part of something bigger. Sign up today and connect with a community that matters.</p>\n            <a href=\"#\" class=\"cta-button\">Sign Up</a>\n        </div>\n    </section>",
+    "css": ".cta-section-blue-overlay-button {\n            padding: 100px 20px;\n            background-color: #000000;\n            color: #ffffff;\n            text-align: center;\n            position: relative;\n            overflow: hidden;\n        }\n        .cta-section-blue-overlay-button::before {\n            content: '';\n            position: absolute;\n            top: 0;\n            left: 0;\n            width: 100%;\n            height: 100%;\n            background: linear-gradient(rgba(0, 123, 255, 0.1), rgba(0, 123, 255, 0.3));\n            z-index: 1;\n        }\n        .cta-section-blue-overlay-button .cta-content {\n            max-width: 700px;\n            margin: 0 auto;\n            position: relative;\n            z-index: 2;\n        }\n        .cta-section-blue-overlay-button h2 {\n            font-size: 3.2rem;\n            margin-bottom: 20px;\n            line-height: 1.2;\n            font-weight: 900;\n        }\n        .cta-section-blue-overlay-button p {\n            font-size: 1.1rem;\n            margin-bottom: 40px;\n            line-height: 1.6;\n            color: #cccccc;\n        }\n        .cta-section-blue-overlay-button .cta-button {\n            display: inline-block;\n            padding: 15px 40px;\n            background-color: #007bff;\n            color: #ffffff;\n            text-decoration: none;\n            font-size: 1.2rem;\n            font-weight: 900;\n            border: 3px solid #ffffff;\n            transition: all 0.3s ease;\n            text-transform: uppercase;\n            box-shadow: 0 0 0 3px #007bff;\n        }\n        .cta-section-blue-overlay-button .cta-button:hover {\n            background-color: #ffffff;\n            color: #007bff;\n            border-color: #007bff;\n            box-shadow: 0 0 0 8px #007bff;\n        }\n        @media (max-width: 768px) {\n            .cta-section-blue-overlay-button {\n                padding: 80px 15px;\n            }\n            .cta-section-blue-overlay-button h2 {\n                font-size: 2.8rem;\n            }\n            .cta-section-blue-overlay-button p {\n                font-size: 1.1rem;\n            }\n            .cta-section-blue-overlay-button .cta-button {\n                padding: 12px 30px;\n                font-size: 1.1rem;\n            }\n        }\n        @media (max-width: 480px) {\n            .cta-section-blue-overlay-button {\n                padding: 60px 10px;\n            }\n            .cta-section-blue-overlay-button h2 {\n                font-size: 2.2rem;\n            }\n            .cta-section-blue-overlay-button p {\n                font-size: 1rem;\n            }\n            .cta-section-blue-overlay-button .cta-button {\n                padding: 10px 25px;\n                font-size: 1rem;\n            }\n        }",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "Neo-Brutalismus CTA - Blauer Overlay-Button"
+        },
+        "ar": {
+            "name": "قسم دعوة للعمل بأسلوب نيو-بروتاليزم - زر تراكب أزرق"
+        },
+        "en": {
+            "name": "Neo-Brutalism CTA - Blue Overlay Button"
+        }
+    }
+}

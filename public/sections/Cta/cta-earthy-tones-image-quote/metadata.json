@@ -1,0 +1,42 @@
+{
+    "name": "Earthy Tones CTA with Image",
+    "category": "Cta",
+    "description": "A serene CTA with earthy tones, featuring a background image of nature and warm text, ideal for wellness or travel services.",
+    "tags": [
+        "cta",
+        "earthy tones",
+        "nature",
+        "image",
+        "wellness",
+        "travel"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "img",
+        "div",
+        "h3",
+        "p",
+        "a"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "wellness retreats",
+        "eco-tourism",
+        "mindfulness apps"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f5f5dc",
+            "#5a463a",
+            "#f4f4f4",
+            "#8b4513",
+            "#5a463a"
+        ],
+        "fonts": [
+            "Merriweather",
+            "serif"
+        ],
+        "visual_identity": "Natural and calming with a palette of beige and brown, complemented by a serene nature image."
+    }
+}

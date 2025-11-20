@@ -1,0 +1,45 @@
+{
+    "name": "Hero with Interactive Tabs",
+    "category": "Cover",
+    "description": "A modern hero section featuring a primary call-to-action button and interactive tabs that reveal different content and images.",
+    "tags": [
+        "hero",
+        "cover",
+        "tabs",
+        "interactive",
+        "cta",
+        "modern"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h1",
+        "p",
+        "button",
+        "div",
+        "button",
+        "div",
+        "div",
+        "p",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Landing pages",
+        "Product showcases",
+        "Feature highlights"
+    ],
+    "style_analysis": {
+        "colors": [
+            "--color-primary",
+            "--color-secondary",
+            "--color-dark",
+            "--color-light"
+        ],
+        "fonts": [
+            "--font-heading",
+            "--font-body"
+        ],
+        "visual_identity": "Modern, clean, and user-centric with a focus on interactive elements."
+    }
+}

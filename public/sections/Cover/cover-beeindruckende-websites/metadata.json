@@ -1,0 +1,9 @@
+{
+    "name": "Beeindruckende Websites",
+    "category": "Cover",
+    "description": "A centered hero section with a large video/image placeholder inside a dark frame, and a logo wall.",
+    "tags": ["cover", "hero", "video", "logo-wall", "tech", "modern"],
+    "structure": ["header", "video", "logo-wall"],
+    "complexity": "medium",
+    "use_cases": ["SaaS Companies", "Tech Startups", "Digital Agencies"]
+}

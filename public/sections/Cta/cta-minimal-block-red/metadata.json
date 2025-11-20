@@ -1,0 +1,38 @@
+{
+    "name": "Minimal Block CTA (Red)",
+    "category": "Cta",
+    "description": "A bold, block-style CTA with a bright red background and white text, designed for urgent offers and quick actions.",
+    "tags": [
+        "cta",
+        "minimal",
+        "block",
+        "red",
+        "urgent",
+        "offer"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "flash sales",
+        "limited-time offers",
+        "urgent calls to action"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f4f4f4",
+            "#e74c3c",
+            "#fff"
+        ],
+        "fonts": [
+            "Arial Narrow",
+            "sans-serif"
+        ],
+        "visual_identity": "Direct and impactful with a solid red block background and contrasting white text for urgency."
+    }
+}

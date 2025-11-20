@@ -1,0 +1,47 @@
+{
+    "name": "Organic Wellness Cover",
+    "category": "Cover",
+    "description": "A serene cover section for wellness and organic brands, using natural colors, elegant typography, and imagery that evokes health and tranquility.",
+    "tags": [
+        "cover",
+        "hero",
+        "wellness",
+        "organic",
+        "health",
+        "natural",
+        "holistic"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h1",
+        "p",
+        "ul",
+        "li",
+        "span",
+        "div",
+        "button",
+        "a",
+        "img"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Wellness product websites",
+        "Organic food brands",
+        "Holistic health services"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#f8f5f2",
+            "#3a4d39",
+            "#738ca",
+            "#5a8f7b",
+            "#8fbc8f"
+        ],
+        "fonts": [
+            "Merriweather",
+            "serif"
+        ],
+        "visual_identity": "Natural, calm, and earthy with muted green and beige tones, promoting health and organic living."
+    }
+}

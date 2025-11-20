@@ -1,0 +1,61 @@
+{
+    "id": "team-two-row-grid",
+    "html": "\n<section class=\"team-two-row-grid-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"section-header\">\n            <h2 class=\"anim-fade-in-up\">{{t:title}}</h2>\n            <p class=\"anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n        </div>\n        <div class=\"team-grid\">\n            <div class=\"team-member anim-fade-in-up anim-delay-2\">\n                <img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887\" alt=\"{{t:member1_name}}\">\n                <h3>{{t:member1_name}}</h3>\n                <p class=\"role\">{{t:member1_role}}</p>\n                <p>{{t:member_bio}}</p>\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-3\">\n                <img src=\"https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887\" alt=\"{{t:member2_name}}\">\n                <h3>{{t:member2_name}}</h3>\n                <p class=\"role\">{{t:member2_role}}</p>\n                <p>{{t:member_bio}}</p>\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-4\">\n                <img src=\"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887\" alt=\"{{t:member3_name}}\">\n                <h3>{{t:member3_name}}</h3>\n                <p class=\"role\">{{t:member3_role}}</p>\n                <p>{{t:member_bio}}</p>\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-5\">\n                <img src=\"https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961\" alt=\"{{t:member4_name}}\">\n                <h3>{{t:member4_name}}</h3>\n                <p class=\"role\">{{t:member4_role}}</p>\n                <p>{{t:member_bio}}</p>\n            </div>\n            <div class=\"team-member anim-fade-in-up anim-delay-6\">\n                <img src=\"https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=1887\" alt=\"{{t:member5_name}}\">\n                <h3>{{t:member5_name}}</h3>\n                <p class=\"role\">{{t:member5_role}}</p>\n                <p>{{t:member_bio}}</p>\n            </div>\n             <div class=\"team-member anim-fade-in-up anim-delay-7\">\n                <img src=\"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070\" alt=\"{{t:member6_name}}\">\n                <h3>{{t:member6_name}}</h3>\n                <p class=\"role\">{{t:member6_role}}</p>\n                <p>{{t:member_bio}}</p>\n            </div>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-two-row-grid-section {\n    padding: 5rem 0;\n    background-color: var(--color-light, #FFFFFF);\n}\n.team-two-row-grid-section .container {\n    width: 90%;\n    max-width: 1200px;\n    margin: 0 auto;\n}\n.team-two-row-grid-section .section-header {\n    text-align: center;\n    max-width: 700px;\n    margin: 0 auto 4rem;\n}\n.team-two-row-grid-section .section-header h2 {\n    font-size: 2.5rem;\n    font-weight: 700;\n    color: var(--color-dark, #1F2937);\n    margin-bottom: 1rem;\n}\n.team-two-row-grid-section .section-header p {\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n}\n.team-two-row-grid-section .team-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n    gap: 2rem;\n}\n.team-two-row-grid-section .team-member {\n    background-color: #f3f4f6; /* gray-100 */\n    border-radius: 1.5rem;\n    padding: 2rem;\n}\n.team-two-row-grid-section .team-member img {\n    width: 100%;\n    height: auto;\n    aspect-ratio: 1/1;\n    object-fit: cover;\n    border-radius: 1rem;\n    margin-bottom: 1.5rem;\n}\n.team-two-row-grid-section .team-member h3 {\n    font-size: 1.25rem;\n    font-weight: 600;\n    color: var(--color-dark, #1F2937);\n}\n.team-two-row-grid-section .team-member .role {\n    font-size: 0.9rem;\n    color: var(--color-secondary, #6B7280);\n    margin-bottom: 1rem;\n}\n.team-two-row-grid-section .team-member p:not(.role) {\n    font-size: 0.95rem;\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.6;\n}\n",
+    "translations": {
+        "de": {
+            "name": "Zweireihiges Gitter",
+            "title": "Lernen Sie unser Team kennen",
+            "subtitle": "Eine klare und überzeugende Beschreibung deiner Dienstleistungen sorgt dafür, dass Besucher nicht sofort wieder abspringen, nachdem sie deine Seite geöffnet haben.",
+            "member1_name": "Achim Braun",
+            "member1_role": "Geschäftsführer & Gründer",
+            "member_bio": "Deine Teammitglieder vorzustellen, ist eine tolle Möglichkeit, online Vertrauen aufzubauen.",
+            "member2_name": "Sabine Müller",
+            "member2_role": "Finanzen & Buchhaltung",
+            "member3_name": "Berndt Becker",
+            "member3_role": "Rechtsberater",
+            "member4_name": "Katharina Koch",
+            "member4_role": "Vertriebsleiter",
+            "member5_name": "Oliver Santana",
+            "member5_role": "Externer Berater",
+            "member6_name": "Anna Schneider",
+            "member6_role": "Head of Operations"
+        },
+        "en": {
+            "name": "Two Row Grid",
+            "title": "Meet Our Team",
+            "subtitle": "A clear and compelling description of your services ensures that visitors don't leave immediately after opening your page.",
+            "member1_name": "Achim Braun",
+            "member1_role": "CEO & Founder",
+            "member_bio": "Introducing your team members is a great way to build trust online.",
+            "member2_name": "Sabine Müller",
+            "member2_role": "Finance & Accounting",
+            "member3_name": "Berndt Becker",
+            "member3_role": "Legal Consultant",
+            "member4_name": "Katharina Koch",
+            "member4_role": "Sales Manager",
+            "member5_name": "Oliver Santana",
+            "member5_role": "External Advisor",
+            "member6_name": "Anna Schneider",
+            "member6_role": "Head of Operations"
+        },
+        "ar": {
+            "name": "شبكة من صفين",
+            "title": "تعرف على فريقنا",
+            "subtitle": "يضمن الوصف الواضح والمقنع لخدماتك عدم مغادرة الزوار فور فتح صفحتك.",
+            "member1_name": "أخيم براون",
+            "member1_role": "الرئيس التنفيذي والمؤسس",
+            "member_bio": "يعد تقديم أعضاء فريقك طريقة رائعة لبناء الثقة عبر الإنترنت.",
+            "member2_name": "سابين مولر",
+            "member2_role": "المالية والمحاسبة",
+            "member3_name": "بيرندت بيكر",
+            "member3_role": "مستشار قانوني",
+            "member4_name": "كاتارينا كوخ",
+            "member4_role": "مدير المبيعات",
+            "member5_name": "أوليفر سانتانا",
+            "member5_role": "مستشار خارجي",
+            "member6_name": "آنا شنايدر",
+            "member6_role": "رئيس العمليات"
+        }
+    }
+}

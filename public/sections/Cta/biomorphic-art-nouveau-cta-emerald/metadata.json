@@ -1,0 +1,42 @@
+{
+    "name": "Biomorphic Art Nouveau CTA - Emerald Swirl",
+    "category": "Cta",
+    "description": "A luxurious CTA section with an Art Nouveau biomorphic design. Features deep emerald tones, gold accents, and flowing floral motifs. Includes an elegant heading, descriptive text, and a prominent call-to-action button, set against a subtly textured background.",
+    "tags": [
+        "CTA",
+        "Art Nouveau",
+        "Biomorphic",
+        "Luxury",
+        "Elegant",
+        "Floral",
+        "Jewel Tones",
+        "Newsletter",
+        "Signup"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "button"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Newsletter Signup",
+        "Lead Generation",
+        "Promotional Offers",
+        "Exclusive Content Access"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#0a3d2e",
+            "#f0e6d2",
+            "#e0c28e"
+        ],
+        "fonts": [
+            "Playfair Display",
+            "Lato"
+        ],
+        "visual_identity": "Luxurious Art Nouveau with deep emerald and muted gold, organic floral elements."
+    }
+}

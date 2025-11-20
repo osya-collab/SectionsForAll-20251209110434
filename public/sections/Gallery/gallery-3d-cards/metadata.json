@@ -1,0 +1,13 @@
+{
+    "name": "3D Hover Cards",
+    "category": "Gallery",
+    "description": "An interactive gallery of cards with a stunning 3D hover effect that lifts and reveals character art.",
+    "tags": ["gallery", "3d", "hover", "interactive", "cards", "fantasy"],
+    "structure": ["grid", "cards", "images"],
+    "complexity": "medium",
+    "use_cases": [
+        "Game character showcases",
+        "Trading card displays",
+        "Fantasy art portfolios"
+    ]
+}

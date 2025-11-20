@@ -1,0 +1,37 @@
+{
+    "name": "Neo-Brutalism CTA - Pink Outline Text",
+    "category": "Cta",
+    "description": "A bold Neo-Brutalism CTA section with outlined text in hot pink against a black background. The button is also hot pink, creating a unified and impactful visual.",
+    "tags": [
+        "cta",
+        "neo-brutalism",
+        "outline text",
+        "pink",
+        "bold",
+        "modern"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "brand awareness",
+        "call to action for content",
+        "lead generation"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#000000",
+            "#ffffff",
+            "#ff00ff"
+        ],
+        "fonts": [
+            "sans-serif"
+        ],
+        "visual_identity": "Neo-Brutalism with hot pink outlined text and a matching button on a black background."
+    }
+}

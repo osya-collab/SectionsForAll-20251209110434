@@ -1,0 +1,13 @@
+[
+  { "id": "timeline-bouncing-dots", "name": "Bouncing Dots Timeline", "category": "Timeline" },
+  { "id": "timeline-card-deck", "name": "Card Deck Timeline", "category": "Timeline" },
+  { "id": "timeline-centered-blocks", "name": "Centered Block Timeline", "category": "Timeline" },
+  { "id": "timeline-dark-steps", "name": "Dark Theme Step Timeline", "category": "Timeline" },
+  { "id": "timeline-diagonal-angled", "name": "Diagonal Angled Timeline", "category": "Timeline" },
+  { "id": "timeline-horizontal-scroll", "name": "Horizontal Scroll Timeline", "category": "Timeline" },
+  { "id": "timeline-icon-steps", "name": "Icon-Focused Step Timeline", "category": "Timeline" },
+  { "id": "timeline-minimal-vertical", "name": "Minimal Vertical Timeline", "category": "Timeline" },
+  { "id": "timeline-photo-wall", "name": "Photo Wall Timeline", "category": "Timeline" },
+  { "id": "timeline-vertical-alternating", "name": "Vertical Alternating Timeline", "category": "Timeline" },
+  { "id": "timeline-wavy-path", "name": "Wavy Path Timeline", "category": "Timeline" }
+]

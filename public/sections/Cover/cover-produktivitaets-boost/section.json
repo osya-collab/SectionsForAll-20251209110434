@@ -1,0 +1,37 @@
+{
+    "id": "cover-produktivitaets-boost",
+    "html": "\n<section class=\"cover-5-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container text-center hero-part\">\n        <h1 class=\"anim-fade-in-up\">{{t:title}}</h1>\n        <p class=\"subtitle anim-fade-in-up anim-delay-1\">{{t:subtitle}}</p>\n        <a href=\"#\" class=\"btn btn-dark anim-fade-in-up anim-delay-2\">{{t:cta_button}}</a>\n    </div>\n    <div class=\"container features-part-5\">\n        <div class=\"feature-card-5 dark-card anim-fade-in-up anim-delay-2\">\n            <h3>{{t:feature1_title}}</h3>\n            <p>{{t:feature_desc}}</p>\n        </div>\n        <div class=\"feature-card-5 light-card anim-fade-in-up anim-delay-3\">\n            <span class=\"stat-number\">500+</span>\n            <p>{{t:stat1_label}}</p>\n        </div>\n        <div class=\"feature-card-5 light-card anim-fade-in-up anim-delay-4\">\n            <span class=\"stat-number\">3m+</span>\n            <p>{{t:stat2_label}}</p>\n        </div>\n    </div>\n</section>",
+    "css": "\n.cover-5-section {\n    background-color: #f8f9fa; /* A very light gray */\n    padding: 6rem 0;\n}\n.cover-5-section .container { width: 90%; max-width: 900px; margin: 0 auto; padding: 0 1rem; }\n.cover-5-section .hero-part { margin-bottom: 4rem; text-align: center; }\n.cover-5-section h1 {\n    font-size: clamp(2.5rem, 6vw, 4rem);\n    font-weight: 700;\n    line-height: 1.2;\n    margin-bottom: 1.5rem;\n    color: var(--color-dark, #1F2937);\n}\n.cover-5-section .subtitle {\n    font-size: 1.1rem;\n    max-width: 600px;\n    margin: 0 auto 2.5rem;\n    color: var(--color-secondary, #6B7280);\n    line-height: 1.7;\n}\n.cover-5-section .btn {\n    display: inline-block;\n    padding: 1rem 2.5rem;\n    text-decoration: none;\n    border-radius: 0.5rem;\n    font-weight: 600;\n    transition: all 0.3s ease;\n    box-shadow: 0 4px 15px rgba(0,0,0,0.1);\n}\n.cover-5-section .btn-dark {\n    background-color: var(--color-dark, #1F2937);\n    color: var(--color-light, #FFFFFF);\n}\n.cover-5-section .btn-dark:hover {\n    transform: translateY(-3px);\n    box-shadow: 0 8px 25px rgba(0,0,0,0.15);\n}\n.cover-5-section .features-part-5 {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n    gap: 1.5rem;\n}\n.cover-5-section .feature-card-5 {\n    padding: 2rem;\n    border-radius: 1rem;\n    box-shadow: 0 10px 25px rgba(0,0,0,0.08);\n}\n.cover-5-section .dark-card {\n    background-color: var(--color-dark, #1F2937);\n    color: var(--color-light, #FFFFFF);\n}\n.cover-5-section .dark-card h3 {\n    font-size: 1.5rem;\n    color: var(--color-light, #FFFFFF);\n    margin-bottom: 1rem;\n}\n.cover-5-section .dark-card p {\n    color: #d1d5db; /* gray-300 */\n}\n.cover-5-section .light-card {\n    background-color: #e5e7eb; /* gray-200 */\n    text-align: center;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n}\n.cover-5-section .light-card .stat-number {\n    font-size: 3.5rem;\n    font-weight: 700;\n    color: var(--color-dark, #1F2937);\n    line-height: 1;\n}\n.cover-5-section .light-card p {\n    color: var(--color-secondary, #6B7280);\n    margin-top: 0.5rem;\n}\n.cover-5-section .anim-delay-1 { transition-delay: 0.1s; }\n.cover-5-section .anim-delay-2 { transition-delay: 0.2s; }\n.cover-5-section .anim-delay-3 { transition-delay: 0.3s; }\n.cover-5-section .anim-delay-4 { transition-delay: 0.4s; }\n",
+    "translations": {
+        "de": {
+            "name": "Produktivitäts-Boost Cover",
+            "title": "Verdopple deine Produktivität in der Hälfte der Zeit",
+            "subtitle": "Deine Hero-Bereiche befinden sich direkt unter dem Menü. Sie ziehen in den entscheidenden ersten Sekunden die Aufmerksamkeit auf sich und überzeugen Besucher, zu bleiben und auf den Button zu klicken.",
+            "cta_button": "Call-to-Action button",
+            "feature1_title": "Spare dir wöchentlich über 15 Stunden",
+            "feature_desc": "So sieht dein Text in einem Rasterlayout aus, mit nur ein paar Sätzen. Ganz einfach und übersichtlich für dich dargestellt.",
+            "stat1_label": "Kunden in 27 Ländern",
+            "stat2_label": "Bearbeitete Bestellungen"
+        },
+        "en": {
+            "name": "Productivity Boost Cover",
+            "title": "Double your productivity in half the time",
+            "subtitle": "Your hero sections are right below the menu. They grab attention in those crucial first seconds and convince visitors to stay and click the button.",
+            "cta_button": "Call-to-Action button",
+            "feature1_title": "Save over 15 hours weekly",
+            "feature_desc": "This is what your text looks like in a grid layout, with just a few sentences. Presented simply and clearly for you.",
+            "stat1_label": "Customers in 27 countries",
+            "stat2_label": "Processed orders"
+        },
+        "ar": {
+            "name": "غلاف تعزيز الإنتاجية",
+            "title": "ضاعف إنتاجيتك في نصف الوقت",
+            "subtitle": "أقسامك الرئيسية موجودة مباشرة أسفل القائمة. إنها تجذب الانتباه في تلك الثواني الأولى الحاسمة وتقنع الزوار بالبقاء والنقر على الزر.",
+            "cta_button": "زر الدعوة لاتخاذ إجراء",
+            "feature1_title": "وفر أكثر من 15 ساعة أسبوعيًا",
+            "feature_desc": "هذا ما يبدو عليه النص الخاص بك في تخطيط شبكي ، مع بضع جمل فقط. معروض ببساطة ووضوح من أجلك.",
+            "stat1_label": "عملاء في 27 دولة",
+            "stat2_label": "الطلبات المعالجة"
+        }
+    }
+}

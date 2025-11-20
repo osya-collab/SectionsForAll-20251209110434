@@ -1,0 +1,13 @@
+{
+    "name": "Dark Theme Step Timeline",
+    "category": "Timeline",
+    "description": "A sleek, dark-themed timeline that presents events as numbered steps in a horizontal grid. Excellent for outlining a process.",
+    "tags": ["timeline", "dark-theme", "steps", "process", "modern"],
+    "structure": ["header", "step-grid", "step-cards"],
+    "complexity": "simple",
+    "use_cases": [
+        "Onboarding flows",
+        "How-it-works sections",
+        "Project phase descriptions"
+    ]
+}

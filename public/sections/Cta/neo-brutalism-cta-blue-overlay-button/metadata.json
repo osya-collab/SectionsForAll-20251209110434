@@ -1,0 +1,39 @@
+{
+    "name": "Neo-Brutalism CTA - Blue Overlay Button",
+    "category": "Cta",
+    "description": "A dark Neo-Brutalism CTA with a subtle electric blue gradient overlay. Features bold white text and an electric blue button with a distinctive glowing border effect on hover.",
+    "tags": [
+        "cta",
+        "neo-brutalism",
+        "overlay",
+        "blue",
+        "gradient",
+        "modern"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "community sign-ups",
+        "newsletter subscriptions",
+        "app downloads"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#000000",
+            "#ffffff",
+            "#007bff",
+            "rgba(0,123,255,0.1)",
+            "rgba(0,123,255,0.3)"
+        ],
+        "fonts": [
+            "sans-serif"
+        ],
+        "visual_identity": "Dark Neo-Brutalism with a subtle electric blue gradient overlay and a glowing button effect."
+    }
+}

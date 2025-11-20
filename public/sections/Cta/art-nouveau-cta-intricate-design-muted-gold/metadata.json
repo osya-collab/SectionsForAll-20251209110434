@@ -1,0 +1,41 @@
+{
+    "name": "Art Nouveau CTA - Intricate Design Muted Gold",
+    "category": "Cta",
+    "description": "An Art Nouveau CTA with an earthy brown background, muted cream text, and dark goldenrod accents, featuring intricate architectural details.",
+    "tags": [
+        "cta",
+        "art nouveau",
+        "intricate",
+        "earthy",
+        "muted gold",
+        "heritage"
+    ],
+    "structure": [
+        "section",
+        "div",
+        "div",
+        "img",
+        "div",
+        "h2",
+        "p",
+        "a"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "historical preservation",
+        "craftsmanship",
+        "artistic services"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#5d4037",
+            "#e0cfae",
+            "#b8860b"
+        ],
+        "fonts": [
+            "Playfair Display",
+            "Lato"
+        ],
+        "visual_identity": "Earthy Art Nouveau with brown, muted cream, and dark gold, showcasing intricate patterns."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Webinar Anmeldung",
+    "category": "Cover",
+    "description": "A split-screen section for webinar sign-ups, featuring a video placeholder and author info on one side, and a detailed sign-up form on the other.",
+    "tags": ["cover", "hero", "webinar", "form", "video", "lead generation"],
+    "structure": ["video", "author-info", "form"],
+    "complexity": "high",
+    "use_cases": [
+        "Webinar Registration Pages",
+        "Online Course Sign-ups",
+        "Event Landing Pages"
+    ]
+}

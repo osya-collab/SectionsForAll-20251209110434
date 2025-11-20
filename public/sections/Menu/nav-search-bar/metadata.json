@@ -1,0 +1,15 @@
+
+{
+    "name": "Nav with Search Bar",
+    "category": "Menu",
+    "description": "A practical navigation bar that includes a search bar, allowing users to easily find content. Ideal for blogs and content-heavy websites.",
+    "tags": ["header", "search", "blog", "content", "utility"],
+    "structure": ["logo", "nav-links", "search-form"],
+    "complexity": "medium",
+    "use_cases": [
+        "Blogs",
+        "News Websites",
+        "Documentation Sites",
+        "E-commerce"
+    ]
+}

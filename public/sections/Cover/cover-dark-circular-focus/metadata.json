@@ -1,0 +1,36 @@
+{
+    "name": "Dark Hero with Circular Focus",
+    "category": "Cover",
+    "description": "A dark-themed hero section featuring a large circular image, bold typography, and orange accents, ideal for restaurants or food brands.",
+    "tags": [
+        "hero",
+        "dark mode",
+        "restaurant",
+        "food",
+        "circular image"
+    ],
+    "structure": [
+        "container",
+        "split layout",
+        "circular image",
+        "floating caption"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Restaurant Landing",
+        "Food Delivery App",
+        "Chef Portfolio"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#111111",
+            "#ff4500",
+            "#ffffff"
+        ],
+        "fonts": [
+            "Sans-serif",
+            "Serif Display"
+        ],
+        "visual_identity": "Modern Dark Elegant"
+    }
+}

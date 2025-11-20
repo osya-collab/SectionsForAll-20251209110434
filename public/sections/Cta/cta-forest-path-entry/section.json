@@ -1,0 +1,17 @@
+{
+    "id": "cta-forest-path-entry",
+    "html": "<section class=\"cta-forest-path-entry\">\n  <div class=\"container\">\n    <h2>Venture Into Nature's Embrace</h2>\n    <p>Discover hidden trails and natural wonders. Your adventure begins here.</p>\n    <a href=\"#\" class=\"cta-button\">Explore the Forest</a>\n  </div>\n</section>",
+    "css": ".cta-forest-path-entry { background-image: url('https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=enchanting+forest+path+with+sunlight&image_type=photo'); background-size: cover; background-position: center; padding: 80px 20px; text-align: center; color: #fff; font-family: 'Merriweather Sans', sans-serif; position: relative; }\n.cta-forest-path-entry::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 50, 0, 0.5); /* Deep forest green overlay */ }\n.cta-forest-path-entry .container { max-width: 800px; margin: 0 auto; position: relative; z-index: 1; }\n.cta-forest-path-entry h2 { font-size: 2.8rem; margin-bottom: 15px; color: #dcedc8; /* Light green accent */ }\n.cta-forest-path-entry p { font-size: 1.15rem; line-height: 1.7; margin-bottom: 35px; color: #aed581; /* Lighter accent green */ }\n.cta-forest-path-entry .cta-button { display: inline-block; padding: 14px 30px; background-color: #556b2f; /* Earthy brown-green */ color: #fff; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 1.1rem; transition: background-color 0.3s ease, transform 0.3s ease; }\n.cta-forest-path-entry .cta-button:hover { background-color: #3e4a2b; transform: translateY(-2px); }\n\n@media (min-width: 768px) {\n  .cta-forest-path-entry { padding: 100px 40px; }\n  .cta-forest-path-entry h2 { font-size: 3.5rem; }\n  .cta-forest-path-entry p { font-size: 1.3rem; }\n  .cta-forest-path-entry .cta-button { font-size: 1.2rem; }\n}",
+    "js": "",
+    "translations": {
+        "de": {
+            "name": "CTA mit Waldeingangspfad"
+        },
+        "ar": {
+            "name": "دعوة لاتخاذ إجراء مع مدخل مسار الغابة"
+        },
+        "en": {
+            "name": "CTA with Forest Path Entry"
+        }
+    }
+}

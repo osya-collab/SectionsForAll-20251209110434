@@ -1,0 +1,33 @@
+{
+    "name": "Dark Card Focus Hero",
+    "category": "Cover",
+    "description": "A high-contrast cover section using the dark blue from the reference as the primary container background, creating a strong focal point.",
+    "tags": [
+        "dark mode",
+        "card",
+        "hero",
+        "contrast"
+    ],
+    "structure": [
+        "Dark Card Container",
+        "Content Column",
+        "Avatars Row",
+        "Visual 3D Transform"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Feature Highlight",
+        "Subscription Page"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#2e3546",
+            "#ffffff",
+            "#a5b4fc"
+        ],
+        "fonts": [
+            "Inter"
+        ],
+        "visual_identity": "Bold, enclosed, professional, using deep contrast against a soft page background."
+    }
+}

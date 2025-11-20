@@ -1,0 +1,31 @@
+{
+    "id": "team-portraits",
+    "html": "\n<section class=\"team-portraits-section\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"section-header anim-fade-in-up\">\n            <h2>{{t:title}}</h2>\n        </div>\n        <div class=\"portraits-grid\">\n            <div class=\"portrait-item anim-fade-in-up\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=businessman+portrait+serious\" alt=\"{{t:image1_alt}}\">\n            </div>\n            <div class=\"portrait-item anim-fade-in-up anim-delay-1\">\n                <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&q=businesswoman+portrait+blonde\" alt=\"{{t:image2_alt}}\">\n            </div>\n        </div>\n        <div class=\"team-description anim-fade-in-up anim-delay-2\">\n            <p>{{t:description}}</p>\n        </div>\n        <div class=\"team-cta anim-fade-in-up anim-delay-3\">\n            <a href=\"#\" class=\"btn-dark\">{{t:cta_button}}</a>\n        </div>\n    </div>\n</section>",
+    "css": "\n.team-portraits-section { padding: 5rem 0; background-color: var(--color-light); }\n.team-portraits-section .container { width: 90%; max-width: 800px; margin: 0 auto; text-align: center; }\n.team-portraits-section .section-header h2 { font-size: 2.5rem; margin-bottom: 2rem; color: var(--color-dark); position: relative; display: inline-block; }\n.team-portraits-section .section-header h2::before, .team-portraits-section .section-header h2::after {\n    content: '';\n    position: absolute;\n    height: 2px;\n    width: 30px;\n    background-color: #ccc;\n    top: 50%;\n}\n.team-portraits-section .section-header h2::before { right: 100%; margin-right: 1rem; }\n.team-portraits-section .section-header h2::after { left: 100%; margin-left: 1rem; }\n.team-portraits-section .portraits-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid #ccc; }\n.team-portraits-section .portrait-item img { width: 100%; object-fit: cover; aspect-ratio: 3/4; filter: grayscale(100%) contrast(1.1); }\n.team-portraits-section .team-description { padding: 2rem; margin-bottom: 2rem; }\n.team-portraits-section .team-description p { color: var(--color-secondary); margin: 0; }\n.team-portraits-section .btn-dark { background-color: var(--color-dark); color: var(--color-light); padding: 0.75rem 2.5rem; text-decoration: none; font-weight: 600; transition: all 0.3s; }\n.team-portraits-section .btn-dark:hover { background-color: #333; }\n.team-portraits-section .anim-delay-1 { transition-delay: 0.1s; }\n.team-portraits-section .anim-delay-2 { transition-delay: 0.2s; }\n.team-portraits-section .anim-delay-3 { transition-delay: 0.3s; }\n",
+    "translations": {
+        "de": {
+            "name": "Team-Porträts",
+            "title": "Über uns",
+            "image1_alt": "Porträt eines Teammitglieds",
+            "image2_alt": "Porträt eines Teammitglieds",
+            "description": "Auf dieser Seite finden Sie die neuesten Informationen über uns. Unser Unternehmen entwickelt sich ständig weiter und wächst ständig. Wir bieten eine breite Palette von Dienstleistungen. Unsere Mission ist es, die beste Lösung bereitzustellen, die allen hilft. Wenn Sie uns kontaktieren möchten, füllen Sie bitte das Kontaktformular auf unserer Website aus. Wir wünschen Ihnen einen schönen Tag!",
+            "cta_button": "Mehr"
+        },
+        "en": {
+            "name": "Team Portraits",
+            "title": "About Us",
+            "image1_alt": "Team member portrait",
+            "image2_alt": "Team member portrait",
+            "description": "On this page, you will find the latest information about us. Our company is constantly evolving and growing. We offer a wide range of services. Our mission is to provide the best solution that helps everyone. If you would like to contact us, please fill out the contact form on our website. We wish you a nice day!",
+            "cta_button": "More"
+        },
+        "ar": {
+            "name": "صور الفريق",
+            "title": "عنا",
+            "image1_alt": "صورة عضو في الفريق",
+            "image2_alt": "صورة عضو في الفريق",
+            "description": "في هذه الصفحة، ستجد أحدث المعلومات عنا. شركتنا تتطور وتنمو باستمرار. نحن نقدم مجموعة واسعة من الخدمات. مهمتنا هي تقديم أفضل حل يساعد الجميع. إذا كنت ترغب في الاتصال بنا، يرجى ملء نموذج الاتصال على موقعنا. نتمنى لك يوما سعيدا!",
+            "cta_button": "المزيد"
+        }
+    }
+}
