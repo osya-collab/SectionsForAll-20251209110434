@@ -23,5 +23,10 @@
         "id": "section-creative-grid-v1",
         "name": "Creative Agency Grid",
         "category": "Hero"
+    },
+    {
+        "id": "section-happiness-collage",
+        "name": "Happiness Guide Collage",
+        "category": "Hero"
     }
 ]

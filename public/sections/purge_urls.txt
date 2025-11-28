@@ -7,6 +7,8 @@ https://cdn.jsdelivr.net/gh/osya-collab/SectionsForAll@main/public/sections/Hero
 https://cdn.jsdelivr.net/gh/osya-collab/SectionsForAll@main/public/sections/Hero/hero-pizza-v1/section.json
 https://cdn.jsdelivr.net/gh/osya-collab/SectionsForAll@main/public/sections/Hero/hero-smart-v1/metadata.json
 https://cdn.jsdelivr.net/gh/osya-collab/SectionsForAll@main/public/sections/Hero/hero-smart-v1/section.json
-https://cdn.jsdelivr.net/gh/osya-collab/SectionsForAll@main/public/sections/Hero/section-creative-grid-v1/section.json
 https://cdn.jsdelivr.net/gh/osya-collab/SectionsForAll@main/public/sections/Hero/section-creative-grid-v1/metadata.json
+https://cdn.jsdelivr.net/gh/osya-collab/SectionsForAll@main/public/sections/Hero/section-creative-grid-v1/section.json
+https://cdn.jsdelivr.net/gh/osya-collab/SectionsForAll@main/public/sections/Hero/section-happiness-collage/section.json
+https://cdn.jsdelivr.net/gh/osya-collab/SectionsForAll@main/public/sections/Hero/section-happiness-collage/metadata.json
 https://cdn.jsdelivr.net/gh/osya-collab/SectionsForAll@main/public/sections/manifest.json

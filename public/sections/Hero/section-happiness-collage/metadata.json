@@ -1,0 +1,39 @@
+{
+    "name": "Happiness Guide Collage",
+    "category": "Hero",
+    "description": "A split-grid hero section with four images surrounding a centralized floating content card, creating a collage effect.",
+    "tags": [
+        "hero",
+        "grid",
+        "collage",
+        "overlay",
+        "image-grid"
+    ],
+    "structure": [
+        "section",
+        "container",
+        "grid-wrapper",
+        "image-columns",
+        "centered-card"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Hero Section",
+        "Feature Highlight",
+        "Category showcase"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#ef7d8d",
+            "#f4c542",
+            "#ffffff",
+            "#333333"
+        ],
+        "fonts": [
+            "Georgia",
+            "Arial",
+            "Sans-serif"
+        ],
+        "visual_identity": "Playful, Clean, Grid-based, Pastel Accents"
+    }
+}
