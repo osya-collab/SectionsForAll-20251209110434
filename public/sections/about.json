@@ -73,5 +73,10 @@
         "id": "mission-vision",
         "name": "Mission & Vision",
         "category": "About"
+    },
+    {
+        "id": "about-story-v1",
+        "name": "Story & About",
+        "category": "About"
     }
 ]

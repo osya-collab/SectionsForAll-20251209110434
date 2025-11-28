@@ -1,0 +1,34 @@
+{
+    "name": "Footer Contact Cards",
+    "category": "Footer",
+    "description": "Three overlay cards containing contact info over a dark food background.",
+    "tags": [
+        "footer",
+        "contact",
+        "location"
+    ],
+    "structure": [
+        "section",
+        "background",
+        "container",
+        "grid",
+        "card"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "Business Contact Info",
+        "Footer"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#111111",
+            "#ffffff",
+            "#b83b12"
+        ],
+        "fonts": [
+            "Helvetica Neue",
+            "sans-serif"
+        ],
+        "visual_identity": "Translucent cards on dark background."
+    }
+}

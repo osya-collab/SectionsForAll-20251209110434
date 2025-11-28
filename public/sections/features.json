@@ -18,5 +18,10 @@
         "id": "feature-breakfast-card-v1",
         "name": "Feature - Breakfast Overlap",
         "category": "Features"
+    },
+    {
+        "id": "menu-grid-v1",
+        "name": "Visual Pizza Grid",
+        "category": "Features"
     }
 ]

@@ -3,5 +3,10 @@
         "id": "cta-card-centered",
         "name": "Centered CTA Card",
         "category": "Call to action"
+    },
+    {
+        "id": "promo-cta-v1",
+        "name": "Pizza Promo CTA",
+        "category": "Call to action"
     }
 ]

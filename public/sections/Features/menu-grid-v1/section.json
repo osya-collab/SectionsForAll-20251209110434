@@ -1,0 +1,56 @@
+{
+    "id": "menu-grid-v1",
+    "html": "<section class=\"section-menu-grid-v1\" data-ai-id=\"element-placeholder\">\n  <div class=\"menu-header\">\n    <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&amp;q=pizza+ingredients+dark+table&amp;image_type=photo\" alt=\"Menu Header\" class=\"header-bg\">\n    <div class=\"header-content\">\n      <h2 class=\"section-title\">{{t:menu_title}}</h2>\n    </div>\n  </div>\n  <div class=\"container\">\n    <div class=\"grid-wrapper\">\n      <!-- Item 1 -->\n      <div class=\"menu-card\">\n        <div class=\"card-img\">\n          <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&amp;q=cheese+pizza+top+view&amp;image_type=photo\" alt=\"Cheese Pizza\">\n        </div>\n        <div class=\"card-body\">\n          <h3>{{t:item_1_title}}</h3>\n          <p>{{t:item_1_desc}}</p>\n        </div>\n      </div>\n      <!-- Item 2 -->\n      <div class=\"menu-card\">\n        <div class=\"card-img\">\n          <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&amp;q=pepperoni+pizza+top+view&amp;image_type=photo\" alt=\"Pepperoni Pizza\">\n        </div>\n        <div class=\"card-body\">\n          <h3>{{t:item_2_title}}</h3>\n          <p>{{t:item_2_desc}}</p>\n        </div>\n      </div>\n      <!-- Item 3 -->\n      <div class=\"menu-card\">\n        <div class=\"card-img\">\n          <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&amp;q=vegetarian+pizza+mushrooms&amp;image_type=photo\" alt=\"Vegetarian Pizza\">\n        </div>\n        <div class=\"card-body\">\n          <h3>{{t:item_3_title}}</h3>\n          <p>{{t:item_3_desc}}</p>\n        </div>\n      </div>\n      <!-- Item 4 -->\n      <div class=\"menu-card\">\n        <div class=\"card-img\">\n          <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&amp;q=rustic+pizza&amp;image_type=photo\" alt=\"Rustica Pizza\">\n        </div>\n        <div class=\"card-body\">\n          <h3>{{t:item_4_title}}</h3>\n          <p>{{t:item_4_desc}}</p>\n        </div>\n      </div>\n      <!-- Item 5 -->\n      <div class=\"menu-card\">\n        <div class=\"card-img\">\n          <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&amp;q=mushroom+pizza&amp;image_type=photo\" alt=\"Delicious Pizza\">\n        </div>\n        <div class=\"card-body\">\n          <h3>{{t:item_5_title}}</h3>\n          <p>{{t:item_5_desc}}</p>\n        </div>\n      </div>\n      <!-- Item 6 -->\n      <div class=\"menu-card\">\n        <div class=\"card-img\">\n          <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&amp;q=margherita+pizza&amp;image_type=photo\" alt=\"Tomato Pizza\">\n        </div>\n        <div class=\"card-body\">\n          <h3>{{t:item_6_title}}</h3>\n          <p>{{t:item_6_desc}}</p>\n        </div>\n      </div>\n    </div>\n    <div class=\"credit\">{{t:img_credit}}</div>\n  </div>\n\n\n<!-- Embedded Interactive Script -->\n<script>\n(function() {\n  const section = ((document.currentScript && document.currentScript.closest('.section-menu-grid-v1')) || document.querySelector('.section-menu-grid-v1'));\n  if (!section) return;\n  const imgs = section.querySelectorAll('img');\n  imgs.forEach(img => {\n    if (img.src.includes('pixabay.com')) {\n      fetch(img.src)\n        .then(r => r.json())\n        .then(data => {\n          if (data.hits && data.hits.length > 0) {\n            img.src = data.hits[0].webformatURL;\n          }\n        });\n    }\n  });\n})();\n</script>\n</section>",
+    "css": ".section-menu-grid-v1 {\n  --color-bg: #000000;\n  --color-card: #e6e6e6;\n  --color-text: #1a1a1a;\n  background-color: var(--color-bg);\n  padding-bottom: 60px;\n}\n\n.section-menu-grid-v1 .menu-header {\n  position: relative;\n  height: 300px;\n  overflow: hidden;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin-bottom: 40px;\n}\n\n.section-menu-grid-v1 .header-bg {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  opacity: 0.6;\n}\n\n.section-menu-grid-v1 .header-content {\n  position: relative;\n  z-index: 2;\n  text-align: center;\n}\n\n.section-menu-grid-v1 .section-title {\n  font-size: 3.5rem;\n  color: #fff;\n  font-weight: 800;\n  text-shadow: 0 4px 8px rgba(0,0,0,0.5);\n  font-family: 'Helvetica Neue', sans-serif;\n  margin: 0;\n}\n\n.section-menu-grid-v1 .container {\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 20px;\n}\n\n.section-menu-grid-v1 .grid-wrapper {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 30px;\n}\n\n@media (max-width: 992px) {\n  .section-menu-grid-v1 .grid-wrapper {\n    grid-template-columns: repeat(2, 1fr);\n  }\n}\n@media (max-width: 600px) {\n  .section-menu-grid-v1 .grid-wrapper {\n    grid-template-columns: 1fr;\n  }\n}\n\n.section-menu-grid-v1 .menu-card {\n  background: var(--color-card);\n  padding: 20px;\n  text-align: left;\n  transition: transform 0.2s;\n}\n\n.section-menu-grid-v1 .menu-card:hover {\n  transform: translateY(-5px);\n}\n\n.section-menu-grid-v1 .card-img {\n  width: 100%;\n  aspect-ratio: 1/1;\n  overflow: hidden;\n  margin-bottom: 20px;\n  background: #333;\n}\n\n.section-menu-grid-v1 .card-img img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n}\n\n.section-menu-grid-v1 .card-body h3 {\n  font-size: 1.25rem;\n  font-weight: 700;\n  margin: 0 0 10px 0;\n  color: var(--color-text);\n}\n\n.section-menu-grid-v1 .card-body p {\n  font-size: 0.9rem;\n  color: #555;\n  line-height: 1.5;\n  margin: 0;\n}\n\n.section-menu-grid-v1 .credit {\n  text-align: center;\n  color: #666;\n  font-size: 0.8rem;\n  margin-top: 40px;\n}",
+    "js": "",
+    "translations": {
+        "en": {
+            "menu_title": "Italy Pizza Menu",
+            "item_1_title": "Cheese Pizza",
+            "item_1_desc": "Get our Manhattan Classic Cheese Pizza with your choice of sauce and crust.",
+            "item_2_title": "Pepperoni Pizza",
+            "item_2_desc": "Get our classic Pepperoni pizza with your choice of sauce and crust.",
+            "item_3_title": "Vegetarian Pizza",
+            "item_3_desc": "Tomato Sauce, Mozzarella, Green Pepper, Onions, Fresh Mushrooms, Tomatoes, and Black Olives.",
+            "item_4_title": "Rustica Pizza",
+            "item_4_desc": "Tomato sauce, mozzarella, sausage, crispy bacon, roasted red peppers, and black olives.",
+            "item_5_title": "Delicious Pizza",
+            "item_5_desc": "A mix of Porcini Mushrooms and Decadent Truffle Paste, Mozzarella.",
+            "item_6_title": "Tomato Pizza",
+            "item_6_desc": "The Classic Marinara Sauce, Roma Tomatoes, Fresh Mozzarella, Fresh Basil.",
+            "img_credit": "Image from Freepik"
+        },
+        "ar": {
+            "menu_title": "قائمة بيتزا إيطاليا",
+            "item_1_title": "بيتزا الجبن",
+            "item_1_desc": "احصل على بيتزا مانهاتن كلاسيك بالجبنة.",
+            "item_2_title": "بيتزا البيبروني",
+            "item_2_desc": "بيتزا البيبروني الكلاسيكية مع اختيارك.",
+            "item_3_title": "بيتزا نباتية",
+            "item_3_desc": "صلصة طماطم، موزاريلا، فلفل، بصل، مشروم.",
+            "item_4_title": "بيتزا روستيكا",
+            "item_4_desc": "صلصة طماطم، موزاريلا، سجق، لحم مقدد.",
+            "item_5_title": "بيتزا لذيذة",
+            "item_5_desc": "مزيج من الفطر البورشيني ومعجون الكمأة.",
+            "item_6_title": "بيتزا الطماطم",
+            "item_6_desc": "صلصة مارينارا كلاسيكية، طماطم روما.",
+            "img_credit": "مصدر الصورة Freepik"
+        },
+        "de": {
+            "menu_title": "Italienisches Pizza-Menü",
+            "item_1_title": "Käsepizza",
+            "item_1_desc": "Holen Sie sich unsere Manhattan Classic Cheese Pizza.",
+            "item_2_title": "Peperoni-Pizza",
+            "item_2_desc": "Unsere klassische Peperoni-Pizza.",
+            "item_3_title": "Vegetarische Pizza",
+            "item_3_desc": "Tomatensauce, Mozzarella, Paprika, Zwiebeln.",
+            "item_4_title": "Rustica Pizza",
+            "item_4_desc": "Tomatensauce, Mozzarella, Wurst, Speck.",
+            "item_5_title": "Köstliche Pizza",
+            "item_5_desc": "Eine Mischung aus Steinpilzen und Trüffelpaste.",
+            "item_6_title": "Tomatenpizza",
+            "item_6_desc": "Die klassische Marinara-Sauce, Roma-Tomaten.",
+            "img_credit": "Bild von Freepik"
+        }
+    }
+}

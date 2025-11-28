@@ -1,0 +1,32 @@
+{
+    "name": "Pizza Promo CTA",
+    "category": "Call to action",
+    "description": "A parallax-style promo section with a centered content box overlaid on a food background.",
+    "tags": [
+        "cta",
+        "promo",
+        "banner"
+    ],
+    "structure": [
+        "section",
+        "background",
+        "container",
+        "card"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "Special Offers",
+        "Mission Statement"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#dcdcdc",
+            "#333333"
+        ],
+        "fonts": [
+            "Helvetica Neue",
+            "sans-serif"
+        ],
+        "visual_identity": "Overlay box on rich texture background."
+    }
+}

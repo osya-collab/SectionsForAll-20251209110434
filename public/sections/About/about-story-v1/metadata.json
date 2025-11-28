@@ -1,0 +1,34 @@
+{
+    "name": "Story & About",
+    "category": "About",
+    "description": "About section with image on left and text content on right.",
+    "tags": [
+        "about",
+        "story",
+        "content"
+    ],
+    "structure": [
+        "section",
+        "container",
+        "grid",
+        "image",
+        "content"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "Company History",
+        "Product Origin"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#dcdcdc",
+            "#1a1a1a",
+            "#555555"
+        ],
+        "fonts": [
+            "Helvetica Neue",
+            "sans-serif"
+        ],
+        "visual_identity": "Clean editorial layout."
+    }
+}

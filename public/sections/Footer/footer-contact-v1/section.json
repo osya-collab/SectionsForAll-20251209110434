@@ -1,0 +1,41 @@
+{
+    "id": "footer-contact-v1",
+    "html": "<section class=\"section-footer-contact-v1\" data-ai-id=\"element-placeholder\">\n  <div class=\"bg-layer\">\n    <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&amp;q=sandwich+food+dark&amp;image_type=photo\" alt=\"Footer Background\" class=\"bg-img\">\n  </div>\n  <div class=\"container\">\n    <div class=\"cards-grid\">\n      <div class=\"contact-card\">\n        <h3>{{t:title_find}}</h3>\n        <p>{{t:address_line1}}<br>{{t:address_line2}}<br>{{t:address_line3}}</p>\n      </div>\n      <div class=\"contact-card\">\n        <h3>{{t:title_hours}}</h3>\n        <p><strong>{{t:hours_wd}}</strong><br>9am - 7pm<br><strong>{{t:hours_we}}</strong><br>10am - 6pm</p>\n      </div>\n      <div class=\"contact-card\">\n        <h3>{{t:title_call}}</h3>\n        <p class=\"phone-link\">1 (234) 567-891</p>\n        <p class=\"phone-link\">2 (345) 333-897</p>\n      </div>\n    </div>\n    <div class=\"footer-credit\">{{t:img_credit}}</div>\n  </div>\n\n\n<!-- Embedded Interactive Script -->\n<script>\n(function() {\n  const section = ((document.currentScript && document.currentScript.closest('.section-footer-contact-v1')) || document.querySelector('.section-footer-contact-v1'));\n  if (!section) return;\n  const img = section.querySelector('.bg-img');\n  if (img && img.src.includes('pixabay.com')) {\n    fetch(img.src)\n      .then(r => r.json())\n      .then(data => {\n        if (data.hits && data.hits.length > 0) {\n          img.src = data.hits[0].webformatURL;\n        }\n      });\n  }\n})();\n</script>\n</section>",
+    "css": ".section-footer-contact-v1 {\n  position: relative;\n  padding: 80px 0;\n  background: #111;\n  overflow: hidden;\n  font-family: 'Helvetica Neue', sans-serif;\n}\n\n.section-footer-contact-v1 .bg-layer {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  opacity: 0.5;\n}\n\n.section-footer-contact-v1 .bg-img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n}\n\n.section-footer-contact-v1 .container {\n  position: relative;\n  z-index: 2;\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 20px;\n}\n\n.section-footer-contact-v1 .cards-grid {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 30px;\n}\n\n@media (max-width: 768px) {\n  .section-footer-contact-v1 .cards-grid {\n    grid-template-columns: 1fr;\n  }\n}\n\n.section-footer-contact-v1 .contact-card {\n  background: rgba(255, 255, 255, 0.9);\n  padding: 30px 20px;\n  text-align: center;\n  border-radius: 4px;\n  color: #333;\n}\n\n.section-footer-contact-v1 .contact-card h3 {\n  font-size: 1.1rem;\n  font-weight: 800;\n  text-transform: uppercase;\n  margin-bottom: 20px;\n  letter-spacing: 1px;\n}\n\n.section-footer-contact-v1 .contact-card p {\n  font-size: 0.9rem;\n  line-height: 1.6;\n  margin: 0;\n}\n\n.section-footer-contact-v1 .phone-link {\n  font-weight: 700;\n  color: #b83b12;\n  text-decoration: underline;\n  cursor: pointer;\n  margin-bottom: 10px !important;\n}\n\n.section-footer-contact-v1 .footer-credit {\n  text-align: center;\n  color: rgba(255,255,255,0.6);\n  font-size: 0.8rem;\n  margin-top: 40px;\n}",
+    "js": "",
+    "translations": {
+        "en": {
+            "title_find": "FIND US",
+            "address_line1": "121 Rock Street, 21",
+            "address_line2": "Avenue, New York,",
+            "address_line3": "NY 92103-9000",
+            "title_hours": "HOURS",
+            "hours_wd": "Monday - Saturday",
+            "hours_we": "Sunday",
+            "title_call": "CALL US",
+            "img_credit": "Image from Freepik"
+        },
+        "ar": {
+            "title_find": "تجدنا",
+            "address_line1": "١٢١ شارع الصخرة، ٢١",
+            "address_line2": "أفينيو، نيويورك،",
+            "address_line3": "نيويورك ٩٢١٠٣",
+            "title_hours": "ساعات العمل",
+            "hours_wd": "الإثنين - السبت",
+            "hours_we": "الأحد",
+            "title_call": "اتصل بنا",
+            "img_credit": "الصورة من Freepik"
+        },
+        "de": {
+            "title_find": "FINDEN SIE UNS",
+            "address_line1": "121 Rock Street, 21",
+            "address_line2": "Avenue, New York,",
+            "address_line3": "NY 92103-9000",
+            "title_hours": "ÖFFNUNGSZEITEN",
+            "hours_wd": "Montag - Samstag",
+            "hours_we": "Sonntag",
+            "title_call": "RUFEN SIE UNS AN",
+            "img_credit": "Bild von Freepik"
+        }
+    }
+}

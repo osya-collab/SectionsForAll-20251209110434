@@ -68,5 +68,10 @@
         "id": "footer-newsletter-v1",
         "name": "Restaurant Footer",
         "category": "Footer"
+    },
+    {
+        "id": "footer-contact-v1",
+        "name": "Footer Contact Cards",
+        "category": "Footer"
     }
 ]

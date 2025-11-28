@@ -1,0 +1,32 @@
+{
+    "id": "about-story-v1",
+    "html": "<section class=\"section-about-story-v1\" data-ai-id=\"element-placeholder\">\n  <div class=\"container\">\n    <div class=\"story-grid\">\n      <div class=\"image-col\">\n        <img src=\"https://pixabay.com/api/?key=52494880-f6ccd6f4c90db08ed73d4f14d&amp;q=whole+pizza+table+view&amp;image_type=photo\" alt=\"Our Story Pizza\">\n      </div>\n      <div class=\"content-col\">\n        <h2 class=\"story-title\">{{t:story_title}}</h2>\n        <p class=\"story-text\">{{t:story_text}}</p>\n        <ul class=\"story-list\">\n          <li>{{t:list_1}}</li>\n          <li>{{t:list_2}}</li>\n        </ul>\n        <button class=\"btn-outline\">{{t:btn_menu}}</button>\n        <p class=\"credit\">{{t:img_credit}}</p>\n      </div>\n    </div>\n  </div>\n\n\n<!-- Embedded Interactive Script -->\n<script>\n(function() {\n  const section = ((document.currentScript && document.currentScript.closest('.section-about-story-v1')) || document.querySelector('.section-about-story-v1'));\n  if (!section) return;\n  const img = section.querySelector('img');\n  if (img && img.src.includes('pixabay.com')) {\n    fetch(img.src)\n      .then(r => r.json())\n      .then(data => {\n        if (data.hits && data.hits.length > 0) {\n          img.src = data.hits[0].webformatURL;\n        }\n      });\n  }\n})();\n</script>\n</section>",
+    "css": ".section-about-story-v1 {\n  background-color: #dcdcdc;\n  padding: 80px 0;\n  font-family: 'Helvetica Neue', sans-serif;\n}\n\n.section-about-story-v1 .container {\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 20px;\n}\n\n.section-about-story-v1 .story-grid {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 60px;\n  align-items: center;\n}\n\n@media (max-width: 768px) {\n  .section-about-story-v1 .story-grid {\n    grid-template-columns: 1fr;\n  }\n}\n\n.section-about-story-v1 .image-col img {\n  width: 100%;\n  border-radius: 40px;\n  box-shadow: 0 15px 30px rgba(0,0,0,0.1);\n}\n\n.section-about-story-v1 .content-col {\n  text-align: left;\n}\n\n.section-about-story-v1 .story-title {\n  font-size: 2.5rem;\n  font-weight: 700;\n  color: #1a1a1a;\n  margin-bottom: 20px;\n}\n\n.section-about-story-v1 .story-text {\n  color: #555;\n  line-height: 1.6;\n  margin-bottom: 20px;\n}\n\n.section-about-story-v1 .story-list {\n  list-style-type: disc;\n  padding-left: 20px;\n  color: #555;\n  margin-bottom: 30px;\n}\n\n.section-about-story-v1 .story-list li {\n  margin-bottom: 10px;\n}\n\n.section-about-story-v1 .btn-outline {\n  background: transparent;\n  border: 2px solid #555;\n  color: #333;\n  padding: 10px 30px;\n  font-weight: 700;\n  text-transform: uppercase;\n  border-radius: 50px;\n  cursor: pointer;\n  transition: all 0.3s;\n}\n\n.section-about-story-v1 .btn-outline:hover {\n  background: #333;\n  color: #fff;\n}\n\n.section-about-story-v1 .credit {\n  margin-top: 20px;\n  font-size: 0.8rem;\n  color: #888;\n}",
+    "js": "",
+    "translations": {
+        "en": {
+            "story_title": "Our Story",
+            "story_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "list_1": "Tasty, fresh daily",
+            "list_2": "Best pizza in NYC",
+            "btn_menu": "SEE OUR MENU",
+            "img_credit": "Image from Freepik"
+        },
+        "ar": {
+            "story_title": "قصتنا",
+            "story_text": "أبجد هوز دولور سيت أميت، كونسيكتيتور أديبيسينغ إيليت.",
+            "list_1": "لذيذ، طازج يومياً",
+            "list_2": "أفضل بيتزا في نيويورك",
+            "btn_menu": "شاهد قائمتنا",
+            "img_credit": "الصورة من Freepik"
+        },
+        "de": {
+            "story_title": "Unsere Geschichte",
+            "story_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "list_1": "Lecker, täglich frisch",
+            "list_2": "Beste Pizza in NYC",
+            "btn_menu": "UNSER MENÜ SEHEN",
+            "img_credit": "Bild von Freepik"
+        }
+    }
+}

@@ -8,5 +8,10 @@
         "id": "hero-dining-v1",
         "name": "Hero Section - Dining on the Lake",
         "category": "Hero"
+    },
+    {
+        "id": "hero-pizza-v1",
+        "name": "Pizzeria Hero",
+        "category": "Hero"
     }
 ]

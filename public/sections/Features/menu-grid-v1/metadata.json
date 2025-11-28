@@ -1,0 +1,35 @@
+{
+    "name": "Visual Pizza Grid",
+    "category": "Features",
+    "description": "A 3x2 grid of cards showcasing products with a parallax-style header image.",
+    "tags": [
+        "menu",
+        "gallery",
+        "grid",
+        "products"
+    ],
+    "structure": [
+        "section",
+        "header-banner",
+        "container",
+        "grid",
+        "card"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Restaurant Menu",
+        "Product Portfolio"
+    ],
+    "style_analysis": {
+        "colors": [
+            "#000000",
+            "#e6e6e6",
+            "#ffffff"
+        ],
+        "fonts": [
+            "Helvetica Neue",
+            "sans-serif"
+        ],
+        "visual_identity": "High contrast dark mode with card overlays."
+    }
+}
