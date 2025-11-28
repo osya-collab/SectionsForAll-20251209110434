@@ -1,0 +1,44 @@
+{
+    "name": "FAQ with Icon Highlight",
+    "category": "Faq",
+    "description": "An FAQ section where each question is visually distinguished by an icon, adding a unique touch and aiding in quick topic identification.",
+    "tags": [
+        "faq",
+        "icons",
+        "visual highlight",
+        "accordion",
+        "themed"
+    ],
+    "structure": [
+        "section",
+        "container",
+        "accordion-container",
+        "details",
+        "summary",
+        "span",
+        "img",
+        "span",
+        "div",
+        "p"
+    ],
+    "complexity": "complex",
+    "use_cases": [
+        "themed websites",
+        "service pages",
+        "feature explanations",
+        "branding elements"
+    ],
+    "style_analysis": {
+        "colors": [
+            "--color-primary",
+            "--color-secondary",
+            "--color-dark",
+            "--color-light",
+            "--color-surface-1"
+        ],
+        "fonts": [
+            "var(--font-body)"
+        ],
+        "visual_identity": "Enhances the standard FAQ structure with relevant icons associated with each question, providing a more engaging and visually organized experience."
+    }
+}

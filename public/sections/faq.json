@@ -1,27 +1,42 @@
 [
     {
-        "id": "faq-grid-2col-v1",
-        "name": "Two-Column Grid FAQ",
+        "id": "faq-with-icon-highlight-g4h",
+        "name": "FAQ with Icon Highlight",
         "category": "Faq"
     },
     {
-        "id": "faq-glassmorphism-v1",
-        "name": "Glassmorphism FAQ",
+        "id": "faq-card-layout-h6q",
+        "name": "FAQ Card Layout",
         "category": "Faq"
     },
     {
-        "id": "faq-timeline-connector-v1",
-        "name": "Timeline Connected FAQ",
+        "id": "faq-collapsible-panels-a3d",
+        "name": "Collapsible FAQ Panels",
         "category": "Faq"
     },
     {
-        "id": "faq-box-border-simple-v1",
-        "name": "Box Border Simple",
+        "id": "faq-minimal-border-x4p",
+        "name": "Minimal Border FAQ",
         "category": "Faq"
     },
     {
-        "id": "faq-colored-block-v1",
-        "name": "Colored Block FAQ",
+        "id": "faq-outlined-buttons-b2f",
+        "name": "FAQ with Outlined Buttons",
+        "category": "Faq"
+    },
+    {
+        "id": "faq-with-callout-box-l9k",
+        "name": "FAQ with Callout Box",
+        "category": "Faq"
+    },
+    {
+        "id": "faq-gradient-header-g7h8",
+        "name": "FAQ Accordion with Gradient Header",
+        "category": "Faq"
+    },
+    {
+        "id": "faq-dark-theme-r7s8",
+        "name": "FAQ Accordion Dark Theme",
         "category": "Faq"
     }
 ]

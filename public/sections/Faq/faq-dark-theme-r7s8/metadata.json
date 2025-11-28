@@ -1,0 +1,38 @@
+{
+    "name": "FAQ Accordion Dark Theme",
+    "category": "Faq",
+    "description": "An FAQ accordion optimized for dark mode, using subtle contrast and a clean design for readability in low-light environments.",
+    "tags": [
+        "faq",
+        "accordion",
+        "dark mode",
+        "dark theme",
+        "minimal"
+    ],
+    "structure": [
+        "section",
+        "container",
+        "details",
+        "summary",
+        "span",
+        "p"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "Dark themed websites",
+        "Night mode interfaces",
+        "Apps"
+    ],
+    "style_analysis": {
+        "colors": [
+            "--color-dark",
+            "--color-light",
+            "--color-secondary",
+            "--color-primary"
+        ],
+        "fonts": [
+            "--font-body"
+        ],
+        "visual_identity": "Sleek and modern, designed for dark interfaces with subtle contrasts and clear visual hierarchy."
+    }
+}

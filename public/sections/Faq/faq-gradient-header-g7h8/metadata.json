@@ -1,0 +1,40 @@
+{
+    "name": "FAQ Accordion with Gradient Header",
+    "category": "Faq",
+    "description": "An FAQ accordion featuring a gradient background for the summary (header), adding a touch of vibrancy and visual appeal.",
+    "tags": [
+        "faq",
+        "accordion",
+        "gradient",
+        "vibrant",
+        "modern"
+    ],
+    "structure": [
+        "section",
+        "container",
+        "details",
+        "summary",
+        "span",
+        "p"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "Marketing pages",
+        "Promotional sections",
+        "Branded content"
+    ],
+    "style_analysis": {
+        "colors": [
+            "--color-primary",
+            "--color-secondary",
+            "--color-light",
+            "--color-dark",
+            "--color-border"
+        ],
+        "fonts": [
+            "--font-heading",
+            "--font-body"
+        ],
+        "visual_identity": "Eye-catching and dynamic, using a gradient header to draw attention and add a modern, energetic feel."
+    }
+}

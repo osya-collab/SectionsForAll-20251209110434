@@ -1,0 +1,32 @@
+{
+    "id": "faq-card-layout-h6q",
+    "html": "<section class=\"section-faq-card-layout-h6q\" data-ai-id=\"element-placeholder\">\n    <div class=\"container\">\n        <div class=\"faq-card-grid\">\n            <div class=\"faq-card\">\n                <div class=\"faq-card-header\" data-ai-id=\"e1\">\n                    <h3 class=\"faq-card-title\" data-ai-id=\"e2\">{{t:faq_card_layout_title1}}</h3>\n                </div>\n                <div class=\"faq-card-body\" data-ai-id=\"e3\">\n                    <p data-ai-id=\"e3-p1\">{{t:faq_card_layout_text1}}</p>\n                </div>\n            </div>\n            <div class=\"faq-card\">\n                <div class=\"faq-card-header\" data-ai-id=\"e4\">\n                    <h3 class=\"faq-card-title\" data-ai-id=\"e5\">{{t:faq_card_layout_title2}}</h3>\n                </div>\n                <div class=\"faq-card-body\" data-ai-id=\"e6\">\n                    <p data-ai-id=\"e6-p1\">{{t:faq_card_layout_text2}}</p>\n                </div>\n            </div>\n            <div class=\"faq-card\">\n                <div class=\"faq-card-header\" data-ai-id=\"e7\">\n                    <h3 class=\"faq-card-title\" data-ai-id=\"e8\">{{t:faq_card_layout_title3}}</h3>\n                </div>\n                <div class=\"faq-card-body\" data-ai-id=\"e9\">\n                    <p data-ai-id=\"e9-p1\">{{t:faq_card_layout_text3}}</p>\n                </div>\n            </div>\n        </div>\n    </div>\n\n\n<!-- Embedded Interactive Script -->\n<script>\n(() => {\n    const section = ((document.currentScript && document.currentScript.closest('.section-faq-card-layout-h6q')) || document.querySelector('.section-faq-card-layout-h6q'));\n    if (!section) return;\n\n    // No specific JS needed for this layout as it's static content within cards.\n    // The visual interaction (hover effect) is handled by CSS.\n})();\n</script>\n</section>",
+    "css": ".section-faq-card-layout-h6q .container {\n    max-width: 1000px;\n    margin: 0 auto;\n    padding: 50px 20px;\n}\n\n.section-faq-card-layout-h6q .faq-card-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n    gap: 30px;\n}\n\n.section-faq-card-layout-h6q .faq-card {\n    background-color: var(--color-surface-1);\n    border-radius: 12px;\n    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);\n    overflow: hidden;\n    padding: 30px;\n    transition: transform 0.3s ease, box-shadow 0.3s ease;\n}\n\n.section-faq-card-layout-h6q .faq-card:hover {\n    transform: translateY(-5px);\n    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);\n}\n\n.section-faq-card-layout-h6q .faq-card-header {\n    margin-bottom: 20px;\n}\n\n.section-faq-card-layout-h6q .faq-card-title {\n    font-family: var(--font-heading);\n    font-size: 1.4rem;\n    color: var(--color-dark);\n    margin: 0;\n}\n\n.section-faq-card-layout-h6q .faq-card-body {\n    font-family: var(--font-body);\n    font-size: 1rem;\n    color: var(--color-secondary);\n    line-height: 1.7;\n}\n\n.section-faq-card-layout-h6q .faq-card-body p {\n    margin: 0;\n}",
+    "js": "",
+    "translations": {
+        "en": {
+            "faq_card_layout_title1": "What is AI-powered design?",
+            "faq_card_layout_text1": "It's the use of artificial intelligence algorithms to assist in the creation and optimization of user interfaces, automating tasks and providing intelligent suggestions.",
+            "faq_card_layout_title2": "How does it speed up development?",
+            "faq_card_layout_text2": "By automating repetitive tasks, generating code snippets, and optimizing design choices, AI significantly reduces the time required for development.",
+            "faq_card_layout_title3": "Is it suitable for complex projects?",
+            "faq_card_layout_text3": "Yes, the AI can handle complex requirements and generate sophisticated solutions, making it valuable for large-scale and intricate projects."
+        },
+        "ar": {
+            "faq_card_layout_title1": "ما هو التصميم المدعوم بالذكاء الاصطناعي؟",
+            "faq_card_layout_text1": "هو استخدام خوارزميات الذكاء الاصطناعي للمساعدة في إنشاء وتحسين واجهات المستخدم، وأتمتة المهام وتقديم اقتراحات ذكية.",
+            "faq_card_layout_title2": "كيف يسرع عملية التطوير؟",
+            "faq_card_layout_text2": "من خلال أتمتة المهام المتكررة، وإنشاء مقتطفات الكود، وتحسين خيارات التصميم، يقلل الذكاء الاصطناعي بشكل كبير من الوقت المطلوب للتطوير.",
+            "faq_card_layout_title3": "هل هو مناسب للمشاريع المعقدة؟",
+            "faq_card_layout_text3": "نعم، يمكن للذكاء الاصطناعي التعامل مع المتطلبات المعقدة وإنشاء حلول متطورة، مما يجعله ذا قيمة للمشاريع واسعة النطاق والمعقدة."
+        },
+        "de": {
+            "faq_card_layout_title1": "Was ist KI-gestütztes Design?",
+            "faq_card_layout_text1": "Es ist die Nutzung von Algorithmen der künstlichen Intelligenz zur Unterstützung bei der Erstellung und Optimierung von Benutzeroberflächen, die Automatisierung von Aufgaben und die Bereitstellung intelligenter Vorschläge.",
+            "faq_card_layout_title2": "Wie beschleunigt es die Entwicklung?",
+            "faq_card_layout_text2": "Durch die Automatisierung von Routineaufgaben, die Generierung von Code-Snippets und die Optimierung von Designentscheidungen reduziert KI die für die Entwicklung erforderliche Zeit erheblich.",
+            "faq_card_layout_title3": "Ist es für komplexe Projekte geeignet?",
+            "faq_card_layout_text3": "Ja, die KI kann komplexe Anforderungen bewältigen und hochentwickelte Lösungen generieren, was sie für groß angelegte und komplizierte Projekte wertvoll macht."
+        }
+    }
+}

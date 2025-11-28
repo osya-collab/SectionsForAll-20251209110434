@@ -1,0 +1,49 @@
+{
+    "name": "FAQ with Outlined Buttons",
+    "category": "Faq",
+    "description": "An FAQ section with filterable categories presented as outlined buttons, allowing users to easily sort through questions.",
+    "tags": [
+        "faq",
+        "filter",
+        "buttons",
+        "outlined",
+        "categories",
+        "interactive"
+    ],
+    "structure": [
+        "section",
+        "container",
+        "div",
+        "h2",
+        "p",
+        "div",
+        "button",
+        "div",
+        "details",
+        "summary",
+        "span",
+        "div",
+        "p"
+    ],
+    "complexity": "complex",
+    "use_cases": [
+        "pages with many FAQs",
+        "product support",
+        "service explanations",
+        "user guides"
+    ],
+    "style_analysis": {
+        "colors": [
+            "--color-primary",
+            "--color-secondary",
+            "--color-dark",
+            "--color-light",
+            "--color-surface-1"
+        ],
+        "fonts": [
+            "var(--font-heading)",
+            "var(--font-body)"
+        ],
+        "visual_identity": "Interactive FAQ section featuring filterable categories via outlined buttons, enhancing user experience by allowing targeted content display."
+    }
+}

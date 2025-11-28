@@ -1,0 +1,42 @@
+{
+    "name": "Collapsible FAQ Panels",
+    "category": "Faq",
+    "description": "FAQ section featuring distinct collapsible panels for each question and answer, offering a clean and organized presentation.",
+    "tags": [
+        "faq",
+        "collapsible panels",
+        "accordion",
+        "organized",
+        "clean"
+    ],
+    "structure": [
+        "section",
+        "container",
+        "panels-container",
+        "details",
+        "summary",
+        "span",
+        "div",
+        "p"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "product documentation",
+        "service details",
+        "support hubs",
+        "information centers"
+    ],
+    "style_analysis": {
+        "colors": [
+            "--color-primary",
+            "--color-secondary",
+            "--color-dark",
+            "--color-light",
+            "--color-surface-1"
+        ],
+        "fonts": [
+            "var(--font-body)"
+        ],
+        "visual_identity": "A clean and structured FAQ section using distinct panels that expand to reveal content. Emphasizes clarity and ease of navigation."
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Minimal Border FAQ",
+    "category": "Faq",
+    "description": "A clean and minimalist FAQ section with subtle borders, focusing on content and a smooth accordion experience.",
+    "tags": [
+        "faq",
+        "minimalist",
+        "borders",
+        "accordion",
+        "clean"
+    ],
+    "structure": [
+        "section",
+        "container",
+        "accordion-container",
+        "details",
+        "summary",
+        "span",
+        "div",
+        "p"
+    ],
+    "complexity": "simple",
+    "use_cases": [
+        "minimalist websites",
+        "content-focused pages",
+        "support sections"
+    ],
+    "style_analysis": {
+        "colors": [
+            "--color-primary",
+            "--color-secondary",
+            "--color-dark",
+            "--color-light",
+            "--color-surface-1",
+            "--color-border",
+            "--color-primary-light"
+        ],
+        "fonts": [
+            "var(--font-body)"
+        ],
+        "visual_identity": "A clean, uncluttered FAQ section with minimal visual distractions. It focuses on content delivery with subtle borders and clear interactive states."
+    }
+}

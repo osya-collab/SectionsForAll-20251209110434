@@ -1,0 +1,49 @@
+{
+    "name": "FAQ with Callout Box",
+    "category": "Faq",
+    "description": "An FAQ section that includes a prominent callout box, offering additional information or a call to action alongside the questions and answers.",
+    "tags": [
+        "faq",
+        "callout box",
+        "cta",
+        "accordion",
+        "layout"
+    ],
+    "structure": [
+        "section",
+        "container",
+        "div",
+        "div",
+        "h3",
+        "p",
+        "a",
+        "div",
+        "details",
+        "summary",
+        "span",
+        "div",
+        "p"
+    ],
+    "complexity": "complex",
+    "use_cases": [
+        "product pages",
+        "service offerings",
+        "promotional sections",
+        "support pages with contact options"
+    ],
+    "style_analysis": {
+        "colors": [
+            "--color-primary",
+            "--color-secondary",
+            "--color-dark",
+            "--color-light",
+            "--color-surface-1",
+            "--color-primary-light"
+        ],
+        "fonts": [
+            "var(--font-heading)",
+            "var(--font-body)"
+        ],
+        "visual_identity": "Combines a helpful callout box with an FAQ section, providing immediate access to support or further information while addressing common questions."
+    }
+}

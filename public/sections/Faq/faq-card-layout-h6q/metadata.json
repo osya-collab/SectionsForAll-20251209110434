@@ -1,0 +1,43 @@
+{
+    "name": "FAQ Card Layout",
+    "category": "Faq",
+    "description": "A FAQ section organized into distinct cards, each presenting a question and its answer in a clear, modular format.",
+    "tags": [
+        "faq",
+        "cards",
+        "layout",
+        "grid",
+        "modular",
+        "content"
+    ],
+    "structure": [
+        "section",
+        "container",
+        "faq-card-grid",
+        "div",
+        "div",
+        "h3",
+        "div",
+        "p"
+    ],
+    "complexity": "intermediate",
+    "use_cases": [
+        "service descriptions",
+        "feature breakdowns",
+        "product highlights",
+        "company information"
+    ],
+    "style_analysis": {
+        "colors": [
+            "--color-primary",
+            "--color-secondary",
+            "--color-dark",
+            "--color-surface-1"
+        ],
+        "fonts": [
+            "var(--font-heading)",
+            "var(--font-body)"
+        ],
+        "visual_identity": "A modern grid layout where each FAQ item is presented as an interactive card, offering a clean and visually appealing way to display information."
+    }
+}
